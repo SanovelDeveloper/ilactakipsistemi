@@ -283,14 +283,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ITS.exe" size="796672">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ITS.exe" size="796160">
       <assemblyIdentity name="ITS" version="2.5.0.9" language="neutral" processorArchitecture="x86" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>KFGRgXq9ScKvj02L8qpAbppHctD2bwnztCkAbF2YVBs=</dsig:DigestValue>
+        <dsig:DigestValue>SB5iDQHmE437r6a8FUMoG1yoS5n35/ff6Jgj3ZDU0dw=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
