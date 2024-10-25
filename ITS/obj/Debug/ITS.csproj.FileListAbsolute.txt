@@ -1094,3 +1094,4 @@ C:\Users\senadogan\Documents\GitHub\ilactakipsistemi\ITS\obj\Debug\ITS.applicati
 C:\Users\senadogan\Documents\GitHub\ilactakipsistemi\ITS\obj\Debug\ITS.csproj.Up2Date
 C:\Users\senadogan\Documents\GitHub\ilactakipsistemi\ITS\obj\Debug\ITS.exe
 C:\Users\senadogan\Documents\GitHub\ilactakipsistemi\ITS\obj\Debug\ITS.pdb
+C:\Users\senadogan\Documents\GitHub\ilactakipsistemi\ITS\bin\Debug\DevExpress.Utils.v19.2.dll

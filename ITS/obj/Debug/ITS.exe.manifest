@@ -283,14 +283,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ITS.exe" size="796160">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ITS.exe" size="796672">
       <assemblyIdentity name="ITS" version="2.5.0.9" language="neutral" processorArchitecture="x86" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>SB5iDQHmE437r6a8FUMoG1yoS5n35/ff6Jgj3ZDU0dw=</dsig:DigestValue>
+        <dsig:DigestValue>MPJ30uVNwnwlaW1s9icym+huYt6N1Lxwf40EWY+nC/Q=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -385,6 +385,15 @@
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
       <dsig:DigestValue>uVjbS0ND/6d1nlA3fLsl9M3VNxSorQLiwNoT+PJf3tc=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="DLLs\DevExpress.Utils.v19.2.dll" size="17031928">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>OP/oOQD/GLvfamMCllqkw/+M8Eo7d7csSfyT+QGSHho=</dsig:DigestValue>
     </hash>
   </file>
   <file name="ilac.ico" size="3774">
