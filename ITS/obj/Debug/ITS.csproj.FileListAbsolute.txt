@@ -1095,3 +1095,17 @@ C:\Users\senadogan\Documents\GitHub\ilactakipsistemi\ITS\obj\Debug\ITS.csproj.Up
 C:\Users\senadogan\Documents\GitHub\ilactakipsistemi\ITS\obj\Debug\ITS.exe
 C:\Users\senadogan\Documents\GitHub\ilactakipsistemi\ITS\obj\Debug\ITS.pdb
 C:\Users\senadogan\Documents\GitHub\ilactakipsistemi\ITS\bin\Debug\DevExpress.Utils.v19.2.dll
+C:\Users\senadogan\Documents\GitHub\ilactakipsistemi\ITS\bin\Debug\DevExpress.BonusSkins.v19.2.dll
+C:\Users\senadogan\Documents\GitHub\ilactakipsistemi\ITS\bin\Debug\DevExpress.Data.v19.2.dll
+C:\Users\senadogan\Documents\GitHub\ilactakipsistemi\ITS\bin\Debug\DevExpress.Office.v19.2.Core.dll
+C:\Users\senadogan\Documents\GitHub\ilactakipsistemi\ITS\bin\Debug\DevExpress.Pdf.v19.2.Core.dll
+C:\Users\senadogan\Documents\GitHub\ilactakipsistemi\ITS\bin\Debug\DevExpress.Printing.v19.2.Core.dll
+C:\Users\senadogan\Documents\GitHub\ilactakipsistemi\ITS\bin\Debug\DevExpress.RichEdit.v19.2.Core.dll
+C:\Users\senadogan\Documents\GitHub\ilactakipsistemi\ITS\bin\Debug\DevExpress.RichEdit.v19.2.Export.dll
+C:\Users\senadogan\Documents\GitHub\ilactakipsistemi\ITS\bin\Debug\DevExpress.XtraBars.v19.2.dll
+C:\Users\senadogan\Documents\GitHub\ilactakipsistemi\ITS\bin\Debug\DevExpress.XtraEditors.v19.2.dll
+C:\Users\senadogan\Documents\GitHub\ilactakipsistemi\ITS\bin\Debug\DevExpress.XtraGrid.v19.2.dll
+C:\Users\senadogan\Documents\GitHub\ilactakipsistemi\ITS\bin\Debug\DevExpress.XtraLayout.v19.2.dll
+C:\Users\senadogan\Documents\GitHub\ilactakipsistemi\ITS\bin\Debug\DevExpress.XtraPrinting.v19.2.dll
+C:\Users\senadogan\Documents\GitHub\ilactakipsistemi\ITS\bin\Debug\DevExpress.XtraTreeList.v19.2.dll
+C:\Users\senadogan\Documents\GitHub\ilactakipsistemi\ITS\bin\Debug\DevExpress.XtraVerticalGrid.v19.2.dll

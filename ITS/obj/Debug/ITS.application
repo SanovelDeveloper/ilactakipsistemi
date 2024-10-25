@@ -7,14 +7,14 @@
     <framework targetVersion="4.8" profile="Full" supportedRuntime="4.0.30319" />
   </compatibleFrameworks>
   <dependency>
-    <dependentAssembly dependencyType="install" codebase="ITS.exe.manifest" size="41868">
+    <dependentAssembly dependencyType="install" codebase="ITS.exe.manifest" size="47717">
       <assemblyIdentity name="ITS.exe" version="1.1.0.1" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="x86" type="win32" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>SbF6wgSyZdykevoGE1S+fKQQ8l9duvUAYw9BMOPIByw=</dsig:DigestValue>
+        <dsig:DigestValue>ZUMFiWUFBdlTkPY3MhbaMNiELn7PInXj04lj+RuAMkk=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

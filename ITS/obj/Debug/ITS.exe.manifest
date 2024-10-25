@@ -290,7 +290,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>MPJ30uVNwnwlaW1s9icym+huYt6N1Lxwf40EWY+nC/Q=</dsig:DigestValue>
+        <dsig:DigestValue>2vqdOKrej7kh2wGFgPJOPrECmMkxfLQjmfUPSs4YfZU=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -387,6 +387,69 @@
       <dsig:DigestValue>uVjbS0ND/6d1nlA3fLsl9M3VNxSorQLiwNoT+PJf3tc=</dsig:DigestValue>
     </hash>
   </file>
+  <file name="DLLs\DevExpress.BonusSkins.v19.2.dll" size="22121720">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>50lRMU/Jn8mzhB84QGUQxe2AX8xqZubie8M/xMfj0c0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="DLLs\DevExpress.Data.v19.2.dll" size="7279352">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>eYalINBurywe4NbX/vu1lxUfK07eQYuAbjNoUsre1FQ=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="DLLs\DevExpress.Office.v19.2.Core.dll" size="2531576">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>lzBABgNntqyfpFp1zDppQimyaKotX0k8rEY6BsROmxo=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="DLLs\DevExpress.Pdf.v19.2.Core.dll" size="2999032">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>JbLEc3jjqTp2JAYKCr6lR/wld/xx4ZKtkyiOA2rAsK4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="DLLs\DevExpress.Printing.v19.2.Core.dll" size="4389624">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>r4M7jcWgHMPgiXla4k/HeeqPvT8Yk2URvxOexaK2dIY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="DLLs\DevExpress.RichEdit.v19.2.Core.dll" size="8992504">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>NTQjv9jawAgHGq8PKLpG4al9raBIcxIpsxQ+3ts2sW0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="DLLs\DevExpress.RichEdit.v19.2.Export.dll" size="249080">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>QkTGnJdUSLo7WxOyGMO9coEJ4IV/hdSDp6noiUOiZto=</dsig:DigestValue>
+    </hash>
+  </file>
   <file name="DLLs\DevExpress.Utils.v19.2.dll" size="17031928">
     <hash>
       <dsig:Transforms>
@@ -394,6 +457,69 @@
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
       <dsig:DigestValue>OP/oOQD/GLvfamMCllqkw/+M8Eo7d7csSfyT+QGSHho=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="DLLs\DevExpress.XtraBars.v19.2.dll" size="6684408">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>lnP46EB3qSlVHcAx0xB8QFMtZi2cQuW8SEV7mtdLEkY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="DLLs\DevExpress.XtraEditors.v19.2.dll" size="6936312">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>kygY3ZWE0uRaFcccPnxo2EjegePEX5052Xs4QL8BmKQ=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="DLLs\DevExpress.XtraGrid.v19.2.dll" size="3491576">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>DCzfe6GAnN10517VkfCgxcxIFSOwTS2wA9+0xTx6MNw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="DLLs\DevExpress.XtraLayout.v19.2.dll" size="2108152">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>j5ZE7Ec/Nvp+InzhIi6XrCm9qiCX88msqbPunPTy56Y=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="DLLs\DevExpress.XtraPrinting.v19.2.dll" size="1212152">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>oceg5NxVRexDse+16btfAk6oo0JY7zkwEIWdzJ7wAtQ=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="DLLs\DevExpress.XtraTreeList.v19.2.dll" size="1607928">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>ULHt00fErxZg/thtiIRL5D6VGjS2ah5xJWgG+MrnZT4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="DLLs\DevExpress.XtraVerticalGrid.v19.2.dll" size="1109752">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>1TzOoMU1qLNYBKybrOcRbzJeeqxNFCLAyLRNIbzR9hY=</dsig:DigestValue>
     </hash>
   </file>
   <file name="ilac.ico" size="3774">
