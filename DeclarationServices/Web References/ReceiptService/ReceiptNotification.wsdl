@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsp1_2="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:tns="http://its.iegm.gov.tr/notification/receipt" xmlns:wsp="http://www.w3.org/ns/ws-policy" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" name="ReceiptNotification" targetNamespace="http://its.iegm.gov.tr/notification/receipt" xmlns="http://schemas.xmlsoap.org/wsdl/">
+  <types>
+    <xs:schema targetNamespace="http://its.iegm.gov.tr/notification/receipt" version="1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+      <xs:element name="ReceiptRequest" nillable="true" type="tns:ItsPlainRequest" />
+      <xs:element name="ReceiptResponse" nillable="true" type="tns:ItsResponse" />
+      <xs:element name="itsError" nillable="true" type="tns:itsErrorType" />
+      <xs:complexType name="ItsPlainRequest">
+        <xs:sequence>
+          <xs:element name="PRODUCTS">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element maxOccurs="unbounded" name="PRODUCT">
+                  <xs:complexType>
+                    <xs:sequence>
+                      <xs:element name="GTIN" type="xs:string" />
+                      <xs:element name="BN" type="xs:string" />
+                      <xs:element name="SN" type="xs:string" />
+                      <xs:element name="XD" type="xs:date" />
+                    </xs:sequence>
+                  </xs:complexType>
+                </xs:element>
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="ItsResponse">
+        <xs:sequence>
+          <xs:element name="NOTIFICATIONID" type="xs:string" />
+          <xs:element name="PRODUCTS">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element maxOccurs="unbounded" name="PRODUCT">
+                  <xs:complexType>
+                    <xs:sequence>
+                      <xs:element name="GTIN" type="xs:string" />
+                      <xs:element name="SN" type="xs:string" />
+                      <xs:element name="UC" type="xs:string" />
+                    </xs:sequence>
+                  </xs:complexType>
+                </xs:element>
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="itsErrorType">
+        <xs:sequence>
+          <xs:element name="faultCode" type="xs:string" />
+          <xs:element name="faultMessage" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+    </xs:schema>
+  </types>
+  <message name="sendReceiptNotification">
+    <part name="body" element="tns:ReceiptRequest" />
+  </message>
+  <message name="sendReceiptNotificationResponse">
+    <part name="body" element="tns:ReceiptResponse" />
+  </message>
+  <message name="ItsError">
+    <part name="fault" element="tns:itsError" />
+  </message>
+  <portType name="ReceiptNotificationReceiver">
+    <operation name="sendReceiptNotification">
+      <input wsam:Action="http://its.iegm.gov.tr/notification/receipt/ItsRequest" message="tns:sendReceiptNotification" />
+      <output wsam:Action="http://its.iegm.gov.tr/notification/receipt/ReceiptNotificationReceiver/sendReceiptNotificationResponse" message="tns:sendReceiptNotificationResponse" />
+      <fault wsam:Action="http://its.iegm.gov.tr/notification/receipt/ReceiptNotificationReceiver/sendReceiptNotification/Fault/ItsError" name="ItsError" message="tns:ItsError" />
+    </operation>
+  </portType>
+  <binding name="ReceiptNotificationPortBinding" type="tns:ReceiptNotificationReceiver">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <operation name="sendReceiptNotification">
+      <soap:operation soapAction="http://its.iegm.gov.tr/notification/receipt/ItsRequest" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+      <fault name="ItsError">
+        <soap:fault use="literal" name="ItsError" namespace="" />
+      </fault>
+    </operation>
+  </binding>
+  <service name="ReceiptNotification">
+    <port name="ReceiptNotificationPort" binding="tns:ReceiptNotificationPortBinding">
+      <soap:address location="http://its.saglik.gov.tr:80/ITSServices/ReceiptNotification" />
+    </port>
+  </service>
+</definitions>

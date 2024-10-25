@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsp1_2="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:tns="http://its.iegm.gov.tr/p2/cancellation/dispatch" xmlns:wsp="http://www.w3.org/ns/ws-policy" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" name="DispatchCancellation" targetNamespace="http://its.iegm.gov.tr/p2/cancellation/dispatch" xmlns="http://schemas.xmlsoap.org/wsdl/">
+  <types>
+    <xsd:schema>
+      <xsd:import schemaLocation="http://its.saglik.gov.tr:80/ITSServices/DispatchCancellation?xsd=1" namespace="http://its.iegm.gov.tr/p2/cancellation/dispatch" />
+    </xsd:schema>
+  </types>
+  <message name="sendDispatchCancellation">
+    <part name="body" element="tns:DispatchCancellationRequest" />
+  </message>
+  <message name="sendDispatchCancellationResponse">
+    <part name="body" element="tns:DispatchCancellationResponse" />
+  </message>
+  <message name="ItsError">
+    <part name="fault" element="tns:itsError" />
+  </message>
+  <portType name="DispatchCancellationReceiver">
+    <operation name="sendDispatchCancellation">
+      <input wsam:Action="http://its.iegm.gov.tr/p2/cancellation/dispatch/ItsRequest" message="tns:sendDispatchCancellation" />
+      <output wsam:Action="http://its.iegm.gov.tr/p2/cancellation/dispatch/DispatchCancellationReceiver/sendDispatchCancellationResponse" message="tns:sendDispatchCancellationResponse" />
+      <fault wsam:Action="http://its.iegm.gov.tr/p2/cancellation/dispatch/DispatchCancellationReceiver/sendDispatchCancellation/Fault/ItsError" name="ItsError" message="tns:ItsError" />
+    </operation>
+  </portType>
+  <binding name="DispatchCancellationPortBinding" type="tns:DispatchCancellationReceiver">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <operation name="sendDispatchCancellation">
+      <soap:operation soapAction="http://its.iegm.gov.tr/p2/cancellation/dispatch/ItsRequest" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+      <fault name="ItsError">
+        <soap:fault use="literal" name="ItsError" namespace="" />
+      </fault>
+    </operation>
+  </binding>
+  <service name="DispatchCancellation">
+    <port name="DispatchCancellationPort" binding="tns:DispatchCancellationPortBinding">
+      <soap:address location="http://its.saglik.gov.tr:80/ITSServices/DispatchCancellation" />
+    </port>
+  </service>
+</definitions>

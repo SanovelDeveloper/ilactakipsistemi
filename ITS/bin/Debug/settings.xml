@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<settings>
+  <proxy>
+    <proxy_address />
+    <proxy_port />
+  </proxy>
+  <declaration>
+    <declaration_count>8000</declaration_count>
+  </declaration>
+</settings>

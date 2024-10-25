@@ -1,0 +1,386 @@
+D:\All_Projects\Visual_Studio\ITS_git - Copy\DeclarationServices\bin\Debug\DeclarationServices.dll.config
+D:\All_Projects\Visual_Studio\ITS_git - Copy\DeclarationServices\bin\Debug\DeclarationServices.dll
+D:\All_Projects\Visual_Studio\ITS_git - Copy\DeclarationServices\bin\Debug\DeclarationServices.pdb
+D:\All_Projects\Visual_Studio\ITS_git - Copy\DeclarationServices\bin\Debug\Functions.dll
+D:\All_Projects\Visual_Studio\ITS_git - Copy\DeclarationServices\bin\Debug\Ionic.Zip.dll
+D:\All_Projects\Visual_Studio\ITS_git - Copy\DeclarationServices\bin\Debug\LINQ.dll
+D:\All_Projects\Visual_Studio\ITS_git - Copy\DeclarationServices\bin\Debug\Functions.pdb
+D:\All_Projects\Visual_Studio\ITS_git - Copy\DeclarationServices\bin\Debug\LINQ.pdb
+D:\All_Projects\Visual_Studio\ITS_git - Copy\DeclarationServices\bin\Debug\LINQ.dll.config
+D:\All_Projects\Visual_Studio\ITS_git - Copy\DeclarationServices\obj\Debug\DeclarationServices.csprojAssemblyReference.cache
+D:\All_Projects\Visual_Studio\ITS_git - Copy\DeclarationServices\obj\Debug\DeclarationServices.csproj.CopyComplete
+D:\All_Projects\Visual_Studio\ITS_git - Copy\DeclarationServices\obj\Debug\DeclarationServices.dll
+D:\All_Projects\Visual_Studio\ITS_git - Copy\DeclarationServices\obj\Debug\DeclarationServices.pdb
+D:\All_Projects\Visual_Studio\ITS_git\DeclarationServices\bin\Debug\DeclarationServices.dll.config
+D:\All_Projects\Visual_Studio\ITS_git\DeclarationServices\bin\Debug\DeclarationServices.dll
+D:\All_Projects\Visual_Studio\ITS_git\DeclarationServices\bin\Debug\DeclarationServices.pdb
+D:\All_Projects\Visual_Studio\ITS_git\DeclarationServices\bin\Debug\Functions.dll
+D:\All_Projects\Visual_Studio\ITS_git\DeclarationServices\bin\Debug\Ionic.Zip.dll
+D:\All_Projects\Visual_Studio\ITS_git\DeclarationServices\bin\Debug\LINQ.dll
+D:\All_Projects\Visual_Studio\ITS_git\DeclarationServices\bin\Debug\Functions.pdb
+D:\All_Projects\Visual_Studio\ITS_git\DeclarationServices\bin\Debug\LINQ.pdb
+D:\All_Projects\Visual_Studio\ITS_git\DeclarationServices\bin\Debug\LINQ.dll.config
+D:\All_Projects\Visual_Studio\ITS_git\DeclarationServices\obj\Debug\DeclarationServices.csprojAssemblyReference.cache
+D:\All_Projects\Visual_Studio\ITS_git\DeclarationServices\obj\Debug\DeclarationServices.csproj.CopyComplete
+D:\All_Projects\Visual_Studio\ITS_git\DeclarationServices\obj\Debug\DeclarationServices.dll
+D:\All_Projects\Visual_Studio\ITS_git\DeclarationServices\obj\Debug\DeclarationServices.pdb
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\erhan abi son git\ITS_git\DeclarationServices\bin\Debug\DeclarationServices.dll.config
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\erhan abi son git\ITS_git\DeclarationServices\bin\Debug\DeclarationServices.dll
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\erhan abi son git\ITS_git\DeclarationServices\bin\Debug\DeclarationServices.pdb
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\erhan abi son git\ITS_git\DeclarationServices\bin\Debug\Functions.dll
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\erhan abi son git\ITS_git\DeclarationServices\bin\Debug\LINQ.dll
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\erhan abi son git\ITS_git\DeclarationServices\bin\Debug\LINQ.pdb
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\erhan abi son git\ITS_git\DeclarationServices\bin\Debug\Functions.pdb
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\erhan abi son git\ITS_git\DeclarationServices\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\erhan abi son git\ITS_git\DeclarationServices\obj\Debug\DeclarationServices.dll
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\erhan abi son git\ITS_git\DeclarationServices\obj\Debug\DeclarationServices.pdb
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\New folder (10)\ITS_git\DeclarationServices\bin\Debug\DeclarationServices.dll.config
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\New folder (10)\ITS_git\DeclarationServices\bin\Debug\DeclarationServices.dll
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\New folder (10)\ITS_git\DeclarationServices\bin\Debug\DeclarationServices.pdb
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\New folder (10)\ITS_git\DeclarationServices\bin\Debug\Functions.dll
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\New folder (10)\ITS_git\DeclarationServices\bin\Debug\LINQ.dll
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\New folder (10)\ITS_git\DeclarationServices\bin\Debug\Functions.pdb
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\New folder (10)\ITS_git\DeclarationServices\bin\Debug\LINQ.pdb
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\New folder (10)\ITS_git\DeclarationServices\bin\Debug\LINQ.dll.config
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\New folder (10)\ITS_git\DeclarationServices\obj\Debug\DeclarationServices.csproj.AssemblyReference.cache
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\New folder (10)\ITS_git\DeclarationServices\obj\Debug\DeclarationServices.csproj.CoreCompileInputs.cache
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\New folder (10)\ITS_git\DeclarationServices\obj\Debug\DeclarationServices.csproj.CopyComplete
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\New folder (10)\ITS_git\DeclarationServices\obj\Debug\DeclarationServices.dll
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\New folder (10)\ITS_git\DeclarationServices\obj\Debug\DeclarationServices.pdb
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\New folder (10)\ITS_git\DeclarationServices\bin\Debug\Newtonsoft.Json.dll
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\New folder (10)\ITS_git\DeclarationServices\bin\Debug\Newtonsoft.Json.xml
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\New folder (10)\ITS_git\DeclarationServices\bin\Debug\Microsoft.Build.Framework.dll
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\New folder (10)\ITS_git\DeclarationServices\bin\Debug\Microsoft.Build.Tasks.Core.dll
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\New folder (10)\ITS_git\DeclarationServices\bin\Debug\Microsoft.Build.Utilities.Core.dll
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\New folder (10)\ITS_git\DeclarationServices\bin\Debug\Microsoft.IO.Redist.dll
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\New folder (10)\ITS_git\DeclarationServices\bin\Debug\Microsoft.NET.StringTools.dll
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\New folder (10)\ITS_git\DeclarationServices\bin\Debug\System.Buffers.dll
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\New folder (10)\ITS_git\DeclarationServices\bin\Debug\System.Collections.Immutable.dll
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\New folder (10)\ITS_git\DeclarationServices\bin\Debug\System.Configuration.ConfigurationManager.dll
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\New folder (10)\ITS_git\DeclarationServices\bin\Debug\System.Memory.dll
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\New folder (10)\ITS_git\DeclarationServices\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\New folder (10)\ITS_git\DeclarationServices\bin\Debug\System.Resources.Extensions.dll
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\New folder (10)\ITS_git\DeclarationServices\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\New folder (10)\ITS_git\DeclarationServices\bin\Debug\System.Security.AccessControl.dll
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\New folder (10)\ITS_git\DeclarationServices\bin\Debug\System.Security.Permissions.dll
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\New folder (10)\ITS_git\DeclarationServices\bin\Debug\System.Security.Principal.Windows.dll
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\New folder (10)\ITS_git\DeclarationServices\bin\Debug\System.Threading.Tasks.Dataflow.dll
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\New folder (10)\ITS_git\DeclarationServices\bin\Debug\Microsoft.Build.Framework.pdb
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\New folder (10)\ITS_git\DeclarationServices\bin\Debug\Microsoft.Build.Framework.xml
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\New folder (10)\ITS_git\DeclarationServices\bin\Debug\Microsoft.Build.Tasks.Core.pdb
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\New folder (10)\ITS_git\DeclarationServices\bin\Debug\Microsoft.Build.Tasks.Core.xml
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\New folder (10)\ITS_git\DeclarationServices\bin\Debug\Microsoft.Build.Utilities.Core.pdb
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\New folder (10)\ITS_git\DeclarationServices\bin\Debug\Microsoft.Build.Utilities.Core.xml
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\New folder (10)\ITS_git\DeclarationServices\bin\Debug\Microsoft.IO.Redist.xml
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\New folder (10)\ITS_git\DeclarationServices\bin\Debug\Microsoft.NET.StringTools.pdb
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\New folder (10)\ITS_git\DeclarationServices\bin\Debug\System.Buffers.xml
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\New folder (10)\ITS_git\DeclarationServices\bin\Debug\System.Collections.Immutable.xml
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\New folder (10)\ITS_git\DeclarationServices\bin\Debug\System.Configuration.ConfigurationManager.xml
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\New folder (10)\ITS_git\DeclarationServices\bin\Debug\System.Memory.xml
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\New folder (10)\ITS_git\DeclarationServices\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\New folder (10)\ITS_git\DeclarationServices\bin\Debug\System.Resources.Extensions.xml
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\New folder (10)\ITS_git\DeclarationServices\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\New folder (10)\ITS_git\DeclarationServices\bin\Debug\System.Security.AccessControl.xml
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\New folder (10)\ITS_git\DeclarationServices\bin\Debug\System.Security.Permissions.xml
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\New folder (10)\ITS_git\DeclarationServices\bin\Debug\System.Security.Principal.Windows.xml
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\New folder (10)\ITS_git\DeclarationServices\bin\Debug\System.Threading.Tasks.Dataflow.xml
+C:\Erhan_AKARLAR\SANOVEL\_Is_Cozumleri_ve_Yazilim\Source_Codes\20220831\ITS_git\DeclarationServices\bin\Debug\DeclarationServices.dll.config
+C:\Erhan_AKARLAR\SANOVEL\_Is_Cozumleri_ve_Yazilim\Source_Codes\20220831\ITS_git\DeclarationServices\bin\Debug\DeclarationServices.dll
+C:\Erhan_AKARLAR\SANOVEL\_Is_Cozumleri_ve_Yazilim\Source_Codes\20220831\ITS_git\DeclarationServices\bin\Debug\DeclarationServices.pdb
+C:\Erhan_AKARLAR\SANOVEL\_Is_Cozumleri_ve_Yazilim\Source_Codes\20220831\ITS_git\DeclarationServices\bin\Debug\Functions.dll
+C:\Erhan_AKARLAR\SANOVEL\_Is_Cozumleri_ve_Yazilim\Source_Codes\20220831\ITS_git\DeclarationServices\bin\Debug\LINQ.dll
+C:\Erhan_AKARLAR\SANOVEL\_Is_Cozumleri_ve_Yazilim\Source_Codes\20220831\ITS_git\DeclarationServices\bin\Debug\Microsoft.Build.Framework.dll
+C:\Erhan_AKARLAR\SANOVEL\_Is_Cozumleri_ve_Yazilim\Source_Codes\20220831\ITS_git\DeclarationServices\bin\Debug\Microsoft.Build.Tasks.Core.dll
+C:\Erhan_AKARLAR\SANOVEL\_Is_Cozumleri_ve_Yazilim\Source_Codes\20220831\ITS_git\DeclarationServices\bin\Debug\Microsoft.Build.Utilities.Core.dll
+C:\Erhan_AKARLAR\SANOVEL\_Is_Cozumleri_ve_Yazilim\Source_Codes\20220831\ITS_git\DeclarationServices\bin\Debug\Microsoft.IO.Redist.dll
+C:\Erhan_AKARLAR\SANOVEL\_Is_Cozumleri_ve_Yazilim\Source_Codes\20220831\ITS_git\DeclarationServices\bin\Debug\Microsoft.NET.StringTools.dll
+C:\Erhan_AKARLAR\SANOVEL\_Is_Cozumleri_ve_Yazilim\Source_Codes\20220831\ITS_git\DeclarationServices\bin\Debug\Newtonsoft.Json.dll
+C:\Erhan_AKARLAR\SANOVEL\_Is_Cozumleri_ve_Yazilim\Source_Codes\20220831\ITS_git\DeclarationServices\bin\Debug\System.Buffers.dll
+C:\Erhan_AKARLAR\SANOVEL\_Is_Cozumleri_ve_Yazilim\Source_Codes\20220831\ITS_git\DeclarationServices\bin\Debug\System.Collections.Immutable.dll
+C:\Erhan_AKARLAR\SANOVEL\_Is_Cozumleri_ve_Yazilim\Source_Codes\20220831\ITS_git\DeclarationServices\bin\Debug\System.Configuration.ConfigurationManager.dll
+C:\Erhan_AKARLAR\SANOVEL\_Is_Cozumleri_ve_Yazilim\Source_Codes\20220831\ITS_git\DeclarationServices\bin\Debug\System.Memory.dll
+C:\Erhan_AKARLAR\SANOVEL\_Is_Cozumleri_ve_Yazilim\Source_Codes\20220831\ITS_git\DeclarationServices\bin\Debug\System.Numerics.Vectors.dll
+C:\Erhan_AKARLAR\SANOVEL\_Is_Cozumleri_ve_Yazilim\Source_Codes\20220831\ITS_git\DeclarationServices\bin\Debug\System.Resources.Extensions.dll
+C:\Erhan_AKARLAR\SANOVEL\_Is_Cozumleri_ve_Yazilim\Source_Codes\20220831\ITS_git\DeclarationServices\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Erhan_AKARLAR\SANOVEL\_Is_Cozumleri_ve_Yazilim\Source_Codes\20220831\ITS_git\DeclarationServices\bin\Debug\System.Security.AccessControl.dll
+C:\Erhan_AKARLAR\SANOVEL\_Is_Cozumleri_ve_Yazilim\Source_Codes\20220831\ITS_git\DeclarationServices\bin\Debug\System.Security.Permissions.dll
+C:\Erhan_AKARLAR\SANOVEL\_Is_Cozumleri_ve_Yazilim\Source_Codes\20220831\ITS_git\DeclarationServices\bin\Debug\System.Security.Principal.Windows.dll
+C:\Erhan_AKARLAR\SANOVEL\_Is_Cozumleri_ve_Yazilim\Source_Codes\20220831\ITS_git\DeclarationServices\bin\Debug\System.Threading.Tasks.Dataflow.dll
+C:\Erhan_AKARLAR\SANOVEL\_Is_Cozumleri_ve_Yazilim\Source_Codes\20220831\ITS_git\DeclarationServices\bin\Debug\Functions.pdb
+C:\Erhan_AKARLAR\SANOVEL\_Is_Cozumleri_ve_Yazilim\Source_Codes\20220831\ITS_git\DeclarationServices\bin\Debug\LINQ.pdb
+C:\Erhan_AKARLAR\SANOVEL\_Is_Cozumleri_ve_Yazilim\Source_Codes\20220831\ITS_git\DeclarationServices\bin\Debug\LINQ.dll.config
+C:\Erhan_AKARLAR\SANOVEL\_Is_Cozumleri_ve_Yazilim\Source_Codes\20220831\ITS_git\DeclarationServices\bin\Debug\Microsoft.Build.Framework.pdb
+C:\Erhan_AKARLAR\SANOVEL\_Is_Cozumleri_ve_Yazilim\Source_Codes\20220831\ITS_git\DeclarationServices\bin\Debug\Microsoft.Build.Framework.xml
+C:\Erhan_AKARLAR\SANOVEL\_Is_Cozumleri_ve_Yazilim\Source_Codes\20220831\ITS_git\DeclarationServices\bin\Debug\Microsoft.Build.Tasks.Core.pdb
+C:\Erhan_AKARLAR\SANOVEL\_Is_Cozumleri_ve_Yazilim\Source_Codes\20220831\ITS_git\DeclarationServices\bin\Debug\Microsoft.Build.Tasks.Core.xml
+C:\Erhan_AKARLAR\SANOVEL\_Is_Cozumleri_ve_Yazilim\Source_Codes\20220831\ITS_git\DeclarationServices\bin\Debug\Microsoft.Build.Utilities.Core.pdb
+C:\Erhan_AKARLAR\SANOVEL\_Is_Cozumleri_ve_Yazilim\Source_Codes\20220831\ITS_git\DeclarationServices\bin\Debug\Microsoft.Build.Utilities.Core.xml
+C:\Erhan_AKARLAR\SANOVEL\_Is_Cozumleri_ve_Yazilim\Source_Codes\20220831\ITS_git\DeclarationServices\bin\Debug\Microsoft.IO.Redist.xml
+C:\Erhan_AKARLAR\SANOVEL\_Is_Cozumleri_ve_Yazilim\Source_Codes\20220831\ITS_git\DeclarationServices\bin\Debug\Microsoft.NET.StringTools.pdb
+C:\Erhan_AKARLAR\SANOVEL\_Is_Cozumleri_ve_Yazilim\Source_Codes\20220831\ITS_git\DeclarationServices\bin\Debug\Newtonsoft.Json.xml
+C:\Erhan_AKARLAR\SANOVEL\_Is_Cozumleri_ve_Yazilim\Source_Codes\20220831\ITS_git\DeclarationServices\bin\Debug\System.Buffers.xml
+C:\Erhan_AKARLAR\SANOVEL\_Is_Cozumleri_ve_Yazilim\Source_Codes\20220831\ITS_git\DeclarationServices\bin\Debug\System.Collections.Immutable.xml
+C:\Erhan_AKARLAR\SANOVEL\_Is_Cozumleri_ve_Yazilim\Source_Codes\20220831\ITS_git\DeclarationServices\bin\Debug\System.Configuration.ConfigurationManager.xml
+C:\Erhan_AKARLAR\SANOVEL\_Is_Cozumleri_ve_Yazilim\Source_Codes\20220831\ITS_git\DeclarationServices\bin\Debug\System.Memory.xml
+C:\Erhan_AKARLAR\SANOVEL\_Is_Cozumleri_ve_Yazilim\Source_Codes\20220831\ITS_git\DeclarationServices\bin\Debug\System.Numerics.Vectors.xml
+C:\Erhan_AKARLAR\SANOVEL\_Is_Cozumleri_ve_Yazilim\Source_Codes\20220831\ITS_git\DeclarationServices\bin\Debug\System.Resources.Extensions.xml
+C:\Erhan_AKARLAR\SANOVEL\_Is_Cozumleri_ve_Yazilim\Source_Codes\20220831\ITS_git\DeclarationServices\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Erhan_AKARLAR\SANOVEL\_Is_Cozumleri_ve_Yazilim\Source_Codes\20220831\ITS_git\DeclarationServices\bin\Debug\System.Security.AccessControl.xml
+C:\Erhan_AKARLAR\SANOVEL\_Is_Cozumleri_ve_Yazilim\Source_Codes\20220831\ITS_git\DeclarationServices\bin\Debug\System.Security.Permissions.xml
+C:\Erhan_AKARLAR\SANOVEL\_Is_Cozumleri_ve_Yazilim\Source_Codes\20220831\ITS_git\DeclarationServices\bin\Debug\System.Security.Principal.Windows.xml
+C:\Erhan_AKARLAR\SANOVEL\_Is_Cozumleri_ve_Yazilim\Source_Codes\20220831\ITS_git\DeclarationServices\bin\Debug\System.Threading.Tasks.Dataflow.xml
+C:\Erhan_AKARLAR\SANOVEL\_Is_Cozumleri_ve_Yazilim\Source_Codes\20220831\ITS_git\DeclarationServices\obj\Debug\DeclarationServices.csproj.AssemblyReference.cache
+C:\Erhan_AKARLAR\SANOVEL\_Is_Cozumleri_ve_Yazilim\Source_Codes\20220831\ITS_git\DeclarationServices\obj\Debug\DeclarationServices.csproj.CoreCompileInputs.cache
+C:\Erhan_AKARLAR\SANOVEL\_Is_Cozumleri_ve_Yazilim\Source_Codes\20220831\ITS_git\DeclarationServices\obj\Debug\DeclarationServices.csproj.CopyComplete
+C:\Erhan_AKARLAR\SANOVEL\_Is_Cozumleri_ve_Yazilim\Source_Codes\20220831\ITS_git\DeclarationServices\obj\Debug\DeclarationServices.dll
+C:\Erhan_AKARLAR\SANOVEL\_Is_Cozumleri_ve_Yazilim\Source_Codes\20220831\ITS_git\DeclarationServices\obj\Debug\DeclarationServices.pdb
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\ITS Son Version 01.09.2022\20220831\ITS_git\DeclarationServices\bin\Debug\DeclarationServices.dll.config
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\ITS Son Version 01.09.2022\20220831\ITS_git\DeclarationServices\bin\Debug\DeclarationServices.dll
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\ITS Son Version 01.09.2022\20220831\ITS_git\DeclarationServices\bin\Debug\DeclarationServices.pdb
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\ITS Son Version 01.09.2022\20220831\ITS_git\DeclarationServices\bin\Debug\Functions.dll
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\ITS Son Version 01.09.2022\20220831\ITS_git\DeclarationServices\bin\Debug\LINQ.dll
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\ITS Son Version 01.09.2022\20220831\ITS_git\DeclarationServices\bin\Debug\Microsoft.Build.Framework.dll
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\ITS Son Version 01.09.2022\20220831\ITS_git\DeclarationServices\bin\Debug\Microsoft.Build.Tasks.Core.dll
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\ITS Son Version 01.09.2022\20220831\ITS_git\DeclarationServices\bin\Debug\Microsoft.Build.Utilities.Core.dll
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\ITS Son Version 01.09.2022\20220831\ITS_git\DeclarationServices\bin\Debug\Microsoft.IO.Redist.dll
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\ITS Son Version 01.09.2022\20220831\ITS_git\DeclarationServices\bin\Debug\Microsoft.NET.StringTools.dll
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\ITS Son Version 01.09.2022\20220831\ITS_git\DeclarationServices\bin\Debug\Newtonsoft.Json.dll
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\ITS Son Version 01.09.2022\20220831\ITS_git\DeclarationServices\bin\Debug\System.Buffers.dll
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\ITS Son Version 01.09.2022\20220831\ITS_git\DeclarationServices\bin\Debug\System.Collections.Immutable.dll
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\ITS Son Version 01.09.2022\20220831\ITS_git\DeclarationServices\bin\Debug\System.Configuration.ConfigurationManager.dll
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\ITS Son Version 01.09.2022\20220831\ITS_git\DeclarationServices\bin\Debug\System.Memory.dll
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\ITS Son Version 01.09.2022\20220831\ITS_git\DeclarationServices\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\ITS Son Version 01.09.2022\20220831\ITS_git\DeclarationServices\bin\Debug\System.Resources.Extensions.dll
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\ITS Son Version 01.09.2022\20220831\ITS_git\DeclarationServices\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\ITS Son Version 01.09.2022\20220831\ITS_git\DeclarationServices\bin\Debug\System.Security.AccessControl.dll
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\ITS Son Version 01.09.2022\20220831\ITS_git\DeclarationServices\bin\Debug\System.Security.Permissions.dll
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\ITS Son Version 01.09.2022\20220831\ITS_git\DeclarationServices\bin\Debug\System.Security.Principal.Windows.dll
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\ITS Son Version 01.09.2022\20220831\ITS_git\DeclarationServices\bin\Debug\System.Threading.Tasks.Dataflow.dll
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\ITS Son Version 01.09.2022\20220831\ITS_git\DeclarationServices\bin\Debug\Functions.pdb
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\ITS Son Version 01.09.2022\20220831\ITS_git\DeclarationServices\bin\Debug\LINQ.pdb
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\ITS Son Version 01.09.2022\20220831\ITS_git\DeclarationServices\bin\Debug\LINQ.dll.config
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\ITS Son Version 01.09.2022\20220831\ITS_git\DeclarationServices\bin\Debug\Microsoft.Build.Framework.pdb
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\ITS Son Version 01.09.2022\20220831\ITS_git\DeclarationServices\bin\Debug\Microsoft.Build.Framework.xml
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\ITS Son Version 01.09.2022\20220831\ITS_git\DeclarationServices\bin\Debug\Microsoft.Build.Tasks.Core.pdb
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\ITS Son Version 01.09.2022\20220831\ITS_git\DeclarationServices\bin\Debug\Microsoft.Build.Tasks.Core.xml
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\ITS Son Version 01.09.2022\20220831\ITS_git\DeclarationServices\bin\Debug\Microsoft.Build.Utilities.Core.pdb
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\ITS Son Version 01.09.2022\20220831\ITS_git\DeclarationServices\bin\Debug\Microsoft.Build.Utilities.Core.xml
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\ITS Son Version 01.09.2022\20220831\ITS_git\DeclarationServices\bin\Debug\Microsoft.IO.Redist.xml
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\ITS Son Version 01.09.2022\20220831\ITS_git\DeclarationServices\bin\Debug\Microsoft.NET.StringTools.pdb
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\ITS Son Version 01.09.2022\20220831\ITS_git\DeclarationServices\bin\Debug\Newtonsoft.Json.xml
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\ITS Son Version 01.09.2022\20220831\ITS_git\DeclarationServices\bin\Debug\System.Buffers.xml
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\ITS Son Version 01.09.2022\20220831\ITS_git\DeclarationServices\bin\Debug\System.Collections.Immutable.xml
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\ITS Son Version 01.09.2022\20220831\ITS_git\DeclarationServices\bin\Debug\System.Configuration.ConfigurationManager.xml
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\ITS Son Version 01.09.2022\20220831\ITS_git\DeclarationServices\bin\Debug\System.Memory.xml
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\ITS Son Version 01.09.2022\20220831\ITS_git\DeclarationServices\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\ITS Son Version 01.09.2022\20220831\ITS_git\DeclarationServices\bin\Debug\System.Resources.Extensions.xml
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\ITS Son Version 01.09.2022\20220831\ITS_git\DeclarationServices\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\ITS Son Version 01.09.2022\20220831\ITS_git\DeclarationServices\bin\Debug\System.Security.AccessControl.xml
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\ITS Son Version 01.09.2022\20220831\ITS_git\DeclarationServices\bin\Debug\System.Security.Permissions.xml
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\ITS Son Version 01.09.2022\20220831\ITS_git\DeclarationServices\bin\Debug\System.Security.Principal.Windows.xml
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\ITS Son Version 01.09.2022\20220831\ITS_git\DeclarationServices\bin\Debug\System.Threading.Tasks.Dataflow.xml
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\ITS Son Version 01.09.2022\20220831\ITS_git\DeclarationServices\obj\Debug\DeclarationServices.csproj.AssemblyReference.cache
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\ITS Son Version 01.09.2022\20220831\ITS_git\DeclarationServices\obj\Debug\DeclarationServices.csproj.CoreCompileInputs.cache
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\ITS Son Version 01.09.2022\20220831\ITS_git\DeclarationServices\obj\Debug\DeclarationServices.csproj.CopyComplete
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\ITS Son Version 01.09.2022\20220831\ITS_git\DeclarationServices\obj\Debug\DeclarationServices.dll
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\ITS Son Version 01.09.2022\20220831\ITS_git\DeclarationServices\obj\Debug\DeclarationServices.pdb
+C:\Users\seldaberker\Desktop\Desktop\ITS Son Version 01.09.2022\20220831\ITS_git\DeclarationServices\bin\Debug\DeclarationServices.dll.config
+C:\Users\seldaberker\Desktop\Desktop\ITS Son Version 01.09.2022\20220831\ITS_git\DeclarationServices\bin\Debug\DeclarationServices.dll
+C:\Users\seldaberker\Desktop\Desktop\ITS Son Version 01.09.2022\20220831\ITS_git\DeclarationServices\bin\Debug\DeclarationServices.pdb
+C:\Users\seldaberker\Desktop\Desktop\ITS Son Version 01.09.2022\20220831\ITS_git\DeclarationServices\bin\Debug\Functions.dll
+C:\Users\seldaberker\Desktop\Desktop\ITS Son Version 01.09.2022\20220831\ITS_git\DeclarationServices\bin\Debug\LINQ.dll
+C:\Users\seldaberker\Desktop\Desktop\ITS Son Version 01.09.2022\20220831\ITS_git\DeclarationServices\bin\Debug\Microsoft.Build.Framework.dll
+C:\Users\seldaberker\Desktop\Desktop\ITS Son Version 01.09.2022\20220831\ITS_git\DeclarationServices\bin\Debug\Microsoft.Build.Tasks.Core.dll
+C:\Users\seldaberker\Desktop\Desktop\ITS Son Version 01.09.2022\20220831\ITS_git\DeclarationServices\bin\Debug\Microsoft.Build.Utilities.Core.dll
+C:\Users\seldaberker\Desktop\Desktop\ITS Son Version 01.09.2022\20220831\ITS_git\DeclarationServices\bin\Debug\Microsoft.IO.Redist.dll
+C:\Users\seldaberker\Desktop\Desktop\ITS Son Version 01.09.2022\20220831\ITS_git\DeclarationServices\bin\Debug\Microsoft.NET.StringTools.dll
+C:\Users\seldaberker\Desktop\Desktop\ITS Son Version 01.09.2022\20220831\ITS_git\DeclarationServices\bin\Debug\Newtonsoft.Json.dll
+C:\Users\seldaberker\Desktop\Desktop\ITS Son Version 01.09.2022\20220831\ITS_git\DeclarationServices\bin\Debug\System.Buffers.dll
+C:\Users\seldaberker\Desktop\Desktop\ITS Son Version 01.09.2022\20220831\ITS_git\DeclarationServices\bin\Debug\System.Collections.Immutable.dll
+C:\Users\seldaberker\Desktop\Desktop\ITS Son Version 01.09.2022\20220831\ITS_git\DeclarationServices\bin\Debug\System.Configuration.ConfigurationManager.dll
+C:\Users\seldaberker\Desktop\Desktop\ITS Son Version 01.09.2022\20220831\ITS_git\DeclarationServices\bin\Debug\System.Memory.dll
+C:\Users\seldaberker\Desktop\Desktop\ITS Son Version 01.09.2022\20220831\ITS_git\DeclarationServices\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\seldaberker\Desktop\Desktop\ITS Son Version 01.09.2022\20220831\ITS_git\DeclarationServices\bin\Debug\System.Resources.Extensions.dll
+C:\Users\seldaberker\Desktop\Desktop\ITS Son Version 01.09.2022\20220831\ITS_git\DeclarationServices\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\seldaberker\Desktop\Desktop\ITS Son Version 01.09.2022\20220831\ITS_git\DeclarationServices\bin\Debug\System.Security.AccessControl.dll
+C:\Users\seldaberker\Desktop\Desktop\ITS Son Version 01.09.2022\20220831\ITS_git\DeclarationServices\bin\Debug\System.Security.Permissions.dll
+C:\Users\seldaberker\Desktop\Desktop\ITS Son Version 01.09.2022\20220831\ITS_git\DeclarationServices\bin\Debug\System.Security.Principal.Windows.dll
+C:\Users\seldaberker\Desktop\Desktop\ITS Son Version 01.09.2022\20220831\ITS_git\DeclarationServices\bin\Debug\System.Threading.Tasks.Dataflow.dll
+C:\Users\seldaberker\Desktop\Desktop\ITS Son Version 01.09.2022\20220831\ITS_git\DeclarationServices\bin\Debug\Functions.pdb
+C:\Users\seldaberker\Desktop\Desktop\ITS Son Version 01.09.2022\20220831\ITS_git\DeclarationServices\bin\Debug\LINQ.pdb
+C:\Users\seldaberker\Desktop\Desktop\ITS Son Version 01.09.2022\20220831\ITS_git\DeclarationServices\bin\Debug\LINQ.dll.config
+C:\Users\seldaberker\Desktop\Desktop\ITS Son Version 01.09.2022\20220831\ITS_git\DeclarationServices\bin\Debug\Microsoft.Build.Framework.pdb
+C:\Users\seldaberker\Desktop\Desktop\ITS Son Version 01.09.2022\20220831\ITS_git\DeclarationServices\bin\Debug\Microsoft.Build.Framework.xml
+C:\Users\seldaberker\Desktop\Desktop\ITS Son Version 01.09.2022\20220831\ITS_git\DeclarationServices\bin\Debug\Microsoft.Build.Tasks.Core.pdb
+C:\Users\seldaberker\Desktop\Desktop\ITS Son Version 01.09.2022\20220831\ITS_git\DeclarationServices\bin\Debug\Microsoft.Build.Tasks.Core.xml
+C:\Users\seldaberker\Desktop\Desktop\ITS Son Version 01.09.2022\20220831\ITS_git\DeclarationServices\bin\Debug\Microsoft.Build.Utilities.Core.pdb
+C:\Users\seldaberker\Desktop\Desktop\ITS Son Version 01.09.2022\20220831\ITS_git\DeclarationServices\bin\Debug\Microsoft.Build.Utilities.Core.xml
+C:\Users\seldaberker\Desktop\Desktop\ITS Son Version 01.09.2022\20220831\ITS_git\DeclarationServices\bin\Debug\Microsoft.IO.Redist.xml
+C:\Users\seldaberker\Desktop\Desktop\ITS Son Version 01.09.2022\20220831\ITS_git\DeclarationServices\bin\Debug\Microsoft.NET.StringTools.pdb
+C:\Users\seldaberker\Desktop\Desktop\ITS Son Version 01.09.2022\20220831\ITS_git\DeclarationServices\bin\Debug\Newtonsoft.Json.xml
+C:\Users\seldaberker\Desktop\Desktop\ITS Son Version 01.09.2022\20220831\ITS_git\DeclarationServices\bin\Debug\System.Buffers.xml
+C:\Users\seldaberker\Desktop\Desktop\ITS Son Version 01.09.2022\20220831\ITS_git\DeclarationServices\bin\Debug\System.Collections.Immutable.xml
+C:\Users\seldaberker\Desktop\Desktop\ITS Son Version 01.09.2022\20220831\ITS_git\DeclarationServices\bin\Debug\System.Configuration.ConfigurationManager.xml
+C:\Users\seldaberker\Desktop\Desktop\ITS Son Version 01.09.2022\20220831\ITS_git\DeclarationServices\bin\Debug\System.Memory.xml
+C:\Users\seldaberker\Desktop\Desktop\ITS Son Version 01.09.2022\20220831\ITS_git\DeclarationServices\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\seldaberker\Desktop\Desktop\ITS Son Version 01.09.2022\20220831\ITS_git\DeclarationServices\bin\Debug\System.Resources.Extensions.xml
+C:\Users\seldaberker\Desktop\Desktop\ITS Son Version 01.09.2022\20220831\ITS_git\DeclarationServices\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\seldaberker\Desktop\Desktop\ITS Son Version 01.09.2022\20220831\ITS_git\DeclarationServices\bin\Debug\System.Security.AccessControl.xml
+C:\Users\seldaberker\Desktop\Desktop\ITS Son Version 01.09.2022\20220831\ITS_git\DeclarationServices\bin\Debug\System.Security.Permissions.xml
+C:\Users\seldaberker\Desktop\Desktop\ITS Son Version 01.09.2022\20220831\ITS_git\DeclarationServices\bin\Debug\System.Security.Principal.Windows.xml
+C:\Users\seldaberker\Desktop\Desktop\ITS Son Version 01.09.2022\20220831\ITS_git\DeclarationServices\bin\Debug\System.Threading.Tasks.Dataflow.xml
+C:\Users\seldaberker\Desktop\Desktop\ITS Son Version 01.09.2022\20220831\ITS_git\DeclarationServices\obj\Debug\DeclarationServices.csproj.AssemblyReference.cache
+C:\Users\seldaberker\Desktop\Desktop\ITS Son Version 01.09.2022\20220831\ITS_git\DeclarationServices\obj\Debug\DeclarationServices.csproj.CoreCompileInputs.cache
+C:\Users\seldaberker\Desktop\Desktop\ITS Son Version 01.09.2022\20220831\ITS_git\DeclarationServices\obj\Debug\DeclarationServices.csproj.CopyComplete
+C:\Users\seldaberker\Desktop\Desktop\ITS Son Version 01.09.2022\20220831\ITS_git\DeclarationServices\obj\Debug\DeclarationServices.dll
+C:\Users\seldaberker\Desktop\Desktop\ITS Son Version 01.09.2022\20220831\ITS_git\DeclarationServices\obj\Debug\DeclarationServices.pdb
+D:\ITS Son Version 01.09.2022\20220831\ITS_git\DeclarationServices\bin\Debug\DeclarationServices.dll.config
+D:\ITS Son Version 01.09.2022\20220831\ITS_git\DeclarationServices\bin\Debug\DeclarationServices.dll
+D:\ITS Son Version 01.09.2022\20220831\ITS_git\DeclarationServices\bin\Debug\DeclarationServices.pdb
+D:\ITS Son Version 01.09.2022\20220831\ITS_git\DeclarationServices\bin\Debug\Functions.dll
+D:\ITS Son Version 01.09.2022\20220831\ITS_git\DeclarationServices\bin\Debug\LINQ.dll
+D:\ITS Son Version 01.09.2022\20220831\ITS_git\DeclarationServices\bin\Debug\Microsoft.Build.Framework.dll
+D:\ITS Son Version 01.09.2022\20220831\ITS_git\DeclarationServices\bin\Debug\Microsoft.Build.Tasks.Core.dll
+D:\ITS Son Version 01.09.2022\20220831\ITS_git\DeclarationServices\bin\Debug\Microsoft.Build.Utilities.Core.dll
+D:\ITS Son Version 01.09.2022\20220831\ITS_git\DeclarationServices\bin\Debug\Microsoft.IO.Redist.dll
+D:\ITS Son Version 01.09.2022\20220831\ITS_git\DeclarationServices\bin\Debug\Microsoft.NET.StringTools.dll
+D:\ITS Son Version 01.09.2022\20220831\ITS_git\DeclarationServices\bin\Debug\Newtonsoft.Json.dll
+D:\ITS Son Version 01.09.2022\20220831\ITS_git\DeclarationServices\bin\Debug\System.Buffers.dll
+D:\ITS Son Version 01.09.2022\20220831\ITS_git\DeclarationServices\bin\Debug\System.Collections.Immutable.dll
+D:\ITS Son Version 01.09.2022\20220831\ITS_git\DeclarationServices\bin\Debug\System.Configuration.ConfigurationManager.dll
+D:\ITS Son Version 01.09.2022\20220831\ITS_git\DeclarationServices\bin\Debug\System.Memory.dll
+D:\ITS Son Version 01.09.2022\20220831\ITS_git\DeclarationServices\bin\Debug\System.Numerics.Vectors.dll
+D:\ITS Son Version 01.09.2022\20220831\ITS_git\DeclarationServices\bin\Debug\System.Resources.Extensions.dll
+D:\ITS Son Version 01.09.2022\20220831\ITS_git\DeclarationServices\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\ITS Son Version 01.09.2022\20220831\ITS_git\DeclarationServices\bin\Debug\System.Security.AccessControl.dll
+D:\ITS Son Version 01.09.2022\20220831\ITS_git\DeclarationServices\bin\Debug\System.Security.Permissions.dll
+D:\ITS Son Version 01.09.2022\20220831\ITS_git\DeclarationServices\bin\Debug\System.Security.Principal.Windows.dll
+D:\ITS Son Version 01.09.2022\20220831\ITS_git\DeclarationServices\bin\Debug\System.Threading.Tasks.Dataflow.dll
+D:\ITS Son Version 01.09.2022\20220831\ITS_git\DeclarationServices\bin\Debug\Functions.pdb
+D:\ITS Son Version 01.09.2022\20220831\ITS_git\DeclarationServices\bin\Debug\LINQ.pdb
+D:\ITS Son Version 01.09.2022\20220831\ITS_git\DeclarationServices\bin\Debug\LINQ.dll.config
+D:\ITS Son Version 01.09.2022\20220831\ITS_git\DeclarationServices\bin\Debug\Microsoft.Build.Framework.pdb
+D:\ITS Son Version 01.09.2022\20220831\ITS_git\DeclarationServices\bin\Debug\Microsoft.Build.Framework.xml
+D:\ITS Son Version 01.09.2022\20220831\ITS_git\DeclarationServices\bin\Debug\Microsoft.Build.Tasks.Core.pdb
+D:\ITS Son Version 01.09.2022\20220831\ITS_git\DeclarationServices\bin\Debug\Microsoft.Build.Tasks.Core.xml
+D:\ITS Son Version 01.09.2022\20220831\ITS_git\DeclarationServices\bin\Debug\Microsoft.Build.Utilities.Core.pdb
+D:\ITS Son Version 01.09.2022\20220831\ITS_git\DeclarationServices\bin\Debug\Microsoft.Build.Utilities.Core.xml
+D:\ITS Son Version 01.09.2022\20220831\ITS_git\DeclarationServices\bin\Debug\Microsoft.IO.Redist.xml
+D:\ITS Son Version 01.09.2022\20220831\ITS_git\DeclarationServices\bin\Debug\Microsoft.NET.StringTools.pdb
+D:\ITS Son Version 01.09.2022\20220831\ITS_git\DeclarationServices\bin\Debug\Newtonsoft.Json.xml
+D:\ITS Son Version 01.09.2022\20220831\ITS_git\DeclarationServices\bin\Debug\System.Buffers.xml
+D:\ITS Son Version 01.09.2022\20220831\ITS_git\DeclarationServices\bin\Debug\System.Collections.Immutable.xml
+D:\ITS Son Version 01.09.2022\20220831\ITS_git\DeclarationServices\bin\Debug\System.Configuration.ConfigurationManager.xml
+D:\ITS Son Version 01.09.2022\20220831\ITS_git\DeclarationServices\bin\Debug\System.Memory.xml
+D:\ITS Son Version 01.09.2022\20220831\ITS_git\DeclarationServices\bin\Debug\System.Numerics.Vectors.xml
+D:\ITS Son Version 01.09.2022\20220831\ITS_git\DeclarationServices\bin\Debug\System.Resources.Extensions.xml
+D:\ITS Son Version 01.09.2022\20220831\ITS_git\DeclarationServices\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\ITS Son Version 01.09.2022\20220831\ITS_git\DeclarationServices\bin\Debug\System.Security.AccessControl.xml
+D:\ITS Son Version 01.09.2022\20220831\ITS_git\DeclarationServices\bin\Debug\System.Security.Permissions.xml
+D:\ITS Son Version 01.09.2022\20220831\ITS_git\DeclarationServices\bin\Debug\System.Security.Principal.Windows.xml
+D:\ITS Son Version 01.09.2022\20220831\ITS_git\DeclarationServices\bin\Debug\System.Threading.Tasks.Dataflow.xml
+D:\ITS Son Version 01.09.2022\20220831\ITS_git\DeclarationServices\obj\Debug\DeclarationServices.csproj.AssemblyReference.cache
+D:\ITS Son Version 01.09.2022\20220831\ITS_git\DeclarationServices\obj\Debug\DeclarationServices.csproj.CoreCompileInputs.cache
+D:\ITS Son Version 01.09.2022\20220831\ITS_git\DeclarationServices\obj\Debug\DeclarationServices.csproj.CopyComplete
+D:\ITS Son Version 01.09.2022\20220831\ITS_git\DeclarationServices\obj\Debug\DeclarationServices.dll
+D:\ITS Son Version 01.09.2022\20220831\ITS_git\DeclarationServices\obj\Debug\DeclarationServices.pdb
+C:\Projects\ITS\DeclarationServices\bin\Debug\DeclarationServices.dll.config
+C:\Projects\ITS\DeclarationServices\bin\Debug\DeclarationServices.dll
+C:\Projects\ITS\DeclarationServices\bin\Debug\DeclarationServices.pdb
+C:\Projects\ITS\DeclarationServices\bin\Debug\Functions.dll
+C:\Projects\ITS\DeclarationServices\bin\Debug\LINQ.dll
+C:\Projects\ITS\DeclarationServices\bin\Debug\Microsoft.Build.Framework.dll
+C:\Projects\ITS\DeclarationServices\bin\Debug\Microsoft.Build.Tasks.Core.dll
+C:\Projects\ITS\DeclarationServices\bin\Debug\Microsoft.Build.Utilities.Core.dll
+C:\Projects\ITS\DeclarationServices\bin\Debug\Microsoft.IO.Redist.dll
+C:\Projects\ITS\DeclarationServices\bin\Debug\Microsoft.NET.StringTools.dll
+C:\Projects\ITS\DeclarationServices\bin\Debug\Newtonsoft.Json.dll
+C:\Projects\ITS\DeclarationServices\bin\Debug\System.Buffers.dll
+C:\Projects\ITS\DeclarationServices\bin\Debug\System.Collections.Immutable.dll
+C:\Projects\ITS\DeclarationServices\bin\Debug\System.Configuration.ConfigurationManager.dll
+C:\Projects\ITS\DeclarationServices\bin\Debug\System.Memory.dll
+C:\Projects\ITS\DeclarationServices\bin\Debug\System.Numerics.Vectors.dll
+C:\Projects\ITS\DeclarationServices\bin\Debug\System.Resources.Extensions.dll
+C:\Projects\ITS\DeclarationServices\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Projects\ITS\DeclarationServices\bin\Debug\System.Security.AccessControl.dll
+C:\Projects\ITS\DeclarationServices\bin\Debug\System.Security.Permissions.dll
+C:\Projects\ITS\DeclarationServices\bin\Debug\System.Security.Principal.Windows.dll
+C:\Projects\ITS\DeclarationServices\bin\Debug\System.Threading.Tasks.Dataflow.dll
+C:\Projects\ITS\DeclarationServices\bin\Debug\Functions.pdb
+C:\Projects\ITS\DeclarationServices\bin\Debug\LINQ.pdb
+C:\Projects\ITS\DeclarationServices\bin\Debug\LINQ.dll.config
+C:\Projects\ITS\DeclarationServices\bin\Debug\Microsoft.Build.Framework.pdb
+C:\Projects\ITS\DeclarationServices\bin\Debug\Microsoft.Build.Framework.xml
+C:\Projects\ITS\DeclarationServices\bin\Debug\Microsoft.Build.Tasks.Core.pdb
+C:\Projects\ITS\DeclarationServices\bin\Debug\Microsoft.Build.Tasks.Core.xml
+C:\Projects\ITS\DeclarationServices\bin\Debug\Microsoft.Build.Utilities.Core.pdb
+C:\Projects\ITS\DeclarationServices\bin\Debug\Microsoft.Build.Utilities.Core.xml
+C:\Projects\ITS\DeclarationServices\bin\Debug\Microsoft.IO.Redist.xml
+C:\Projects\ITS\DeclarationServices\bin\Debug\Microsoft.NET.StringTools.pdb
+C:\Projects\ITS\DeclarationServices\bin\Debug\Newtonsoft.Json.xml
+C:\Projects\ITS\DeclarationServices\bin\Debug\System.Buffers.xml
+C:\Projects\ITS\DeclarationServices\bin\Debug\System.Collections.Immutable.xml
+C:\Projects\ITS\DeclarationServices\bin\Debug\System.Configuration.ConfigurationManager.xml
+C:\Projects\ITS\DeclarationServices\bin\Debug\System.Memory.xml
+C:\Projects\ITS\DeclarationServices\bin\Debug\System.Numerics.Vectors.xml
+C:\Projects\ITS\DeclarationServices\bin\Debug\System.Resources.Extensions.xml
+C:\Projects\ITS\DeclarationServices\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Projects\ITS\DeclarationServices\bin\Debug\System.Security.AccessControl.xml
+C:\Projects\ITS\DeclarationServices\bin\Debug\System.Security.Permissions.xml
+C:\Projects\ITS\DeclarationServices\bin\Debug\System.Security.Principal.Windows.xml
+C:\Projects\ITS\DeclarationServices\bin\Debug\System.Threading.Tasks.Dataflow.xml
+C:\Projects\ITS\DeclarationServices\obj\Debug\DeclarationServices.csproj.AssemblyReference.cache
+C:\Projects\ITS\DeclarationServices\obj\Debug\DeclarationServices.csproj.CoreCompileInputs.cache
+C:\Projects\ITS\DeclarationServices\obj\Debug\DeclarationServices.csproj.CopyComplete
+C:\Projects\ITS\DeclarationServices\obj\Debug\DeclarationServices.dll
+C:\Projects\ITS\DeclarationServices\obj\Debug\DeclarationServices.pdb
+C:\ilactakipsistemi\DeclarationServices\bin\Debug\DeclarationServices.dll.config
+C:\ilactakipsistemi\DeclarationServices\bin\Debug\DeclarationServices.dll
+C:\ilactakipsistemi\DeclarationServices\bin\Debug\DeclarationServices.pdb
+C:\ilactakipsistemi\DeclarationServices\bin\Debug\Functions.dll
+C:\ilactakipsistemi\DeclarationServices\bin\Debug\LINQ.dll
+C:\ilactakipsistemi\DeclarationServices\bin\Debug\Microsoft.Build.Framework.dll
+C:\ilactakipsistemi\DeclarationServices\bin\Debug\Microsoft.Build.Tasks.Core.dll
+C:\ilactakipsistemi\DeclarationServices\bin\Debug\Microsoft.Build.Utilities.Core.dll
+C:\ilactakipsistemi\DeclarationServices\bin\Debug\Microsoft.IO.Redist.dll
+C:\ilactakipsistemi\DeclarationServices\bin\Debug\Microsoft.NET.StringTools.dll
+C:\ilactakipsistemi\DeclarationServices\bin\Debug\Newtonsoft.Json.dll
+C:\ilactakipsistemi\DeclarationServices\bin\Debug\System.Buffers.dll
+C:\ilactakipsistemi\DeclarationServices\bin\Debug\System.Collections.Immutable.dll
+C:\ilactakipsistemi\DeclarationServices\bin\Debug\System.Configuration.ConfigurationManager.dll
+C:\ilactakipsistemi\DeclarationServices\bin\Debug\System.Memory.dll
+C:\ilactakipsistemi\DeclarationServices\bin\Debug\System.Numerics.Vectors.dll
+C:\ilactakipsistemi\DeclarationServices\bin\Debug\System.Resources.Extensions.dll
+C:\ilactakipsistemi\DeclarationServices\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\ilactakipsistemi\DeclarationServices\bin\Debug\System.Security.AccessControl.dll
+C:\ilactakipsistemi\DeclarationServices\bin\Debug\System.Security.Permissions.dll
+C:\ilactakipsistemi\DeclarationServices\bin\Debug\System.Security.Principal.Windows.dll
+C:\ilactakipsistemi\DeclarationServices\bin\Debug\System.Threading.Tasks.Dataflow.dll
+C:\ilactakipsistemi\DeclarationServices\bin\Debug\Functions.pdb
+C:\ilactakipsistemi\DeclarationServices\bin\Debug\LINQ.pdb
+C:\ilactakipsistemi\DeclarationServices\bin\Debug\LINQ.dll.config
+C:\ilactakipsistemi\DeclarationServices\bin\Debug\Microsoft.Build.Framework.pdb
+C:\ilactakipsistemi\DeclarationServices\bin\Debug\Microsoft.Build.Framework.xml
+C:\ilactakipsistemi\DeclarationServices\bin\Debug\Microsoft.Build.Tasks.Core.pdb
+C:\ilactakipsistemi\DeclarationServices\bin\Debug\Microsoft.Build.Tasks.Core.xml
+C:\ilactakipsistemi\DeclarationServices\bin\Debug\Microsoft.Build.Utilities.Core.pdb
+C:\ilactakipsistemi\DeclarationServices\bin\Debug\Microsoft.Build.Utilities.Core.xml
+C:\ilactakipsistemi\DeclarationServices\bin\Debug\Microsoft.IO.Redist.xml
+C:\ilactakipsistemi\DeclarationServices\bin\Debug\Microsoft.NET.StringTools.pdb
+C:\ilactakipsistemi\DeclarationServices\bin\Debug\Newtonsoft.Json.xml
+C:\ilactakipsistemi\DeclarationServices\bin\Debug\System.Buffers.xml
+C:\ilactakipsistemi\DeclarationServices\bin\Debug\System.Collections.Immutable.xml
+C:\ilactakipsistemi\DeclarationServices\bin\Debug\System.Configuration.ConfigurationManager.xml
+C:\ilactakipsistemi\DeclarationServices\bin\Debug\System.Memory.xml
+C:\ilactakipsistemi\DeclarationServices\bin\Debug\System.Numerics.Vectors.xml
+C:\ilactakipsistemi\DeclarationServices\bin\Debug\System.Resources.Extensions.xml
+C:\ilactakipsistemi\DeclarationServices\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\ilactakipsistemi\DeclarationServices\bin\Debug\System.Security.AccessControl.xml
+C:\ilactakipsistemi\DeclarationServices\bin\Debug\System.Security.Permissions.xml
+C:\ilactakipsistemi\DeclarationServices\bin\Debug\System.Security.Principal.Windows.xml
+C:\ilactakipsistemi\DeclarationServices\bin\Debug\System.Threading.Tasks.Dataflow.xml
+C:\ilactakipsistemi\DeclarationServices\obj\Debug\DeclarationServices.csproj.AssemblyReference.cache
+C:\ilactakipsistemi\DeclarationServices\obj\Debug\DeclarationServices.csproj.CoreCompileInputs.cache
+C:\ilactakipsistemi\DeclarationServices\obj\Debug\Declarat.E3146AE9.Up2Date
+C:\ilactakipsistemi\DeclarationServices\obj\Debug\DeclarationServices.dll
+C:\ilactakipsistemi\DeclarationServices\obj\Debug\DeclarationServices.pdb

@@ -1,0 +1,44 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="DeclarationServices.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="DeclarationServices_ProductionService_UretimBildirimReceiverService" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://212.174.130.240:8080/UretimBildirim/UretimBildirimReceiverService</Value>
+    </Setting>
+    <Setting Name="ITSConnectionString" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ConnectionString&gt;Data Source=ITSDEV;Initial Catalog=ITS;Persist Security Info=True;User ID=ITS_USER;Password=fast&lt;/ConnectionString&gt;
+  &lt;ProviderName&gt;System.Data.SqlClient&lt;/ProviderName&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">Data Source=ITSDEV;Initial Catalog=ITS;Persist Security Info=True;User ID=ITS_USER;Password=fast</Value>
+    </Setting>
+    <Setting Name="DeclarationServices_DeactivationService_DeaktivasyonBildirimReceiverService" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://212.174.130.240:8080/DeaktivasyonBildirim/DeaktivasyonBildirimReceiverService</Value>
+    </Setting>
+    <Setting Name="DeclarationServices_PTSSendService_PackageSenderWebService" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://pts.saglik.gov.tr:80/PTS/PackageSenderWebService</Value>
+    </Setting>
+    <Setting Name="DeclarationServices_SalesService_UreticiSatisReceiverService" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://its.saglik.gov.tr:80/ITSServices/DispatchNotification</Value>
+    </Setting>
+    <Setting Name="DeclarationServices_VerificationService_UrunDogrulamaReceiverService" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://its.saglik.gov.tr:80/UrunDogrulama/UrunDogrulamaReceiverService</Value>
+    </Setting>
+    <Setting Name="DeclarationServices_SalesCancelService_UreticiSatisIptalReceiverService" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://its.saglik.gov.tr:80/ITSServices/DispatchCancellation</Value>
+    </Setting>
+    <Setting Name="DeclarationServices_ErrorCodes_ErrorCode" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://its.saglik.gov.tr:80/ReferenceServices/ErrorCode</Value>
+    </Setting>
+    <Setting Name="DeclarationServices_ReceiptService_ReceiptNotification" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://its.saglik.gov.tr:80/ITSServices/ReceiptNotification</Value>
+    </Setting>
+    <Setting Name="DeclarationServices_PTSTransferHelperService_PackageTransferHelperWebService" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://pts.saglik.gov.tr:80/PTSHelper/PackageTransferHelperWebService</Value>
+    </Setting>
+    <Setting Name="DeclarationServices_PTSReceiverService_PackageReceiverWebService" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://pts.saglik.gov.tr:80/PTS/PackageReceiverWebService</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

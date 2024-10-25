@@ -1,0 +1,85 @@
+D:\All_Projects\Visual_Studio\ITS_git - Copy\Functions\bin\Debug\Functions.dll
+D:\All_Projects\Visual_Studio\ITS_git - Copy\Functions\bin\Debug\Functions.pdb
+D:\All_Projects\Visual_Studio\ITS_git - Copy\Functions\bin\Debug\LINQ.dll
+D:\All_Projects\Visual_Studio\ITS_git - Copy\Functions\bin\Debug\LINQ.pdb
+D:\All_Projects\Visual_Studio\ITS_git - Copy\Functions\bin\Debug\LINQ.dll.config
+D:\All_Projects\Visual_Studio\ITS_git - Copy\Functions\obj\Debug\Functions.csprojAssemblyReference.cache
+D:\All_Projects\Visual_Studio\ITS_git - Copy\Functions\obj\Debug\Functions.csproj.CopyComplete
+D:\All_Projects\Visual_Studio\ITS_git - Copy\Functions\obj\Debug\Functions.dll
+D:\All_Projects\Visual_Studio\ITS_git - Copy\Functions\obj\Debug\Functions.pdb
+D:\All_Projects\Visual_Studio\ITS_git\Functions\bin\Debug\Functions.dll
+D:\All_Projects\Visual_Studio\ITS_git\Functions\bin\Debug\Functions.pdb
+D:\All_Projects\Visual_Studio\ITS_git\Functions\bin\Debug\LINQ.dll
+D:\All_Projects\Visual_Studio\ITS_git\Functions\bin\Debug\LINQ.pdb
+D:\All_Projects\Visual_Studio\ITS_git\Functions\bin\Debug\LINQ.dll.config
+D:\All_Projects\Visual_Studio\ITS_git\Functions\obj\Debug\Functions.csprojAssemblyReference.cache
+D:\All_Projects\Visual_Studio\ITS_git\Functions\obj\Debug\Functions.csproj.CopyComplete
+D:\All_Projects\Visual_Studio\ITS_git\Functions\obj\Debug\Functions.dll
+D:\All_Projects\Visual_Studio\ITS_git\Functions\obj\Debug\Functions.pdb
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\erhan abi son git\ITS_git\Functions\bin\Debug\Functions.dll
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\erhan abi son git\ITS_git\Functions\bin\Debug\Functions.pdb
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\erhan abi son git\ITS_git\Functions\bin\Debug\LINQ.dll
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\erhan abi son git\ITS_git\Functions\bin\Debug\LINQ.pdb
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\erhan abi son git\ITS_git\Functions\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\erhan abi son git\ITS_git\Functions\obj\Debug\Functions.dll
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\erhan abi son git\ITS_git\Functions\obj\Debug\Functions.pdb
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\New folder (10)\ITS_git\Functions\bin\Debug\Functions.dll
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\New folder (10)\ITS_git\Functions\bin\Debug\Functions.pdb
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\New folder (10)\ITS_git\Functions\bin\Debug\LINQ.dll
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\New folder (10)\ITS_git\Functions\bin\Debug\LINQ.pdb
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\New folder (10)\ITS_git\Functions\bin\Debug\LINQ.dll.config
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\New folder (10)\ITS_git\Functions\obj\Debug\Functions.csproj.AssemblyReference.cache
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\New folder (10)\ITS_git\Functions\obj\Debug\Functions.csproj.CoreCompileInputs.cache
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\New folder (10)\ITS_git\Functions\obj\Debug\Functions.csproj.CopyComplete
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\New folder (10)\ITS_git\Functions\obj\Debug\Functions.dll
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\New folder (10)\ITS_git\Functions\obj\Debug\Functions.pdb
+C:\Erhan_AKARLAR\SANOVEL\_Is_Cozumleri_ve_Yazilim\Source_Codes\20220831\ITS_git\Functions\bin\Debug\Functions.dll
+C:\Erhan_AKARLAR\SANOVEL\_Is_Cozumleri_ve_Yazilim\Source_Codes\20220831\ITS_git\Functions\bin\Debug\Functions.pdb
+C:\Erhan_AKARLAR\SANOVEL\_Is_Cozumleri_ve_Yazilim\Source_Codes\20220831\ITS_git\Functions\bin\Debug\LINQ.dll
+C:\Erhan_AKARLAR\SANOVEL\_Is_Cozumleri_ve_Yazilim\Source_Codes\20220831\ITS_git\Functions\bin\Debug\LINQ.pdb
+C:\Erhan_AKARLAR\SANOVEL\_Is_Cozumleri_ve_Yazilim\Source_Codes\20220831\ITS_git\Functions\bin\Debug\LINQ.dll.config
+C:\Erhan_AKARLAR\SANOVEL\_Is_Cozumleri_ve_Yazilim\Source_Codes\20220831\ITS_git\Functions\obj\Debug\Functions.csproj.AssemblyReference.cache
+C:\Erhan_AKARLAR\SANOVEL\_Is_Cozumleri_ve_Yazilim\Source_Codes\20220831\ITS_git\Functions\obj\Debug\Functions.csproj.CoreCompileInputs.cache
+C:\Erhan_AKARLAR\SANOVEL\_Is_Cozumleri_ve_Yazilim\Source_Codes\20220831\ITS_git\Functions\obj\Debug\Functions.csproj.CopyComplete
+C:\Erhan_AKARLAR\SANOVEL\_Is_Cozumleri_ve_Yazilim\Source_Codes\20220831\ITS_git\Functions\obj\Debug\Functions.dll
+C:\Erhan_AKARLAR\SANOVEL\_Is_Cozumleri_ve_Yazilim\Source_Codes\20220831\ITS_git\Functions\obj\Debug\Functions.pdb
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\ITS Son Version 01.09.2022\20220831\ITS_git\Functions\bin\Debug\Functions.dll
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\ITS Son Version 01.09.2022\20220831\ITS_git\Functions\bin\Debug\Functions.pdb
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\ITS Son Version 01.09.2022\20220831\ITS_git\Functions\bin\Debug\LINQ.dll
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\ITS Son Version 01.09.2022\20220831\ITS_git\Functions\bin\Debug\LINQ.pdb
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\ITS Son Version 01.09.2022\20220831\ITS_git\Functions\bin\Debug\LINQ.dll.config
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\ITS Son Version 01.09.2022\20220831\ITS_git\Functions\obj\Debug\Functions.csproj.AssemblyReference.cache
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\ITS Son Version 01.09.2022\20220831\ITS_git\Functions\obj\Debug\Functions.csproj.CoreCompileInputs.cache
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\ITS Son Version 01.09.2022\20220831\ITS_git\Functions\obj\Debug\Functions.csproj.CopyComplete
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\ITS Son Version 01.09.2022\20220831\ITS_git\Functions\obj\Debug\Functions.dll
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\ITS Son Version 01.09.2022\20220831\ITS_git\Functions\obj\Debug\Functions.pdb
+C:\Users\seldaberker\Desktop\Desktop\ITS Son Version 01.09.2022\20220831\ITS_git\Functions\bin\Debug\Functions.dll
+C:\Users\seldaberker\Desktop\Desktop\ITS Son Version 01.09.2022\20220831\ITS_git\Functions\bin\Debug\Functions.pdb
+C:\Users\seldaberker\Desktop\Desktop\ITS Son Version 01.09.2022\20220831\ITS_git\Functions\bin\Debug\LINQ.dll
+C:\Users\seldaberker\Desktop\Desktop\ITS Son Version 01.09.2022\20220831\ITS_git\Functions\bin\Debug\LINQ.pdb
+C:\Users\seldaberker\Desktop\Desktop\ITS Son Version 01.09.2022\20220831\ITS_git\Functions\bin\Debug\LINQ.dll.config
+C:\Users\seldaberker\Desktop\Desktop\ITS Son Version 01.09.2022\20220831\ITS_git\Functions\obj\Debug\Functions.csproj.AssemblyReference.cache
+C:\Users\seldaberker\Desktop\Desktop\ITS Son Version 01.09.2022\20220831\ITS_git\Functions\obj\Debug\Functions.csproj.CoreCompileInputs.cache
+C:\Users\seldaberker\Desktop\Desktop\ITS Son Version 01.09.2022\20220831\ITS_git\Functions\obj\Debug\Functions.csproj.CopyComplete
+C:\Users\seldaberker\Desktop\Desktop\ITS Son Version 01.09.2022\20220831\ITS_git\Functions\obj\Debug\Functions.dll
+C:\Users\seldaberker\Desktop\Desktop\ITS Son Version 01.09.2022\20220831\ITS_git\Functions\obj\Debug\Functions.pdb
+C:\Projects\ITS\Functions\bin\Debug\Functions.dll
+C:\Projects\ITS\Functions\bin\Debug\Functions.pdb
+C:\Projects\ITS\Functions\bin\Debug\LINQ.dll
+C:\Projects\ITS\Functions\bin\Debug\LINQ.pdb
+C:\Projects\ITS\Functions\bin\Debug\LINQ.dll.config
+C:\Projects\ITS\Functions\obj\Debug\Functions.csproj.AssemblyReference.cache
+C:\Projects\ITS\Functions\obj\Debug\Functions.csproj.CoreCompileInputs.cache
+C:\Projects\ITS\Functions\obj\Debug\Functions.csproj.CopyComplete
+C:\Projects\ITS\Functions\obj\Debug\Functions.dll
+C:\Projects\ITS\Functions\obj\Debug\Functions.pdb
+C:\ilactakipsistemi\Functions\bin\Debug\Functions.dll
+C:\ilactakipsistemi\Functions\bin\Debug\Functions.pdb
+C:\ilactakipsistemi\Functions\bin\Debug\LINQ.dll
+C:\ilactakipsistemi\Functions\bin\Debug\LINQ.pdb
+C:\ilactakipsistemi\Functions\bin\Debug\LINQ.dll.config
+C:\ilactakipsistemi\Functions\obj\Debug\Functions.csproj.AssemblyReference.cache
+C:\ilactakipsistemi\Functions\obj\Debug\Functions.csproj.CoreCompileInputs.cache
+C:\ilactakipsistemi\Functions\obj\Debug\Functions.csproj.Up2Date
+C:\ilactakipsistemi\Functions\obj\Debug\Functions.dll
+C:\ilactakipsistemi\Functions\obj\Debug\Functions.pdb

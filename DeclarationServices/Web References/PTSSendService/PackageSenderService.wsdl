@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<definitions xmlns:tns="http://its.iegm.gov.tr/pts/sendpackage" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="PackageSenderService" targetNamespace="http://its.iegm.gov.tr/pts/sendpackage" xmlns="http://schemas.xmlsoap.org/wsdl/">
+  <types>
+    <xsd:schema targetNamespace="http://its.iegm.gov.tr/pts/sendpackage">
+      <xsd:annotation>
+        <xsd:documentation>Paket Gönderme Servis Şeması
+                    Versiyon: pts-20110208-1
+                    Copyright IEGM. all rights reserved.
+                </xsd:documentation>
+      </xsd:annotation>
+      <xsd:complexType name="sendFileParametersType">
+        <xsd:sequence>
+          <xsd:element name="sourceGLN">
+            <xsd:simpleType>
+              <xsd:restriction base="xsd:string">
+                <xsd:length value="13" />
+                <xsd:pattern value="[0-9]*" />
+              </xsd:restriction>
+            </xsd:simpleType>
+          </xsd:element>
+          <xsd:element name="destinationGLN">
+            <xsd:simpleType>
+              <xsd:restriction base="xsd:string">
+                <xsd:length value="13" />
+                <xsd:pattern value="[0-9]*" />
+              </xsd:restriction>
+            </xsd:simpleType>
+          </xsd:element>
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="sendFileStreamParametersType">
+        <xsd:sequence>
+          <xsd:element name="sendFileParameters" type="tns:sendFileParametersType" />
+          <xsd:element xmlns:xmime="http://www.w3.org/2005/05/xmlmime" xmime:expectedContentTypes="application/zip" name="fileStreamElement" type="xsd:base64Binary" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="sendFileResponseType">
+        <xsd:sequence>
+          <xsd:element name="transferId" type="xsd:long" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="packageTransferErrorType">
+        <xsd:sequence>
+          <xsd:element name="faultCode">
+            <xsd:simpleType>
+              <xsd:restriction base="xsd:string">
+                <xsd:length value="5" />
+              </xsd:restriction>
+            </xsd:simpleType>
+          </xsd:element>
+          <xsd:element name="faultMessage" type="xsd:string" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:element xmlns:xmime="http://www.w3.org/2005/05/xmlmime" xmime:expectedContentTypes="application/zip" name="fileStream" type="xsd:base64Binary" />
+      <xsd:element name="sendFileParameters" type="tns:sendFileParametersType" />
+      <xsd:element name="sendFileStreamParameters" type="tns:sendFileStreamParametersType" />
+      <xsd:element name="sendFileResponse" type="tns:sendFileResponseType" />
+      <xsd:element name="packageTransferError" type="tns:packageTransferErrorType" />
+    </xsd:schema>
+  </types>
+  <message name="sendFileMessage">
+    <part name="filePart" element="tns:fileStream" />
+    <part name="inputPart" element="tns:sendFileParameters" />
+  </message>
+  <message name="sendFileStreamMessage">
+    <part name="inputPart" element="tns:sendFileStreamParameters" />
+  </message>
+  <message name="sendFileResponseMessage">
+    <part name="outputPart" element="tns:sendFileResponse" />
+  </message>
+  <message name="packageTransferFaultMessage">
+    <part name="fault" element="tns:packageTransferError" />
+  </message>
+  <portType name="PackageSenderWS">
+    <operation name="sendFile">
+      <input message="tns:sendFileMessage" />
+      <output message="tns:sendFileResponseMessage" />
+      <fault name="fault" message="tns:packageTransferFaultMessage" />
+    </operation>
+    <operation name="sendFileStream">
+      <input message="tns:sendFileStreamMessage" />
+      <output message="tns:sendFileResponseMessage" />
+      <fault name="fault" message="tns:packageTransferFaultMessage" />
+    </operation>
+  </portType>
+  <binding name="PackageSenderWSPortBinding" type="tns:PackageSenderWS">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <operation name="sendFile">
+      <soap:operation soapAction="" />
+      <input>
+        <mime:multipartRelated>
+          <mime:part>
+            <soap:body use="literal" parts="inputPart" />
+          </mime:part>
+          <mime:part>
+            <mime:content part="filePart" type="application/zip" />
+          </mime:part>
+        </mime:multipartRelated>
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+      <fault name="fault">
+        <soap:fault use="literal" name="fault" namespace="" />
+      </fault>
+    </operation>
+    <operation name="sendFileStream">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" parts="inputPart" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+      <fault name="fault">
+        <soap:fault use="literal" name="fault" namespace="" />
+      </fault>
+    </operation>
+  </binding>
+  <service name="PackageSenderWebService">
+    <port name="PackageSenderWSPort" binding="tns:PackageSenderWSPortBinding">
+      <soap:address location="http://pts.saglik.gov.tr:80/PTS/PackageSenderWebService" />
+    </port>
+  </service>
+</definitions>

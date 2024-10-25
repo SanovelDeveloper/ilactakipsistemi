@@ -1,0 +1,142 @@
+D:\All_Projects\Visual_Studio\ITS_git - Copy\WindowsDeclarationService\bin\Debug\WindowsDeclarationService.exe.config
+D:\All_Projects\Visual_Studio\ITS_git - Copy\WindowsDeclarationService\bin\Debug\WindowsDeclarationService.exe
+D:\All_Projects\Visual_Studio\ITS_git - Copy\WindowsDeclarationService\bin\Debug\WindowsDeclarationService.pdb
+D:\All_Projects\Visual_Studio\ITS_git - Copy\WindowsDeclarationService\bin\Debug\DeclarationServices.dll
+D:\All_Projects\Visual_Studio\ITS_git - Copy\WindowsDeclarationService\bin\Debug\LINQ.dll
+D:\All_Projects\Visual_Studio\ITS_git - Copy\WindowsDeclarationService\bin\Debug\Ionic.Zip.dll
+D:\All_Projects\Visual_Studio\ITS_git - Copy\WindowsDeclarationService\bin\Debug\Functions.dll
+D:\All_Projects\Visual_Studio\ITS_git - Copy\WindowsDeclarationService\bin\Debug\DeclarationServices.pdb
+D:\All_Projects\Visual_Studio\ITS_git - Copy\WindowsDeclarationService\bin\Debug\DeclarationServices.dll.config
+D:\All_Projects\Visual_Studio\ITS_git - Copy\WindowsDeclarationService\bin\Debug\LINQ.pdb
+D:\All_Projects\Visual_Studio\ITS_git - Copy\WindowsDeclarationService\bin\Debug\LINQ.dll.config
+D:\All_Projects\Visual_Studio\ITS_git - Copy\WindowsDeclarationService\bin\Debug\Functions.pdb
+D:\All_Projects\Visual_Studio\ITS_git - Copy\WindowsDeclarationService\obj\Debug\WindowsDeclarationService.csprojAssemblyReference.cache
+D:\All_Projects\Visual_Studio\ITS_git - Copy\WindowsDeclarationService\obj\Debug\WindowsDeclarationService.ProjectInstaller.resources
+D:\All_Projects\Visual_Studio\ITS_git - Copy\WindowsDeclarationService\obj\Debug\WindowsDeclarationService.Service.resources
+D:\All_Projects\Visual_Studio\ITS_git - Copy\WindowsDeclarationService\obj\Debug\WindowsDeclarationService.csproj.GenerateResource.cache
+D:\All_Projects\Visual_Studio\ITS_git - Copy\WindowsDeclarationService\obj\Debug\WindowsDeclarationService.csproj.CopyComplete
+D:\All_Projects\Visual_Studio\ITS_git - Copy\WindowsDeclarationService\obj\Debug\WindowsDeclarationService.exe
+D:\All_Projects\Visual_Studio\ITS_git - Copy\WindowsDeclarationService\obj\Debug\WindowsDeclarationService.pdb
+D:\All_Projects\Visual_Studio\ITS_git\WindowsDeclarationService\bin\Debug\WindowsDeclarationService.exe.config
+D:\All_Projects\Visual_Studio\ITS_git\WindowsDeclarationService\bin\Debug\WindowsDeclarationService.exe
+D:\All_Projects\Visual_Studio\ITS_git\WindowsDeclarationService\bin\Debug\WindowsDeclarationService.pdb
+D:\All_Projects\Visual_Studio\ITS_git\WindowsDeclarationService\bin\Debug\DeclarationServices.dll
+D:\All_Projects\Visual_Studio\ITS_git\WindowsDeclarationService\bin\Debug\LINQ.dll
+D:\All_Projects\Visual_Studio\ITS_git\WindowsDeclarationService\bin\Debug\Ionic.Zip.dll
+D:\All_Projects\Visual_Studio\ITS_git\WindowsDeclarationService\bin\Debug\Functions.dll
+D:\All_Projects\Visual_Studio\ITS_git\WindowsDeclarationService\bin\Debug\DeclarationServices.pdb
+D:\All_Projects\Visual_Studio\ITS_git\WindowsDeclarationService\bin\Debug\DeclarationServices.dll.config
+D:\All_Projects\Visual_Studio\ITS_git\WindowsDeclarationService\bin\Debug\LINQ.pdb
+D:\All_Projects\Visual_Studio\ITS_git\WindowsDeclarationService\bin\Debug\LINQ.dll.config
+D:\All_Projects\Visual_Studio\ITS_git\WindowsDeclarationService\bin\Debug\Functions.pdb
+D:\All_Projects\Visual_Studio\ITS_git\WindowsDeclarationService\obj\Debug\WindowsDeclarationService.csprojAssemblyReference.cache
+D:\All_Projects\Visual_Studio\ITS_git\WindowsDeclarationService\obj\Debug\WindowsDeclarationService.ProjectInstaller.resources
+D:\All_Projects\Visual_Studio\ITS_git\WindowsDeclarationService\obj\Debug\WindowsDeclarationService.Service.resources
+D:\All_Projects\Visual_Studio\ITS_git\WindowsDeclarationService\obj\Debug\WindowsDeclarationService.csproj.GenerateResource.cache
+D:\All_Projects\Visual_Studio\ITS_git\WindowsDeclarationService\obj\Debug\WindowsDeclarationService.csproj.CopyComplete
+D:\All_Projects\Visual_Studio\ITS_git\WindowsDeclarationService\obj\Debug\WindowsDeclarationService.exe
+D:\All_Projects\Visual_Studio\ITS_git\WindowsDeclarationService\obj\Debug\WindowsDeclarationService.pdb
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\erhan abi son git\ITS_git\WindowsDeclarationService\bin\Debug\WindowsDeclarationService.exe.config
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\erhan abi son git\ITS_git\WindowsDeclarationService\bin\Debug\WindowsDeclarationService.exe
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\erhan abi son git\ITS_git\WindowsDeclarationService\bin\Debug\WindowsDeclarationService.pdb
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\erhan abi son git\ITS_git\WindowsDeclarationService\bin\Debug\DeclarationServices.dll
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\erhan abi son git\ITS_git\WindowsDeclarationService\bin\Debug\LINQ.dll
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\erhan abi son git\ITS_git\WindowsDeclarationService\bin\Debug\Ionic.Zip.dll
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\erhan abi son git\ITS_git\WindowsDeclarationService\bin\Debug\Functions.dll
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\erhan abi son git\ITS_git\WindowsDeclarationService\bin\Debug\Functions.pdb
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\erhan abi son git\ITS_git\WindowsDeclarationService\bin\Debug\LINQ.pdb
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\erhan abi son git\ITS_git\WindowsDeclarationService\bin\Debug\DeclarationServices.pdb
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\erhan abi son git\ITS_git\WindowsDeclarationService\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\erhan abi son git\ITS_git\WindowsDeclarationService\obj\Debug\WindowsDeclarationService.ProjectInstaller.resources
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\erhan abi son git\ITS_git\WindowsDeclarationService\obj\Debug\WindowsDeclarationService.Service.resources
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\erhan abi son git\ITS_git\WindowsDeclarationService\obj\Debug\WindowsDeclarationService.csproj.GenerateResource.Cache
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\erhan abi son git\ITS_git\WindowsDeclarationService\obj\Debug\WindowsDeclarationService.exe
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\erhan abi son git\ITS_git\WindowsDeclarationService\obj\Debug\WindowsDeclarationService.pdb
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\New folder (10)\ITS_git\WindowsDeclarationService\bin\Debug\WindowsDeclarationService.exe.config
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\New folder (10)\ITS_git\WindowsDeclarationService\bin\Debug\WindowsDeclarationService.exe
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\New folder (10)\ITS_git\WindowsDeclarationService\bin\Debug\WindowsDeclarationService.pdb
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\New folder (10)\ITS_git\WindowsDeclarationService\bin\Debug\DeclarationServices.dll
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\New folder (10)\ITS_git\WindowsDeclarationService\bin\Debug\LINQ.dll
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\New folder (10)\ITS_git\WindowsDeclarationService\bin\Debug\Ionic.Zip.dll
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\New folder (10)\ITS_git\WindowsDeclarationService\bin\Debug\Functions.dll
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\New folder (10)\ITS_git\WindowsDeclarationService\bin\Debug\DeclarationServices.pdb
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\New folder (10)\ITS_git\WindowsDeclarationService\bin\Debug\DeclarationServices.dll.config
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\New folder (10)\ITS_git\WindowsDeclarationService\bin\Debug\LINQ.pdb
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\New folder (10)\ITS_git\WindowsDeclarationService\bin\Debug\LINQ.dll.config
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\New folder (10)\ITS_git\WindowsDeclarationService\bin\Debug\Functions.pdb
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\New folder (10)\ITS_git\WindowsDeclarationService\obj\Debug\WindowsDeclarationService.csproj.AssemblyReference.cache
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\New folder (10)\ITS_git\WindowsDeclarationService\obj\Debug\WindowsDeclarationService.ProjectInstaller.resources
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\New folder (10)\ITS_git\WindowsDeclarationService\obj\Debug\WindowsDeclarationService.Service.resources
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\New folder (10)\ITS_git\WindowsDeclarationService\obj\Debug\WindowsDeclarationService.csproj.GenerateResource.cache
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\New folder (10)\ITS_git\WindowsDeclarationService\obj\Debug\WindowsDeclarationService.csproj.CoreCompileInputs.cache
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\New folder (10)\ITS_git\WindowsDeclarationService\obj\Debug\WindowsDeclarationService.csproj.CopyComplete
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\New folder (10)\ITS_git\WindowsDeclarationService\obj\Debug\WindowsDeclarationService.exe
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\New folder (10)\ITS_git\WindowsDeclarationService\obj\Debug\WindowsDeclarationService.pdb
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\New folder (10)\ITS_git\WindowsDeclarationService\bin\Debug\Newtonsoft.Json.dll
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\New folder (10)\ITS_git\WindowsDeclarationService\bin\Debug\Newtonsoft.Json.xml
+C:\Erhan_AKARLAR\SANOVEL\_Is_Cozumleri_ve_Yazilim\Source_Codes\20220831\ITS_git\WindowsDeclarationService\bin\Debug\WindowsDeclarationService.exe.config
+C:\Erhan_AKARLAR\SANOVEL\_Is_Cozumleri_ve_Yazilim\Source_Codes\20220831\ITS_git\WindowsDeclarationService\bin\Debug\WindowsDeclarationService.exe
+C:\Erhan_AKARLAR\SANOVEL\_Is_Cozumleri_ve_Yazilim\Source_Codes\20220831\ITS_git\WindowsDeclarationService\bin\Debug\WindowsDeclarationService.pdb
+C:\Erhan_AKARLAR\SANOVEL\_Is_Cozumleri_ve_Yazilim\Source_Codes\20220831\ITS_git\WindowsDeclarationService\bin\Debug\DeclarationServices.dll
+C:\Erhan_AKARLAR\SANOVEL\_Is_Cozumleri_ve_Yazilim\Source_Codes\20220831\ITS_git\WindowsDeclarationService\bin\Debug\LINQ.dll
+C:\Erhan_AKARLAR\SANOVEL\_Is_Cozumleri_ve_Yazilim\Source_Codes\20220831\ITS_git\WindowsDeclarationService\bin\Debug\Ionic.Zip.dll
+C:\Erhan_AKARLAR\SANOVEL\_Is_Cozumleri_ve_Yazilim\Source_Codes\20220831\ITS_git\WindowsDeclarationService\bin\Debug\Functions.dll
+C:\Erhan_AKARLAR\SANOVEL\_Is_Cozumleri_ve_Yazilim\Source_Codes\20220831\ITS_git\WindowsDeclarationService\bin\Debug\Newtonsoft.Json.dll
+C:\Erhan_AKARLAR\SANOVEL\_Is_Cozumleri_ve_Yazilim\Source_Codes\20220831\ITS_git\WindowsDeclarationService\bin\Debug\DeclarationServices.pdb
+C:\Erhan_AKARLAR\SANOVEL\_Is_Cozumleri_ve_Yazilim\Source_Codes\20220831\ITS_git\WindowsDeclarationService\bin\Debug\DeclarationServices.dll.config
+C:\Erhan_AKARLAR\SANOVEL\_Is_Cozumleri_ve_Yazilim\Source_Codes\20220831\ITS_git\WindowsDeclarationService\bin\Debug\LINQ.pdb
+C:\Erhan_AKARLAR\SANOVEL\_Is_Cozumleri_ve_Yazilim\Source_Codes\20220831\ITS_git\WindowsDeclarationService\bin\Debug\LINQ.dll.config
+C:\Erhan_AKARLAR\SANOVEL\_Is_Cozumleri_ve_Yazilim\Source_Codes\20220831\ITS_git\WindowsDeclarationService\bin\Debug\Functions.pdb
+C:\Erhan_AKARLAR\SANOVEL\_Is_Cozumleri_ve_Yazilim\Source_Codes\20220831\ITS_git\WindowsDeclarationService\bin\Debug\Newtonsoft.Json.xml
+C:\Erhan_AKARLAR\SANOVEL\_Is_Cozumleri_ve_Yazilim\Source_Codes\20220831\ITS_git\WindowsDeclarationService\obj\Debug\WindowsDeclarationService.csproj.AssemblyReference.cache
+C:\Erhan_AKARLAR\SANOVEL\_Is_Cozumleri_ve_Yazilim\Source_Codes\20220831\ITS_git\WindowsDeclarationService\obj\Debug\WindowsDeclarationService.ProjectInstaller.resources
+C:\Erhan_AKARLAR\SANOVEL\_Is_Cozumleri_ve_Yazilim\Source_Codes\20220831\ITS_git\WindowsDeclarationService\obj\Debug\WindowsDeclarationService.Service.resources
+C:\Erhan_AKARLAR\SANOVEL\_Is_Cozumleri_ve_Yazilim\Source_Codes\20220831\ITS_git\WindowsDeclarationService\obj\Debug\WindowsDeclarationService.csproj.GenerateResource.cache
+C:\Erhan_AKARLAR\SANOVEL\_Is_Cozumleri_ve_Yazilim\Source_Codes\20220831\ITS_git\WindowsDeclarationService\obj\Debug\WindowsDeclarationService.csproj.CoreCompileInputs.cache
+C:\Erhan_AKARLAR\SANOVEL\_Is_Cozumleri_ve_Yazilim\Source_Codes\20220831\ITS_git\WindowsDeclarationService\obj\Debug\WindowsDeclarationService.csproj.CopyComplete
+C:\Erhan_AKARLAR\SANOVEL\_Is_Cozumleri_ve_Yazilim\Source_Codes\20220831\ITS_git\WindowsDeclarationService\obj\Debug\WindowsDeclarationService.exe
+C:\Erhan_AKARLAR\SANOVEL\_Is_Cozumleri_ve_Yazilim\Source_Codes\20220831\ITS_git\WindowsDeclarationService\obj\Debug\WindowsDeclarationService.pdb
+C:\Projects\ITS\WindowsDeclarationService\bin\Debug\WindowsDeclarationService.exe.config
+C:\Projects\ITS\WindowsDeclarationService\bin\Debug\WindowsDeclarationService.exe
+C:\Projects\ITS\WindowsDeclarationService\bin\Debug\WindowsDeclarationService.pdb
+C:\Projects\ITS\WindowsDeclarationService\bin\Debug\DeclarationServices.dll
+C:\Projects\ITS\WindowsDeclarationService\bin\Debug\LINQ.dll
+C:\Projects\ITS\WindowsDeclarationService\bin\Debug\Ionic.Zip.dll
+C:\Projects\ITS\WindowsDeclarationService\bin\Debug\Newtonsoft.Json.dll
+C:\Projects\ITS\WindowsDeclarationService\bin\Debug\Functions.dll
+C:\Projects\ITS\WindowsDeclarationService\bin\Debug\DeclarationServices.pdb
+C:\Projects\ITS\WindowsDeclarationService\bin\Debug\DeclarationServices.dll.config
+C:\Projects\ITS\WindowsDeclarationService\bin\Debug\LINQ.pdb
+C:\Projects\ITS\WindowsDeclarationService\bin\Debug\LINQ.dll.config
+C:\Projects\ITS\WindowsDeclarationService\bin\Debug\Newtonsoft.Json.xml
+C:\Projects\ITS\WindowsDeclarationService\bin\Debug\Functions.pdb
+C:\Projects\ITS\WindowsDeclarationService\obj\Debug\WindowsDeclarationService.csproj.AssemblyReference.cache
+C:\Projects\ITS\WindowsDeclarationService\obj\Debug\WindowsDeclarationService.ProjectInstaller.resources
+C:\Projects\ITS\WindowsDeclarationService\obj\Debug\WindowsDeclarationService.Service.resources
+C:\Projects\ITS\WindowsDeclarationService\obj\Debug\WindowsDeclarationService.csproj.GenerateResource.cache
+C:\Projects\ITS\WindowsDeclarationService\obj\Debug\WindowsDeclarationService.csproj.CoreCompileInputs.cache
+C:\Projects\ITS\WindowsDeclarationService\obj\Debug\WindowsDeclarationService.csproj.CopyComplete
+C:\Projects\ITS\WindowsDeclarationService\obj\Debug\WindowsDeclarationService.exe
+C:\Projects\ITS\WindowsDeclarationService\obj\Debug\WindowsDeclarationService.pdb
+C:\ilactakipsistemi\WindowsDeclarationService\bin\Debug\WindowsDeclarationService.exe.config
+C:\ilactakipsistemi\WindowsDeclarationService\bin\Debug\WindowsDeclarationService.exe
+C:\ilactakipsistemi\WindowsDeclarationService\bin\Debug\WindowsDeclarationService.pdb
+C:\ilactakipsistemi\WindowsDeclarationService\bin\Debug\DeclarationServices.dll
+C:\ilactakipsistemi\WindowsDeclarationService\bin\Debug\LINQ.dll
+C:\ilactakipsistemi\WindowsDeclarationService\bin\Debug\Ionic.Zip.dll
+C:\ilactakipsistemi\WindowsDeclarationService\bin\Debug\Newtonsoft.Json.dll
+C:\ilactakipsistemi\WindowsDeclarationService\bin\Debug\Functions.dll
+C:\ilactakipsistemi\WindowsDeclarationService\bin\Debug\DeclarationServices.pdb
+C:\ilactakipsistemi\WindowsDeclarationService\bin\Debug\DeclarationServices.dll.config
+C:\ilactakipsistemi\WindowsDeclarationService\bin\Debug\LINQ.pdb
+C:\ilactakipsistemi\WindowsDeclarationService\bin\Debug\LINQ.dll.config
+C:\ilactakipsistemi\WindowsDeclarationService\bin\Debug\Newtonsoft.Json.xml
+C:\ilactakipsistemi\WindowsDeclarationService\bin\Debug\Functions.pdb
+C:\ilactakipsistemi\WindowsDeclarationService\obj\Debug\WindowsDeclarationService.csproj.AssemblyReference.cache
+C:\ilactakipsistemi\WindowsDeclarationService\obj\Debug\WindowsDeclarationService.ProjectInstaller.resources
+C:\ilactakipsistemi\WindowsDeclarationService\obj\Debug\WindowsDeclarationService.Service.resources
+C:\ilactakipsistemi\WindowsDeclarationService\obj\Debug\WindowsDeclarationService.csproj.GenerateResource.cache
+C:\ilactakipsistemi\WindowsDeclarationService\obj\Debug\WindowsDeclarationService.csproj.CoreCompileInputs.cache
+C:\ilactakipsistemi\WindowsDeclarationService\obj\Debug\WindowsD.83719B4C.Up2Date
+C:\ilactakipsistemi\WindowsDeclarationService\obj\Debug\WindowsDeclarationService.exe
+C:\ilactakipsistemi\WindowsDeclarationService\obj\Debug\WindowsDeclarationService.pdb

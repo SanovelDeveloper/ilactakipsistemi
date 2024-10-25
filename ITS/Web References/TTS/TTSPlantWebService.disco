@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<discovery xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.xmlsoap.org/disco/">
+  <contractRef ref="http://172.16.117.200/TTBOWS2/TTSPlantWebService.asmx?wsdl" docRef="http://172.16.117.200/TTBOWS2/TTSPlantWebService.asmx" xmlns="http://schemas.xmlsoap.org/disco/scl/" />
+  <soap address="http://172.16.117.200/TTBOWS2/TTSPlantWebService.asmx" xmlns:q1="http://www.progamma.com" binding="q1:MainSoap" xmlns="http://schemas.xmlsoap.org/disco/soap/" />
+  <soap address="http://172.16.117.200/TTBOWS2/TTSPlantWebService.asmx" xmlns:q2="http://www.progamma.com" binding="q2:MainSoap12" xmlns="http://schemas.xmlsoap.org/disco/soap/" />
+</discovery>

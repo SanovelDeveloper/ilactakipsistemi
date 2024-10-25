@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsp1_2="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:tns="http://services.reference.its/" xmlns:wsp="http://www.w3.org/ns/ws-policy" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" name="ErrorCode" targetNamespace="http://services.reference.its/" xmlns="http://schemas.xmlsoap.org/wsdl/">
+  <types>
+    <xsd:schema>
+      <xsd:import schemaLocation="http://its.saglik.gov.tr:80/ReferenceServices/ErrorCode?xsd=1" namespace="http://services.reference.its/" />
+    </xsd:schema>
+  </types>
+  <message name="getErrorCodes">
+    <part name="body" element="tns:request" />
+  </message>
+  <message name="getErrorCodesResponse">
+    <part name="body" element="tns:response" />
+  </message>
+  <message name="ReferenceError">
+    <part name="fault" element="tns:referenceError" />
+  </message>
+  <portType name="ErrorCode">
+    <operation name="getErrorCodes">
+      <input wsam:Action="http://services.reference.its/ErrorCode/getErrorCodesRequest" message="tns:getErrorCodes" />
+      <output wsam:Action="http://services.reference.its/ErrorCode/getErrorCodesResponse" message="tns:getErrorCodesResponse" />
+      <fault wsam:Action="http://services.reference.its/ErrorCode/getErrorCodes/Fault/ReferenceError" name="ReferenceError" message="tns:ReferenceError" />
+    </operation>
+  </portType>
+  <binding name="ErrorCodePortBinding" type="tns:ErrorCode">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <operation name="getErrorCodes">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+      <fault name="ReferenceError">
+        <soap:fault use="literal" name="ReferenceError" namespace="" />
+      </fault>
+    </operation>
+  </binding>
+  <service name="ErrorCode">
+    <port name="ErrorCodePort" binding="tns:ErrorCodePortBinding">
+      <soap:address location="http://its.saglik.gov.tr:80/ReferenceServices/ErrorCode" />
+    </port>
+  </service>
+</definitions>

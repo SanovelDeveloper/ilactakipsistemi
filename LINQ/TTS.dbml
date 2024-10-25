@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="TTS_Plant_230" Class="TTSDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=172.16.117.201\MSSQLSRV2K8;Initial Catalog=TTS_Plant_230;Persist Security Info=True;User ID=sa;Trust Server Certificate=True" SettingsObjectName="LINQ.Properties.Settings" SettingsPropertyName="TTS_Plant_230ConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.TB034_WH_OUT_ORDERS" Member="TB034_WH_OUT_ORDERs">
+    <Type Name="TB034_WH_OUT_ORDER">
+      <Column Name="TB034_OUT_ORDER_ID" Type="System.String" DbType="VarChar(20) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="TB034_TYPE" Type="System.Char" DbType="Char(1) NOT NULL" CanBeNull="false" />
+      <Column Name="TB034_DELIVERY_TS" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="TB034_KIND" Type="System.String" DbType="VarChar(20) NOT NULL" CanBeNull="false" />
+      <Column Name="TB034_CUSTOMER_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="TB034_CARRIER" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="TB034_CARRIER_TRUCK" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="TB034_FREE_TEXT1" Type="System.String" DbType="VarChar(80)" CanBeNull="true" />
+      <Column Name="TB034_FREE_TEXT2" Type="System.String" DbType="VarChar(80)" CanBeNull="true" />
+      <Column Name="TB034_FREE_TEXT3" Type="System.String" DbType="VarChar(80)" CanBeNull="true" />
+      <Column Name="TB034_STATUS" Type="System.Char" DbType="Char(1) NOT NULL" CanBeNull="false" />
+      <Column Name="TB034_SCHED_TIMESTAMP" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="TB034_OPEN_TIMESTAMP" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="TB034_MANAGED_TS" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="TB034_PAUSE_TIMESTAMP" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="TB034_COMPLETED_TS" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="TB034_CLOSED_TIMESTAMP" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="TB034_RETURN_TIMESTAMP" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="TB034_SSCC_EXT_DIGIT" Type="System.Char" DbType="Char(1) NOT NULL" CanBeNull="false" />
+      <Column Name="TB034_SSCC_GLN_PREFIX" Type="System.String" DbType="Char(7) NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.TB135_WH_OUTORDERS_BOM" Member="TB135_WH_OUTORDERS_BOMs">
+    <Type Name="TB135_WH_OUTORDERS_BOM">
+      <Column Name="TB135_OUT_ORDER_ID" Type="System.String" DbType="VarChar(20) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="TB135_GTIN" Type="System.String" DbType="VarChar(20) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="TB135_TARGET_QTY" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="TB135_QUANTITY" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="TB135_COMPLETE" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Function Name="dbo.sp_wms_MoveOrderToOldWarehouseDB" Method="sp_wms_MoveOrderToOldWarehouseDB">
+    <Parameter Name="OrderId" Parameter="orderId" Type="System.String" DbType="VarChar(20)" />
+    <ElementType Name="sp_wms_MoveOrderToOldWarehouseDBResult">
+      <Column Name="Column1" Type="System.String" DbType="VarChar(40)" CanBeNull="true" />
+    </ElementType>
+  </Function>
+</Database>

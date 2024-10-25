@@ -1,0 +1,2 @@
+C:\Projects\ITS\DeclarationServices\obj\Release\DeclarationServices.csproj.AssemblyReference.cache
+C:\Projects\ITS\DeclarationServices\obj\Release\DeclarationServices.csproj.CoreCompileInputs.cache

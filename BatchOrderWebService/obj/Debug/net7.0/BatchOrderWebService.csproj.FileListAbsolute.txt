@@ -1,0 +1,12 @@
+C:\Projects\ITS\BatchOrderWebService\obj\Debug\net7.0\BatchOrderWebService.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\ITS\BatchOrderWebService\obj\Debug\net7.0\BatchOrderWebService.AssemblyInfoInputs.cache
+C:\Projects\ITS\BatchOrderWebService\obj\Debug\net7.0\BatchOrderWebService.AssemblyInfo.cs
+C:\Projects\ITS\BatchOrderWebService\obj\Debug\net7.0\BatchOrderWebService.csproj.CoreCompileInputs.cache
+C:\Projects\ITS\BatchOrderWebService\obj\Debug\net7.0\BatchOrderWebService.csproj.AssemblyReference.cache
+C:\Projects\ITS\BatchOrderWebService\bin\Debug\net7.0\BatchOrderWebService.deps.json
+C:\Projects\ITS\BatchOrderWebService\bin\Debug\net7.0\BatchOrderWebService.dll
+C:\Projects\ITS\BatchOrderWebService\bin\Debug\net7.0\BatchOrderWebService.pdb
+C:\Projects\ITS\BatchOrderWebService\obj\Debug\net7.0\BatchOrderWebService.dll
+C:\Projects\ITS\BatchOrderWebService\obj\Debug\net7.0\refint\BatchOrderWebService.dll
+C:\Projects\ITS\BatchOrderWebService\obj\Debug\net7.0\BatchOrderWebService.pdb
+C:\Projects\ITS\BatchOrderWebService\obj\Debug\net7.0\ref\BatchOrderWebService.dll

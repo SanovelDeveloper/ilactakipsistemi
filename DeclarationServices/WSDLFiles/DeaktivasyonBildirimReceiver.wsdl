@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:tns="http://its.iegm.gov.tr/bildirim/BR/v1/Deaktivasyon" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://schemas.xmlsoap.org/wsdl/" name="DeaktivasyonBildirimReceiver" targetNamespace="http://its.iegm.gov.tr/bildirim/BR/v1/Deaktivasyon" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://its.iegm.gov.tr/bildirim/BR/v1/Deaktivasyon">
+      <xsd:complexType name="DeaktivasyonBildirimCevapType">
+        <xsd:sequence>
+          <xsd:element name="BILDIRIMID" type="xsd:string" />
+          <xsd:element name="URUNLER">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element minOccurs="1" maxOccurs="unbounded" name="URUNDURUM">
+                  <xsd:complexType>
+                    <xsd:sequence>
+                      <xsd:element name="GTIN">
+                        <xsd:simpleType>
+                          <xsd:restriction base="xsd:string">
+                            <xsd:length value="14" />
+                            <xsd:pattern value="[0-9]*" />
+                          </xsd:restriction>
+                        </xsd:simpleType>
+                      </xsd:element>
+                      <xsd:element name="SN">
+                        <xsd:simpleType>
+                          <xsd:restriction base="xsd:string">
+                            <xsd:pattern value="[A-Z0-9]*" />
+                            <xsd:minLength value="1" />
+                            <xsd:maxLength value="20" />
+                            <xsd:whiteSpace value="collapse" />
+                          </xsd:restriction>
+                        </xsd:simpleType>
+                      </xsd:element>
+                      <xsd:element name="UC">
+                        <xsd:simpleType>
+                          <xsd:restriction base="xsd:string">
+                            <xsd:length value="5" />
+                          </xsd:restriction>
+                        </xsd:simpleType>
+                      </xsd:element>
+                    </xsd:sequence>
+                  </xsd:complexType>
+                </xsd:element>
+              </xsd:sequence>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="BildirimHataType">
+        <xsd:sequence>
+          <xsd:element name="FC">
+            <xsd:simpleType>
+              <xsd:restriction base="xsd:string">
+                <xsd:length value="5" />
+              </xsd:restriction>
+            </xsd:simpleType>
+          </xsd:element>
+          <xsd:element name="FM" type="xsd:string" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="DeaktivasyonBildirimType">
+        <xsd:sequence>
+          <xsd:element name="DT">
+            <xsd:simpleType>
+              <xsd:restriction base="xsd:string">
+                <xsd:pattern value="[D]" />
+              </xsd:restriction>
+            </xsd:simpleType>
+          </xsd:element>
+          <xsd:element name="FR">
+            <xsd:simpleType>
+              <xsd:restriction base="xsd:string">
+                <xsd:pattern value="[0-9]*" />
+                <xsd:length value="13" />
+              </xsd:restriction>
+            </xsd:simpleType>
+          </xsd:element>
+          <xsd:element name="DS">
+            <xsd:simpleType>
+              <xsd:restriction base="xsd:string">
+                <xsd:length value="2" />
+              </xsd:restriction>
+            </xsd:simpleType>
+          </xsd:element>
+          <xsd:element name="ISACIKLAMA" type="xsd:string" />
+          <xsd:element name="BELGE" nillable="true">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="DD" type="xsd:date" />
+                <xsd:element name="DN" nillable="true">
+                  <xsd:simpleType>
+                    <xsd:restriction base="xsd:string">
+                      <xsd:pattern value="[A-Z0-9]*" />
+                      <xsd:minLength value="1" />
+                      <xsd:maxLength value="20" />
+                    </xsd:restriction>
+                  </xsd:simpleType>
+                </xsd:element>
+              </xsd:sequence>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="URUNLER">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element minOccurs="1" maxOccurs="unbounded" name="URUN">
+                  <xsd:complexType>
+                    <xsd:sequence>
+                      <xsd:element name="GTIN">
+                        <xsd:simpleType>
+                          <xsd:restriction base="xsd:string">
+                            <xsd:length value="14" />
+                            <xsd:pattern value="[0-9]*" />
+                          </xsd:restriction>
+                        </xsd:simpleType>
+                      </xsd:element>
+                      <xsd:element name="BN">
+                        <xsd:simpleType>
+                          <xsd:restriction base="xsd:string">
+                            <xsd:pattern value="[A-Z0-9]*" />
+                            <xsd:maxLength value="20" />
+                          </xsd:restriction>
+                        </xsd:simpleType>
+                      </xsd:element>
+                      <xsd:element name="SN">
+                        <xsd:simpleType>
+                          <xsd:restriction base="xsd:string">
+                            <xsd:pattern value="[A-Z0-9]*" />
+                            <xsd:minLength value="1" />
+                            <xsd:maxLength value="20" />
+                            <xsd:whiteSpace value="collapse" />
+                          </xsd:restriction>
+                        </xsd:simpleType>
+                      </xsd:element>
+                      <xsd:element name="XD" type="xsd:date" />
+                    </xsd:sequence>
+                  </xsd:complexType>
+                </xsd:element>
+              </xsd:sequence>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:element name="BildirimHata" type="tns:BildirimHataType" />
+      <xsd:element name="DeaktivasyonBildirimCevap" type="tns:DeaktivasyonBildirimCevapType" />
+      <xsd:element name="DeaktivasyonBildirim" type="tns:DeaktivasyonBildirimType" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="DeaktivasyonBildirMsg">
+    <wsdl:part name="body" element="tns:DeaktivasyonBildirim" />
+  </wsdl:message>
+  <wsdl:message name="DeaktivasyonCevapMsg">
+    <wsdl:part name="body" element="tns:DeaktivasyonBildirimCevap" />
+  </wsdl:message>
+  <wsdl:message name="DeaktivasyonHataFault">
+    <wsdl:part name="fault" element="tns:BildirimHata" />
+  </wsdl:message>
+  <wsdl:portType name="DeaktivasyonBildirimReceiver">
+    <wsdl:operation name="DeaktivasyonBildir">
+      <wsdl:input name="input1" message="tns:DeaktivasyonBildirMsg" />
+      <wsdl:output name="output1" message="tns:DeaktivasyonCevapMsg" />
+      <wsdl:fault name="fault1" message="tns:DeaktivasyonHataFault" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="DeaktivasyonBildirimReceiverBinding" type="tns:DeaktivasyonBildirimReceiver">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="DeaktivasyonBildir">
+      <soap:operation soapAction="http://its.iegm.gov.tr/bildirim/BildirimReceiver/v1/DeaktivasyonBildirRequest" style="document" />
+      <wsdl:input name="input1">
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="output1">
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="fault1">
+        <soap:fault use="literal" name="fault1" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="DeaktivasyonBildirimReceiverService">
+    <wsdl:port name="DeaktivasyonBildirimReceiverBindingPort" binding="tns:DeaktivasyonBildirimReceiverBinding">
+      <soap:address location="http://212.174.130.240:8080/DeaktivasyonBildirim/DeaktivasyonBildirimReceiverService" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

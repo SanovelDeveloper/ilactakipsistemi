@@ -1,0 +1,58 @@
+D:\All_Projects\Visual_Studio\ITS_git - Copy\LINQ\bin\Debug\LINQ.dll.config
+D:\All_Projects\Visual_Studio\ITS_git - Copy\LINQ\bin\Debug\LINQ.dll
+D:\All_Projects\Visual_Studio\ITS_git - Copy\LINQ\bin\Debug\LINQ.pdb
+D:\All_Projects\Visual_Studio\ITS_git - Copy\LINQ\obj\Debug\LINQ.csprojAssemblyReference.cache
+D:\All_Projects\Visual_Studio\ITS_git - Copy\LINQ\obj\Debug\LINQ.dll
+D:\All_Projects\Visual_Studio\ITS_git - Copy\LINQ\obj\Debug\LINQ.pdb
+D:\All_Projects\Visual_Studio\ITS_git\LINQ\bin\Debug\LINQ.dll.config
+D:\All_Projects\Visual_Studio\ITS_git\LINQ\bin\Debug\LINQ.dll
+D:\All_Projects\Visual_Studio\ITS_git\LINQ\bin\Debug\LINQ.pdb
+D:\All_Projects\Visual_Studio\ITS_git\LINQ\obj\Debug\LINQ.dll
+D:\All_Projects\Visual_Studio\ITS_git\LINQ\obj\Debug\LINQ.pdb
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\erhan abi son git\ITS_git\LINQ\bin\Debug\LINQ.dll.config
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\erhan abi son git\ITS_git\LINQ\bin\Debug\LINQ.dll
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\erhan abi son git\ITS_git\LINQ\bin\Debug\LINQ.pdb
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\erhan abi son git\ITS_git\LINQ\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\erhan abi son git\ITS_git\LINQ\obj\Debug\LINQ.dll
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\erhan abi son git\ITS_git\LINQ\obj\Debug\LINQ.pdb
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\New folder (10)\ITS_git\LINQ\bin\Debug\LINQ.dll.config
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\New folder (10)\ITS_git\LINQ\bin\Debug\LINQ.dll
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\New folder (10)\ITS_git\LINQ\bin\Debug\LINQ.pdb
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\New folder (10)\ITS_git\LINQ\obj\Debug\LINQ.csproj.AssemblyReference.cache
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\New folder (10)\ITS_git\LINQ\obj\Debug\LINQ.csproj.CoreCompileInputs.cache
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\New folder (10)\ITS_git\LINQ\obj\Debug\LINQ.dll
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\New folder (10)\ITS_git\LINQ\obj\Debug\LINQ.pdb
+C:\Erhan_AKARLAR\SANOVEL\_Is_Cozumleri_ve_Yazilim\Source_Codes\20220831\ITS_git\LINQ\bin\Debug\LINQ.dll.config
+C:\Erhan_AKARLAR\SANOVEL\_Is_Cozumleri_ve_Yazilim\Source_Codes\20220831\ITS_git\LINQ\bin\Debug\LINQ.dll
+C:\Erhan_AKARLAR\SANOVEL\_Is_Cozumleri_ve_Yazilim\Source_Codes\20220831\ITS_git\LINQ\bin\Debug\LINQ.pdb
+C:\Erhan_AKARLAR\SANOVEL\_Is_Cozumleri_ve_Yazilim\Source_Codes\20220831\ITS_git\LINQ\obj\Debug\LINQ.csproj.CoreCompileInputs.cache
+C:\Erhan_AKARLAR\SANOVEL\_Is_Cozumleri_ve_Yazilim\Source_Codes\20220831\ITS_git\LINQ\obj\Debug\LINQ.dll
+C:\Erhan_AKARLAR\SANOVEL\_Is_Cozumleri_ve_Yazilim\Source_Codes\20220831\ITS_git\LINQ\obj\Debug\LINQ.pdb
+C:\Erhan_AKARLAR\SANOVEL\_Is_Cozumleri_ve_Yazilim\Source_Codes\20220831\ITS_git\LINQ\obj\Debug\LINQ.csproj.AssemblyReference.cache
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\ITS Son Version 01.09.2022\20220831\ITS_git\LINQ\bin\Debug\LINQ.dll.config
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\ITS Son Version 01.09.2022\20220831\ITS_git\LINQ\bin\Debug\LINQ.dll
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\ITS Son Version 01.09.2022\20220831\ITS_git\LINQ\bin\Debug\LINQ.pdb
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\ITS Son Version 01.09.2022\20220831\ITS_git\LINQ\obj\Debug\LINQ.csproj.CoreCompileInputs.cache
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\ITS Son Version 01.09.2022\20220831\ITS_git\LINQ\obj\Debug\LINQ.dll
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\ITS Son Version 01.09.2022\20220831\ITS_git\LINQ\obj\Debug\LINQ.pdb
+C:\Users\seldaberker\Desktop\Desktop\ITS Son Version 01.09.2022\20220831\ITS_git\LINQ\bin\Debug\LINQ.dll.config
+C:\Users\seldaberker\Desktop\Desktop\ITS Son Version 01.09.2022\20220831\ITS_git\LINQ\bin\Debug\LINQ.dll
+C:\Users\seldaberker\Desktop\Desktop\ITS Son Version 01.09.2022\20220831\ITS_git\LINQ\bin\Debug\LINQ.pdb
+C:\Users\seldaberker\Desktop\Desktop\ITS Son Version 01.09.2022\20220831\ITS_git\LINQ\obj\Debug\LINQ.csproj.AssemblyReference.cache
+C:\Users\seldaberker\Desktop\Desktop\ITS Son Version 01.09.2022\20220831\ITS_git\LINQ\obj\Debug\LINQ.csproj.CoreCompileInputs.cache
+C:\Users\seldaberker\Desktop\Desktop\ITS Son Version 01.09.2022\20220831\ITS_git\LINQ\obj\Debug\LINQ.dll
+C:\Users\seldaberker\Desktop\Desktop\ITS Son Version 01.09.2022\20220831\ITS_git\LINQ\obj\Debug\LINQ.pdb
+C:\Projects\ITS\LINQ\bin\Debug\LINQ.dll.config
+C:\Projects\ITS\LINQ\bin\Debug\LINQ.dll
+C:\Projects\ITS\LINQ\bin\Debug\LINQ.pdb
+C:\Projects\ITS\LINQ\obj\Debug\LINQ.csproj.AssemblyReference.cache
+C:\Projects\ITS\LINQ\obj\Debug\LINQ.csproj.CoreCompileInputs.cache
+C:\Projects\ITS\LINQ\obj\Debug\LINQ.dll
+C:\Projects\ITS\LINQ\obj\Debug\LINQ.pdb
+C:\ilactakipsistemi\LINQ\bin\Debug\LINQ.dll.config
+C:\ilactakipsistemi\LINQ\bin\Debug\LINQ.dll
+C:\ilactakipsistemi\LINQ\bin\Debug\LINQ.pdb
+C:\ilactakipsistemi\LINQ\obj\Debug\LINQ.csproj.AssemblyReference.cache
+C:\ilactakipsistemi\LINQ\obj\Debug\LINQ.csproj.CoreCompileInputs.cache
+C:\ilactakipsistemi\LINQ\obj\Debug\LINQ.dll
+C:\ilactakipsistemi\LINQ\obj\Debug\LINQ.pdb

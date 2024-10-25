@@ -1,0 +1,16 @@
+C:\Projects\ITS\ITS\obj\Release\ITS.csproj.AssemblyReference.cache
+C:\Projects\ITS\ITS\obj\Release\ITS.AmbalajGecerlilikDurumuDegistir.resources
+C:\Projects\ITS\ITS\obj\Release\ITS.BildirimDetayi.resources
+C:\Projects\ITS\ITS\obj\Release\ITS.EczaneyeSatisKaydiOlusturma.resources
+C:\Projects\ITS\ITS\obj\Release\ITS.FasonBildirim.resources
+C:\Projects\ITS\ITS\obj\Release\ITS.GrupIciSatisAlisIslemleri.resources
+C:\Projects\ITS\ITS\obj\Release\ITS.KolileriYerDegistirme.resources
+C:\Projects\ITS\ITS\obj\Release\ITS.Properties.Resources.resources
+C:\Projects\ITS\ITS\obj\Release\ITS.SatisAktarimSorunlari.resources
+C:\Projects\ITS\ITS\obj\Release\ITS.SatisDetayinaAmbalajEkleme.resources
+C:\Projects\ITS\ITS\obj\Release\ITS.SatisVerisiOlusturma.resources
+C:\Projects\ITS\ITS\obj\Release\ITS.UretimBildirimRaporu.resources
+C:\Projects\ITS\ITS\obj\Release\ITS.VeriTasima.resources
+C:\Projects\ITS\ITS\obj\Release\ITS.WaitForm1.resources
+C:\Projects\ITS\ITS\obj\Release\ITS.XMLDosyasiGoster.resources
+C:\Projects\ITS\ITS\obj\Release\ITS.csproj.GenerateResource.cache

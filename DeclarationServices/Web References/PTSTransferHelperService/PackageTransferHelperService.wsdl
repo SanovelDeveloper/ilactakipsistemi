@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<definitions xmlns:tns="http://its.iegm.gov.tr/pts/helper/receiveTrasnferDetails" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="PackageTransferHelperService" targetNamespace="http://its.iegm.gov.tr/pts/helper/receiveTrasnferDetails" xmlns="http://schemas.xmlsoap.org/wsdl/">
+  <types>
+    <xsd:schema targetNamespace="http://its.iegm.gov.tr/pts/helper/receiveTrasnferDetails">
+      <xsd:annotation>
+        <xsd:documentation xml:lang="TR">
+                    Paydaşa ait transfer detay bilgilerini veren Servis Şeması
+                    Versiyon: pts-20110831-1
+                    Copyright IEGM. all rights reserved.
+                </xsd:documentation>
+      </xsd:annotation>
+      <xsd:complexType name="receiveTransferDetailsParametersType">
+        <xsd:sequence>
+          <xsd:element name="sourceGLN">
+            <xsd:simpleType>
+              <xsd:restriction base="xsd:string">
+                <xsd:length value="13" />
+                <xsd:pattern value="[0-9]*" />
+              </xsd:restriction>
+            </xsd:simpleType>
+          </xsd:element>
+          <xsd:element name="destinationGLN">
+            <xsd:simpleType>
+              <xsd:restriction base="xsd:string">
+                <xsd:length value="13" />
+                <xsd:pattern value="[0-9]*" />
+              </xsd:restriction>
+            </xsd:simpleType>
+          </xsd:element>
+          <xsd:element default="false" name="bringNotReceivedTransferInfo" type="xsd:boolean" />
+          <xsd:element name="startDate" type="xsd:date" />
+          <xsd:element name="endDate" type="xsd:date" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="receiveTransferDetailsResponseType">
+        <xsd:sequence>
+          <xsd:element name="transferDetails">
+            <xsd:complexType>
+              <xsd:sequence minOccurs="0" maxOccurs="unbounded">
+                <xsd:element name="transferDetail">
+                  <xsd:complexType>
+                    <xsd:sequence>
+                      <xsd:element name="sourceGLN" type="xsd:string" />
+                      <xsd:element name="destinationGLN" type="xsd:string" />
+                      <xsd:element name="transferId" type="xsd:long" />
+                      <xsd:element name="transferDate" type="xsd:dateTime" />
+                    </xsd:sequence>
+                  </xsd:complexType>
+                </xsd:element>
+              </xsd:sequence>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="receiveTransferDetailsErrorType">
+        <xsd:sequence>
+          <xsd:element name="faultCode">
+            <xsd:simpleType>
+              <xsd:restriction base="xsd:string">
+                <xsd:length value="5" />
+              </xsd:restriction>
+            </xsd:simpleType>
+          </xsd:element>
+          <xsd:element name="faultMessage" type="xsd:string" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:element name="receiveTransferDetailsError" type="tns:receiveTransferDetailsErrorType" />
+      <xsd:element name="receiveTransferDetailsParameters" type="tns:receiveTransferDetailsParametersType" />
+      <xsd:element name="receiveTransferDetailsResponse" type="tns:receiveTransferDetailsResponseType" />
+    </xsd:schema>
+  </types>
+  <message name="receiveTransferDetailsMessage">
+    <part name="body" element="tns:receiveTransferDetailsParameters" />
+  </message>
+  <message name="receiveTransferDetailsResponseMessage">
+    <part name="body" element="tns:receiveTransferDetailsResponse" />
+  </message>
+  <message name="receiveTransferDetailsFaultMessage">
+    <part name="fault" element="tns:receiveTransferDetailsError" />
+  </message>
+  <portType name="PackageTransferHelperWS">
+    <operation name="receiveTransferDetails">
+      <input name="input" message="tns:receiveTransferDetailsMessage" />
+      <output name="output" message="tns:receiveTransferDetailsResponseMessage" />
+      <fault name="fault" message="tns:receiveTransferDetailsFaultMessage" />
+    </operation>
+  </portType>
+  <binding name="PackageTransferHelperWSPortBinding" type="tns:PackageTransferHelperWS">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <operation name="receiveTransferDetails">
+      <soap:operation soapAction="" />
+      <input name="input">
+        <soap:body use="literal" />
+      </input>
+      <output name="output">
+        <soap:body use="literal" />
+      </output>
+      <fault name="fault">
+        <soap:fault use="literal" name="fault" namespace="" />
+      </fault>
+    </operation>
+  </binding>
+  <service name="PackageTransferHelperWebService">
+    <port name="PackageTransferHelperWSPort" binding="tns:PackageTransferHelperWSPortBinding">
+      <soap:address location="http://pts.saglik.gov.tr:80/PTSHelper/PackageTransferHelperWebService" />
+    </port>
+  </service>
+</definitions>

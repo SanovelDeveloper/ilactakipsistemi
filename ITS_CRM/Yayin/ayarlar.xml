@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ayarlar>
+  <hata_mesajlari>
+    <hata_mesaji>
+      <mesaj_tipi>UC</mesaj_tipi>
+      <mesaj_kodu>00000</mesaj_kodu>
+      <mesaj>Ambalaj numarası kabul edildi.</mesaj>
+    </hata_mesaji>
+    <hata_mesaji>
+      <mesaj_tipi>UC</mesaj_tipi>
+      <mesaj_kodu>10007</mesaj_kodu>
+      <mesaj>Bu Seri Numarası Zaten Kayıtlı!</mesaj>
+    </hata_mesaji>
+    <hata_mesaji>
+      <mesaj_tipi>UC</mesaj_tipi>
+      <mesaj_kodu>10008</mesaj_kodu>
+      <mesaj>Tanımlanmamıs Kayıt Hatası.</mesaj>
+    </hata_mesaji>
+    <hata_mesaji>
+      <mesaj_tipi>UC</mesaj_tipi>
+      <mesaj_kodu>10201</mesaj_kodu>
+      <mesaj>Belirtilen Ürün Sistemimizde Kayıtlı Değildir!</mesaj>
+    </hata_mesaji>
+    <hata_mesaji>
+      <mesaj_tipi>UC</mesaj_tipi>
+      <mesaj_kodu>10202</mesaj_kodu>
+      <mesaj>Ürünün Son Kullanma Tarihi Geçmistir. (Hastaya verilemez.)</mesaj>
+    </hata_mesaji>
+    <hata_mesaji>
+      <mesaj_tipi>UC</mesaj_tipi>
+      <mesaj_kodu>10203</mesaj_kodu>
+      <mesaj>Ürün Bilgileri Tutarsız.</mesaj>
+    </hata_mesaji>
+    <hata_mesaji>
+      <mesaj_tipi>UC</mesaj_tipi>
+      <mesaj_kodu>10204</mesaj_kodu>
+      <mesaj>Belirtilen Ürün Önceden Satılmıstır.</mesaj>
+    </hata_mesaji>
+    <hata_mesaji>
+      <mesaj_tipi>UC</mesaj_tipi>
+      <mesaj_kodu>10205</mesaj_kodu>
+      <mesaj>Bu Ürünün Satısı Yasaklanmıstır.</mesaj>
+    </hata_mesaji>
+    <hata_mesaji>
+      <mesaj_tipi>UC</mesaj_tipi>
+      <mesaj_kodu>10206</mesaj_kodu>
+      <mesaj>Veritabanı Kayıt Hatası.</mesaj>
+    </hata_mesaji>
+    <hata_mesaji>
+      <mesaj_tipi>UC</mesaj_tipi>
+      <mesaj_kodu>10207</mesaj_kodu>
+      <mesaj>Bu Ürün Önceden İhraç Edilmistir.</mesaj>
+    </hata_mesaji>
+    <hata_mesaji>
+      <mesaj_tipi>UC</mesaj_tipi>
+      <mesaj_kodu>10209</mesaj_kodu>
+      <mesaj>Ürün Su Anda Baska Bir Eczane Stokunda Görünüyor.</mesaj>
+    </hata_mesaji>
+    <hata_mesaji>
+      <mesaj_tipi>UC</mesaj_tipi>
+      <mesaj_kodu>10210</mesaj_kodu>
+      <mesaj>Ürün Stokunuzda Görünüyor.</mesaj>
+    </hata_mesaji>
+    <hata_mesaji>
+      <mesaj_tipi>UC</mesaj_tipi>
+      <mesaj_kodu>10211</mesaj_kodu>
+      <mesaj>Ürün Stokunuzda Görünmüyor!</mesaj>
+    </hata_mesaji>
+    <hata_mesaji>
+      <mesaj_tipi>UC</mesaj_tipi>
+      <mesaj_kodu>10219</mesaj_kodu>
+      <mesaj>Belirtilen Ürün Tarafınızdan Satılmamıstır.</mesaj>
+    </hata_mesaji>
+    <hata_mesaji>
+      <mesaj_tipi>UC</mesaj_tipi>
+      <mesaj_kodu>10220</mesaj_kodu>
+      <mesaj>Ürün Geri Ödeme Kurumuna Satılmıstır. Satısın Reçete Bazlı İptal Edilmesi Gerekir.
+      </mesaj>
+    </hata_mesaji>
+    <hata_mesaji>
+      <mesaj_tipi>UC</mesaj_tipi>
+      <mesaj_kodu>10224</mesaj_kodu>
+      <mesaj>Ürün Eczane Tarafından Satılmıstır.</mesaj>
+    </hata_mesaji>
+    <hata_mesaji>
+      <mesaj_tipi>UC</mesaj_tipi>
+      <mesaj_kodu>11032</mesaj_kodu>
+      <mesaj>Sıra Numarası Formatı Geçersiz.</mesaj>
+    </hata_mesaji>
+    <hata_mesaji>
+      <mesaj_tipi>UC</mesaj_tipi>
+      <mesaj_kodu>11035</mesaj_kodu>
+      <mesaj>Ürüne Ait Son Kullanım Tarihi (XD) Formatı Uyumsuz.</mesaj>
+    </hata_mesaji>
+    <hata_mesaji>
+      <mesaj_tipi>UC</mesaj_tipi>
+      <mesaj_kodu>10036</mesaj_kodu>
+      <mesaj>Ürüne Ait Parti Numarası (BN) Formatı Uyumsuz.</mesaj>
+    </hata_mesaji>
+    <hata_mesaji>
+      <mesaj_tipi>UC</mesaj_tipi>
+      <mesaj_kodu>11037</mesaj_kodu>
+      <mesaj>Ürüne ait GTIN numarası Formatı Uyumsuz.</mesaj>
+    </hata_mesaji>
+  </hata_mesajlari>  
+</ayarlar>

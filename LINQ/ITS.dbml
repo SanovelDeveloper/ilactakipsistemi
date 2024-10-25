@@ -1,0 +1,1106 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="ITS" Class="ITSDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=172.16.110.55;Initial Catalog=ITS;Persist Security Info=True;User ID=ITS_USER;Encrypt=False" SettingsObjectName="LINQ.Properties.Settings" SettingsPropertyName="ITSConnectionString2" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.Global_Settings" Member="Global_Settings">
+    <Type Name="Global_Setting">
+      <Column Name="set_id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="set_environment" Type="System.Char" DbType="Char(1) NOT NULL" CanBeNull="false" />
+      <Column Name="set_setting_name" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="set_setting_variable" Type="System.String" DbType="NVarChar(250) NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Line_List" Member="Line_Lists">
+    <Type Name="Line_List">
+      <Column Name="lin_id" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="lin_description" Type="System.String" DbType="VarChar(30) NOT NULL" CanBeNull="false" />
+      <Column Name="lin_parent_lin_id" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="lin_type_id" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="lin_phase" Type="System.Byte" DbType="TinyInt" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Production_Order_Insert_Settings" Member="Production_Order_Insert_Settings">
+    <Type Name="Production_Order_Insert_Setting">
+      <Column Name="pos_id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="pos_min" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="pos_max" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="pos_parameter" Type="System.Decimal" DbType="Decimal(8,5) NOT NULL" CanBeNull="false" />
+      <Column Name="pos_last_updated_usr_id" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="pos_last_updated_datetime" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.vAccount_Master" Member="vAccount_Masters">
+    <Type Name="vAccount_Master">
+      <Column Name="amr_id" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="amr_account_code" Type="System.String" DbType="VarChar(12)" CanBeNull="true" />
+      <Column Name="amr_account_name" Type="System.String" DbType="NVarChar(4000)" CanBeNull="true" />
+      <Column Name="amr_gln_number" Type="System.String" DbType="Char(13)" CanBeNull="true" />
+      <Column Name="amr_branch_gln_number" Type="System.String" DbType="Char(13)" CanBeNull="true" />
+      <Column Name="account_name" Type="System.String" DbType="NVarChar(4000)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Global_Error_List" Member="Global_Error_Lists">
+    <Type Name="Global_Error_List">
+      <Column Name="erl_id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="erl_error_type" Type="System.String" DbType="Char(2) NOT NULL" CanBeNull="false" />
+      <Column Name="erl_error_code" Type="System.String" DbType="Char(5) NOT NULL" CanBeNull="false" />
+      <Column Name="erl_error_message" Type="System.String" DbType="NVarChar(250) NOT NULL" CanBeNull="false" />
+      <Column Name="erl_error_description" Type="System.String" DbType="NVarChar(250)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Properties" Member="Properties">
+    <Type Name="Property">
+      <Column Name="pro_name" Type="System.String" DbType="VarChar(20) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="pro_value" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Scheduled_Declaration" Member="Scheduled_Declarations">
+    <Type Name="Scheduled_Declaration">
+      <Column Name="sch_id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="sch_order_id" Type="System.String" DbType="VarChar(20) NOT NULL" CanBeNull="false" />
+      <Column Name="sch_type" Type="System.Char" DbType="Char(1) NOT NULL" CanBeNull="false" />
+      <Column Name="sch_scheduled_time" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="sch_status" Type="System.Char" DbType="Char(1) NOT NULL" CanBeNull="false" />
+      <Column Name="sch_declaration_time" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="sch_created_time" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="sch_created_usr_id" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="sch_seller_gln" Type="System.String" DbType="VarChar(13)" CanBeNull="true" />
+      <Column Name="sch_buyer_gln" Type="System.String" DbType="VarChar(13)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Function Name="dbo.Error_Insert" Method="ErrorInsert">
+    <Parameter Name="pmm_id" Type="System.Int32" DbType="Int" />
+    <Parameter Name="error_message" Type="System.String" DbType="VarChar(100)" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.Shipping_Order_Update_Transfer_Id" Method="Shipping_Order_Update_Transfer_Id">
+    <Parameter Name="order_number" Type="System.String" DbType="NVarChar(20)" />
+    <Parameter Name="pts_transfer_id" Type="System.Int64" DbType="BigInt" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.Scheduled_Declaration_Browse" Method="Scheduled_Declaration_Browse">
+    <ElementType Name="Scheduled_Declaration_BrowseResult">
+      <Column Name="sch_id" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="sch_order_id" Type="System.String" DbType="VarChar(20) NOT NULL" CanBeNull="false" />
+      <Column Name="sch_type" Type="System.Char" DbType="Char(1) NOT NULL" CanBeNull="false" />
+      <Column Name="sch_scheduled_time" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="sch_status" Type="System.Char" DbType="Char(1) NOT NULL" CanBeNull="false" />
+      <Column Name="sch_declaration_time" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="sch_created_time" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="sch_created_usr_id" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.Scheduled_Declaration_Delete" Method="Scheduled_Declaration_Delete">
+    <Parameter Name="sch_order_id" Type="System.String" DbType="VarChar(20)" />
+    <Parameter Name="sch_type" Type="System.Char" DbType="Char(1)" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.Shipping_Order_Detail_SSCC_Browse" Method="Shipping_Order_Detail_SSCC_Browse">
+    <Parameter Name="order_number" Type="System.String" DbType="NVarChar(20)" />
+    <ElementType Name="Shipping_Order_Detail_SSCC_BrowseResult">
+      <Column Name="parent_sscc" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="package_sscc" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.Shipping_Order_Detail_Packages_Browse" Method="Shipping_Order_Detail_Packages_Browse">
+    <Parameter Name="order_number" Type="System.String" DbType="NVarChar(20)" />
+    <ElementType Name="Shipping_Order_Detail_Packages_BrowseResult">
+      <Column Name="parent_sscc" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="package_sscc" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="gtin" Type="System.String" DbType="VarChar(14)" CanBeNull="true" />
+      <Column Name="batch_no" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="expiry_date" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="package_code" Type="System.String" DbType="VarChar(32)" CanBeNull="true" />
+      <Column Name="package_id" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="[level]" Member="level" Type="System.Byte" DbType="TinyInt" CanBeNull="true" />
+      <Column Name="mmr_item_no" Type="System.String" DbType="VarChar(35) NOT NULL" CanBeNull="false" />
+      <Column Name="mmr_item_name" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="item_name" Type="System.String" DbType="VarChar(88) NOT NULL" CanBeNull="false" />
+      <Column Name="expiry_date_" Type="System.DateTime" DbType="SmallDateTime" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.Shipping_Order_Search" Method="Shipping_Order_Search">
+    <Parameter Name="package_code" Type="System.String" DbType="VarChar(32)" />
+    <ElementType Name="Shipping_Order_SearchResult">
+      <Column Name="sor_order_number" Type="System.String" DbType="NVarChar(20) NOT NULL" CanBeNull="false" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.Shipping_Order_List_Browse_For_PTS" Method="Shipping_Order_List_Browse_For_PTS">
+    <ElementType Name="Shipping_Order_List_Browse_For_PTSResult">
+      <Column Name="sor_order_number" Type="System.String" DbType="NVarChar(20) NOT NULL" CanBeNull="false" />
+      <Column Name="amr_account_name" Type="System.String" DbType="NVarChar(4000)" CanBeNull="true" />
+      <Column Name="sor_completion_date" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="scheduled_time" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="checked" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.Package_List_Update" Method="Package_List_Update">
+    <Parameter Name="pck_id" Type="System.Int32" DbType="Int" />
+    <Parameter Name="pck_status_id" Type="System.Int16" DbType="SmallInt" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.Order_List_Browse_For_Referable_To_AGE" Method="Order_List_Browse_For_Referable_To_AGE">
+    <Parameter Name="day" Type="System.Byte" DbType="TinyInt" />
+    <ElementType Name="Order_List_Browse_For_Referable_To_AGEResult">
+      <Column Name="TB022_ORDER_ID" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="mmr_item_no" Type="System.String" DbType="VarChar(35)" CanBeNull="true" />
+      <Column Name="mmr_item_name" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="mmr_gtin" Type="System.String" DbType="VarChar(14)" CanBeNull="true" />
+      <Column Name="TB022_TARGET_QTY" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="TB022_PK_BATCH_NO" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="TB022_EXPIRY_DATE" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="created_usc_count" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.TTS_Production_Order_Insert_To_AGE" Method="TTS_Production_Order_Insert_To_AGE">
+    <Parameter Name="order_id" Type="System.String" DbType="VarChar(20)" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.Package_List_Insert" Method="Package_List_Insert">
+    <Parameter Name="pck_order_id" Type="System.String" DbType="VarChar(20)" />
+    <Parameter Name="pck_code" Type="System.String" DbType="VarChar(32)" />
+    <Parameter Name="usr_id" Type="System.Int32" DbType="Int" />
+    <Parameter Name="pck_original_order_id" Type="System.String" DbType="VarChar(20)" />
+    <Parameter Name="pck_source" Type="System.String" DbType="VarChar(20)" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.WMS_Production_Order_Insert_To_TTS" Method="WMS_Production_Order_Insert_To_TTS">
+    <Parameter Name="order_id" Type="System.String" DbType="VarChar(20)" />
+    <Parameter Name="batch_no" Type="System.String" DbType="VarChar(20)" />
+    <Parameter Name="line_id" Type="System.Int32" DbType="Int" />
+    <Parameter Name="gtin_no" Type="System.String" DbType="VarChar(14)" />
+    <Parameter Name="quantity" Type="System.Int32" DbType="Int" />
+    <Parameter Name="start_date" Type="System.DateTime" DbType="DateTime" />
+    <Parameter Name="expiry_date" Type="System.DateTime" DbType="DateTime" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.WMS_Production_Order_Insert_To_TTSV2" Method="WMS_Production_Order_Insert_To_TTSV2">
+    <Parameter Name="order_id" Type="System.String" DbType="VarChar(20)" />
+    <Parameter Name="batch_no" Type="System.String" DbType="VarChar(20)" />
+    <Parameter Name="line_id" Type="System.Int32" DbType="Int" />
+    <Parameter Name="gtin_no" Type="System.String" DbType="VarChar(14)" />
+    <Parameter Name="quantity" Type="System.Int32" DbType="Int" />
+    <Parameter Name="start_date" Type="System.DateTime" DbType="DateTime" />
+    <Parameter Name="expiry_date" Type="System.DateTime" DbType="DateTime" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.Order_List_Browse_For_Additional_Production_Order_Insert" Method="Order_List_Browse_For_Additional_Production_Order_Insert">
+    <Parameter Name="day" Type="System.Int32" DbType="Int" />
+    <Parameter Name="order_id" Type="System.String" DbType="VarChar(20)" />
+    <Parameter Name="phase" Type="System.Byte" DbType="TinyInt" />
+    <ElementType Name="Order_List_Browse_For_Additional_Production_Order_InsertResult">
+      <Column Name="TB022_ORDER_ID" Type="System.String" DbType="VarChar(20) NOT NULL" CanBeNull="false" />
+      <Column Name="mmr_item_no" Type="System.String" DbType="VarChar(35) NOT NULL" CanBeNull="false" />
+      <Column Name="mmr_item_name" Type="System.String" DbType="NVarChar(4000)" CanBeNull="true" />
+      <Column Name="mmr_gtin" Type="System.String" DbType="VarChar(14)" CanBeNull="true" />
+      <Column Name="TB022_TARGET_QTY" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="TB022_PK_BATCH_NO" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="TB022_EXPIRY_DATE" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="TB022_REAL_START_DATE" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="count_of_order" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.Order_List_Browse_For_Search" Method="Order_List_Browse_For_Search">
+    <ElementType Name="Order_List_Browse_For_SearchResult">
+      <Column Name="ord_order_id" Type="System.String" DbType="VarChar(20) NOT NULL" CanBeNull="false" />
+      <Column Name="ord_batch_no" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="lin_description" Type="System.String" DbType="VarChar(30) NOT NULL" CanBeNull="false" />
+      <Column Name="mmr_item_no" Type="System.String" DbType="VarChar(35) NOT NULL" CanBeNull="false" />
+      <Column Name="mmr_item_name" Type="System.String" DbType="NVarChar(4000)" CanBeNull="true" />
+      <Column Name="item_information" Type="System.String" DbType="NVarChar(4000)" CanBeNull="true" />
+      <Column Name="mmr_gtin" Type="System.String" DbType="VarChar(14)" CanBeNull="true" />
+      <Column Name="ord_target_quantity" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="ord_order_start_date" Type="System.DateTime" DbType="SmallDateTime" CanBeNull="true" />
+      <Column Name="ord_order_end_date" Type="System.DateTime" DbType="SmallDateTime" CanBeNull="true" />
+      <Column Name="ord_expiry_date" Type="System.DateTime" DbType="SmallDateTime NOT NULL" CanBeNull="false" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.Package_List_Not_Printed_Browse" Method="Package_List_Not_Printed_Browse">
+    <Parameter Name="order_id" Type="System.String" DbType="VarChar(20)" />
+    <ElementType Name="Package_List_Not_Printed_BrowseResult">
+      <Column Name="checked" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="pcp_id" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="pcp_order_id" Type="System.String" DbType="VarChar(12) NOT NULL" CanBeNull="false" />
+      <Column Name="pcp_code" Type="System.String" DbType="VarChar(32) NOT NULL" CanBeNull="false" />
+      <Column Name="pcp_sync_date" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.Package_List_Not_Printed_Browse_For_Production_Detail" Method="Package_List_Not_Printed_Browse_For_Production_Detail">
+    <Parameter Name="mmr_item_no" Type="System.String" DbType="VarChar(35)" />
+    <Parameter Name="batch_no" Type="System.String" DbType="VarChar(20)" />
+    <ElementType Name="Package_List_Not_Printed_Browse_For_Production_DetailResult">
+      <Column Name="checked" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="pcp_id" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="pcp_order_id" Type="System.String" DbType="VarChar(12) NOT NULL" CanBeNull="false" />
+      <Column Name="pcp_code" Type="System.String" DbType="VarChar(32) NOT NULL" CanBeNull="false" />
+      <Column Name="pcp_sync_date" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.Order_List_Browse_For_All_Orders" Method="Order_List_Browse_For_All_Orders">
+    <Parameter Name="order_id" Type="System.String" DbType="VarChar(20)" />
+    <ElementType Name="Order_List_Browse_For_All_OrdersResult">
+      <Column Name="order_id" Type="System.String" DbType="VarChar(20) NOT NULL" CanBeNull="false" />
+      <Column Name="created_usc_count" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="package_count" Type="System.String" DbType="VarChar(63)" CanBeNull="true" />
+      <Column Name="diff" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="order_status" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.Get_All_Package_Code_From_TTS" Method="Get_All_Package_Code_From_TTS">
+    <Parameter Name="order_id" Type="System.String" DbType="VarChar(20)" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.Package_List_Insert_From_Not_Printed_Packages" Method="Package_List_Insert_From_Not_Printed_Packages">
+    <Parameter Name="order_ids" Type="System.String" DbType="VarChar(20)" />
+    <Parameter Name="usr_id" Type="System.Int32" DbType="Int" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.Package_List_Update_First_Status" Method="Package_List_Update_First_Status">
+    <Parameter Name="order_id" Type="System.String" DbType="VarChar(20)" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.Package_List_Browse_For_Production_Detail" Method="Package_List_Browse_For_Production_Detail">
+    <Parameter Name="mmr_item_no" Type="System.String" DbType="VarChar(35)" />
+    <Parameter Name="batch_no" Type="System.String" DbType="VarChar(20)" />
+    <Parameter Name="status" Type="System.Char" DbType="Char(1)" />
+    <Parameter Name="status_id" Type="System.Byte" DbType="TinyInt" />
+    <Parameter Name="pck_code" Type="System.String" DbType="VarChar(32)" />
+    <Parameter Name="usr_id" Type="System.Int32" DbType="Int" />
+    <Parameter Name="rowcount" Type="System.Int32" DbType="Int" />
+    <ElementType Name="Package_List_Browse_For_Production_DetailResult">
+      <Column Name="checked" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="pck_order_id" Type="System.String" DbType="VarChar(20) NOT NULL" CanBeNull="false" />
+      <Column Name="pck_id" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="pck_code" Type="System.String" DbType="VarChar(32) NOT NULL" CanBeNull="false" />
+      <Column Name="pck_status_id" Type="System.Int16" DbType="SmallInt NOT NULL" CanBeNull="false" />
+      <Column Name="pst_description" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="status" Type="System.String" DbType="NVarChar(24)" CanBeNull="true" />
+      <Column Name="inserted_user" Type="System.String" DbType="NVarChar(4000) NOT NULL" CanBeNull="false" />
+      <Column Name="pck_original_order_id" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="was_printed" Type="System.String" DbType="NVarChar(9)" CanBeNull="true" />
+      <Column Name="pck_source" Type="System.String" DbType="VarChar(20) NOT NULL" CanBeNull="false" />
+      <Column Name="pck_sscc" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.Production_Detail" Method="Production_Detail">
+    <Parameter Name="mmr_item_no" Type="System.String" DbType="VarChar(35)" />
+    <Parameter Name="batch_no" Type="System.String" DbType="VarChar(20)" />
+    <ElementType Name="Production_DetailResult">
+      <Column Name="ord_target_quantity" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="unsent_quantity" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="sent_quantity" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="approval_quantity" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="disapproval_quantity" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="total_package_quantity" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="made_of_deactivation_quantity" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="deactivation_quantity" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="sscc_found" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.Package_List_All_Update_For_Deactivation" Method="Package_List_All_Update_For_Deactivation">
+    <Parameter Name="pck_order_id" Type="System.String" DbType="VarChar(20)" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.Package_Movement_Master_Update" Method="Package_Movement_Master_Update">
+    <Parameter Name="pmm_id" Type="System.Int32" DbType="Int" />
+    <Parameter Name="pmm_declaration_id" Type="System.String" DbType="VarChar(20)" />
+    <Parameter Name="pmm_sending_file_name" Type="System.String" DbType="VarChar(100)" />
+    <Parameter Name="pmm_coming_file_name" Type="System.String" DbType="VarChar(100)" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.Package_Movement_Master_Insert" Method="Package_Movement_Master_Insert">
+    <Parameter Name="pmm_key" Type="System.String" DbType="VarChar(20)" />
+    <Parameter Name="pmm_order_id" Type="System.String" DbType="VarChar(20)" />
+    <Parameter Name="pmm_type" Type="System.Char" DbType="Char(1)" />
+    <Parameter Name="pmm_parent_id" Type="System.Int32" DbType="Int" />
+    <Parameter Name="pmm_declaration_id" Type="System.String" DbType="VarChar(20)" />
+    <Parameter Name="pmm_usr_id" Type="System.Int32" DbType="Int" />
+    <Parameter Name="pmm_environment" Type="System.Char" DbType="Char(1)" />
+    <Parameter Name="pmm_is_scheduled" Type="System.Boolean" DbType="Bit" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.Package_Movement_Detail_Batch_Insert" Method="Package_Movement_Detail_Batch_Insert">
+    <Parameter Name="pmd_pmm_id" Type="System.Int32" DbType="Int" />
+    <Parameter Name="pmd_response_code" Type="System.String" DbType="Char(5)" />
+    <Parameter Name="pmd_pck_ids" Type="System.String" DbType="VarChar(4000)" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.Package_List_Browse_For_Deaktivation" Method="Package_List_Browse_For_Deaktivation">
+    <Parameter Name="order_id" Type="System.String" DbType="VarChar(20)" />
+    <Parameter Name="origin" Type="System.Int32" DbType="Int" />
+    <Parameter Name="rowcount" Type="System.Int32" DbType="Int" />
+    <ElementType Name="Package_List_Browse_For_DeaktivationResult">
+      <Column Name="pck_id" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="pck_code" Type="System.String" DbType="VarChar(32) NOT NULL" CanBeNull="false" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.Package_List_Browse_For_Sending" Method="Package_List_Browse_For_Sending">
+    <Parameter Name="order_id" Type="System.String" DbType="VarChar(20)" />
+    <Parameter Name="status" Type="System.Char" DbType="Char(1)" />
+    <Parameter Name="origin" Type="System.Int32" DbType="Int" />
+    <Parameter Name="rowcount" Type="System.Int32" DbType="Int" />
+    <ElementType Name="Package_List_Browse_For_SendingResult">
+      <Column Name="pck_id" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="pck_code" Type="System.String" DbType="VarChar(32) NOT NULL" CanBeNull="false" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.Scheduled_Declaration_Browse_For_Report" Method="Scheduled_Declaration_Browse_For_Report">
+    <Parameter Name="begin_date" Type="System.DateTime" DbType="DateTime" />
+    <Parameter Name="end_date" Type="System.DateTime" DbType="DateTime" />
+    <Parameter Name="item_name" Type="System.String" DbType="VarChar(50)" />
+    <Parameter Name="order_id" Type="System.String" DbType="VarChar(20)" />
+    <Parameter Name="rowcount" Type="System.Int32" DbType="Int" />
+    <Parameter Name="types" Type="System.String" DbType="VarChar(100)" />
+    <ElementType Name="Scheduled_Declaration_Browse_For_ReportResult">
+      <Column Name="sch_order_id" Type="System.String" DbType="VarChar(20) NOT NULL" CanBeNull="false" />
+      <Column Name="sch_type" Type="System.Char" DbType="Char(1) NOT NULL" CanBeNull="false" />
+      <Column Name="type" Type="System.String" DbType="NVarChar(12)" CanBeNull="true" />
+      <Column Name="sch_created_time" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="usr_full_name" Type="System.String" DbType="NVarChar(4000)" CanBeNull="true" />
+      <Column Name="sch_scheduled_time" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="sch_declaration_time" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="ord_batch_no" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="ord_expiry_date" Type="System.DateTime" DbType="SmallDateTime" CanBeNull="true" />
+      <Column Name="mmr_item_no" Type="System.String" DbType="VarChar(35)" CanBeNull="true" />
+      <Column Name="mmr_item_name" Type="System.String" DbType="NVarChar(4000)" CanBeNull="true" />
+      <Column Name="item_desc" Type="System.String" DbType="NVarChar(4000)" CanBeNull="true" />
+      <Column Name="amr_account_code" Type="System.String" DbType="VarChar(12)" CanBeNull="true" />
+      <Column Name="amr_account_name" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="account_desc" Type="System.String" DbType="NVarChar(65)" CanBeNull="true" />
+      <Column Name="sor_invoice_number" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="sor_invoice_date" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.Package_List_Update_For_All_Packages_Good" Method="Package_List_Update_For_All_Packages_Good">
+    <Parameter Name="order_id" Type="System.String" DbType="VarChar(20)" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.Package_And_SSCC_Search" Method="Package_And_SSCC_Search">
+    <Parameter Name="gtin" Type="System.String" DbType="VarChar(14)" />
+    <Parameter Name="pck_code" Type="System.String" DbType="VarChar(32)" />
+    <Parameter Name="sscc" Type="System.String" DbType="VarChar(20)" />
+    <ElementType Name="Package_And_SSCC_SearchResult">
+      <Column Name="pck_id" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.Cancelled_Sales_Master_Insert" Method="Cancelled_Sales_Master_Insert">
+    <Parameter Name="csm_document_number" Type="System.String" DbType="NVarChar(20)" />
+    <Parameter Name="csm_account_code" Type="System.String" DbType="VarChar(12)" />
+    <Parameter Name="csm_com_id" Type="System.Int32" DbType="Int" />
+    <Parameter Name="usr_id" Type="System.Int32" DbType="Int" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.Cancelled_Sales_Detail_Insert" Method="Cancelled_Sales_Detail_Insert">
+    <Parameter Name="account_code" Type="System.String" DbType="VarChar(12)" />
+    <Parameter Name="csd_csm_id" Type="System.Int32" DbType="Int" />
+    <Parameter Name="csd_pck_id" Type="System.Int32" DbType="Int" />
+    <Parameter Name="usr_id" Type="System.Int32" DbType="Int" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.Cancelled_Sales_Detail_Delete" Method="Cancelled_Sales_Detail_Delete">
+    <Parameter Name="csd_id" Type="System.Int32" DbType="Int" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.Cancelled_Sales_Detail_Browse" Method="Cancelled_Sales_Detail_Browse">
+    <Parameter Name="csd_csm_id" Type="System.Int32" DbType="Int" />
+    <ElementType Name="Cancelled_Sales_Detail_BrowseResult">
+      <Column Name="csd_id" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="mmr_item_no" Type="System.String" DbType="VarChar(35) NOT NULL" CanBeNull="false" />
+      <Column Name="mmr_item_name" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="item_name" Type="System.String" DbType="NVarChar(4000)" CanBeNull="true" />
+      <Column Name="mmr_gtin" Type="System.String" DbType="VarChar(14)" CanBeNull="true" />
+      <Column Name="ord_batch_no" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="ord_expiry_date" Type="System.DateTime" DbType="SmallDateTime NOT NULL" CanBeNull="false" />
+      <Column Name="pck_code" Type="System.String" DbType="VarChar(32) NOT NULL" CanBeNull="false" />
+      <Column Name="pck_id" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.Cancelled_Sales_Master_Browse" Method="Cancelled_Sales_Master_Browse">
+    <Parameter Name="csm_id" Type="System.Int32" DbType="Int" />
+    <ElementType Name="Cancelled_Sales_Master_BrowseResult">
+      <Column Name="csm_id" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="csm_document_number" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
+      <Column Name="csm_creation_date" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="amr_account_code" Type="System.String" DbType="VarChar(12)" CanBeNull="true" />
+      <Column Name="amr_account_name" Type="System.String" DbType="NVarChar(4000)" CanBeNull="true" />
+      <Column Name="account_name" Type="System.String" DbType="NVarChar(4000)" CanBeNull="true" />
+      <Column Name="com_gln_number" Type="System.String" DbType="Char(13) NOT NULL" CanBeNull="false" />
+      <Column Name="amr_gln_number" Type="System.String" DbType="Char(13)" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.Cancelled_Sales_Master_Delete" Method="Cancelled_Sales_Master_Delete">
+    <Parameter Name="csm_id" Type="System.Int32" DbType="Int" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.Order_Detail" Method="Order_Detail">
+    <Parameter Name="order_id" Type="System.String" DbType="VarChar(20)" />
+    <ElementType Name="Order_DetailResult">
+      <Column Name="ord_order_id" Type="System.String" DbType="VarChar(20) NOT NULL" CanBeNull="false" />
+      <Column Name="ord_batch_no" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="mmr_item_no" Type="System.String" DbType="VarChar(35) NOT NULL" CanBeNull="false" />
+      <Column Name="mmr_item_name" Type="System.String" DbType="NVarChar(4000)" CanBeNull="true" />
+      <Column Name="mmr_gtin" Type="System.String" DbType="VarChar(14)" CanBeNull="true" />
+      <Column Name="mmr_registered_to" Type="System.Byte" DbType="TinyInt" CanBeNull="true" />
+      <Column Name="ord_target_quantity" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="ord_expiry_date" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="start_date" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="expiry_date" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="unsent_quantity" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="sent_quantity" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="approval_quantity" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="disapproval_quantity" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="total_package_quantity" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="made_of_deactivation_quantity" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="deactivation_quantity" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="sscc_found" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="case_quantity" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="not_case_quantity" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.Package_Search" Method="Package_Search">
+    <Parameter Name="pck_code" Type="System.String" DbType="VarChar(32)" />
+    <Parameter Name="pck_sscc" Type="System.String" DbType="VarChar(20)" />
+    <ElementType Name="Package_SearchResult">
+      <Column Name="ord_order_id" Type="System.String" DbType="VarChar(20) NOT NULL" CanBeNull="false" />
+      <Column Name="mmr_item_name" Type="System.String" DbType="NVarChar(4000)" CanBeNull="true" />
+      <Column Name="mmr_gtin" Type="System.String" DbType="VarChar(14)" CanBeNull="true" />
+      <Column Name="ord_batch_no" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="expiry_date" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="ord_expiry_date" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="pck_code" Type="System.String" DbType="VarChar(32) NOT NULL" CanBeNull="false" />
+      <Column Name="pck_status_id" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="pck_status" Type="System.Char" DbType="VarChar(1)" CanBeNull="true" />
+      <Column Name="status" Type="System.String" DbType="NVarChar(24)" CanBeNull="true" />
+      <Column Name="pst_description" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="pck_sync_date" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.Cancelled_Sales_Insert_From_Shipping" Method="Cancelled_Sales_Insert_From_Shipping">
+    <Parameter Name="sor_id" Type="System.Int32" DbType="Int" />
+    <Parameter Name="usr_id" Type="System.Int32" DbType="Int" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.Cancelled_Sales_Browse" Method="Cancelled_Sales_Browse">
+    <ElementType Name="Cancelled_Sales_BrowseResult">
+      <Column Name="csm_id" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="csm_document_number" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
+      <Column Name="csm_creation_date" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="amr_account_code" Type="System.String" DbType="VarChar(12)" CanBeNull="true" />
+      <Column Name="amr_account_name" Type="System.String" DbType="NVarChar(4000)" CanBeNull="true" />
+      <Column Name="account_name" Type="System.String" DbType="NVarChar(4000)" CanBeNull="true" />
+      <Column Name="com_gln_number" Type="System.String" DbType="Char(13) NOT NULL" CanBeNull="false" />
+      <Column Name="amr_gln_number" Type="System.String" DbType="Char(13)" CanBeNull="true" />
+      <Column Name="declaration_datetime" Type="System.DateTime" DbType="SmallDateTime" CanBeNull="true" />
+      <Column Name="package_count" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.Package_Movement_Master_Browse" Method="Package_Movement_Master_Browse">
+    <Parameter Name="begin_date" Type="System.DateTime" DbType="DateTime" />
+    <Parameter Name="end_date" Type="System.DateTime" DbType="DateTime" />
+    <Parameter Name="item_name" Type="System.String" DbType="VarChar(50)" />
+    <Parameter Name="order_id" Type="System.String" DbType="VarChar(20)" />
+    <Parameter Name="rowcount" Type="System.Int32" DbType="Int" />
+    <Parameter Name="parent_id" Type="System.Int32" DbType="Int" />
+    <Parameter Name="parent_ids" Type="System.String" DbType="VarChar(1000)" />
+    <Parameter Name="types" Type="System.String" DbType="VarChar(100)" />
+    <Parameter Name="is_scheduled" Type="System.Boolean" DbType="Bit" />
+    <ElementType Name="Package_Movement_Master_BrowseResult">
+      <Column Name="pmm_id" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="pmm_key" Type="System.String" DbType="VarChar(20) NOT NULL" CanBeNull="false" />
+      <Column Name="pmm_order_id" Type="System.String" DbType="VarChar(20) NOT NULL" CanBeNull="false" />
+      <Column Name="type" Type="System.String" DbType="NVarChar(12)" CanBeNull="true" />
+      <Column Name="pmm_datetime" Type="System.DateTime" DbType="SmallDateTime" CanBeNull="true" />
+      <Column Name="pmm_declaration_id" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="pmm_sending_file_name" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="pmm_coming_file_name" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="ord_batch_no" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="ord_expiry_date" Type="System.DateTime" DbType="SmallDateTime" CanBeNull="true" />
+      <Column Name="mmr_item_no" Type="System.String" DbType="VarChar(35) NOT NULL" CanBeNull="false" />
+      <Column Name="mmr_item_name" Type="System.String" DbType="NVarChar(4000)" CanBeNull="true" />
+      <Column Name="account_name" Type="System.String" DbType="NVarChar(4000)" CanBeNull="true" />
+      <Column Name="usr_full_name" Type="System.String" DbType="NVarChar(4000)" CanBeNull="true" />
+      <Column Name="err_error_message" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="gonderilen_parca_adedi" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="cevaplanan_parca_adedi" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="toplam_gonderilen_ambalaj_adedi" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="kabul_edilen_ambalaj_adedi" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="kabul_edilmeyen_ambalaj_adedi" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="daha_once_kaydedilmis_ambalaj_adedi" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.Package_List_Browse" Method="Package_List_Browse">
+    <Parameter Name="order_id" Type="System.String" DbType="VarChar(20)" />
+    <Parameter Name="status" Type="System.Char" DbType="Char(1)" />
+    <Parameter Name="status_id" Type="System.Byte" DbType="TinyInt" />
+    <Parameter Name="pck_code" Type="System.String" DbType="VarChar(32)" />
+    <Parameter Name="pck_sscc" Type="System.String" DbType="VarChar(20)" />
+    <Parameter Name="usr_id" Type="System.Int32" DbType="Int" />
+    <Parameter Name="rowcount" Type="System.Int32" DbType="Int" />
+    <ElementType Name="Package_List_BrowseResult">
+      <Column Name="checked" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="pck_order_id" Type="System.String" DbType="VarChar(20) NOT NULL" CanBeNull="false" />
+      <Column Name="pck_id" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="pck_code" Type="System.String" DbType="VarChar(32) NOT NULL" CanBeNull="false" />
+      <Column Name="pck_status_id" Type="System.Int16" DbType="SmallInt NOT NULL" CanBeNull="false" />
+      <Column Name="pck_timestamp" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="pst_description" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="status" Type="System.String" DbType="NVarChar(24)" CanBeNull="true" />
+      <Column Name="inserted_user" Type="System.String" DbType="NVarChar(4000) NOT NULL" CanBeNull="false" />
+      <Column Name="pck_original_order_id" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="was_printed" Type="System.String" DbType="NVarChar(9)" CanBeNull="true" />
+      <Column Name="pck_source" Type="System.String" DbType="VarChar(20) NOT NULL" CanBeNull="false" />
+      <Column Name="pck_sscc" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.Global_Error_List_Insert" Method="Global_Error_List_Insert">
+    <Parameter Name="erl_error_type" Type="System.String" DbType="Char(2)" />
+    <Parameter Name="erl_error_code" Type="System.String" DbType="Char(5)" />
+    <Parameter Name="erl_error_message" Type="System.String" DbType="NVarChar(250)" />
+    <Parameter Name="erl_error_description" Type="System.String" DbType="NVarChar(250)" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.Get_Shipping_Data_From_TTSV2" Method="Get_Shipping_Data_From_TTSV2">
+    <Parameter Name="order_number" Type="System.String" DbType="NVarChar(20)" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.Shipping_Order_Browse" Method="Shipping_Order_Browse">
+    <Parameter Name="order_number" Type="System.String" DbType="NVarChar(20)" />
+    <Parameter Name="invoice_number" Type="System.String" DbType="VarChar(10)" />
+    <ElementType Name="Shipping_Order_BrowseResult">
+      <Column Name="sor_id" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="sor_order_number" Type="System.String" DbType="NVarChar(20) NOT NULL" CanBeNull="false" />
+      <Column Name="sor_completion_date" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="amr_gln_number" Type="System.String" DbType="Char(13)" CanBeNull="true" />
+      <Column Name="amr_branch_gln_number" Type="System.String" DbType="Char(13)" CanBeNull="true" />
+      <Column Name="com_gln_number" Type="System.String" DbType="Char(13) NOT NULL" CanBeNull="false" />
+      <Column Name="amr_account_code" Type="System.String" DbType="VarChar(12)" CanBeNull="true" />
+      <Column Name="amr_account_name" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="account_name" Type="System.String" DbType="NVarChar(4000)" CanBeNull="true" />
+      <Column Name="sor_invoice_number" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="sor_invoice_date" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="sor_pts_transfered_date" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="sor_pts_transfer_id" Type="System.Int64" DbType="BigInt" CanBeNull="true" />
+      <Column Name="sales_declaration_date" Type="System.DateTime" DbType="SmallDateTime" CanBeNull="true" />
+      <Column Name="sales_scheduled_time" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="pts_scheduled_time" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="case_count_of_shipping" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="package_count_of_shipping" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="shipped_package_count" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.Package_Aggregation_Browse" Method="Package_Aggregation_Browse">
+    <Parameter Name="order_number" Type="System.String" DbType="NVarChar(30)" />
+    <ElementType Name="Package_Aggregation_BrowseResult">
+      <Column Name="pag_sscc" Type="System.String" DbType="VarChar(20) NOT NULL" CanBeNull="false" />
+      <Column Name="pck_code" Type="System.String" DbType="VarChar(32) NOT NULL" CanBeNull="false" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.Package_Aggregation_Insert" Method="Package_Aggregation_Insert">
+    <Parameter Name="order_number" Type="System.String" DbType="NVarChar(30)" />
+    <Parameter Name="sscc_code" Type="System.String" DbType="VarChar(20)" />
+    <Parameter Name="package_code" Type="System.String" DbType="VarChar(32)" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.Control_Shipping_Data_Transfer" Method="Control_Shipping_Data_Transfer">
+    <Parameter Name="order_number" Type="System.String" DbType="NVarChar(20)" />
+    <Parameter Name="source" Type="System.Byte" DbType="TinyInt" />
+    <ElementType Name="Control_Shipping_Data_TransferResult">
+      <Column Name="warning" Type="System.String" DbType="NVarChar(250)" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.Create_Sales_Data_From_Excel" Method="Create_Sales_Data_From_Excel">
+    <Parameter Name="invoice_number" Type="System.String" DbType="NVarChar(20)" />
+    <Parameter Name="package_code" Type="System.String" DbType="VarChar(32)" />
+    <Parameter Name="sor_id" Type="System.Int32" DbType="Int" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.Shipping_Order_List_Browse_For_Declaration" Method="Shipping_Order_List_Browse_For_Declaration">
+    <ElementType Name="Shipping_Order_List_Browse_For_DeclarationResult">
+      <Column Name="sor_order_number" Type="System.String" DbType="NVarChar(20) NOT NULL" CanBeNull="false" />
+      <Column Name="sor_invoice_number" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="amr_account_name" Type="System.String" DbType="NVarChar(4000)" CanBeNull="true" />
+      <Column Name="sor_completion_date" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="sor_pts_transfer_id" Type="System.Int64" DbType="BigInt" CanBeNull="true" />
+      <Column Name="case_count_of_shipping" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="package_count_of_shipping" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="shipped_package_count" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="sales_scheduled_time" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="pts_scheduled_time" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="sales_dec_should_be_done" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="pts_should_be_done" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="checked" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.Refresh_Shipping_Data" Method="Refresh_Shipping_Data">
+    <Parameter Name="order_number" Type="System.String" DbType="NVarChar(20)" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.Update_SSCC" Method="Update_SSCC">
+    <Parameter Name="order_number" Type="System.String" DbType="NVarChar(20)" />
+    <Parameter Name="sscc" Type="System.String" DbType="NVarChar(20)" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.Create_Pharmacy_Sales" Method="Create_Pharmacy_Sales">
+    <Parameter Name="gln_number" Type="System.String" DbType="VarChar(14)" />
+    <Parameter Name="account_name" Type="System.String" DbType="NVarChar(50)" />
+    <Parameter Name="pck_code" Type="System.String" DbType="VarChar(32)" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.Get_Production_Data_From_TTSV3" Method="Get_Production_Data_From_TTSV3">
+    <Parameter Name="order_id" Type="System.String" DbType="VarChar(20)" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.Group_Company_Sales_Company_Browse" Method="Group_Company_Sales_Company_Browse">
+    <ElementType Name="Group_Company_Sales_Company_BrowseResult">
+      <Column Name="com_id" Type="System.Byte" DbType="TinyInt NOT NULL" CanBeNull="false" />
+      <Column Name="amr_account_code" Type="System.String" DbType="VarChar(12) NOT NULL" CanBeNull="false" />
+      <Column Name="Company" Type="System.String" DbType="VarChar(65) NOT NULL" CanBeNull="false" />
+      <Column Name="amr_gln_number" Type="System.String" DbType="Char(14)" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.Group_Company_Sales_Insert" Method="Group_Company_Sales_Insert">
+    <Parameter Name="sor_order_number" Type="System.String" DbType="NVarChar(50)" />
+    <Parameter Name="sor_com_id" Type="System.Int32" DbType="Int" />
+    <Parameter Name="sor_account_code" Type="System.String" DbType="NVarChar(50)" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.Group_Company_Sales_Delete" Method="Group_Company_Sales_Delete">
+    <Parameter Name="sor_order_number" Type="System.String" DbType="NVarChar(20)" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.Shipping_Order_Details_Browse_For_Receipt" Method="Shipping_Order_Details_Browse_For_Receipt">
+    <Parameter Name="order_number" Type="System.String" DbType="NVarChar(20)" />
+    <ElementType Name="Shipping_Order_Details_Browse_For_ReceiptResult">
+      <Column Name="gtin" Type="System.String" DbType="VarChar(14)" CanBeNull="true" />
+      <Column Name="batch_no" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="expiry_date" Type="System.DateTime" DbType="SmallDateTime NOT NULL" CanBeNull="false" />
+      <Column Name="package_code" Type="System.String" DbType="VarChar(32) NOT NULL" CanBeNull="false" />
+      <Column Name="package_id" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.Sales_Invoice_and_Waybill_Detail_Browse_For_TTS_Shipment" Method="Sales_Invoice_and_Waybill_Detail_Browse_For_TTS_Shipment">
+    <Parameter Name="mom_id" Type="System.Int32" DbType="Int" />
+    <ElementType Name="Sales_Invoice_and_Waybill_Detail_Browse_For_TTS_ShipmentResult">
+      <Column Name="mod_mom_id" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="mod_id" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="mod_mmr_id" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="mmr_item_no" Type="System.String" DbType="NVarChar(35)" CanBeNull="true" />
+      <Column Name="mmr_sanovel_material_name" Type="System.String" DbType="NVarChar(4000)" CanBeNull="true" />
+      <Column Name="mmm_barcode" Type="System.String" DbType="NVarChar(13)" CanBeNull="true" />
+      <Column Name="mod_year" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="mod_sanovel_batch_number" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="mod_supplier_batch_number" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="mod_expiry_date" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="mod_quantity" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="checked" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.ENTEGRASYON_KAYDI_EKLE_TTS" Method="ENTEGRASYON_KAYDI_EKLE_TTS">
+    <Parameter Name="PRMENTEGRASYON_TARIHI" Parameter="pRMENTEGRASYON_TARIHI" Type="System.DateTime" DbType="DateTime" />
+    <Parameter Name="PRMENTEGRASYON_MUSTERIKODU" Parameter="pRMENTEGRASYON_MUSTERIKODU" Type="System.String" DbType="VarChar(13)" />
+    <Parameter Name="PRMENTEGRASYON_SIPARISNUMARASI" Parameter="pRMENTEGRASYON_SIPARISNUMARASI" Type="System.String" DbType="VarChar(20)" />
+    <Parameter Name="PRMENTEGRASYON_FATURANUMARASI" Parameter="pRMENTEGRASYON_FATURANUMARASI" Type="System.String" DbType="VarChar(20)" />
+    <Parameter Name="PRMENTEGRASYON_ID" Parameter="pRMENTEGRASYON_ID" Type="System.String" DbType="VarChar(40)" />
+    <Parameter Name="PRMENTEGRASYON_URUNKODU" Parameter="pRMENTEGRASYON_URUNKODU" Type="System.String" DbType="VarChar(20)" />
+    <Parameter Name="PRMENTEGRASYON_LOTNUMARASI" Parameter="pRMENTEGRASYON_LOTNUMARASI" Type="System.String" DbType="VarChar(20)" />
+    <Parameter Name="PRMENTEGRASYON_MIKTAR" Parameter="pRMENTEGRASYON_MIKTAR" Type="System.Int32" DbType="Int" />
+    <Parameter Name="PRMENTEGRASYON_KURUMKODU" Parameter="pRMENTEGRASYON_KURUMKODU" Type="System.String" DbType="VarChar(13)" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.ENTEGRASYON_KAYDI_EKLE_AGE" Method="ENTEGRASYON_KAYDI_EKLE_AGE">
+    <Parameter Name="PRMENTEGRASYON_TARIHI" Parameter="pRMENTEGRASYON_TARIHI" Type="System.DateTime" DbType="DateTime" />
+    <Parameter Name="PRMENTEGRASYON_MUSTERIKODU" Parameter="pRMENTEGRASYON_MUSTERIKODU" Type="System.String" DbType="VarChar(13)" />
+    <Parameter Name="PRMENTEGRASYON_SIPARISNUMARASI" Parameter="pRMENTEGRASYON_SIPARISNUMARASI" Type="System.String" DbType="VarChar(20)" />
+    <Parameter Name="PRMENTEGRASYON_FATURANUMARASI" Parameter="pRMENTEGRASYON_FATURANUMARASI" Type="System.String" DbType="VarChar(20)" />
+    <Parameter Name="PRMENTEGRASYON_ID" Parameter="pRMENTEGRASYON_ID" Type="System.String" DbType="VarChar(40)" />
+    <Parameter Name="PRMENTEGRASYON_URUNKODU" Parameter="pRMENTEGRASYON_URUNKODU" Type="System.String" DbType="VarChar(20)" />
+    <Parameter Name="PRMENTEGRASYON_LOTNUMARASI" Parameter="pRMENTEGRASYON_LOTNUMARASI" Type="System.String" DbType="VarChar(20)" />
+    <Parameter Name="PRMENTEGRASYON_MIKTAR" Parameter="pRMENTEGRASYON_MIKTAR" Type="System.Int32" DbType="Int" />
+    <Parameter Name="PRMENTEGRASYON_KURUMKODU" Parameter="pRMENTEGRASYON_KURUMKODU" Type="System.String" DbType="VarChar(13)" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.Sales_Invoice_and_Waybill_List_Waiting_For_TTS_Shipment" Method="Sales_Invoice_and_Waybill_List_Waiting_For_TTS_Shipment">
+    <ElementType Name="Sales_Invoice_and_Waybill_List_Waiting_For_TTS_ShipmentResult">
+      <Column Name="mom_id" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="mom_parameter_2" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="mom_document_date" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="mom_document_number" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="mom_account_id" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="amr_account_code" Type="System.String" DbType="VarChar(12)" CanBeNull="true" />
+      <Column Name="amr_account_name" Type="System.String" DbType="NVarChar(4000)" CanBeNull="true" />
+      <Column Name="db_company_name" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="sig_year" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="com_gln_number" Type="System.String" DbType="VarChar(8)" CanBeNull="true" />
+      <Column Name="TB073_CUSTOMER_ID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.Sales_Invoice_and_Waybill_List_Control" Method="Sales_Invoice_and_Waybill_List_Control">
+    <Parameter Name="pts_number" Type="System.String" DbType="NVarChar(20)" />
+    <Parameter Name="param" Type="System.Int16" DbType="SmallInt" />
+    <ElementType Name="Sales_Invoice_and_Waybill_List_ControlResult">
+      <Column Name="kontrol" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.ENTEGRASYON_DURUM_GUNCELLE_AGE" Method="ENTEGRASYON_DURUM_GUNCELLE_AGE">
+    <Parameter Name="PRMENTEGRASYON_ID" Parameter="pRMENTEGRASYON_ID" Type="System.Int32" DbType="Int" />
+    <Parameter Name="PRMENTEGRASYON_DURUM" Parameter="pRMENTEGRASYON_DURUM" Type="System.Int32" DbType="Int" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.Receiving_Thirdparty_Packages_Detail_Update" Method="Receiving_Thirdparty_Packages_Detail_Update">
+    <Parameter Name="rtd_serial_number" Type="System.String" DbType="VarChar(32)" />
+    <Parameter Name="rtd_package_sscc" Type="System.String" DbType="VarChar(50)" />
+    <Parameter Name="rtd_controlled_usr_id" Type="System.Int32" DbType="Int" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.Receiving_Thirdparty_Packages_Delete" Method="Receiving_Thirdparty_Packages_Delete">
+    <Parameter Name="rtp_id" Type="System.Int32" DbType="Int" />
+    <Parameter Name="rtp_document_number" Type="System.String" DbType="NVarChar(50)" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.Receiving_Thirdparty_Packages_Master_Browse" Method="Receiving_Thirdparty_Packages_Master_Browse">
+    <ElementType Name="Receiving_Thirdparty_Packages_Master_BrowseResult">
+      <Column Name="rtp_id" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="rtp_document_number" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="rtp_document_date" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="rtp_source_gln" Type="System.String" DbType="VarChar(15) NOT NULL" CanBeNull="false" />
+      <Column Name="rtp_destination_gln" Type="System.String" DbType="VarChar(15) NOT NULL" CanBeNull="false" />
+      <Column Name="rtp_shipto_gln" Type="System.String" DbType="VarChar(15) NOT NULL" CanBeNull="false" />
+      <Column Name="rtp_action_type" Type="System.Char" DbType="Char(1) NOT NULL" CanBeNull="false" />
+      <Column Name="rtp_note" Type="System.String" DbType="NVarChar(250) NOT NULL" CanBeNull="false" />
+      <Column Name="rtp_file_version" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="rtp_transfer_id" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="rtp_inserted_datetime" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="rtp_inserted_usr_id" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="rtp_status" Type="System.Byte" DbType="TinyInt" CanBeNull="true" />
+      <Column Name="rtp_approved_datetime" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="rtp_approved_usr_id" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="destination_account_name" Type="System.String" DbType="NVarChar(103) NOT NULL" CanBeNull="false" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.Package_List_Insert_From_Thirdparty_Packages" Method="Package_List_Insert_From_Thirdparty_Packages">
+    <Parameter Name="rtp_id" Type="System.Int32" DbType="Int" />
+    <Parameter Name="document_number" Type="System.String" DbType="NVarChar(50)" />
+    <Parameter Name="rtp_approved_usr_id" Type="System.Int32" DbType="Int" />
+    <Parameter Name="Order_list_number" Parameter="order_list_number" Type="System.String" DbType="VarChar(20)" Direction="InOut" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.Receiving_Thirdparty_Packages" Method="Receiving_Thirdparty_Packages1">
+    <Parameter Name="rtp_document_number" Type="System.String" DbType="NVarChar(50)" />
+    <Parameter Name="rtp_document_date" Type="System.DateTime" DbType="DateTime" />
+    <Parameter Name="rtp_source_gln" Type="System.String" DbType="VarChar(15)" />
+    <Parameter Name="rtp_destination_gln" Type="System.String" DbType="VarChar(15)" />
+    <Parameter Name="rtp_shipto_gln" Type="System.String" DbType="VarChar(15)" />
+    <Parameter Name="rtp_action_type" Type="System.Char" DbType="Char(1)" />
+    <Parameter Name="rtp_note" Type="System.String" DbType="NVarChar(250)" />
+    <Parameter Name="rtp_file_version" Type="System.String" DbType="VarChar(10)" />
+    <Parameter Name="rtp_transfer_id" Type="System.Int32" DbType="Int" />
+    <Parameter Name="rtp_inserted_usr_id" Type="System.Int32" DbType="Int" />
+    <Parameter Name="rtd_serial_number" Type="System.String" DbType="NVarChar(32)" />
+    <Parameter Name="rtd_gtin" Type="System.String" DbType="VarChar(15)" />
+    <Parameter Name="rtd_lot_number" Type="System.String" DbType="NVarChar(20)" />
+    <Parameter Name="rtd_production_date" Type="System.DateTime" DbType="DateTime" />
+    <Parameter Name="rtd_expiration_date" Type="System.DateTime" DbType="DateTime" />
+    <Parameter Name="rtd_bundle_sscc" Type="System.String" DbType="VarChar(50)" />
+    <Parameter Name="rtd_package_sscc" Type="System.String" DbType="VarChar(50)" />
+    <Parameter Name="rtd_pallet_sscc" Type="System.String" DbType="VarChar(50)" />
+    <Parameter Name="rtd_master_sscc" Type="System.String" DbType="VarChar(50)" />
+    <Parameter Name="rtd_inserted_usr_id" Type="System.Int32" DbType="Int" />
+    <Parameter Name="rtp_list_number" Type="System.Int32" DbType="Int" Direction="InOut" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.Receiving_Thirdparty_Packages_Detail_Browse" Method="Receiving_Thirdparty_Packages_Detail_Browse">
+    <Parameter Name="rtd_rtp_id" Type="System.Int32" DbType="Int" />
+    <ElementType Name="Receiving_Thirdparty_Packages_Detail_BrowseResult">
+      <Column Name="mmr_item_name" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="rtd_id" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="rtd_rtp_id" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="rtd_serial_number" Type="System.String" DbType="NVarChar(32)" CanBeNull="true" />
+      <Column Name="rtd_gtin" Type="System.String" DbType="VarChar(15)" CanBeNull="true" />
+      <Column Name="rtd_lot_number" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
+      <Column Name="rtd_production_date" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="rtd_expiration_date" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="rtd_bundle_sscc" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="rtd_package_sscc" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="rtd_pallet_sscc" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="rtd_master_sscc" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="rtd_inserted_datetime" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="rtd_inserted_usr_id" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="rtd_status" Type="System.Byte" DbType="TinyInt" CanBeNull="true" />
+      <Column Name="rtd_controlled_datetime" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="rtd_controlled_usr_id" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.Receiving_Thirdparty_Packages" Method="Receiving_Thirdparty_Packages">
+    <Parameter Name="rtp_document_number" Type="System.String" DbType="NVarChar(50)" />
+    <Parameter Name="rtp_document_date" Type="System.DateTime" DbType="DateTime" />
+    <Parameter Name="rtp_source_gln" Type="System.String" DbType="VarChar(15)" />
+    <Parameter Name="rtp_destination_gln" Type="System.String" DbType="VarChar(15)" />
+    <Parameter Name="rtp_shipto_gln" Type="System.String" DbType="VarChar(15)" />
+    <Parameter Name="rtp_action_type" Type="System.Char" DbType="Char(1)" />
+    <Parameter Name="rtp_note" Type="System.String" DbType="NVarChar(250)" />
+    <Parameter Name="rtp_file_version" Type="System.String" DbType="VarChar(10)" />
+    <Parameter Name="rtp_transfer_id" Type="System.Int32" DbType="Int" />
+    <Parameter Name="rtp_inserted_usr_id" Type="System.Int32" DbType="Int" />
+    <Parameter Name="rtd_serial_number" Type="System.String" DbType="NVarChar(32)" />
+    <Parameter Name="rtd_gtin" Type="System.String" DbType="VarChar(15)" />
+    <Parameter Name="rtd_lot_number" Type="System.String" DbType="NVarChar(20)" />
+    <Parameter Name="rtd_production_date" Type="System.DateTime" DbType="DateTime" />
+    <Parameter Name="rtd_expiration_date" Type="System.DateTime" DbType="DateTime" />
+    <Parameter Name="rtd_bundle_sscc" Type="System.String" DbType="VarChar(50)" />
+    <Parameter Name="rtd_package_sscc" Type="System.String" DbType="VarChar(50)" />
+    <Parameter Name="rtd_pallet_sscc" Type="System.String" DbType="VarChar(50)" />
+    <Parameter Name="rtd_master_sscc" Type="System.String" DbType="VarChar(50)" />
+    <Parameter Name="rtd_inserted_usr_id" Type="System.Int32" DbType="Int" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.Account_Master_Browse_ByGLN" Method="Account_Master_Browse_ByGLN">
+    <Parameter Name="gln_number" Type="System.String" DbType="VarChar(20)" />
+    <ElementType Name="Account_Master_Browse_ByGLNResult">
+      <Column Name="amr_id" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="amr_account_code" Type="System.String" DbType="VarChar(12)" CanBeNull="true" />
+      <Column Name="amr_account_name" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="amr_gln_number" Type="System.String" DbType="Char(13)" CanBeNull="true" />
+      <Column Name="amr_branch_gln_number" Type="System.String" DbType="Char(13)" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.Account_Master_Browse_ByGLN" Method="Account_Master_Browse_ByGLN1">
+    <Parameter Name="gln_number" Type="System.String" DbType="VarChar(20)" />
+    <ElementType Name="Account_Master_Browse_ByGLNResult1">
+      <Column Name="amr_id" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="amr_account_code" Type="System.String" DbType="VarChar(12)" CanBeNull="true" />
+      <Column Name="amr_account_name" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="amr_gln_number" Type="System.String" DbType="Char(13)" CanBeNull="true" />
+      <Column Name="amr_branch_gln_number" Type="System.String" DbType="Char(13)" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.Receiving_Thirdparty_Packages_Detail_Browse_BySSCC" Method="Receiving_Thirdparty_Packages_Detail_Browse_BySSCC">
+    <Parameter Name="rtd_serial_number" Type="System.String" DbType="VarChar(32)" />
+    <Parameter Name="rtd_package_sscc" Type="System.String" DbType="VarChar(50)" />
+    <ElementType Name="Receiving_Thirdparty_Packages_Detail_Browse_BySSCCResult">
+      <Column Name="mmr_item_name" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="rtd_id" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="rtd_rtp_id" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="rtd_serial_number" Type="System.String" DbType="NVarChar(32)" CanBeNull="true" />
+      <Column Name="rtd_gtin" Type="System.String" DbType="VarChar(15)" CanBeNull="true" />
+      <Column Name="rtd_lot_number" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
+      <Column Name="rtd_production_date" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="rtd_expiration_date" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="rtd_bundle_sscc" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="rtd_package_sscc" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="rtd_pallet_sscc" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="rtd_master_sscc" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="rtd_inserted_datetime" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="rtd_inserted_usr_id" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="rtd_status" Type="System.Byte" DbType="TinyInt" CanBeNull="true" />
+      <Column Name="rtd_controlled_datetime" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="rtd_controlled_usr_id" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.Material_Master_Cases_Browse" Method="Material_Master_Cases_Browse">
+    <Parameter Name="gtin" Type="System.String" DbType="VarChar(14)" />
+    <ElementType Name="Material_Master_Cases_BrowseResult">
+      <Column Name="TB020_GTIN" Type="System.String" DbType="VarChar(20) NOT NULL" CanBeNull="false" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.Shipping_Order_Details_Browse" Method="Shipping_Order_Details_Browse">
+    <Parameter Name="order_number" Type="System.String" DbType="NVarChar(20)" />
+    <ElementType Name="Shipping_Order_Details_BrowseResult">
+      <Column Name="parent_sscc" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="package_sscc" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="gtin" Type="System.String" DbType="VarChar(14)" CanBeNull="true" />
+      <Column Name="batch_no" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="expiry_date" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="production_date" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="package_code" Type="System.String" DbType="VarChar(32)" CanBeNull="true" />
+      <Column Name="package_id" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="[level]" Member="level" Type="System.Byte" DbType="TinyInt" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.Order_List_Browse" Method="Order_List_Browse">
+    <ElementType Name="Order_List_BrowseResult">
+      <Column Name="ord_order_id" Type="System.String" DbType="VarChar(20) NOT NULL" CanBeNull="false" />
+      <Column Name="ord_batch_no" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="lin_description" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="mmr_item_no" Type="System.String" DbType="VarChar(35) NOT NULL" CanBeNull="false" />
+      <Column Name="mmr_item_name" Type="System.String" DbType="NVarChar(4000)" CanBeNull="true" />
+      <Column Name="mmr_gtin" Type="System.String" DbType="VarChar(14)" CanBeNull="true" />
+      <Column Name="ord_target_quantity" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="ord_order_start_date" Type="System.DateTime" DbType="SmallDateTime" CanBeNull="true" />
+      <Column Name="ord_order_end_date" Type="System.DateTime" DbType="SmallDateTime" CanBeNull="true" />
+      <Column Name="ord_expiry_date" Type="System.DateTime" DbType="SmallDateTime NOT NULL" CanBeNull="false" />
+      <Column Name="unsent_quantity" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="total_package_quantity" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="production_type" Type="System.String" DbType="NVarChar(6) NOT NULL" CanBeNull="false" />
+      <Column Name="checked" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="scheduled_time" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.Create_Shipping_Order_From_Production" Method="Create_Shipping_Order_From_Production">
+    <Parameter Name="order_id" Type="System.String" DbType="NVarChar(20)" />
+    <Parameter Name="customer_code" Type="System.String" DbType="VarChar(12)" />
+    <Parameter Name="sscc" Type="System.String" DbType="VarChar(20)" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.Scheduled_Declaration_Insert" Method="Scheduled_Declaration_Insert">
+    <Parameter Name="sch_order_id" Type="System.String" DbType="VarChar(20)" />
+    <Parameter Name="sch_type" Type="System.Char" DbType="Char(1)" />
+    <Parameter Name="sch_scheduled_time" Type="System.DateTime" DbType="DateTime" />
+    <Parameter Name="usr_id" Type="System.Int32" DbType="Int" />
+    <Parameter Name="sch_seller_gln" Type="System.String" DbType="VarChar(13)" />
+    <Parameter Name="sch_buyer_gln" Type="System.String" DbType="VarChar(13)" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.Receiving_Thirdparty_Packages_Master_Exists_Control" Method="Receiving_Thirdparty_Packages_Master_Exists_Control">
+    <Parameter Name="rtp_transfer_id" Type="System.Int32" DbType="Int" />
+    <Parameter Name="rtp_document_number" Type="System.String" DbType="NVarChar(50)" />
+    <ElementType Name="Receiving_Thirdparty_Packages_Master_Exists_ControlResult">
+      <Column Name="rtp_id" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="rtp_document_number" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="rtp_document_date" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="rtp_source_gln" Type="System.String" DbType="VarChar(15) NOT NULL" CanBeNull="false" />
+      <Column Name="rtp_destination_gln" Type="System.String" DbType="VarChar(15) NOT NULL" CanBeNull="false" />
+      <Column Name="rtp_shipto_gln" Type="System.String" DbType="VarChar(15) NOT NULL" CanBeNull="false" />
+      <Column Name="rtp_action_type" Type="System.Char" DbType="Char(1) NOT NULL" CanBeNull="false" />
+      <Column Name="rtp_note" Type="System.String" DbType="NVarChar(250) NOT NULL" CanBeNull="false" />
+      <Column Name="rtp_file_version" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="rtp_transfer_id" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="rtp_inserted_datetime" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="rtp_inserted_usr_id" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="rtp_status" Type="System.Byte" DbType="TinyInt" CanBeNull="true" />
+      <Column Name="rtp_approved_datetime" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="rtp_approved_usr_id" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.Company_Po_Number_ByGLN" Method="Company_Po_Number_ByGLN">
+    <Parameter Name="gln_number" Type="System.String" DbType="VarChar(20)" />
+    <ElementType Name="Company_Po_Number_ByGLNResult">
+      <Column Name="cpno_id" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="cpno_gln_number" Type="System.String" DbType="NVarChar(20) NOT NULL" CanBeNull="false" />
+      <Column Name="cpno_po_number" Type="System.String" DbType="NVarChar(20) NOT NULL" CanBeNull="false" />
+      <Column Name="cpno_is_active" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.Shipping_Order_Detail_Packages_Browse_NEW" Method="Shipping_Order_Detail_Packages_Browse_NEW">
+    <Parameter Name="order_number" Type="System.String" DbType="NVarChar(20)" />
+    <ElementType Name="Shipping_Order_Detail_Packages_Browse_NEWResult">
+      <Column Name="parent_sscc" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="package_sscc" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="gtin" Type="System.String" DbType="VarChar(14)" CanBeNull="true" />
+      <Column Name="batch_no" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="expiry_date" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="production_date" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="package_code" Type="System.String" DbType="VarChar(32)" CanBeNull="true" />
+      <Column Name="package_id" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="pck_status_description" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="[level]" Member="level" Type="System.Byte" DbType="TinyInt" CanBeNull="true" />
+      <Column Name="mmr_item_no" Type="System.String" DbType="VarChar(35)" CanBeNull="true" />
+      <Column Name="mmr_item_name" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="item_name" Type="System.String" DbType="NVarChar(4000)" CanBeNull="true" />
+      <Column Name="expiry_date_" Type="System.DateTime" DbType="SmallDateTime" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.WMS_Production_Order_Browse" Method="WMS_Production_Order_Browse">
+    <ElementType Name="WMS_Production_Order_BrowseResult">
+      <Column Name="pom_id" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="pom_production_start_date" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="mmr_id" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="mmr_item_no" Type="System.String" DbType="VarChar(35) NOT NULL" CanBeNull="false" />
+      <Column Name="mmr_category" Type="System.Int16" DbType="SmallInt" CanBeNull="true" />
+      <Column Name="mmr_sanovel_material_name" Type="System.String" DbType="NVarChar(4000)" CanBeNull="true" />
+      <Column Name="pom_supplier_batch_number" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="pom_amount" Type="System.Double" DbType="Float NOT NULL" CanBeNull="false" />
+      <Column Name="calculated_pom_amount" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="mmr_recipe_measure_unit_id" Type="System.String" DbType="VarChar(3)" CanBeNull="true" />
+      <Column Name="expiry_date" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="barcode" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="pom_shelf_life" Type="System.Int16" DbType="SmallInt" CanBeNull="true" />
+      <Column Name="shelf_life_type" Type="System.String" DbType="NVarChar(3) NOT NULL" CanBeNull="false" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.Order_Insert" Method="Order_Insert">
+    <Parameter Name="order_id" Type="System.String" DbType="VarChar(20)" />
+    <Parameter Name="batch_no" Type="System.String" DbType="VarChar(20)" />
+    <Parameter Name="line_id" Type="System.Int32" DbType="Int" />
+    <Parameter Name="gtin_no" Type="System.String" DbType="VarChar(14)" />
+    <Parameter Name="quantity" Type="System.Int32" DbType="Int" />
+    <Parameter Name="start_date" Type="System.DateTime" DbType="DateTime" />
+    <Parameter Name="expiry_date" Type="System.DateTime" DbType="DateTime" />
+    <Parameter Name="ord_integrated_system" Type="System.Int32" DbType="Int" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.Account_Master_Browse" Method="Account_Master_Browse">
+    <Parameter Name="amr_account_code" Type="System.String" DbType="VarChar(12)" />
+    <Parameter Name="amr_account_name" Type="System.String" DbType="VarChar(50)" />
+    <Parameter Name="gln_number" Type="System.String" DbType="VarChar(20)" />
+    <Parameter Name="country" Type="System.String" DbType="VarChar(50)" />
+    <ElementType Name="Account_Master_BrowseResult">
+      <Column Name="amr_id" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="amr_account_code" Type="System.String" DbType="VarChar(12)" CanBeNull="true" />
+      <Column Name="amr_account_name" Type="System.String" DbType="NVarChar(4000)" CanBeNull="true" />
+      <Column Name="amr_gln_number" Type="System.String" DbType="Char(13)" CanBeNull="true" />
+      <Column Name="amr_branch_gln_number" Type="System.String" DbType="Char(13)" CanBeNull="true" />
+      <Column Name="country" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.Get_Production_Order_To_Insert_AGE_New" Method="Get_Production_Order_To_Insert_AGE_New">
+    <Parameter Name="order_id" Type="System.String" DbType="VarChar(20)" />
+    <ElementType Name="Get_Production_Order_To_Insert_AGE_NewResult">
+      <Column Name="Gtin" Type="System.String" DbType="VarChar(14)" CanBeNull="true" />
+      <Column Name="BatchNo" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="ExpiryDate" Type="System.DateTime" DbType="SmallDateTime" CanBeNull="true" />
+      <Column Name="Quantity" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="StartDate" Type="System.DateTime" DbType="SmallDateTime" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.Get_Age_Line_Info" Method="Get_Age_Line_Info">
+    <Parameter Name="id" Type="System.Int32" DbType="Int" />
+    <ElementType Name="Get_Age_Line_InfoResult">
+      <Column Name="LineType" Type="System.Char" DbType="Char(1)" CanBeNull="true" />
+      <Column Name="Name" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
+      <Column Name="Token" Type="System.String" DbType="NVarChar(40)" CanBeNull="true" />
+      <Column Name="ServerEndPoint" Type="System.String" DbType="NVarChar(40)" CanBeNull="true" />
+      <Column Name="Method" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
+      <Column Name="IsActive" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.Order_List_Log_Insert" Method="Order_List_Log_Insert">
+    <Parameter Name="log_order_id" Type="System.String" DbType="VarChar(20)" />
+    <Parameter Name="log_batch_no" Type="System.String" DbType="VarChar(20)" />
+    <Parameter Name="log_line_id" Type="System.Int32" DbType="Int" />
+    <Parameter Name="log_target_quantity" Type="System.Int32" DbType="Int" />
+    <Parameter Name="log_order_start_date" Type="System.DateTime" DbType="SmallDateTime" />
+    <Parameter Name="log_expiry_date" Type="System.DateTime" DbType="SmallDateTime" />
+    <Parameter Name="log_description" Type="System.String" DbType="NVarChar(500)" />
+    <Parameter Name="log_ord_integrated_system" Type="System.Int32" DbType="Int" />
+    <Parameter Name="log_pck_gtin" Type="System.String" DbType="VarChar(14)" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.sp_Printed_Packages_Code_Transfer_To_Leatus" Method="sp_Printed_Packages_Code_Transfer_To_Leatus">
+    <Parameter Name="order_number" Type="System.String" DbType="NVarChar(20)" />
+    <ElementType Name="sp_Printed_Packages_Code_Transfer_To_LeatusResult">
+      <Column Name="pck_code" Type="System.String" DbType="VarChar(32) NOT NULL" CanBeNull="false" />
+      <Column Name="pck_order_id" Type="System.String" DbType="VarChar(20) NOT NULL" CanBeNull="false" />
+      <Column Name="pck_gtin" Type="System.String" DbType="VarChar(14)" CanBeNull="true" />
+      <Column Name="" Member="Column1" Type="System.String" DbType="VarChar(35)" CanBeNull="true" />
+      <Column Name="Leatus_SSCC" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.sp_Production_Order_For_Sending_PackageList_For_Leatus" Method="sp_Production_Order_For_Sending_PackageList_For_Leatus">
+    <ElementType Name="sp_Production_Order_For_Sending_PackageList_For_LeatusResult">
+      <Column Name="TB022_ORDER_ID" Type="System.String" DbType="VarChar(20) NOT NULL" CanBeNull="false" />
+      <Column Name="mmr_item_no" Type="System.String" DbType="VarChar(35) NOT NULL" CanBeNull="false" />
+      <Column Name="mmr_item_name" Type="System.String" DbType="NVarChar(4000)" CanBeNull="true" />
+      <Column Name="mmr_gtin" Type="System.String" DbType="VarChar(14)" CanBeNull="true" />
+      <Column Name="TB022_TARGET_QTY" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="TB022_PK_BATCH_NO" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="TB022_EXPIRY_DATE" Type="System.DateTime" DbType="SmallDateTime NOT NULL" CanBeNull="false" />
+      <Column Name="created_usc_count" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.sp_Order_List_Log_Update_Status" Method="sp_Order_List_Log_Update_Status">
+    <Parameter Name="order_number" Type="System.String" DbType="NVarChar(20)" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.sp_Printed_Packages_Code_Transfer_To_Leatus_New" Method="sp_Printed_Packages_Code_Transfer_To_Leatus_New">
+    <Parameter Name="order_number" Type="System.String" DbType="NVarChar(20)" />
+    <Return Type="System.Int32" />
+  </Function>
+</Database>

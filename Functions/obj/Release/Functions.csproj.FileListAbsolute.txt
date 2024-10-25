@@ -1,0 +1,10 @@
+C:\Projects\ITS\Functions\bin\Release\Functions.dll
+C:\Projects\ITS\Functions\bin\Release\Functions.pdb
+C:\Projects\ITS\Functions\bin\Release\LINQ.dll
+C:\Projects\ITS\Functions\bin\Release\LINQ.pdb
+C:\Projects\ITS\Functions\bin\Release\LINQ.dll.config
+C:\Projects\ITS\Functions\obj\Release\Functions.csproj.AssemblyReference.cache
+C:\Projects\ITS\Functions\obj\Release\Functions.csproj.CoreCompileInputs.cache
+C:\Projects\ITS\Functions\obj\Release\Functions.csproj.CopyComplete
+C:\Projects\ITS\Functions\obj\Release\Functions.dll
+C:\Projects\ITS\Functions\obj\Release\Functions.pdb

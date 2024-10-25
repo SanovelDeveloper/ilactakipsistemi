@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://its.iegm.gov.tr/p2/cancellation/dispatch" targetNamespace="http://its.iegm.gov.tr/p2/cancellation/dispatch" version="1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="DispatchCancellationRequest" nillable="true" type="tns:ItsPlainRequest" />
+  <xs:element name="DispatchCancellationResponse" nillable="true" type="tns:ItsResponse" />
+  <xs:element name="itsError" nillable="true" type="tns:itsErrorType" />
+  <xs:complexType name="ItsPlainRequest">
+    <xs:sequence>
+      <xs:element name="PRODUCTS">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element maxOccurs="unbounded" name="PRODUCT">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="GTIN" type="xs:string" />
+                  <xs:element name="BN" type="xs:string" />
+                  <xs:element name="SN" type="xs:string" />
+                  <xs:element name="XD" type="xs:date" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="ItsResponse">
+    <xs:sequence>
+      <xs:element name="NOTIFICATIONID" type="xs:string" />
+      <xs:element name="PRODUCTS">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element maxOccurs="unbounded" name="PRODUCT">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="GTIN" type="xs:string" />
+                  <xs:element name="SN" type="xs:string" />
+                  <xs:element name="UC" type="xs:string" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="itsErrorType">
+    <xs:sequence>
+      <xs:element name="faultCode" type="xs:string" />
+      <xs:element name="faultMessage" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>

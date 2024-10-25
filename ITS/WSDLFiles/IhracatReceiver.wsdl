@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:tns="http://its.iegm.gov.tr/bildirim/BR/v1/Ihracat" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://schemas.xmlsoap.org/wsdl/" name="IhracatReceiver" targetNamespace="http://its.iegm.gov.tr/bildirim/BR/v1/Ihracat" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://its.iegm.gov.tr/bildirim/BR/v1/Ihracat">
+      <xsd:complexType name="BildirimHataType">
+        <xsd:sequence>
+          <xsd:element name="FC">
+            <xsd:simpleType>
+              <xsd:restriction base="xsd:string">
+                <xsd:length value="5" />
+              </xsd:restriction>
+            </xsd:simpleType>
+          </xsd:element>
+          <xsd:element name="FM" type="xsd:string" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="IhracatBildirimType">
+        <xsd:sequence>
+          <xsd:element name="DT">
+            <xsd:simpleType>
+              <xsd:restriction base="xsd:string">
+                <xsd:pattern value="[X]" />
+              </xsd:restriction>
+            </xsd:simpleType>
+          </xsd:element>
+          <xsd:element name="FR">
+            <xsd:simpleType>
+              <xsd:restriction base="xsd:string">
+                <xsd:length value="13" />
+                <xsd:pattern value="[0-9]*" />
+              </xsd:restriction>
+            </xsd:simpleType>
+          </xsd:element>
+          <xsd:element name="RT">
+            <xsd:simpleType>
+              <xsd:restriction base="xsd:string">
+                <xsd:length value="100" />
+              </xsd:restriction>
+            </xsd:simpleType>
+          </xsd:element>
+          <xsd:element name="BELGE" nillable="true">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="DD" type="xsd:date" />
+                <xsd:element name="DN" nillable="true">
+                  <xsd:simpleType>
+                    <xsd:restriction base="xsd:string">
+                      <xsd:pattern value="[A-Z0-9]*" />
+                      <xsd:minLength value="1" />
+                      <xsd:maxLength value="20" />
+                    </xsd:restriction>
+                  </xsd:simpleType>
+                </xsd:element>
+              </xsd:sequence>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="URUNLER">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element minOccurs="1" maxOccurs="unbounded" name="URUN">
+                  <xsd:complexType>
+                    <xsd:sequence>
+                      <xsd:element name="GTIN">
+                        <xsd:simpleType>
+                          <xsd:restriction base="xsd:string">
+                            <xsd:length value="14" />
+                            <xsd:pattern value="[0-9]*" />
+                          </xsd:restriction>
+                        </xsd:simpleType>
+                      </xsd:element>
+                      <xsd:element name="BN">
+                        <xsd:simpleType>
+                          <xsd:restriction base="xsd:string">
+                            <xsd:pattern value="[A-Z0-9]*" />
+                            <xsd:maxLength value="20" />
+                          </xsd:restriction>
+                        </xsd:simpleType>
+                      </xsd:element>
+                      <xsd:element name="SN">
+                        <xsd:simpleType>
+                          <xsd:restriction base="xsd:string">
+                            <xsd:pattern value="[A-Z0-9]*" />
+                            <xsd:minLength value="1" />
+                            <xsd:maxLength value="20" />
+                            <xsd:whiteSpace value="collapse" />
+                          </xsd:restriction>
+                        </xsd:simpleType>
+                      </xsd:element>
+                      <xsd:element name="XD" type="xsd:date" />
+                    </xsd:sequence>
+                  </xsd:complexType>
+                </xsd:element>
+              </xsd:sequence>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="IhracatBildirimCevapType">
+        <xsd:sequence>
+          <xsd:element name="BILDIRIMID" type="xsd:string" />
+          <xsd:element name="URUNLER">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element minOccurs="1" maxOccurs="unbounded" name="URUNDURUM">
+                  <xsd:complexType>
+                    <xsd:sequence>
+                      <xsd:element name="GTIN">
+                        <xsd:simpleType>
+                          <xsd:restriction base="xsd:string">
+                            <xsd:length value="14" />
+                            <xsd:pattern value="[0-9]*" />
+                          </xsd:restriction>
+                        </xsd:simpleType>
+                      </xsd:element>
+                      <xsd:element name="SN">
+                        <xsd:simpleType>
+                          <xsd:restriction base="xsd:string">
+                            <xsd:pattern value="[A-Z0-9]*" />
+                            <xsd:minLength value="1" />
+                            <xsd:maxLength value="20" />
+                            <xsd:whiteSpace value="collapse" />
+                          </xsd:restriction>
+                        </xsd:simpleType>
+                      </xsd:element>
+                      <xsd:element name="UC">
+                        <xsd:simpleType>
+                          <xsd:restriction base="xsd:string">
+                            <xsd:length value="5" />
+                          </xsd:restriction>
+                        </xsd:simpleType>
+                      </xsd:element>
+                    </xsd:sequence>
+                  </xsd:complexType>
+                </xsd:element>
+              </xsd:sequence>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:element name="BildirimHata" type="tns:BildirimHataType" />
+      <xsd:element name="IhracatBildirimCevap" type="tns:IhracatBildirimCevapType" />
+      <xsd:element name="IhracatBildirim" type="tns:IhracatBildirimType" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IhracatBildir">
+    <wsdl:part name="body" element="tns:IhracatBildirim" />
+  </wsdl:message>
+  <wsdl:message name="IhracatBildirCevap">
+    <wsdl:part name="body" element="tns:IhracatBildirimCevap" />
+  </wsdl:message>
+  <wsdl:message name="IhracatHataFault">
+    <wsdl:part name="fault" element="tns:BildirimHata" />
+  </wsdl:message>
+  <wsdl:portType name="IhracatBildirimReceiver">
+    <wsdl:operation name="IhracatBildir">
+      <wsdl:input name="input" message="tns:IhracatBildir" />
+      <wsdl:output name="output" message="tns:IhracatBildirCevap" />
+      <wsdl:fault name="fault" message="tns:IhracatHataFault" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="IhracatBildirimReceiverBinding" type="tns:IhracatBildirimReceiver">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="IhracatBildir">
+      <soap:operation soapAction="http://its.iegm.gov.tr/bildirim/BildirimReceiver/v1/Ihracat/IhracatBildirRequest" style="document" />
+      <wsdl:input name="input">
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="output">
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="fault">
+        <soap:fault use="literal" name="fault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="IhracatReceiverService">
+    <wsdl:port name="IhracatBildirimReceiverBindingPort" binding="tns:IhracatBildirimReceiverBinding">
+      <soap:address location="http://212.174.130.240:8080/IhracatBildirim/IhracatReceiverService" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

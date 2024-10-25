@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified"
+xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<xs:element name="transfer">
+<xs:complexType>
+<xs:sequence>
+<xs:element name="sourceGLN" type="xs:string" minOccurs="1" maxOccurs="1" />
+<xs:element name="destinationGLN" type="xs:string" minOccurs="1" maxOccurs="1" />
+<xs:element name="actionType" type="xs:string" minOccurs="1" maxOccurs="1" />
+<xs:element name="shipTo" type="xs:string" minOccurs="0" maxOccurs="1" />
+<xs:element name="documentNumber" type="xs:string" minOccurs="0" maxOccurs="1" />
+<xs:element name="documentDate" type="xs:date" minOccurs="0" maxOccurs="1" />
+<xs:element name="note" type="xs:string" minOccurs="0" maxOccurs="1" />
+<xs:element name="version" type="xs:string" minOccurs="0" maxOccurs="1" />
+<xs:element name="carrier" type="carrierType" minOccurs="1" maxOccurs="unbounded" />
+</xs:sequence>
+</xs:complexType>
+</xs:element>
+<xs:complexType name="carrierType">
+<xs:sequence minOccurs="1" maxOccurs="unbounded">
+<xs:choice minOccurs="1" maxOccurs="1">
+<xs:element name="productList" type="productListType" minOccurs="1" maxOccurs="1" />
+<xs:element name="carrier" type="carrierType" minOccurs="1" maxOccurs="1" />
+</xs:choice>
+</xs:sequence>
+<xs:attribute name="carrierLabel" type="xs:string" use="required" />
+<xs:attribute name="containerType" type="xs:string" use="optional" />
+</xs:complexType>
+<xs:complexType name="productListType">
+<xs:sequence>
+<xs:element name="serialNumber" type="xs:string" minOccurs="1" maxOccurs="unbounded" />
+</xs:sequence>
+<xs:attribute name="GTIN" type="xs:string" use="required" />
+<xs:attribute name="lotNumber" type="xs:string" use="required" />
+<xs:attribute name="productionDate" type="xs:date" use="optional" />
+<xs:attribute name="expirationDate" type="xs:date" use="required" />
+<xs:attribute name="PONumber" type="xs:string" use="optional" />
+</xs:complexType>
+</xs:schema>

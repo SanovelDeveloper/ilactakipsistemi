@@ -1,0 +1,446 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:s0="http://www.progamma.com/encodedTypes" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:tns="http://www.progamma.com" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" targetNamespace="http://www.progamma.com" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://www.progamma.com/encodedTypes">
+      <s:import namespace="http://schemas.xmlsoap.org/soap/encoding/" />
+      <s:import namespace="http://schemas.xmlsoap.org/wsdl/" />
+      <s:complexType name="ArrayOfAnyType">
+        <s:complexContent mixed="false">
+          <s:restriction base="soapenc:Array">
+            <s:attribute wsdl:arrayType="s:anyType[]" ref="soapenc:arrayType" />
+          </s:restriction>
+        </s:complexContent>
+      </s:complexType>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="ID_DOExecuteSoapIn">
+    <wsdl:part name="DOXML" type="s:string" />
+    <wsdl:part name="MethodName" type="s:string" />
+    <wsdl:part name="ClassName" type="s:string" />
+    <wsdl:part name="Params" type="s0:ArrayOfAnyType" />
+    <wsdl:part name="RetDoc" type="s:boolean" />
+    <wsdl:part name="RetDocXML" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="ID_DOExecuteSoapOut">
+    <wsdl:part name="ID_DOExecuteResult" type="s:anyType" />
+    <wsdl:part name="RetDocXML" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="ID_ReceiveFileSoapIn">
+    <wsdl:part name="FileData" type="s:base64Binary" />
+    <wsdl:part name="Extension" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="ID_ReceiveFileSoapOut">
+    <wsdl:part name="ID_ReceiveFileResult" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="ID_SendFileSoapIn">
+    <wsdl:part name="FileName" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="ID_SendFileSoapOut">
+    <wsdl:part name="ID_SendFileResult" type="s:base64Binary" />
+  </wsdl:message>
+  <wsdl:message name="CreateBatchOrderSoapIn">
+    <wsdl:part name="pUserName" type="s:string" />
+    <wsdl:part name="pPassword" type="s:string" />
+    <wsdl:part name="pPackagingOrderId" type="s:string" />
+    <wsdl:part name="pLotNumber" type="s:string" />
+    <wsdl:part name="pLineEntityId" type="s:int" />
+    <wsdl:part name="pInputPriority" type="s:int" />
+    <wsdl:part name="pDestCountry" type="s:string" />
+    <wsdl:part name="pSchedTimestamp" type="s:dateTime" />
+    <wsdl:part name="pExpiryTimestamp" type="s:dateTime" />
+    <wsdl:part name="pTargetGTIN" type="s:string" />
+    <wsdl:part name="pTargetInternalCode" type="s:string" />
+    <wsdl:part name="pTargetQuantity" type="s:int" />
+    <wsdl:part name="pLowestGTIN" type="s:string" />
+    <wsdl:part name="pLowestInternalCode" type="s:string" />
+    <wsdl:part name="pHighestGTIN" type="s:string" />
+    <wsdl:part name="pHighestInternalCode" type="s:string" />
+    <wsdl:part name="pAdditionalInfos" type="s:string" />
+    <wsdl:part name="pIsPromoted" type="s:boolean" />
+  </wsdl:message>
+  <wsdl:message name="CreateBatchOrderSoapOut">
+    <wsdl:part name="CreateBatchOrderResult" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="PromoteBatchOrderSoapIn">
+    <wsdl:part name="pUserName" type="s:string" />
+    <wsdl:part name="pPassword" type="s:string" />
+    <wsdl:part name="pPackagingOrderId" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="PromoteBatchOrderSoapOut">
+    <wsdl:part name="PromoteBatchOrderResult" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="CreateBatchOrderAdditionSoapIn">
+    <wsdl:part name="pUserName" type="s:string" />
+    <wsdl:part name="pPassword" type="s:string" />
+    <wsdl:part name="pPckOrderId" type="s:string" />
+    <wsdl:part name="pTargetQtyAddition" type="s:int" />
+  </wsdl:message>
+  <wsdl:message name="CreateBatchOrderAdditionSoapOut">
+    <wsdl:part name="CreateBatchOrderAdditionResult" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="CreateMonolevelBOAdditionSoapIn">
+    <wsdl:part name="pUserName" type="s:string" />
+    <wsdl:part name="pPassword" type="s:string" />
+    <wsdl:part name="pPckOrderId" type="s:string" />
+    <wsdl:part name="pLevelItemTypeId" type="s:int" />
+    <wsdl:part name="pLevelQtyAddition" type="s:int" />
+  </wsdl:message>
+  <wsdl:message name="CreateMonolevelBOAdditionSoapOut">
+    <wsdl:part name="CreateMonolevelBOAdditionResult" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="CreatePackagingOrderSoapIn">
+    <wsdl:part name="pUserName" type="s:string" />
+    <wsdl:part name="pPassword" type="s:string" />
+    <wsdl:part name="pPackagingOrderId" type="s:string" />
+    <wsdl:part name="pIsPromoted" type="s:boolean" />
+    <wsdl:part name="pLotNumber" type="s:string" />
+    <wsdl:part name="pInputPriority" type="s:int" />
+    <wsdl:part name="pSchedTimestamp" type="s:dateTime" />
+    <wsdl:part name="pExpiryTimestamp" type="s:dateTime" />
+    <wsdl:part name="pTargetQuantity" type="s:int" />
+    <wsdl:part name="pUnitOfMeasure" type="s:string" />
+    <wsdl:part name="pLineEntityId" type="s:int" />
+    <wsdl:part name="pRecipeId" type="s:string" />
+    <wsdl:part name="pGTIN0" type="s:string" />
+    <wsdl:part name="pGTIN1" type="s:string" />
+    <wsdl:part name="pGTIN2" type="s:string" />
+    <wsdl:part name="pGTIN3" type="s:string" />
+    <wsdl:part name="pGTIN4" type="s:string" />
+    <wsdl:part name="pSizeLevel1" type="s:int" />
+    <wsdl:part name="pSizeLevel2" type="s:int" />
+    <wsdl:part name="pSizeLevel3" type="s:int" />
+    <wsdl:part name="pSizeLevel4" type="s:int" />
+    <wsdl:part name="pTwoDidentifier" type="s:string" />
+    <wsdl:part name="pBulkBatchNumber1" type="s:string" />
+    <wsdl:part name="pBulkBatchNumber2" type="s:string" />
+    <wsdl:part name="pBulkBatchNumber3" type="s:string" />
+    <wsdl:part name="pBulkBatchNumber4" type="s:string" />
+    <wsdl:part name="pGenisysNumber" type="s:string" />
+    <wsdl:part name="pManufactDateFmt1" type="s:string" />
+    <wsdl:part name="pManufactDateFmt2" type="s:string" />
+    <wsdl:part name="pManufactDateFmt3" type="s:string" />
+    <wsdl:part name="pManufactDateFmt4" type="s:string" />
+    <wsdl:part name="pManufactDate1" type="s:string" />
+    <wsdl:part name="pManufactDate2" type="s:string" />
+    <wsdl:part name="pManufactDate3" type="s:string" />
+    <wsdl:part name="pManufactDate4" type="s:string" />
+    <wsdl:part name="pMaterialDescription" type="s:string" />
+    <wsdl:part name="pNhrncare1" type="s:string" />
+    <wsdl:part name="pNhrncare2" type="s:string" />
+    <wsdl:part name="pNhrncare3" type="s:string" />
+    <wsdl:part name="pNhrncare4" type="s:string" />
+    <wsdl:part name="pMoreDatasetRecs" type="s:string" />
+    <wsdl:part name="pMoreNvseparator" type="s:string" />
+    <wsdl:part name="pMoreRecseparator" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="CreatePackagingOrderSoapOut">
+    <wsdl:part name="CreatePackagingOrderResult" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="CreateShippingOrderSoapIn">
+    <wsdl:part name="pUserName" type="s:string" />
+    <wsdl:part name="pPassword" type="s:string" />
+    <wsdl:part name="pOrderId" type="s:string" />
+    <wsdl:part name="pOrderType" type="s:string" />
+    <wsdl:part name="pIsPromoted" type="s:boolean" />
+    <wsdl:part name="pDeliveryTimestamp" type="s:dateTime" />
+    <wsdl:part name="pOrderKind" type="s:string" />
+    <wsdl:part name="pSSCCExtDigit" type="s:string" />
+    <wsdl:part name="pSSCCGLNPrefix" type="s:string" />
+    <wsdl:part name="pCustomersId" type="s:int" />
+    <wsdl:part name="pCarrier" type="s:string" />
+    <wsdl:part name="pTruck" type="s:string" />
+    <wsdl:part name="pFreeText1" type="s:string" />
+    <wsdl:part name="pFreeText2" type="s:string" />
+    <wsdl:part name="pFreeText3" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="CreateShippingOrderSoapOut">
+    <wsdl:part name="CreateShippingOrderResult" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="PromoteShippingOrderSoapIn">
+    <wsdl:part name="pUserName" type="s:string" />
+    <wsdl:part name="pPassword" type="s:string" />
+    <wsdl:part name="pShippingOrderId" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="PromoteShippingOrderSoapOut">
+    <wsdl:part name="PromoteShippingOrderResult" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="AddShippingOrderBOMSoapIn">
+    <wsdl:part name="pUserName" type="s:string" />
+    <wsdl:part name="pPassword" type="s:string" />
+    <wsdl:part name="pShippingOrderId" type="s:string" />
+    <wsdl:part name="pGTIN" type="s:string" />
+    <wsdl:part name="pTargetQuantity" type="s:int" />
+  </wsdl:message>
+  <wsdl:message name="AddShippingOrderBOMSoapOut">
+    <wsdl:part name="AddShippingOrderBOMResult" type="s:string" />
+  </wsdl:message>
+  <wsdl:portType name="MainSoap">
+    <wsdl:operation name="ID_DOExecute" parameterOrder="DOXML MethodName ClassName Params RetDoc RetDocXML">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Executes the given method on a IDDocument object</wsdl:documentation>
+      <wsdl:input message="tns:ID_DOExecuteSoapIn" />
+      <wsdl:output message="tns:ID_DOExecuteSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ID_ReceiveFile">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Receive a file from a client application</wsdl:documentation>
+      <wsdl:input message="tns:ID_ReceiveFileSoapIn" />
+      <wsdl:output message="tns:ID_ReceiveFileSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ID_SendFile">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Sends a file to a client application</wsdl:documentation>
+      <wsdl:input message="tns:ID_SendFileSoapIn" />
+      <wsdl:output message="tns:ID_SendFileSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="CreateBatchOrder">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Creates a new batch order; returns 'FUNCTION PERFORMED' when the order has been successfully created, else returns a string containing the failure reason.</wsdl:documentation>
+      <wsdl:input message="tns:CreateBatchOrderSoapIn" />
+      <wsdl:output message="tns:CreateBatchOrderSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="PromoteBatchOrder">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Promote a batch order 'Ready to go'; returns 'FUNCTION PERFORMED' when the order has been successfully promoted, otherwise returns a string containing the failure reason.</wsdl:documentation>
+      <wsdl:input message="tns:PromoteBatchOrderSoapIn" />
+      <wsdl:output message="tns:PromoteBatchOrderSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="CreateBatchOrderAddition">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Creates a batch order addition; returns 'FUNCTION PERFORMED' when the batch order addition has been successfully created, otherwise returns a string containing the failure reason.</wsdl:documentation>
+      <wsdl:input message="tns:CreateBatchOrderAdditionSoapIn" />
+      <wsdl:output message="tns:CreateBatchOrderAdditionSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="CreateMonolevelBOAddition">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Creates a mono-level batch order addition; returns 'FUNCTION PERFORMED' when the mono-level batch order addition has been successfully created, otherwise returns a string containing the failure reason.</wsdl:documentation>
+      <wsdl:input message="tns:CreateMonolevelBOAdditionSoapIn" />
+      <wsdl:output message="tns:CreateMonolevelBOAdditionSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="CreatePackagingOrder">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Creates a new packaging order; returns 'FUNCTION PERFORMED' when the order has been successfully created, else returns a string containing the failure reason.</wsdl:documentation>
+      <wsdl:input message="tns:CreatePackagingOrderSoapIn" />
+      <wsdl:output message="tns:CreatePackagingOrderSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="CreateShippingOrder">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Creates a new shipping order; returns 'FUNCTION PERFORMED' when the order has been successfully created, else returns a string containing the failure reason.</wsdl:documentation>
+      <wsdl:input message="tns:CreateShippingOrderSoapIn" />
+      <wsdl:output message="tns:CreateShippingOrderSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="PromoteShippingOrder">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Promote a shipping order 'Ready to go'; returns 'FUNCTION PERFORMED' when the order has been successfully promoted, otherwise returns a string containing the failure reason.</wsdl:documentation>
+      <wsdl:input message="tns:PromoteShippingOrderSoapIn" />
+      <wsdl:output message="tns:PromoteShippingOrderSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="AddShippingOrderBOM">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Adds to a shipping order a BOM entry; returns 'FUNCTION PERFORMED' when the order has been successfully promoted, otherwise returns a string containing the failure reason.</wsdl:documentation>
+      <wsdl:input message="tns:AddShippingOrderBOMSoapIn" />
+      <wsdl:output message="tns:AddShippingOrderBOMSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="MainSoap" type="tns:MainSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="ID_DOExecute">
+      <soap:operation soapAction="http://www.progamma.com/ID_DOExecute" style="rpc" />
+      <wsdl:input>
+        <soap:body use="encoded" namespace="http://www.progamma.com" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="encoded" namespace="http://www.progamma.com" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ID_ReceiveFile">
+      <soap:operation soapAction="http://www.progamma.com/ID_ReceiveFile" style="rpc" />
+      <wsdl:input>
+        <soap:body use="encoded" namespace="http://www.progamma.com" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="encoded" namespace="http://www.progamma.com" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ID_SendFile">
+      <soap:operation soapAction="http://www.progamma.com/ID_SendFile" style="rpc" />
+      <wsdl:input>
+        <soap:body use="encoded" namespace="http://www.progamma.com" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="encoded" namespace="http://www.progamma.com" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CreateBatchOrder">
+      <soap:operation soapAction="http://www.progamma.com/CreateBatchOrder" style="rpc" />
+      <wsdl:input>
+        <soap:body use="encoded" namespace="http://www.progamma.com" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="encoded" namespace="http://www.progamma.com" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="PromoteBatchOrder">
+      <soap:operation soapAction="http://www.progamma.com/PromoteBatchOrder" style="rpc" />
+      <wsdl:input>
+        <soap:body use="encoded" namespace="http://www.progamma.com" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="encoded" namespace="http://www.progamma.com" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CreateBatchOrderAddition">
+      <soap:operation soapAction="http://www.progamma.com/CreateBatchOrderAddition" style="rpc" />
+      <wsdl:input>
+        <soap:body use="encoded" namespace="http://www.progamma.com" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="encoded" namespace="http://www.progamma.com" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CreateMonolevelBOAddition">
+      <soap:operation soapAction="http://www.progamma.com/CreateMonolevelBOAddition" style="rpc" />
+      <wsdl:input>
+        <soap:body use="encoded" namespace="http://www.progamma.com" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="encoded" namespace="http://www.progamma.com" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CreatePackagingOrder">
+      <soap:operation soapAction="http://www.progamma.com/CreatePackagingOrder" style="rpc" />
+      <wsdl:input>
+        <soap:body use="encoded" namespace="http://www.progamma.com" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="encoded" namespace="http://www.progamma.com" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CreateShippingOrder">
+      <soap:operation soapAction="http://www.progamma.com/CreateShippingOrder" style="rpc" />
+      <wsdl:input>
+        <soap:body use="encoded" namespace="http://www.progamma.com" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="encoded" namespace="http://www.progamma.com" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="PromoteShippingOrder">
+      <soap:operation soapAction="http://www.progamma.com/PromoteShippingOrder" style="rpc" />
+      <wsdl:input>
+        <soap:body use="encoded" namespace="http://www.progamma.com" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="encoded" namespace="http://www.progamma.com" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AddShippingOrderBOM">
+      <soap:operation soapAction="http://www.progamma.com/AddShippingOrderBOM" style="rpc" />
+      <wsdl:input>
+        <soap:body use="encoded" namespace="http://www.progamma.com" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="encoded" namespace="http://www.progamma.com" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="MainSoap12" type="tns:MainSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="ID_DOExecute">
+      <soap12:operation soapAction="http://www.progamma.com/ID_DOExecute" style="rpc" />
+      <wsdl:input>
+        <soap12:body use="encoded" namespace="http://www.progamma.com" encodingStyle="http://www.w3.org/2003/05/soap-encoding" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="encoded" namespace="http://www.progamma.com" encodingStyle="http://www.w3.org/2003/05/soap-encoding" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ID_ReceiveFile">
+      <soap12:operation soapAction="http://www.progamma.com/ID_ReceiveFile" style="rpc" />
+      <wsdl:input>
+        <soap12:body use="encoded" namespace="http://www.progamma.com" encodingStyle="http://www.w3.org/2003/05/soap-encoding" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="encoded" namespace="http://www.progamma.com" encodingStyle="http://www.w3.org/2003/05/soap-encoding" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ID_SendFile">
+      <soap12:operation soapAction="http://www.progamma.com/ID_SendFile" style="rpc" />
+      <wsdl:input>
+        <soap12:body use="encoded" namespace="http://www.progamma.com" encodingStyle="http://www.w3.org/2003/05/soap-encoding" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="encoded" namespace="http://www.progamma.com" encodingStyle="http://www.w3.org/2003/05/soap-encoding" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CreateBatchOrder">
+      <soap12:operation soapAction="http://www.progamma.com/CreateBatchOrder" style="rpc" />
+      <wsdl:input>
+        <soap12:body use="encoded" namespace="http://www.progamma.com" encodingStyle="http://www.w3.org/2003/05/soap-encoding" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="encoded" namespace="http://www.progamma.com" encodingStyle="http://www.w3.org/2003/05/soap-encoding" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="PromoteBatchOrder">
+      <soap12:operation soapAction="http://www.progamma.com/PromoteBatchOrder" style="rpc" />
+      <wsdl:input>
+        <soap12:body use="encoded" namespace="http://www.progamma.com" encodingStyle="http://www.w3.org/2003/05/soap-encoding" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="encoded" namespace="http://www.progamma.com" encodingStyle="http://www.w3.org/2003/05/soap-encoding" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CreateBatchOrderAddition">
+      <soap12:operation soapAction="http://www.progamma.com/CreateBatchOrderAddition" style="rpc" />
+      <wsdl:input>
+        <soap12:body use="encoded" namespace="http://www.progamma.com" encodingStyle="http://www.w3.org/2003/05/soap-encoding" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="encoded" namespace="http://www.progamma.com" encodingStyle="http://www.w3.org/2003/05/soap-encoding" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CreateMonolevelBOAddition">
+      <soap12:operation soapAction="http://www.progamma.com/CreateMonolevelBOAddition" style="rpc" />
+      <wsdl:input>
+        <soap12:body use="encoded" namespace="http://www.progamma.com" encodingStyle="http://www.w3.org/2003/05/soap-encoding" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="encoded" namespace="http://www.progamma.com" encodingStyle="http://www.w3.org/2003/05/soap-encoding" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CreatePackagingOrder">
+      <soap12:operation soapAction="http://www.progamma.com/CreatePackagingOrder" style="rpc" />
+      <wsdl:input>
+        <soap12:body use="encoded" namespace="http://www.progamma.com" encodingStyle="http://www.w3.org/2003/05/soap-encoding" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="encoded" namespace="http://www.progamma.com" encodingStyle="http://www.w3.org/2003/05/soap-encoding" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CreateShippingOrder">
+      <soap12:operation soapAction="http://www.progamma.com/CreateShippingOrder" style="rpc" />
+      <wsdl:input>
+        <soap12:body use="encoded" namespace="http://www.progamma.com" encodingStyle="http://www.w3.org/2003/05/soap-encoding" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="encoded" namespace="http://www.progamma.com" encodingStyle="http://www.w3.org/2003/05/soap-encoding" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="PromoteShippingOrder">
+      <soap12:operation soapAction="http://www.progamma.com/PromoteShippingOrder" style="rpc" />
+      <wsdl:input>
+        <soap12:body use="encoded" namespace="http://www.progamma.com" encodingStyle="http://www.w3.org/2003/05/soap-encoding" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="encoded" namespace="http://www.progamma.com" encodingStyle="http://www.w3.org/2003/05/soap-encoding" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AddShippingOrderBOM">
+      <soap12:operation soapAction="http://www.progamma.com/AddShippingOrderBOM" style="rpc" />
+      <wsdl:input>
+        <soap12:body use="encoded" namespace="http://www.progamma.com" encodingStyle="http://www.w3.org/2003/05/soap-encoding" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="encoded" namespace="http://www.progamma.com" encodingStyle="http://www.w3.org/2003/05/soap-encoding" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="Main">
+    <wsdl:port name="MainSoap" binding="tns:MainSoap">
+      <soap:address location="http://172.16.117.200/TTBOWS2/TTSPlantWebService.asmx" />
+    </wsdl:port>
+    <wsdl:port name="MainSoap12" binding="tns:MainSoap12">
+      <soap12:address location="http://172.16.117.200/TTBOWS2/TTSPlantWebService.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

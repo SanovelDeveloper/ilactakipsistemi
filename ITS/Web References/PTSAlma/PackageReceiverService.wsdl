@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<definitions xmlns:tns="http://its.iegm.gov.tr/pts/receivepackage" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="PackageReceiverService" targetNamespace="http://its.iegm.gov.tr/pts/receivepackage" xmlns="http://schemas.xmlsoap.org/wsdl/">
+  <types>
+    <xsd:schema targetNamespace="http://its.iegm.gov.tr/pts/receivepackage">
+      <xsd:annotation>
+        <xsd:documentation>Paket Alma Servis Şeması
+                    Versiyon: pts-20110208-1
+                    Copyright IEGM. all rights reserved.
+                </xsd:documentation>
+      </xsd:annotation>
+      <xsd:complexType name="receiveFileParametersType">
+        <xsd:sequence>
+          <xsd:element name="sourceGLN">
+            <xsd:simpleType>
+              <xsd:restriction base="xsd:string">
+                <xsd:length value="13" />
+                <xsd:pattern value="[0-9]*" />
+              </xsd:restriction>
+            </xsd:simpleType>
+          </xsd:element>
+          <xsd:element name="transferId" type="xsd:long" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="packageTransferErrorType">
+        <xsd:sequence>
+          <xsd:element name="faultCode">
+            <xsd:simpleType>
+              <xsd:restriction base="xsd:string">
+                <xsd:length value="5" />
+              </xsd:restriction>
+            </xsd:simpleType>
+          </xsd:element>
+          <xsd:element name="faultMessage" type="xsd:string" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:element xmlns:xmime="http://www.w3.org/2005/05/xmlmime" xmime:expectedContentTypes="application/zip" name="responseFile" type="xsd:base64Binary" />
+      <xsd:element xmlns:xmime="http://www.w3.org/2005/05/xmlmime" xmime:expectedContentTypes="application/zip" name="responseFileStream" type="xsd:base64Binary" />
+      <xsd:element name="packageTransferError" type="tns:packageTransferErrorType" />
+      <xsd:element name="receiveFileParameters" type="tns:receiveFileParametersType" />
+      <xsd:element name="receiveFileStreamParameters" type="tns:receiveFileParametersType" />
+    </xsd:schema>
+  </types>
+  <message name="receiveFileMessage">
+    <part name="inputPart" element="tns:receiveFileParameters" />
+  </message>
+  <message name="receiveFileStreamMessage">
+    <part name="inputPart" element="tns:receiveFileStreamParameters" />
+  </message>
+  <message name="receiveFileResponseMessage">
+    <part name="responseFilePart" element="tns:responseFile" />
+  </message>
+  <message name="receiveFileStreamResponseMessage">
+    <part name="responseFileStream" element="tns:responseFileStream" />
+  </message>
+  <message name="packageTransferFaultMessage">
+    <part name="fault" element="tns:packageTransferError" />
+  </message>
+  <portType name="PackageReceiverWS">
+    <operation name="receiveFile">
+      <input message="tns:receiveFileMessage" />
+      <output message="tns:receiveFileResponseMessage" />
+      <fault name="fault" message="tns:packageTransferFaultMessage" />
+    </operation>
+    <operation name="receiveFileStream">
+      <input message="tns:receiveFileStreamMessage" />
+      <output message="tns:receiveFileStreamResponseMessage" />
+      <fault name="fault" message="tns:packageTransferFaultMessage" />
+    </operation>
+  </portType>
+  <binding name="PackageReceiverWSPortBinding" type="tns:PackageReceiverWS">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <operation name="receiveFile">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <mime:multipartRelated>
+          <mime:part>
+            <soap:body use="literal" />
+          </mime:part>
+          <mime:part>
+            <mime:content part="responseFilePart" type="application/zip" />
+          </mime:part>
+        </mime:multipartRelated>
+      </output>
+      <fault name="fault">
+        <soap:fault use="literal" name="fault" namespace="" />
+      </fault>
+    </operation>
+    <operation name="receiveFileStream">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" parts="responseFileStream" />
+      </output>
+      <fault name="fault">
+        <soap:fault use="literal" name="fault" namespace="" />
+      </fault>
+    </operation>
+  </binding>
+  <service name="PackageReceiverWebService">
+    <port name="PackageReceiverWSPort" binding="tns:PackageReceiverWSPortBinding">
+      <soap:address location="http://pts.saglik.gov.tr/PTS/PackageReceiverWebService" />
+    </port>
+  </service>
+</definitions>

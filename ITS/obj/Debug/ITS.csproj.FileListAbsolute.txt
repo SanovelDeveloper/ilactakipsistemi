@@ -1,0 +1,1051 @@
+D:\All_Projects\Visual_Studio\ITS_git - Copy\ITS\bin\Debug\ITS.exe.config
+D:\All_Projects\Visual_Studio\ITS_git - Copy\ITS\bin\Debug\ITS.exe.manifest
+D:\All_Projects\Visual_Studio\ITS_git - Copy\ITS\bin\Debug\ITS.application
+D:\All_Projects\Visual_Studio\ITS_git - Copy\ITS\bin\Debug\ITS.exe
+D:\All_Projects\Visual_Studio\ITS_git - Copy\ITS\bin\Debug\ITS.pdb
+D:\All_Projects\Visual_Studio\ITS_git - Copy\ITS\bin\Debug\CallFarmakodWebService.dll
+D:\All_Projects\Visual_Studio\ITS_git - Copy\ITS\bin\Debug\DeclarationServices.dll
+D:\All_Projects\Visual_Studio\ITS_git - Copy\ITS\bin\Debug\DevExpress.BonusSkins.v19.1.dll
+D:\All_Projects\Visual_Studio\ITS_git - Copy\ITS\bin\Debug\DevExpress.Data.v19.1.dll
+D:\All_Projects\Visual_Studio\ITS_git - Copy\ITS\bin\Debug\DevExpress.Images.v19.1.dll
+D:\All_Projects\Visual_Studio\ITS_git - Copy\ITS\bin\Debug\DevExpress.Office.v19.1.Core.dll
+D:\All_Projects\Visual_Studio\ITS_git - Copy\ITS\bin\Debug\DevExpress.Pdf.v19.1.Core.dll
+D:\All_Projects\Visual_Studio\ITS_git - Copy\ITS\bin\Debug\DevExpress.Printing.v19.1.Core.dll
+D:\All_Projects\Visual_Studio\ITS_git - Copy\ITS\bin\Debug\DevExpress.RichEdit.v19.1.Core.dll
+D:\All_Projects\Visual_Studio\ITS_git - Copy\ITS\bin\Debug\DevExpress.Utils.v19.1.dll
+D:\All_Projects\Visual_Studio\ITS_git - Copy\ITS\bin\Debug\DevExpress.XtraBars.v19.1.dll
+D:\All_Projects\Visual_Studio\ITS_git - Copy\ITS\bin\Debug\DevExpress.XtraEditors.v19.1.dll
+D:\All_Projects\Visual_Studio\ITS_git - Copy\ITS\bin\Debug\DevExpress.XtraGrid.v19.1.dll
+D:\All_Projects\Visual_Studio\ITS_git - Copy\ITS\bin\Debug\DevExpress.XtraLayout.v19.1.dll
+D:\All_Projects\Visual_Studio\ITS_git - Copy\ITS\bin\Debug\DevExpress.XtraPrinting.v19.1.dll
+D:\All_Projects\Visual_Studio\ITS_git - Copy\ITS\bin\Debug\DevExpress.XtraRichEdit.v19.1.dll
+D:\All_Projects\Visual_Studio\ITS_git - Copy\ITS\bin\Debug\DevExpress.XtraTreeList.v19.1.dll
+D:\All_Projects\Visual_Studio\ITS_git - Copy\ITS\bin\Debug\DevExpress.XtraVerticalGrid.v19.1.dll
+D:\All_Projects\Visual_Studio\ITS_git - Copy\ITS\bin\Debug\Functions.dll
+D:\All_Projects\Visual_Studio\ITS_git - Copy\ITS\bin\Debug\LINQ.dll
+D:\All_Projects\Visual_Studio\ITS_git - Copy\ITS\bin\Debug\Microsoft.ReportViewer.Common.dll
+D:\All_Projects\Visual_Studio\ITS_git - Copy\ITS\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+D:\All_Projects\Visual_Studio\ITS_git - Copy\ITS\bin\Debug\Microsoft.VisualBasic.PowerPacks.Vs.dll
+D:\All_Projects\Visual_Studio\ITS_git - Copy\ITS\bin\Debug\Newtonsoft.Json.dll
+D:\All_Projects\Visual_Studio\ITS_git - Copy\ITS\bin\Debug\Ionic.Zip.dll
+D:\All_Projects\Visual_Studio\ITS_git - Copy\ITS\bin\Debug\DevExpress.Sparkline.v19.1.Core.dll
+D:\All_Projects\Visual_Studio\ITS_git - Copy\ITS\bin\Debug\Microsoft.Build.Utilities.v3.5.dll
+D:\All_Projects\Visual_Studio\ITS_git - Copy\ITS\bin\Debug\ADODB.dll
+D:\All_Projects\Visual_Studio\ITS_git - Copy\ITS\bin\Debug\CallFarmakodWebService.pdb
+D:\All_Projects\Visual_Studio\ITS_git - Copy\ITS\bin\Debug\DeclarationServices.pdb
+D:\All_Projects\Visual_Studio\ITS_git - Copy\ITS\bin\Debug\DeclarationServices.dll.config
+D:\All_Projects\Visual_Studio\ITS_git - Copy\ITS\bin\Debug\Functions.pdb
+D:\All_Projects\Visual_Studio\ITS_git - Copy\ITS\bin\Debug\LINQ.pdb
+D:\All_Projects\Visual_Studio\ITS_git - Copy\ITS\bin\Debug\LINQ.dll.config
+D:\All_Projects\Visual_Studio\ITS_git - Copy\ITS\bin\Debug\DevExpress.Data.v19.1.xml
+D:\All_Projects\Visual_Studio\ITS_git - Copy\ITS\bin\Debug\DevExpress.Office.v19.1.Core.xml
+D:\All_Projects\Visual_Studio\ITS_git - Copy\ITS\bin\Debug\DevExpress.Pdf.v19.1.Core.xml
+D:\All_Projects\Visual_Studio\ITS_git - Copy\ITS\bin\Debug\DevExpress.Printing.v19.1.Core.xml
+D:\All_Projects\Visual_Studio\ITS_git - Copy\ITS\bin\Debug\DevExpress.RichEdit.v19.1.Core.xml
+D:\All_Projects\Visual_Studio\ITS_git - Copy\ITS\bin\Debug\DevExpress.Utils.v19.1.xml
+D:\All_Projects\Visual_Studio\ITS_git - Copy\ITS\bin\Debug\DevExpress.XtraBars.v19.1.xml
+D:\All_Projects\Visual_Studio\ITS_git - Copy\ITS\bin\Debug\DevExpress.XtraEditors.v19.1.xml
+D:\All_Projects\Visual_Studio\ITS_git - Copy\ITS\bin\Debug\DevExpress.XtraGrid.v19.1.xml
+D:\All_Projects\Visual_Studio\ITS_git - Copy\ITS\bin\Debug\DevExpress.XtraLayout.v19.1.xml
+D:\All_Projects\Visual_Studio\ITS_git - Copy\ITS\bin\Debug\DevExpress.XtraPrinting.v19.1.xml
+D:\All_Projects\Visual_Studio\ITS_git - Copy\ITS\bin\Debug\DevExpress.XtraRichEdit.v19.1.xml
+D:\All_Projects\Visual_Studio\ITS_git - Copy\ITS\bin\Debug\DevExpress.XtraTreeList.v19.1.xml
+D:\All_Projects\Visual_Studio\ITS_git - Copy\ITS\bin\Debug\DevExpress.XtraVerticalGrid.v19.1.xml
+D:\All_Projects\Visual_Studio\ITS_git - Copy\ITS\bin\Debug\Microsoft.ReportViewer.WinForms.xml
+D:\All_Projects\Visual_Studio\ITS_git - Copy\ITS\bin\Debug\Newtonsoft.Json.xml
+D:\All_Projects\Visual_Studio\ITS_git - Copy\ITS\bin\Debug\DevExpress.Sparkline.v19.1.Core.xml
+D:\All_Projects\Visual_Studio\ITS_git - Copy\ITS\bin\Debug\Microsoft.Build.Utilities.v3.5.xml
+D:\All_Projects\Visual_Studio\ITS_git - Copy\ITS\bin\Debug\de\DevExpress.Data.v19.1.resources.dll
+D:\All_Projects\Visual_Studio\ITS_git - Copy\ITS\bin\Debug\es\DevExpress.Data.v19.1.resources.dll
+D:\All_Projects\Visual_Studio\ITS_git - Copy\ITS\bin\Debug\ja\DevExpress.Data.v19.1.resources.dll
+D:\All_Projects\Visual_Studio\ITS_git - Copy\ITS\bin\Debug\ru\DevExpress.Data.v19.1.resources.dll
+D:\All_Projects\Visual_Studio\ITS_git - Copy\ITS\bin\Debug\de\DevExpress.Office.v19.1.Core.resources.dll
+D:\All_Projects\Visual_Studio\ITS_git - Copy\ITS\bin\Debug\es\DevExpress.Office.v19.1.Core.resources.dll
+D:\All_Projects\Visual_Studio\ITS_git - Copy\ITS\bin\Debug\ja\DevExpress.Office.v19.1.Core.resources.dll
+D:\All_Projects\Visual_Studio\ITS_git - Copy\ITS\bin\Debug\ru\DevExpress.Office.v19.1.Core.resources.dll
+D:\All_Projects\Visual_Studio\ITS_git - Copy\ITS\bin\Debug\de\DevExpress.Pdf.v19.1.Core.resources.dll
+D:\All_Projects\Visual_Studio\ITS_git - Copy\ITS\bin\Debug\es\DevExpress.Pdf.v19.1.Core.resources.dll
+D:\All_Projects\Visual_Studio\ITS_git - Copy\ITS\bin\Debug\ja\DevExpress.Pdf.v19.1.Core.resources.dll
+D:\All_Projects\Visual_Studio\ITS_git - Copy\ITS\bin\Debug\ru\DevExpress.Pdf.v19.1.Core.resources.dll
+D:\All_Projects\Visual_Studio\ITS_git - Copy\ITS\bin\Debug\de\DevExpress.Printing.v19.1.Core.resources.dll
+D:\All_Projects\Visual_Studio\ITS_git - Copy\ITS\bin\Debug\es\DevExpress.Printing.v19.1.Core.resources.dll
+D:\All_Projects\Visual_Studio\ITS_git - Copy\ITS\bin\Debug\ja\DevExpress.Printing.v19.1.Core.resources.dll
+D:\All_Projects\Visual_Studio\ITS_git - Copy\ITS\bin\Debug\ru\DevExpress.Printing.v19.1.Core.resources.dll
+D:\All_Projects\Visual_Studio\ITS_git - Copy\ITS\bin\Debug\de\DevExpress.RichEdit.v19.1.Core.resources.dll
+D:\All_Projects\Visual_Studio\ITS_git - Copy\ITS\bin\Debug\es\DevExpress.RichEdit.v19.1.Core.resources.dll
+D:\All_Projects\Visual_Studio\ITS_git - Copy\ITS\bin\Debug\ja\DevExpress.RichEdit.v19.1.Core.resources.dll
+D:\All_Projects\Visual_Studio\ITS_git - Copy\ITS\bin\Debug\ru\DevExpress.RichEdit.v19.1.Core.resources.dll
+D:\All_Projects\Visual_Studio\ITS_git - Copy\ITS\bin\Debug\de\DevExpress.Utils.v19.1.resources.dll
+D:\All_Projects\Visual_Studio\ITS_git - Copy\ITS\bin\Debug\es\DevExpress.Utils.v19.1.resources.dll
+D:\All_Projects\Visual_Studio\ITS_git - Copy\ITS\bin\Debug\ja\DevExpress.Utils.v19.1.resources.dll
+D:\All_Projects\Visual_Studio\ITS_git - Copy\ITS\bin\Debug\ru\DevExpress.Utils.v19.1.resources.dll
+D:\All_Projects\Visual_Studio\ITS_git - Copy\ITS\bin\Debug\de\DevExpress.XtraBars.v19.1.resources.dll
+D:\All_Projects\Visual_Studio\ITS_git - Copy\ITS\bin\Debug\es\DevExpress.XtraBars.v19.1.resources.dll
+D:\All_Projects\Visual_Studio\ITS_git - Copy\ITS\bin\Debug\ja\DevExpress.XtraBars.v19.1.resources.dll
+D:\All_Projects\Visual_Studio\ITS_git - Copy\ITS\bin\Debug\ru\DevExpress.XtraBars.v19.1.resources.dll
+D:\All_Projects\Visual_Studio\ITS_git - Copy\ITS\bin\Debug\de\DevExpress.XtraEditors.v19.1.resources.dll
+D:\All_Projects\Visual_Studio\ITS_git - Copy\ITS\bin\Debug\es\DevExpress.XtraEditors.v19.1.resources.dll
+D:\All_Projects\Visual_Studio\ITS_git - Copy\ITS\bin\Debug\ja\DevExpress.XtraEditors.v19.1.resources.dll
+D:\All_Projects\Visual_Studio\ITS_git - Copy\ITS\bin\Debug\ru\DevExpress.XtraEditors.v19.1.resources.dll
+D:\All_Projects\Visual_Studio\ITS_git - Copy\ITS\bin\Debug\de\DevExpress.XtraGrid.v19.1.resources.dll
+D:\All_Projects\Visual_Studio\ITS_git - Copy\ITS\bin\Debug\es\DevExpress.XtraGrid.v19.1.resources.dll
+D:\All_Projects\Visual_Studio\ITS_git - Copy\ITS\bin\Debug\ja\DevExpress.XtraGrid.v19.1.resources.dll
+D:\All_Projects\Visual_Studio\ITS_git - Copy\ITS\bin\Debug\ru\DevExpress.XtraGrid.v19.1.resources.dll
+D:\All_Projects\Visual_Studio\ITS_git - Copy\ITS\bin\Debug\de\DevExpress.XtraLayout.v19.1.resources.dll
+D:\All_Projects\Visual_Studio\ITS_git - Copy\ITS\bin\Debug\es\DevExpress.XtraLayout.v19.1.resources.dll
+D:\All_Projects\Visual_Studio\ITS_git - Copy\ITS\bin\Debug\ja\DevExpress.XtraLayout.v19.1.resources.dll
+D:\All_Projects\Visual_Studio\ITS_git - Copy\ITS\bin\Debug\ru\DevExpress.XtraLayout.v19.1.resources.dll
+D:\All_Projects\Visual_Studio\ITS_git - Copy\ITS\bin\Debug\de\DevExpress.XtraPrinting.v19.1.resources.dll
+D:\All_Projects\Visual_Studio\ITS_git - Copy\ITS\bin\Debug\es\DevExpress.XtraPrinting.v19.1.resources.dll
+D:\All_Projects\Visual_Studio\ITS_git - Copy\ITS\bin\Debug\ja\DevExpress.XtraPrinting.v19.1.resources.dll
+D:\All_Projects\Visual_Studio\ITS_git - Copy\ITS\bin\Debug\ru\DevExpress.XtraPrinting.v19.1.resources.dll
+D:\All_Projects\Visual_Studio\ITS_git - Copy\ITS\bin\Debug\de\DevExpress.XtraRichEdit.v19.1.resources.dll
+D:\All_Projects\Visual_Studio\ITS_git - Copy\ITS\bin\Debug\es\DevExpress.XtraRichEdit.v19.1.resources.dll
+D:\All_Projects\Visual_Studio\ITS_git - Copy\ITS\bin\Debug\ja\DevExpress.XtraRichEdit.v19.1.resources.dll
+D:\All_Projects\Visual_Studio\ITS_git - Copy\ITS\bin\Debug\ru\DevExpress.XtraRichEdit.v19.1.resources.dll
+D:\All_Projects\Visual_Studio\ITS_git - Copy\ITS\bin\Debug\de\DevExpress.XtraTreeList.v19.1.resources.dll
+D:\All_Projects\Visual_Studio\ITS_git - Copy\ITS\bin\Debug\es\DevExpress.XtraTreeList.v19.1.resources.dll
+D:\All_Projects\Visual_Studio\ITS_git - Copy\ITS\bin\Debug\ja\DevExpress.XtraTreeList.v19.1.resources.dll
+D:\All_Projects\Visual_Studio\ITS_git - Copy\ITS\bin\Debug\ru\DevExpress.XtraTreeList.v19.1.resources.dll
+D:\All_Projects\Visual_Studio\ITS_git - Copy\ITS\bin\Debug\de\DevExpress.XtraVerticalGrid.v19.1.resources.dll
+D:\All_Projects\Visual_Studio\ITS_git - Copy\ITS\bin\Debug\es\DevExpress.XtraVerticalGrid.v19.1.resources.dll
+D:\All_Projects\Visual_Studio\ITS_git - Copy\ITS\bin\Debug\ja\DevExpress.XtraVerticalGrid.v19.1.resources.dll
+D:\All_Projects\Visual_Studio\ITS_git - Copy\ITS\bin\Debug\ru\DevExpress.XtraVerticalGrid.v19.1.resources.dll
+D:\All_Projects\Visual_Studio\ITS_git - Copy\ITS\bin\Debug\de\DevExpress.Sparkline.v19.1.Core.resources.dll
+D:\All_Projects\Visual_Studio\ITS_git - Copy\ITS\bin\Debug\es\DevExpress.Sparkline.v19.1.Core.resources.dll
+D:\All_Projects\Visual_Studio\ITS_git - Copy\ITS\bin\Debug\ja\DevExpress.Sparkline.v19.1.Core.resources.dll
+D:\All_Projects\Visual_Studio\ITS_git - Copy\ITS\bin\Debug\ru\DevExpress.Sparkline.v19.1.Core.resources.dll
+D:\All_Projects\Visual_Studio\ITS_git - Copy\ITS\bin\Debug\tr\Microsoft.Build.Utilities.v3.5.resources.dll
+D:\All_Projects\Visual_Studio\ITS_git - Copy\ITS\obj\Debug\ITS.csprojAssemblyReference.cache
+D:\All_Projects\Visual_Studio\ITS_git - Copy\ITS\obj\Debug\ITS.AmbalajEkleme.resources
+D:\All_Projects\Visual_Studio\ITS_git - Copy\ITS\obj\Debug\ITS.AmbalajGecerlilikDurumuDegistir.resources
+D:\All_Projects\Visual_Studio\ITS_git - Copy\ITS\obj\Debug\ITS.AutomaticFileTransferedInfo.resources
+D:\All_Projects\Visual_Studio\ITS_git - Copy\ITS\obj\Debug\ITS.BildirimDetayi.resources
+D:\All_Projects\Visual_Studio\ITS_git - Copy\ITS\obj\Debug\ITS.BildirimZamanlama.resources
+D:\All_Projects\Visual_Studio\ITS_git - Copy\ITS\obj\Debug\ITS.CariGLNListesi.resources
+D:\All_Projects\Visual_Studio\ITS_git - Copy\ITS\obj\Debug\ITS.EczaneyeSatisKaydiOlusturma.resources
+D:\All_Projects\Visual_Studio\ITS_git - Copy\ITS\obj\Debug\ITS.FasonBildirim.resources
+D:\All_Projects\Visual_Studio\ITS_git - Copy\ITS\obj\Debug\ITS.Giris.resources
+D:\All_Projects\Visual_Studio\ITS_git - Copy\ITS\obj\Debug\ITS.GrupIciSatisAlisIslemleri.resources
+D:\All_Projects\Visual_Studio\ITS_git - Copy\ITS\obj\Debug\ITS.KolileriYerDegistirme.resources
+D:\All_Projects\Visual_Studio\ITS_git - Copy\ITS\obj\Debug\ITS.main.resources
+D:\All_Projects\Visual_Studio\ITS_git - Copy\ITS\obj\Debug\ITS.Properties.Resources.resources
+D:\All_Projects\Visual_Studio\ITS_git - Copy\ITS\obj\Debug\ITS.SatisAktarimSorunlari.resources
+D:\All_Projects\Visual_Studio\ITS_git - Copy\ITS\obj\Debug\ITS.SatisDetayinaAmbalajEkleme.resources
+D:\All_Projects\Visual_Studio\ITS_git - Copy\ITS\obj\Debug\ITS.SatisVerisiOlusturma.resources
+D:\All_Projects\Visual_Studio\ITS_git - Copy\ITS\obj\Debug\ITS.SplashScreen1.resources
+D:\All_Projects\Visual_Studio\ITS_git - Copy\ITS\obj\Debug\ITS.TTSdeEkstraUretimEmriOlustur.resources
+D:\All_Projects\Visual_Studio\ITS_git - Copy\ITS\obj\Debug\ITS.TumAmbalajlariEkleme.resources
+D:\All_Projects\Visual_Studio\ITS_git - Copy\ITS\obj\Debug\ITS.UretimBildirimRaporu.resources
+D:\All_Projects\Visual_Studio\ITS_git - Copy\ITS\obj\Debug\ITS.UretimDetayiArama.resources
+D:\All_Projects\Visual_Studio\ITS_git - Copy\ITS\obj\Debug\ITS.VeriTasima.resources
+D:\All_Projects\Visual_Studio\ITS_git - Copy\ITS\obj\Debug\ITS.WaitForm1.resources
+D:\All_Projects\Visual_Studio\ITS_git - Copy\ITS\obj\Debug\ITS.XMLDosyasiGoster.resources
+D:\All_Projects\Visual_Studio\ITS_git - Copy\ITS\obj\Debug\ITS.csproj.GenerateResource.cache
+D:\All_Projects\Visual_Studio\ITS_git - Copy\ITS\obj\Debug\ITS.exe.licenses
+D:\All_Projects\Visual_Studio\ITS_git - Copy\ITS\obj\Debug\ITS.exe.manifest
+D:\All_Projects\Visual_Studio\ITS_git - Copy\ITS\obj\Debug\ITS.application
+D:\All_Projects\Visual_Studio\ITS_git - Copy\ITS\obj\Debug\ITS.csproj.CopyComplete
+D:\All_Projects\Visual_Studio\ITS_git - Copy\ITS\obj\Debug\ITS.exe
+D:\All_Projects\Visual_Studio\ITS_git - Copy\ITS\obj\Debug\ITS.pdb
+D:\All_Projects\Visual_Studio\ITS_git\ITS\bin\Debug\ITS.exe.config
+D:\All_Projects\Visual_Studio\ITS_git\ITS\bin\Debug\ITS.exe.manifest
+D:\All_Projects\Visual_Studio\ITS_git\ITS\bin\Debug\ITS.application
+D:\All_Projects\Visual_Studio\ITS_git\ITS\bin\Debug\ITS.exe
+D:\All_Projects\Visual_Studio\ITS_git\ITS\bin\Debug\ITS.pdb
+D:\All_Projects\Visual_Studio\ITS_git\ITS\bin\Debug\CallFarmakodWebService.dll
+D:\All_Projects\Visual_Studio\ITS_git\ITS\bin\Debug\DeclarationServices.dll
+D:\All_Projects\Visual_Studio\ITS_git\ITS\bin\Debug\DevExpress.BonusSkins.v19.2.dll
+D:\All_Projects\Visual_Studio\ITS_git\ITS\bin\Debug\DevExpress.Data.v19.2.dll
+D:\All_Projects\Visual_Studio\ITS_git\ITS\bin\Debug\DevExpress.Images.v19.2.dll
+D:\All_Projects\Visual_Studio\ITS_git\ITS\bin\Debug\DevExpress.Office.v19.2.Core.dll
+D:\All_Projects\Visual_Studio\ITS_git\ITS\bin\Debug\DevExpress.Pdf.v19.2.Core.dll
+D:\All_Projects\Visual_Studio\ITS_git\ITS\bin\Debug\DevExpress.Printing.v19.2.Core.dll
+D:\All_Projects\Visual_Studio\ITS_git\ITS\bin\Debug\DevExpress.RichEdit.v19.2.Core.dll
+D:\All_Projects\Visual_Studio\ITS_git\ITS\bin\Debug\DevExpress.Utils.v19.2.dll
+D:\All_Projects\Visual_Studio\ITS_git\ITS\bin\Debug\DevExpress.XtraBars.v19.2.dll
+D:\All_Projects\Visual_Studio\ITS_git\ITS\bin\Debug\DevExpress.XtraEditors.v19.2.dll
+D:\All_Projects\Visual_Studio\ITS_git\ITS\bin\Debug\DevExpress.XtraGrid.v19.2.dll
+D:\All_Projects\Visual_Studio\ITS_git\ITS\bin\Debug\DevExpress.XtraLayout.v19.2.dll
+D:\All_Projects\Visual_Studio\ITS_git\ITS\bin\Debug\DevExpress.XtraPrinting.v19.2.dll
+D:\All_Projects\Visual_Studio\ITS_git\ITS\bin\Debug\DevExpress.XtraRichEdit.v19.2.dll
+D:\All_Projects\Visual_Studio\ITS_git\ITS\bin\Debug\DevExpress.XtraTreeList.v19.2.dll
+D:\All_Projects\Visual_Studio\ITS_git\ITS\bin\Debug\DevExpress.XtraVerticalGrid.v19.2.dll
+D:\All_Projects\Visual_Studio\ITS_git\ITS\bin\Debug\Functions.dll
+D:\All_Projects\Visual_Studio\ITS_git\ITS\bin\Debug\LINQ.dll
+D:\All_Projects\Visual_Studio\ITS_git\ITS\bin\Debug\Microsoft.ReportViewer.Common.dll
+D:\All_Projects\Visual_Studio\ITS_git\ITS\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+D:\All_Projects\Visual_Studio\ITS_git\ITS\bin\Debug\Microsoft.VisualBasic.PowerPacks.Vs.dll
+D:\All_Projects\Visual_Studio\ITS_git\ITS\bin\Debug\Newtonsoft.Json.dll
+D:\All_Projects\Visual_Studio\ITS_git\ITS\bin\Debug\Ionic.Zip.dll
+D:\All_Projects\Visual_Studio\ITS_git\ITS\bin\Debug\DevExpress.Sparkline.v19.2.Core.dll
+D:\All_Projects\Visual_Studio\ITS_git\ITS\bin\Debug\Microsoft.Build.Utilities.v3.5.dll
+D:\All_Projects\Visual_Studio\ITS_git\ITS\bin\Debug\ADODB.dll
+D:\All_Projects\Visual_Studio\ITS_git\ITS\bin\Debug\CallFarmakodWebService.pdb
+D:\All_Projects\Visual_Studio\ITS_git\ITS\bin\Debug\DeclarationServices.pdb
+D:\All_Projects\Visual_Studio\ITS_git\ITS\bin\Debug\DeclarationServices.dll.config
+D:\All_Projects\Visual_Studio\ITS_git\ITS\bin\Debug\Functions.pdb
+D:\All_Projects\Visual_Studio\ITS_git\ITS\bin\Debug\LINQ.pdb
+D:\All_Projects\Visual_Studio\ITS_git\ITS\bin\Debug\LINQ.dll.config
+D:\All_Projects\Visual_Studio\ITS_git\ITS\bin\Debug\DevExpress.Data.v19.2.xml
+D:\All_Projects\Visual_Studio\ITS_git\ITS\bin\Debug\DevExpress.Office.v19.2.Core.xml
+D:\All_Projects\Visual_Studio\ITS_git\ITS\bin\Debug\DevExpress.Pdf.v19.2.Core.xml
+D:\All_Projects\Visual_Studio\ITS_git\ITS\bin\Debug\DevExpress.Printing.v19.2.Core.xml
+D:\All_Projects\Visual_Studio\ITS_git\ITS\bin\Debug\DevExpress.RichEdit.v19.2.Core.xml
+D:\All_Projects\Visual_Studio\ITS_git\ITS\bin\Debug\DevExpress.Utils.v19.2.xml
+D:\All_Projects\Visual_Studio\ITS_git\ITS\bin\Debug\DevExpress.XtraBars.v19.2.xml
+D:\All_Projects\Visual_Studio\ITS_git\ITS\bin\Debug\DevExpress.XtraEditors.v19.2.xml
+D:\All_Projects\Visual_Studio\ITS_git\ITS\bin\Debug\DevExpress.XtraGrid.v19.2.xml
+D:\All_Projects\Visual_Studio\ITS_git\ITS\bin\Debug\DevExpress.XtraLayout.v19.2.xml
+D:\All_Projects\Visual_Studio\ITS_git\ITS\bin\Debug\DevExpress.XtraPrinting.v19.2.xml
+D:\All_Projects\Visual_Studio\ITS_git\ITS\bin\Debug\DevExpress.XtraRichEdit.v19.2.xml
+D:\All_Projects\Visual_Studio\ITS_git\ITS\bin\Debug\DevExpress.XtraTreeList.v19.2.xml
+D:\All_Projects\Visual_Studio\ITS_git\ITS\bin\Debug\DevExpress.XtraVerticalGrid.v19.2.xml
+D:\All_Projects\Visual_Studio\ITS_git\ITS\bin\Debug\Microsoft.ReportViewer.WinForms.xml
+D:\All_Projects\Visual_Studio\ITS_git\ITS\bin\Debug\Newtonsoft.Json.xml
+D:\All_Projects\Visual_Studio\ITS_git\ITS\bin\Debug\DevExpress.Sparkline.v19.2.Core.xml
+D:\All_Projects\Visual_Studio\ITS_git\ITS\bin\Debug\Microsoft.Build.Utilities.v3.5.xml
+D:\All_Projects\Visual_Studio\ITS_git\ITS\bin\Debug\de\DevExpress.Data.v19.2.resources.dll
+D:\All_Projects\Visual_Studio\ITS_git\ITS\bin\Debug\es\DevExpress.Data.v19.2.resources.dll
+D:\All_Projects\Visual_Studio\ITS_git\ITS\bin\Debug\ja\DevExpress.Data.v19.2.resources.dll
+D:\All_Projects\Visual_Studio\ITS_git\ITS\bin\Debug\ru\DevExpress.Data.v19.2.resources.dll
+D:\All_Projects\Visual_Studio\ITS_git\ITS\bin\Debug\de\DevExpress.Office.v19.2.Core.resources.dll
+D:\All_Projects\Visual_Studio\ITS_git\ITS\bin\Debug\es\DevExpress.Office.v19.2.Core.resources.dll
+D:\All_Projects\Visual_Studio\ITS_git\ITS\bin\Debug\ja\DevExpress.Office.v19.2.Core.resources.dll
+D:\All_Projects\Visual_Studio\ITS_git\ITS\bin\Debug\ru\DevExpress.Office.v19.2.Core.resources.dll
+D:\All_Projects\Visual_Studio\ITS_git\ITS\bin\Debug\de\DevExpress.Pdf.v19.2.Core.resources.dll
+D:\All_Projects\Visual_Studio\ITS_git\ITS\bin\Debug\es\DevExpress.Pdf.v19.2.Core.resources.dll
+D:\All_Projects\Visual_Studio\ITS_git\ITS\bin\Debug\ja\DevExpress.Pdf.v19.2.Core.resources.dll
+D:\All_Projects\Visual_Studio\ITS_git\ITS\bin\Debug\ru\DevExpress.Pdf.v19.2.Core.resources.dll
+D:\All_Projects\Visual_Studio\ITS_git\ITS\bin\Debug\de\DevExpress.Printing.v19.2.Core.resources.dll
+D:\All_Projects\Visual_Studio\ITS_git\ITS\bin\Debug\es\DevExpress.Printing.v19.2.Core.resources.dll
+D:\All_Projects\Visual_Studio\ITS_git\ITS\bin\Debug\ja\DevExpress.Printing.v19.2.Core.resources.dll
+D:\All_Projects\Visual_Studio\ITS_git\ITS\bin\Debug\ru\DevExpress.Printing.v19.2.Core.resources.dll
+D:\All_Projects\Visual_Studio\ITS_git\ITS\bin\Debug\de\DevExpress.RichEdit.v19.2.Core.resources.dll
+D:\All_Projects\Visual_Studio\ITS_git\ITS\bin\Debug\es\DevExpress.RichEdit.v19.2.Core.resources.dll
+D:\All_Projects\Visual_Studio\ITS_git\ITS\bin\Debug\ja\DevExpress.RichEdit.v19.2.Core.resources.dll
+D:\All_Projects\Visual_Studio\ITS_git\ITS\bin\Debug\ru\DevExpress.RichEdit.v19.2.Core.resources.dll
+D:\All_Projects\Visual_Studio\ITS_git\ITS\bin\Debug\de\DevExpress.Utils.v19.2.resources.dll
+D:\All_Projects\Visual_Studio\ITS_git\ITS\bin\Debug\es\DevExpress.Utils.v19.2.resources.dll
+D:\All_Projects\Visual_Studio\ITS_git\ITS\bin\Debug\ja\DevExpress.Utils.v19.2.resources.dll
+D:\All_Projects\Visual_Studio\ITS_git\ITS\bin\Debug\ru\DevExpress.Utils.v19.2.resources.dll
+D:\All_Projects\Visual_Studio\ITS_git\ITS\bin\Debug\de\DevExpress.XtraBars.v19.2.resources.dll
+D:\All_Projects\Visual_Studio\ITS_git\ITS\bin\Debug\es\DevExpress.XtraBars.v19.2.resources.dll
+D:\All_Projects\Visual_Studio\ITS_git\ITS\bin\Debug\ja\DevExpress.XtraBars.v19.2.resources.dll
+D:\All_Projects\Visual_Studio\ITS_git\ITS\bin\Debug\ru\DevExpress.XtraBars.v19.2.resources.dll
+D:\All_Projects\Visual_Studio\ITS_git\ITS\bin\Debug\de\DevExpress.XtraEditors.v19.2.resources.dll
+D:\All_Projects\Visual_Studio\ITS_git\ITS\bin\Debug\es\DevExpress.XtraEditors.v19.2.resources.dll
+D:\All_Projects\Visual_Studio\ITS_git\ITS\bin\Debug\ja\DevExpress.XtraEditors.v19.2.resources.dll
+D:\All_Projects\Visual_Studio\ITS_git\ITS\bin\Debug\ru\DevExpress.XtraEditors.v19.2.resources.dll
+D:\All_Projects\Visual_Studio\ITS_git\ITS\bin\Debug\de\DevExpress.XtraGrid.v19.2.resources.dll
+D:\All_Projects\Visual_Studio\ITS_git\ITS\bin\Debug\es\DevExpress.XtraGrid.v19.2.resources.dll
+D:\All_Projects\Visual_Studio\ITS_git\ITS\bin\Debug\ja\DevExpress.XtraGrid.v19.2.resources.dll
+D:\All_Projects\Visual_Studio\ITS_git\ITS\bin\Debug\ru\DevExpress.XtraGrid.v19.2.resources.dll
+D:\All_Projects\Visual_Studio\ITS_git\ITS\bin\Debug\de\DevExpress.XtraLayout.v19.2.resources.dll
+D:\All_Projects\Visual_Studio\ITS_git\ITS\bin\Debug\es\DevExpress.XtraLayout.v19.2.resources.dll
+D:\All_Projects\Visual_Studio\ITS_git\ITS\bin\Debug\ja\DevExpress.XtraLayout.v19.2.resources.dll
+D:\All_Projects\Visual_Studio\ITS_git\ITS\bin\Debug\ru\DevExpress.XtraLayout.v19.2.resources.dll
+D:\All_Projects\Visual_Studio\ITS_git\ITS\bin\Debug\de\DevExpress.XtraPrinting.v19.2.resources.dll
+D:\All_Projects\Visual_Studio\ITS_git\ITS\bin\Debug\es\DevExpress.XtraPrinting.v19.2.resources.dll
+D:\All_Projects\Visual_Studio\ITS_git\ITS\bin\Debug\ja\DevExpress.XtraPrinting.v19.2.resources.dll
+D:\All_Projects\Visual_Studio\ITS_git\ITS\bin\Debug\ru\DevExpress.XtraPrinting.v19.2.resources.dll
+D:\All_Projects\Visual_Studio\ITS_git\ITS\bin\Debug\de\DevExpress.XtraRichEdit.v19.2.resources.dll
+D:\All_Projects\Visual_Studio\ITS_git\ITS\bin\Debug\es\DevExpress.XtraRichEdit.v19.2.resources.dll
+D:\All_Projects\Visual_Studio\ITS_git\ITS\bin\Debug\ja\DevExpress.XtraRichEdit.v19.2.resources.dll
+D:\All_Projects\Visual_Studio\ITS_git\ITS\bin\Debug\ru\DevExpress.XtraRichEdit.v19.2.resources.dll
+D:\All_Projects\Visual_Studio\ITS_git\ITS\bin\Debug\de\DevExpress.XtraTreeList.v19.2.resources.dll
+D:\All_Projects\Visual_Studio\ITS_git\ITS\bin\Debug\es\DevExpress.XtraTreeList.v19.2.resources.dll
+D:\All_Projects\Visual_Studio\ITS_git\ITS\bin\Debug\ja\DevExpress.XtraTreeList.v19.2.resources.dll
+D:\All_Projects\Visual_Studio\ITS_git\ITS\bin\Debug\ru\DevExpress.XtraTreeList.v19.2.resources.dll
+D:\All_Projects\Visual_Studio\ITS_git\ITS\bin\Debug\de\DevExpress.XtraVerticalGrid.v19.2.resources.dll
+D:\All_Projects\Visual_Studio\ITS_git\ITS\bin\Debug\es\DevExpress.XtraVerticalGrid.v19.2.resources.dll
+D:\All_Projects\Visual_Studio\ITS_git\ITS\bin\Debug\ja\DevExpress.XtraVerticalGrid.v19.2.resources.dll
+D:\All_Projects\Visual_Studio\ITS_git\ITS\bin\Debug\ru\DevExpress.XtraVerticalGrid.v19.2.resources.dll
+D:\All_Projects\Visual_Studio\ITS_git\ITS\bin\Debug\de\DevExpress.Sparkline.v19.2.Core.resources.dll
+D:\All_Projects\Visual_Studio\ITS_git\ITS\bin\Debug\es\DevExpress.Sparkline.v19.2.Core.resources.dll
+D:\All_Projects\Visual_Studio\ITS_git\ITS\bin\Debug\ja\DevExpress.Sparkline.v19.2.Core.resources.dll
+D:\All_Projects\Visual_Studio\ITS_git\ITS\bin\Debug\ru\DevExpress.Sparkline.v19.2.Core.resources.dll
+D:\All_Projects\Visual_Studio\ITS_git\ITS\bin\Debug\tr\Microsoft.Build.Utilities.v3.5.resources.dll
+D:\All_Projects\Visual_Studio\ITS_git\ITS\obj\Debug\ITS.csprojAssemblyReference.cache
+D:\All_Projects\Visual_Studio\ITS_git\ITS\obj\Debug\ITS.AmbalajEkleme.resources
+D:\All_Projects\Visual_Studio\ITS_git\ITS\obj\Debug\ITS.AmbalajGecerlilikDurumuDegistir.resources
+D:\All_Projects\Visual_Studio\ITS_git\ITS\obj\Debug\ITS.AutomaticFileTransferedInfo.resources
+D:\All_Projects\Visual_Studio\ITS_git\ITS\obj\Debug\ITS.BildirimDetayi.resources
+D:\All_Projects\Visual_Studio\ITS_git\ITS\obj\Debug\ITS.BildirimZamanlama.resources
+D:\All_Projects\Visual_Studio\ITS_git\ITS\obj\Debug\ITS.CariGLNListesi.resources
+D:\All_Projects\Visual_Studio\ITS_git\ITS\obj\Debug\ITS.EczaneyeSatisKaydiOlusturma.resources
+D:\All_Projects\Visual_Studio\ITS_git\ITS\obj\Debug\ITS.FasonBildirim.resources
+D:\All_Projects\Visual_Studio\ITS_git\ITS\obj\Debug\ITS.Giris.resources
+D:\All_Projects\Visual_Studio\ITS_git\ITS\obj\Debug\ITS.GrupIciSatisAlisIslemleri.resources
+D:\All_Projects\Visual_Studio\ITS_git\ITS\obj\Debug\ITS.KolileriYerDegistirme.resources
+D:\All_Projects\Visual_Studio\ITS_git\ITS\obj\Debug\ITS.main.resources
+D:\All_Projects\Visual_Studio\ITS_git\ITS\obj\Debug\ITS.Properties.Resources.resources
+D:\All_Projects\Visual_Studio\ITS_git\ITS\obj\Debug\ITS.SatisAktarimSorunlari.resources
+D:\All_Projects\Visual_Studio\ITS_git\ITS\obj\Debug\ITS.SatisDetayinaAmbalajEkleme.resources
+D:\All_Projects\Visual_Studio\ITS_git\ITS\obj\Debug\ITS.SatisVerisiOlusturma.resources
+D:\All_Projects\Visual_Studio\ITS_git\ITS\obj\Debug\ITS.SplashScreen1.resources
+D:\All_Projects\Visual_Studio\ITS_git\ITS\obj\Debug\ITS.TTSdeEkstraUretimEmriOlustur.resources
+D:\All_Projects\Visual_Studio\ITS_git\ITS\obj\Debug\ITS.TumAmbalajlariEkleme.resources
+D:\All_Projects\Visual_Studio\ITS_git\ITS\obj\Debug\ITS.UretimBildirimRaporu.resources
+D:\All_Projects\Visual_Studio\ITS_git\ITS\obj\Debug\ITS.UretimDetayiArama.resources
+D:\All_Projects\Visual_Studio\ITS_git\ITS\obj\Debug\ITS.VeriTasima.resources
+D:\All_Projects\Visual_Studio\ITS_git\ITS\obj\Debug\ITS.WaitForm1.resources
+D:\All_Projects\Visual_Studio\ITS_git\ITS\obj\Debug\ITS.XMLDosyasiGoster.resources
+D:\All_Projects\Visual_Studio\ITS_git\ITS\obj\Debug\ITS.csproj.GenerateResource.cache
+D:\All_Projects\Visual_Studio\ITS_git\ITS\obj\Debug\ITS.exe.licenses
+D:\All_Projects\Visual_Studio\ITS_git\ITS\obj\Debug\ITS.exe.manifest
+D:\All_Projects\Visual_Studio\ITS_git\ITS\obj\Debug\ITS.application
+D:\All_Projects\Visual_Studio\ITS_git\ITS\obj\Debug\ITS.csproj.CopyComplete
+D:\All_Projects\Visual_Studio\ITS_git\ITS\obj\Debug\ITS.exe
+D:\All_Projects\Visual_Studio\ITS_git\ITS\obj\Debug\ITS.pdb
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\erhan abi son git\ITS_git\ITS\bin\Debug\ITS.exe.config
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\erhan abi son git\ITS_git\ITS\bin\Debug\ITS.exe.manifest
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\erhan abi son git\ITS_git\ITS\bin\Debug\ITS.application
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\erhan abi son git\ITS_git\ITS\bin\Debug\ITS.exe
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\erhan abi son git\ITS_git\ITS\bin\Debug\ITS.pdb
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\erhan abi son git\ITS_git\ITS\bin\Debug\DeclarationServices.dll
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\erhan abi son git\ITS_git\ITS\bin\Debug\Functions.dll
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\erhan abi son git\ITS_git\ITS\bin\Debug\LINQ.dll
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\erhan abi son git\ITS_git\ITS\bin\Debug\Ionic.Zip.dll
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\erhan abi son git\ITS_git\ITS\bin\Debug\LINQ.pdb
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\erhan abi son git\ITS_git\ITS\bin\Debug\Functions.pdb
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\erhan abi son git\ITS_git\ITS\bin\Debug\DeclarationServices.pdb
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\erhan abi son git\ITS_git\ITS\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\erhan abi son git\ITS_git\ITS\obj\Debug\ITS.AmbalajEkleme.resources
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\erhan abi son git\ITS_git\ITS\obj\Debug\ITS.AmbalajGecerlilikDurumuDegistir.resources
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\erhan abi son git\ITS_git\ITS\obj\Debug\ITS.BildirimDetayi.resources
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\erhan abi son git\ITS_git\ITS\obj\Debug\ITS.EczaneyeSatisKaydiOlusturma.resources
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\erhan abi son git\ITS_git\ITS\obj\Debug\ITS.FasonBildirim.resources
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\erhan abi son git\ITS_git\ITS\obj\Debug\ITS.Giris.resources
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\erhan abi son git\ITS_git\ITS\obj\Debug\ITS.GrupIciSatisAlisIslemleri.resources
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\erhan abi son git\ITS_git\ITS\obj\Debug\ITS.KolileriYerDegistirme.resources
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\erhan abi son git\ITS_git\ITS\obj\Debug\ITS.main.resources
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\erhan abi son git\ITS_git\ITS\obj\Debug\ITS.Properties.Resources.resources
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\erhan abi son git\ITS_git\ITS\obj\Debug\ITS.SatisAktarimSorunlari.resources
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\erhan abi son git\ITS_git\ITS\obj\Debug\ITS.SatisDetayinaAmbalajEkleme.resources
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\erhan abi son git\ITS_git\ITS\obj\Debug\ITS.SatisVerisiOlusturma.resources
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\erhan abi son git\ITS_git\ITS\obj\Debug\ITS.SplashScreen1.resources
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\erhan abi son git\ITS_git\ITS\obj\Debug\ITS.TTSdeEkstraUretimEmriOlustur.resources
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\erhan abi son git\ITS_git\ITS\obj\Debug\ITS.TumAmbalajlariEkleme.resources
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\erhan abi son git\ITS_git\ITS\obj\Debug\ITS.UretimBildirimRaporu.resources
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\erhan abi son git\ITS_git\ITS\obj\Debug\ITS.UretimDetayiArama.resources
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\erhan abi son git\ITS_git\ITS\obj\Debug\ITS.VeriTasima.resources
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\erhan abi son git\ITS_git\ITS\obj\Debug\ITS.WaitForm1.resources
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\erhan abi son git\ITS_git\ITS\obj\Debug\ITS.XMLDosyasiGoster.resources
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\erhan abi son git\ITS_git\ITS\obj\Debug\ITS.csproj.GenerateResource.Cache
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\erhan abi son git\ITS_git\ITS\obj\Debug\ITS.exe.licenses
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\erhan abi son git\ITS_git\ITS\obj\Debug\RdlCompile.cache
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\erhan abi son git\ITS_git\ITS\obj\Debug\RdlCompile.compiled
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\erhan abi son git\ITS_git\ITS\obj\Debug\ITS.exe.manifest
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\erhan abi son git\ITS_git\ITS\obj\Debug\ITS.application
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\erhan abi son git\ITS_git\ITS\obj\Debug\ITS.exe
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\erhan abi son git\ITS_git\ITS\obj\Debug\ITS.pdb
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\SANOVEL Applications\ITS\ITS_git\ITS\bin\Debug\ITS.exe.config
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\SANOVEL Applications\ITS\ITS_git\ITS\obj\Debug\ITS.exe
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\SANOVEL Applications\ITS\ITS_git\ITS\obj\Debug\ITS.pdb
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\SANOVEL Applications\ITS\ITS_git\ITS\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\SANOVEL Applications\ITS\ITS_git\ITS\obj\Debug\ITS.AmbalajEkleme.resources
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\SANOVEL Applications\ITS\ITS_git\ITS\obj\Debug\ITS.AmbalajGecerlilikDurumuDegistir.resources
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\SANOVEL Applications\ITS\ITS_git\ITS\obj\Debug\ITS.BildirimDetayi.resources
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\SANOVEL Applications\ITS\ITS_git\ITS\obj\Debug\ITS.EczaneyeSatisKaydiOlusturma.resources
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\SANOVEL Applications\ITS\ITS_git\ITS\obj\Debug\ITS.FasonBildirim.resources
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\SANOVEL Applications\ITS\ITS_git\ITS\obj\Debug\ITS.Giris.resources
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\SANOVEL Applications\ITS\ITS_git\ITS\obj\Debug\ITS.GrupIciSatisAlisIslemleri.resources
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\SANOVEL Applications\ITS\ITS_git\ITS\obj\Debug\ITS.KolileriYerDegistirme.resources
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\SANOVEL Applications\ITS\ITS_git\ITS\obj\Debug\ITS.main.resources
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\SANOVEL Applications\ITS\ITS_git\ITS\obj\Debug\ITS.Properties.Resources.resources
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\SANOVEL Applications\ITS\ITS_git\ITS\obj\Debug\ITS.SatisAktarimSorunlari.resources
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\SANOVEL Applications\ITS\ITS_git\ITS\obj\Debug\ITS.SatisDetayinaAmbalajEkleme.resources
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\SANOVEL Applications\ITS\ITS_git\ITS\obj\Debug\ITS.SatisVerisiOlusturma.resources
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\SANOVEL Applications\ITS\ITS_git\ITS\obj\Debug\ITS.SplashScreen1.resources
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\SANOVEL Applications\ITS\ITS_git\ITS\obj\Debug\ITS.TTSdeEkstraUretimEmriOlustur.resources
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\SANOVEL Applications\ITS\ITS_git\ITS\obj\Debug\ITS.TumAmbalajlariEkleme.resources
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\SANOVEL Applications\ITS\ITS_git\ITS\obj\Debug\ITS.UretimBildirimRaporu.resources
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\SANOVEL Applications\ITS\ITS_git\ITS\obj\Debug\ITS.UretimDetayiArama.resources
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\SANOVEL Applications\ITS\ITS_git\ITS\obj\Debug\ITS.VeriTasima.resources
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\SANOVEL Applications\ITS\ITS_git\ITS\obj\Debug\ITS.WaitForm1.resources
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\SANOVEL Applications\ITS\ITS_git\ITS\obj\Debug\ITS.XMLDosyasiGoster.resources
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\SANOVEL Applications\ITS\ITS_git\ITS\obj\Debug\ITS.csproj.GenerateResource.Cache
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\SANOVEL Applications\ITS\ITS_git\ITS\obj\Debug\ITS.exe.licenses
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\SANOVEL Applications\ITS\ITS_git\ITS\obj\Debug\RdlCompile.cache
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\SANOVEL Applications\ITS\ITS_git\ITS\obj\Debug\RdlCompile.compiled
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\SANOVEL Applications\ITS\ITS_git\ITS\bin\Debug\ITS.exe.manifest
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\SANOVEL Applications\ITS\ITS_git\ITS\bin\Debug\ITS.application
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\SANOVEL Applications\ITS\ITS_git\ITS\bin\Debug\ITS.exe
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\SANOVEL Applications\ITS\ITS_git\ITS\bin\Debug\ITS.pdb
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\SANOVEL Applications\ITS\ITS_git\ITS\bin\Debug\DeclarationServices.dll
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\SANOVEL Applications\ITS\ITS_git\ITS\bin\Debug\Functions.dll
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\SANOVEL Applications\ITS\ITS_git\ITS\bin\Debug\LINQ.dll
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\SANOVEL Applications\ITS\ITS_git\ITS\bin\Debug\Ionic.Zip.dll
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\SANOVEL Applications\ITS\ITS_git\ITS\bin\Debug\LINQ.pdb
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\SANOVEL Applications\ITS\ITS_git\ITS\bin\Debug\Functions.pdb
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\SANOVEL Applications\ITS\ITS_git\ITS\bin\Debug\DeclarationServices.pdb
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\SANOVEL Applications\ITS\ITS_git\ITS\obj\Debug\ITS.exe.manifest
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\SANOVEL Applications\ITS\ITS_git\ITS\obj\Debug\ITS.application
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\New folder (10)\ITS_git\ITS\obj\Debug\ITS.csproj.AssemblyReference.cache
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\New folder (10)\ITS_git\ITS\obj\Debug\ITS.AmbalajGecerlilikDurumuDegistir.resources
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\New folder (10)\ITS_git\ITS\obj\Debug\ITS.BildirimDetayi.resources
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\New folder (10)\ITS_git\ITS\obj\Debug\ITS.EczaneyeSatisKaydiOlusturma.resources
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\New folder (10)\ITS_git\ITS\obj\Debug\ITS.FasonBildirim.resources
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\New folder (10)\ITS_git\ITS\obj\Debug\ITS.GrupIciSatisAlisIslemleri.resources
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\New folder (10)\ITS_git\ITS\obj\Debug\ITS.KolileriYerDegistirme.resources
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\New folder (10)\ITS_git\ITS\obj\Debug\ITS.Properties.Resources.resources
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\New folder (10)\ITS_git\ITS\obj\Debug\ITS.SatisAktarimSorunlari.resources
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\New folder (10)\ITS_git\ITS\obj\Debug\ITS.SatisDetayinaAmbalajEkleme.resources
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\New folder (10)\ITS_git\ITS\obj\Debug\ITS.SatisVerisiOlusturma.resources
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\New folder (10)\ITS_git\ITS\obj\Debug\ITS.UretimBildirimRaporu.resources
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\New folder (10)\ITS_git\ITS\obj\Debug\ITS.VeriTasima.resources
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\New folder (10)\ITS_git\ITS\obj\Debug\ITS.WaitForm1.resources
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\New folder (10)\ITS_git\ITS\obj\Debug\ITS.XMLDosyasiGoster.resources
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\New folder (10)\ITS_git\ITS\obj\Debug\ITS.csproj.GenerateResource.cache
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\New folder (10)\ITS_git\ITS\obj\Debug\ITS.exe.licenses
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\New folder (10)\ITS_git\ITS\obj\Debug\ITS.csproj.CoreCompileInputs.cache
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\New folder (10)\ITS_git\ITS\obj\Debug\ITS.exe
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\New folder (10)\ITS_git\ITS\obj\Debug\ITS.pdb
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\New folder (10)\ITS_git\ITS\bin\Debug\ITS.exe.config
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\New folder (10)\ITS_git\ITS\bin\Debug\ITS.exe.manifest
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\New folder (10)\ITS_git\ITS\bin\Debug\ITS.application
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\New folder (10)\ITS_git\ITS\bin\Debug\ITS.exe
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\New folder (10)\ITS_git\ITS\bin\Debug\ITS.pdb
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\New folder (10)\ITS_git\ITS\bin\Debug\DeclarationServices.dll
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\New folder (10)\ITS_git\ITS\bin\Debug\DevExpress.BonusSkins.v11.2.dll
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\New folder (10)\ITS_git\ITS\bin\Debug\DevExpress.Data.v11.2.dll
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\New folder (10)\ITS_git\ITS\bin\Debug\DevExpress.Printing.v11.2.Core.dll
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\New folder (10)\ITS_git\ITS\bin\Debug\DevExpress.Utils.v11.2.dll
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\New folder (10)\ITS_git\ITS\bin\Debug\DevExpress.XtraBars.v11.2.dll
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\New folder (10)\ITS_git\ITS\bin\Debug\DevExpress.XtraEditors.v11.2.dll
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\New folder (10)\ITS_git\ITS\bin\Debug\DevExpress.XtraGrid.v11.2.dll
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\New folder (10)\ITS_git\ITS\bin\Debug\DevExpress.XtraLayout.v11.2.dll
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\New folder (10)\ITS_git\ITS\bin\Debug\DevExpress.XtraTreeList.v11.2.dll
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\New folder (10)\ITS_git\ITS\bin\Debug\DevExpress.XtraVerticalGrid.v11.2.dll
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\New folder (10)\ITS_git\ITS\bin\Debug\Functions.dll
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\New folder (10)\ITS_git\ITS\bin\Debug\LINQ.dll
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\New folder (10)\ITS_git\ITS\bin\Debug\Microsoft.ReportViewer.Common.dll
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\New folder (10)\ITS_git\ITS\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\New folder (10)\ITS_git\ITS\bin\Debug\Ionic.Zip.dll
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\New folder (10)\ITS_git\ITS\bin\Debug\ADODB.dll
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\New folder (10)\ITS_git\ITS\bin\Debug\DeclarationServices.pdb
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\New folder (10)\ITS_git\ITS\bin\Debug\DeclarationServices.dll.config
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\New folder (10)\ITS_git\ITS\bin\Debug\Functions.pdb
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\New folder (10)\ITS_git\ITS\bin\Debug\LINQ.pdb
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\New folder (10)\ITS_git\ITS\bin\Debug\LINQ.dll.config
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\New folder (10)\ITS_git\ITS\bin\Debug\DevExpress.Printing.v11.2.Core.xml
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\New folder (10)\ITS_git\ITS\bin\Debug\DevExpress.Data.v11.2.xml
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\New folder (10)\ITS_git\ITS\bin\Debug\DevExpress.Utils.v11.2.xml
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\New folder (10)\ITS_git\ITS\bin\Debug\DevExpress.XtraBars.v11.2.xml
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\New folder (10)\ITS_git\ITS\bin\Debug\DevExpress.XtraEditors.v11.2.xml
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\New folder (10)\ITS_git\ITS\bin\Debug\DevExpress.XtraGrid.v11.2.xml
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\New folder (10)\ITS_git\ITS\bin\Debug\DevExpress.XtraLayout.v11.2.xml
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\New folder (10)\ITS_git\ITS\bin\Debug\DevExpress.XtraTreeList.v11.2.xml
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\New folder (10)\ITS_git\ITS\bin\Debug\DevExpress.XtraVerticalGrid.v11.2.xml
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\New folder (10)\ITS_git\ITS\bin\Debug\Microsoft.ReportViewer.WinForms.xml
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\New folder (10)\ITS_git\ITS\bin\Debug\de\DevExpress.Data.v11.2.resources.dll
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\New folder (10)\ITS_git\ITS\bin\Debug\es\DevExpress.Data.v11.2.resources.dll
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\New folder (10)\ITS_git\ITS\bin\Debug\ja\DevExpress.Data.v11.2.resources.dll
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\New folder (10)\ITS_git\ITS\bin\Debug\ru\DevExpress.Data.v11.2.resources.dll
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\New folder (10)\ITS_git\ITS\bin\Debug\de\DevExpress.Utils.v11.2.resources.dll
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\New folder (10)\ITS_git\ITS\bin\Debug\es\DevExpress.Utils.v11.2.resources.dll
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\New folder (10)\ITS_git\ITS\bin\Debug\ja\DevExpress.Utils.v11.2.resources.dll
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\New folder (10)\ITS_git\ITS\bin\Debug\ru\DevExpress.Utils.v11.2.resources.dll
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\New folder (10)\ITS_git\ITS\bin\Debug\de\DevExpress.XtraBars.v11.2.resources.dll
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\New folder (10)\ITS_git\ITS\bin\Debug\es\DevExpress.XtraBars.v11.2.resources.dll
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\New folder (10)\ITS_git\ITS\bin\Debug\ja\DevExpress.XtraBars.v11.2.resources.dll
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\New folder (10)\ITS_git\ITS\bin\Debug\ru\DevExpress.XtraBars.v11.2.resources.dll
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\New folder (10)\ITS_git\ITS\bin\Debug\de\DevExpress.XtraEditors.v11.2.resources.dll
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\New folder (10)\ITS_git\ITS\bin\Debug\es\DevExpress.XtraEditors.v11.2.resources.dll
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\New folder (10)\ITS_git\ITS\bin\Debug\ja\DevExpress.XtraEditors.v11.2.resources.dll
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\New folder (10)\ITS_git\ITS\bin\Debug\ru\DevExpress.XtraEditors.v11.2.resources.dll
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\New folder (10)\ITS_git\ITS\bin\Debug\de\DevExpress.XtraGrid.v11.2.resources.dll
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\New folder (10)\ITS_git\ITS\bin\Debug\es\DevExpress.XtraGrid.v11.2.resources.dll
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\New folder (10)\ITS_git\ITS\bin\Debug\ja\DevExpress.XtraGrid.v11.2.resources.dll
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\New folder (10)\ITS_git\ITS\bin\Debug\ru\DevExpress.XtraGrid.v11.2.resources.dll
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\New folder (10)\ITS_git\ITS\bin\Debug\de\DevExpress.XtraLayout.v11.2.resources.dll
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\New folder (10)\ITS_git\ITS\bin\Debug\es\DevExpress.XtraLayout.v11.2.resources.dll
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\New folder (10)\ITS_git\ITS\bin\Debug\ja\DevExpress.XtraLayout.v11.2.resources.dll
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\New folder (10)\ITS_git\ITS\bin\Debug\ru\DevExpress.XtraLayout.v11.2.resources.dll
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\New folder (10)\ITS_git\ITS\bin\Debug\de\DevExpress.XtraTreeList.v11.2.resources.dll
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\New folder (10)\ITS_git\ITS\bin\Debug\es\DevExpress.XtraTreeList.v11.2.resources.dll
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\New folder (10)\ITS_git\ITS\bin\Debug\ja\DevExpress.XtraTreeList.v11.2.resources.dll
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\New folder (10)\ITS_git\ITS\bin\Debug\ru\DevExpress.XtraTreeList.v11.2.resources.dll
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\New folder (10)\ITS_git\ITS\bin\Debug\de\DevExpress.XtraVerticalGrid.v11.2.resources.dll
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\New folder (10)\ITS_git\ITS\bin\Debug\es\DevExpress.XtraVerticalGrid.v11.2.resources.dll
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\New folder (10)\ITS_git\ITS\bin\Debug\ja\DevExpress.XtraVerticalGrid.v11.2.resources.dll
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\New folder (10)\ITS_git\ITS\bin\Debug\ru\DevExpress.XtraVerticalGrid.v11.2.resources.dll
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\New folder (10)\ITS_git\ITS\obj\Debug\ITS.exe.manifest
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\New folder (10)\ITS_git\ITS\obj\Debug\ITS.application
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\New folder (10)\ITS_git\ITS\obj\Debug\ITS.csproj.CopyComplete
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\New folder (10)\ITS_git\ITS\bin\Debug\Newtonsoft.Json.dll
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\New folder (10)\ITS_git\ITS\bin\Debug\Microsoft.Build.Utilities.v3.5.dll
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\New folder (10)\ITS_git\ITS\bin\Debug\Newtonsoft.Json.xml
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\New folder (10)\ITS_git\ITS\bin\Debug\Microsoft.Build.Utilities.v3.5.xml
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\New folder (10)\ITS_git\ITS\bin\Debug\tr\Microsoft.Build.Utilities.v3.5.resources.dll
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\New folder (10)\ITS_git\ITS\bin\Debug\Microsoft.Build.Framework.dll
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\New folder (10)\ITS_git\ITS\obj\Debug\ITS.main.resources
+C:\Erhan_AKARLAR\SANOVEL\_Is_Cozumleri_ve_Yazilim\Source_Codes\20220831\ITS_git\ITS\bin\Debug\ITS.exe.config
+C:\Erhan_AKARLAR\SANOVEL\_Is_Cozumleri_ve_Yazilim\Source_Codes\20220831\ITS_git\ITS\bin\Debug\ITS.exe.manifest
+C:\Erhan_AKARLAR\SANOVEL\_Is_Cozumleri_ve_Yazilim\Source_Codes\20220831\ITS_git\ITS\bin\Debug\ITS.application
+C:\Erhan_AKARLAR\SANOVEL\_Is_Cozumleri_ve_Yazilim\Source_Codes\20220831\ITS_git\ITS\bin\Debug\ITS.exe
+C:\Erhan_AKARLAR\SANOVEL\_Is_Cozumleri_ve_Yazilim\Source_Codes\20220831\ITS_git\ITS\bin\Debug\ITS.pdb
+C:\Erhan_AKARLAR\SANOVEL\_Is_Cozumleri_ve_Yazilim\Source_Codes\20220831\ITS_git\ITS\bin\Debug\DeclarationServices.dll
+C:\Erhan_AKARLAR\SANOVEL\_Is_Cozumleri_ve_Yazilim\Source_Codes\20220831\ITS_git\ITS\bin\Debug\DevExpress.BonusSkins.v19.2.dll
+C:\Erhan_AKARLAR\SANOVEL\_Is_Cozumleri_ve_Yazilim\Source_Codes\20220831\ITS_git\ITS\bin\Debug\DevExpress.Data.v19.2.dll
+C:\Erhan_AKARLAR\SANOVEL\_Is_Cozumleri_ve_Yazilim\Source_Codes\20220831\ITS_git\ITS\bin\Debug\DevExpress.Office.v19.2.Core.dll
+C:\Erhan_AKARLAR\SANOVEL\_Is_Cozumleri_ve_Yazilim\Source_Codes\20220831\ITS_git\ITS\bin\Debug\DevExpress.Pdf.v19.2.Core.dll
+C:\Erhan_AKARLAR\SANOVEL\_Is_Cozumleri_ve_Yazilim\Source_Codes\20220831\ITS_git\ITS\bin\Debug\DevExpress.Printing.v19.2.Core.dll
+C:\Erhan_AKARLAR\SANOVEL\_Is_Cozumleri_ve_Yazilim\Source_Codes\20220831\ITS_git\ITS\bin\Debug\DevExpress.RichEdit.v19.2.Core.dll
+C:\Erhan_AKARLAR\SANOVEL\_Is_Cozumleri_ve_Yazilim\Source_Codes\20220831\ITS_git\ITS\bin\Debug\DevExpress.RichEdit.v19.2.Export.dll
+C:\Erhan_AKARLAR\SANOVEL\_Is_Cozumleri_ve_Yazilim\Source_Codes\20220831\ITS_git\ITS\bin\Debug\DevExpress.Utils.v19.2.dll
+C:\Erhan_AKARLAR\SANOVEL\_Is_Cozumleri_ve_Yazilim\Source_Codes\20220831\ITS_git\ITS\bin\Debug\DevExpress.XtraBars.v19.2.dll
+C:\Erhan_AKARLAR\SANOVEL\_Is_Cozumleri_ve_Yazilim\Source_Codes\20220831\ITS_git\ITS\bin\Debug\DevExpress.XtraEditors.v19.2.dll
+C:\Erhan_AKARLAR\SANOVEL\_Is_Cozumleri_ve_Yazilim\Source_Codes\20220831\ITS_git\ITS\bin\Debug\DevExpress.XtraGrid.v19.2.dll
+C:\Erhan_AKARLAR\SANOVEL\_Is_Cozumleri_ve_Yazilim\Source_Codes\20220831\ITS_git\ITS\bin\Debug\DevExpress.XtraLayout.v19.2.dll
+C:\Erhan_AKARLAR\SANOVEL\_Is_Cozumleri_ve_Yazilim\Source_Codes\20220831\ITS_git\ITS\bin\Debug\DevExpress.XtraPrinting.v19.2.dll
+C:\Erhan_AKARLAR\SANOVEL\_Is_Cozumleri_ve_Yazilim\Source_Codes\20220831\ITS_git\ITS\bin\Debug\DevExpress.XtraTreeList.v19.2.dll
+C:\Erhan_AKARLAR\SANOVEL\_Is_Cozumleri_ve_Yazilim\Source_Codes\20220831\ITS_git\ITS\bin\Debug\DevExpress.XtraVerticalGrid.v19.2.dll
+C:\Erhan_AKARLAR\SANOVEL\_Is_Cozumleri_ve_Yazilim\Source_Codes\20220831\ITS_git\ITS\bin\Debug\Functions.dll
+C:\Erhan_AKARLAR\SANOVEL\_Is_Cozumleri_ve_Yazilim\Source_Codes\20220831\ITS_git\ITS\bin\Debug\LINQ.dll
+C:\Erhan_AKARLAR\SANOVEL\_Is_Cozumleri_ve_Yazilim\Source_Codes\20220831\ITS_git\ITS\bin\Debug\Ionic.Zip.dll
+C:\Erhan_AKARLAR\SANOVEL\_Is_Cozumleri_ve_Yazilim\Source_Codes\20220831\ITS_git\ITS\bin\Debug\Newtonsoft.Json.dll
+C:\Erhan_AKARLAR\SANOVEL\_Is_Cozumleri_ve_Yazilim\Source_Codes\20220831\ITS_git\ITS\bin\Debug\DevExpress.Images.v19.2.dll
+C:\Erhan_AKARLAR\SANOVEL\_Is_Cozumleri_ve_Yazilim\Source_Codes\20220831\ITS_git\ITS\bin\Debug\DevExpress.Sparkline.v19.2.Core.dll
+C:\Erhan_AKARLAR\SANOVEL\_Is_Cozumleri_ve_Yazilim\Source_Codes\20220831\ITS_git\ITS\bin\Debug\Microsoft.Build.Utilities.v3.5.dll
+C:\Erhan_AKARLAR\SANOVEL\_Is_Cozumleri_ve_Yazilim\Source_Codes\20220831\ITS_git\ITS\bin\Debug\ADODB.dll
+C:\Erhan_AKARLAR\SANOVEL\_Is_Cozumleri_ve_Yazilim\Source_Codes\20220831\ITS_git\ITS\bin\Debug\Microsoft.Build.Framework.dll
+C:\Erhan_AKARLAR\SANOVEL\_Is_Cozumleri_ve_Yazilim\Source_Codes\20220831\ITS_git\ITS\bin\Debug\DeclarationServices.pdb
+C:\Erhan_AKARLAR\SANOVEL\_Is_Cozumleri_ve_Yazilim\Source_Codes\20220831\ITS_git\ITS\bin\Debug\DeclarationServices.dll.config
+C:\Erhan_AKARLAR\SANOVEL\_Is_Cozumleri_ve_Yazilim\Source_Codes\20220831\ITS_git\ITS\bin\Debug\Functions.pdb
+C:\Erhan_AKARLAR\SANOVEL\_Is_Cozumleri_ve_Yazilim\Source_Codes\20220831\ITS_git\ITS\bin\Debug\LINQ.pdb
+C:\Erhan_AKARLAR\SANOVEL\_Is_Cozumleri_ve_Yazilim\Source_Codes\20220831\ITS_git\ITS\bin\Debug\LINQ.dll.config
+C:\Erhan_AKARLAR\SANOVEL\_Is_Cozumleri_ve_Yazilim\Source_Codes\20220831\ITS_git\ITS\bin\Debug\DevExpress.Pdf.v19.2.Core.xml
+C:\Erhan_AKARLAR\SANOVEL\_Is_Cozumleri_ve_Yazilim\Source_Codes\20220831\ITS_git\ITS\bin\Debug\DevExpress.Office.v19.2.Core.xml
+C:\Erhan_AKARLAR\SANOVEL\_Is_Cozumleri_ve_Yazilim\Source_Codes\20220831\ITS_git\ITS\bin\Debug\DevExpress.RichEdit.v19.2.Core.xml
+C:\Erhan_AKARLAR\SANOVEL\_Is_Cozumleri_ve_Yazilim\Source_Codes\20220831\ITS_git\ITS\bin\Debug\DevExpress.Printing.v19.2.Core.xml
+C:\Erhan_AKARLAR\SANOVEL\_Is_Cozumleri_ve_Yazilim\Source_Codes\20220831\ITS_git\ITS\bin\Debug\DevExpress.Data.v19.2.xml
+C:\Erhan_AKARLAR\SANOVEL\_Is_Cozumleri_ve_Yazilim\Source_Codes\20220831\ITS_git\ITS\bin\Debug\DevExpress.Utils.v19.2.xml
+C:\Erhan_AKARLAR\SANOVEL\_Is_Cozumleri_ve_Yazilim\Source_Codes\20220831\ITS_git\ITS\bin\Debug\DevExpress.XtraBars.v19.2.xml
+C:\Erhan_AKARLAR\SANOVEL\_Is_Cozumleri_ve_Yazilim\Source_Codes\20220831\ITS_git\ITS\bin\Debug\DevExpress.XtraEditors.v19.2.xml
+C:\Erhan_AKARLAR\SANOVEL\_Is_Cozumleri_ve_Yazilim\Source_Codes\20220831\ITS_git\ITS\bin\Debug\DevExpress.XtraPrinting.v19.2.xml
+C:\Erhan_AKARLAR\SANOVEL\_Is_Cozumleri_ve_Yazilim\Source_Codes\20220831\ITS_git\ITS\bin\Debug\DevExpress.XtraGrid.v19.2.xml
+C:\Erhan_AKARLAR\SANOVEL\_Is_Cozumleri_ve_Yazilim\Source_Codes\20220831\ITS_git\ITS\bin\Debug\DevExpress.XtraLayout.v19.2.xml
+C:\Erhan_AKARLAR\SANOVEL\_Is_Cozumleri_ve_Yazilim\Source_Codes\20220831\ITS_git\ITS\bin\Debug\DevExpress.XtraTreeList.v19.2.xml
+C:\Erhan_AKARLAR\SANOVEL\_Is_Cozumleri_ve_Yazilim\Source_Codes\20220831\ITS_git\ITS\bin\Debug\DevExpress.XtraVerticalGrid.v19.2.xml
+C:\Erhan_AKARLAR\SANOVEL\_Is_Cozumleri_ve_Yazilim\Source_Codes\20220831\ITS_git\ITS\bin\Debug\Newtonsoft.Json.xml
+C:\Erhan_AKARLAR\SANOVEL\_Is_Cozumleri_ve_Yazilim\Source_Codes\20220831\ITS_git\ITS\bin\Debug\DevExpress.Sparkline.v19.2.Core.xml
+C:\Erhan_AKARLAR\SANOVEL\_Is_Cozumleri_ve_Yazilim\Source_Codes\20220831\ITS_git\ITS\bin\Debug\de\DevExpress.Pdf.v19.2.Core.resources.dll
+C:\Erhan_AKARLAR\SANOVEL\_Is_Cozumleri_ve_Yazilim\Source_Codes\20220831\ITS_git\ITS\bin\Debug\es\DevExpress.Pdf.v19.2.Core.resources.dll
+C:\Erhan_AKARLAR\SANOVEL\_Is_Cozumleri_ve_Yazilim\Source_Codes\20220831\ITS_git\ITS\bin\Debug\ja\DevExpress.Pdf.v19.2.Core.resources.dll
+C:\Erhan_AKARLAR\SANOVEL\_Is_Cozumleri_ve_Yazilim\Source_Codes\20220831\ITS_git\ITS\bin\Debug\ru\DevExpress.Pdf.v19.2.Core.resources.dll
+C:\Erhan_AKARLAR\SANOVEL\_Is_Cozumleri_ve_Yazilim\Source_Codes\20220831\ITS_git\ITS\bin\Debug\de\DevExpress.Office.v19.2.Core.resources.dll
+C:\Erhan_AKARLAR\SANOVEL\_Is_Cozumleri_ve_Yazilim\Source_Codes\20220831\ITS_git\ITS\bin\Debug\es\DevExpress.Office.v19.2.Core.resources.dll
+C:\Erhan_AKARLAR\SANOVEL\_Is_Cozumleri_ve_Yazilim\Source_Codes\20220831\ITS_git\ITS\bin\Debug\ja\DevExpress.Office.v19.2.Core.resources.dll
+C:\Erhan_AKARLAR\SANOVEL\_Is_Cozumleri_ve_Yazilim\Source_Codes\20220831\ITS_git\ITS\bin\Debug\ru\DevExpress.Office.v19.2.Core.resources.dll
+C:\Erhan_AKARLAR\SANOVEL\_Is_Cozumleri_ve_Yazilim\Source_Codes\20220831\ITS_git\ITS\bin\Debug\de\DevExpress.RichEdit.v19.2.Core.resources.dll
+C:\Erhan_AKARLAR\SANOVEL\_Is_Cozumleri_ve_Yazilim\Source_Codes\20220831\ITS_git\ITS\bin\Debug\es\DevExpress.RichEdit.v19.2.Core.resources.dll
+C:\Erhan_AKARLAR\SANOVEL\_Is_Cozumleri_ve_Yazilim\Source_Codes\20220831\ITS_git\ITS\bin\Debug\ja\DevExpress.RichEdit.v19.2.Core.resources.dll
+C:\Erhan_AKARLAR\SANOVEL\_Is_Cozumleri_ve_Yazilim\Source_Codes\20220831\ITS_git\ITS\bin\Debug\ru\DevExpress.RichEdit.v19.2.Core.resources.dll
+C:\Erhan_AKARLAR\SANOVEL\_Is_Cozumleri_ve_Yazilim\Source_Codes\20220831\ITS_git\ITS\bin\Debug\de\DevExpress.Printing.v19.2.Core.resources.dll
+C:\Erhan_AKARLAR\SANOVEL\_Is_Cozumleri_ve_Yazilim\Source_Codes\20220831\ITS_git\ITS\bin\Debug\es\DevExpress.Printing.v19.2.Core.resources.dll
+C:\Erhan_AKARLAR\SANOVEL\_Is_Cozumleri_ve_Yazilim\Source_Codes\20220831\ITS_git\ITS\bin\Debug\ja\DevExpress.Printing.v19.2.Core.resources.dll
+C:\Erhan_AKARLAR\SANOVEL\_Is_Cozumleri_ve_Yazilim\Source_Codes\20220831\ITS_git\ITS\bin\Debug\ru\DevExpress.Printing.v19.2.Core.resources.dll
+C:\Erhan_AKARLAR\SANOVEL\_Is_Cozumleri_ve_Yazilim\Source_Codes\20220831\ITS_git\ITS\bin\Debug\de\DevExpress.Data.v19.2.resources.dll
+C:\Erhan_AKARLAR\SANOVEL\_Is_Cozumleri_ve_Yazilim\Source_Codes\20220831\ITS_git\ITS\bin\Debug\es\DevExpress.Data.v19.2.resources.dll
+C:\Erhan_AKARLAR\SANOVEL\_Is_Cozumleri_ve_Yazilim\Source_Codes\20220831\ITS_git\ITS\bin\Debug\ja\DevExpress.Data.v19.2.resources.dll
+C:\Erhan_AKARLAR\SANOVEL\_Is_Cozumleri_ve_Yazilim\Source_Codes\20220831\ITS_git\ITS\bin\Debug\ru\DevExpress.Data.v19.2.resources.dll
+C:\Erhan_AKARLAR\SANOVEL\_Is_Cozumleri_ve_Yazilim\Source_Codes\20220831\ITS_git\ITS\bin\Debug\de\DevExpress.Utils.v19.2.resources.dll
+C:\Erhan_AKARLAR\SANOVEL\_Is_Cozumleri_ve_Yazilim\Source_Codes\20220831\ITS_git\ITS\bin\Debug\es\DevExpress.Utils.v19.2.resources.dll
+C:\Erhan_AKARLAR\SANOVEL\_Is_Cozumleri_ve_Yazilim\Source_Codes\20220831\ITS_git\ITS\bin\Debug\ja\DevExpress.Utils.v19.2.resources.dll
+C:\Erhan_AKARLAR\SANOVEL\_Is_Cozumleri_ve_Yazilim\Source_Codes\20220831\ITS_git\ITS\bin\Debug\ru\DevExpress.Utils.v19.2.resources.dll
+C:\Erhan_AKARLAR\SANOVEL\_Is_Cozumleri_ve_Yazilim\Source_Codes\20220831\ITS_git\ITS\bin\Debug\de\DevExpress.XtraBars.v19.2.resources.dll
+C:\Erhan_AKARLAR\SANOVEL\_Is_Cozumleri_ve_Yazilim\Source_Codes\20220831\ITS_git\ITS\bin\Debug\es\DevExpress.XtraBars.v19.2.resources.dll
+C:\Erhan_AKARLAR\SANOVEL\_Is_Cozumleri_ve_Yazilim\Source_Codes\20220831\ITS_git\ITS\bin\Debug\ja\DevExpress.XtraBars.v19.2.resources.dll
+C:\Erhan_AKARLAR\SANOVEL\_Is_Cozumleri_ve_Yazilim\Source_Codes\20220831\ITS_git\ITS\bin\Debug\ru\DevExpress.XtraBars.v19.2.resources.dll
+C:\Erhan_AKARLAR\SANOVEL\_Is_Cozumleri_ve_Yazilim\Source_Codes\20220831\ITS_git\ITS\bin\Debug\de\DevExpress.XtraEditors.v19.2.resources.dll
+C:\Erhan_AKARLAR\SANOVEL\_Is_Cozumleri_ve_Yazilim\Source_Codes\20220831\ITS_git\ITS\bin\Debug\es\DevExpress.XtraEditors.v19.2.resources.dll
+C:\Erhan_AKARLAR\SANOVEL\_Is_Cozumleri_ve_Yazilim\Source_Codes\20220831\ITS_git\ITS\bin\Debug\ja\DevExpress.XtraEditors.v19.2.resources.dll
+C:\Erhan_AKARLAR\SANOVEL\_Is_Cozumleri_ve_Yazilim\Source_Codes\20220831\ITS_git\ITS\bin\Debug\ru\DevExpress.XtraEditors.v19.2.resources.dll
+C:\Erhan_AKARLAR\SANOVEL\_Is_Cozumleri_ve_Yazilim\Source_Codes\20220831\ITS_git\ITS\bin\Debug\de\DevExpress.XtraPrinting.v19.2.resources.dll
+C:\Erhan_AKARLAR\SANOVEL\_Is_Cozumleri_ve_Yazilim\Source_Codes\20220831\ITS_git\ITS\bin\Debug\es\DevExpress.XtraPrinting.v19.2.resources.dll
+C:\Erhan_AKARLAR\SANOVEL\_Is_Cozumleri_ve_Yazilim\Source_Codes\20220831\ITS_git\ITS\bin\Debug\ja\DevExpress.XtraPrinting.v19.2.resources.dll
+C:\Erhan_AKARLAR\SANOVEL\_Is_Cozumleri_ve_Yazilim\Source_Codes\20220831\ITS_git\ITS\bin\Debug\ru\DevExpress.XtraPrinting.v19.2.resources.dll
+C:\Erhan_AKARLAR\SANOVEL\_Is_Cozumleri_ve_Yazilim\Source_Codes\20220831\ITS_git\ITS\bin\Debug\de\DevExpress.XtraGrid.v19.2.resources.dll
+C:\Erhan_AKARLAR\SANOVEL\_Is_Cozumleri_ve_Yazilim\Source_Codes\20220831\ITS_git\ITS\bin\Debug\es\DevExpress.XtraGrid.v19.2.resources.dll
+C:\Erhan_AKARLAR\SANOVEL\_Is_Cozumleri_ve_Yazilim\Source_Codes\20220831\ITS_git\ITS\bin\Debug\ja\DevExpress.XtraGrid.v19.2.resources.dll
+C:\Erhan_AKARLAR\SANOVEL\_Is_Cozumleri_ve_Yazilim\Source_Codes\20220831\ITS_git\ITS\bin\Debug\ru\DevExpress.XtraGrid.v19.2.resources.dll
+C:\Erhan_AKARLAR\SANOVEL\_Is_Cozumleri_ve_Yazilim\Source_Codes\20220831\ITS_git\ITS\bin\Debug\de\DevExpress.XtraLayout.v19.2.resources.dll
+C:\Erhan_AKARLAR\SANOVEL\_Is_Cozumleri_ve_Yazilim\Source_Codes\20220831\ITS_git\ITS\bin\Debug\es\DevExpress.XtraLayout.v19.2.resources.dll
+C:\Erhan_AKARLAR\SANOVEL\_Is_Cozumleri_ve_Yazilim\Source_Codes\20220831\ITS_git\ITS\bin\Debug\ja\DevExpress.XtraLayout.v19.2.resources.dll
+C:\Erhan_AKARLAR\SANOVEL\_Is_Cozumleri_ve_Yazilim\Source_Codes\20220831\ITS_git\ITS\bin\Debug\ru\DevExpress.XtraLayout.v19.2.resources.dll
+C:\Erhan_AKARLAR\SANOVEL\_Is_Cozumleri_ve_Yazilim\Source_Codes\20220831\ITS_git\ITS\bin\Debug\de\DevExpress.XtraTreeList.v19.2.resources.dll
+C:\Erhan_AKARLAR\SANOVEL\_Is_Cozumleri_ve_Yazilim\Source_Codes\20220831\ITS_git\ITS\bin\Debug\es\DevExpress.XtraTreeList.v19.2.resources.dll
+C:\Erhan_AKARLAR\SANOVEL\_Is_Cozumleri_ve_Yazilim\Source_Codes\20220831\ITS_git\ITS\bin\Debug\ja\DevExpress.XtraTreeList.v19.2.resources.dll
+C:\Erhan_AKARLAR\SANOVEL\_Is_Cozumleri_ve_Yazilim\Source_Codes\20220831\ITS_git\ITS\bin\Debug\ru\DevExpress.XtraTreeList.v19.2.resources.dll
+C:\Erhan_AKARLAR\SANOVEL\_Is_Cozumleri_ve_Yazilim\Source_Codes\20220831\ITS_git\ITS\bin\Debug\de\DevExpress.XtraVerticalGrid.v19.2.resources.dll
+C:\Erhan_AKARLAR\SANOVEL\_Is_Cozumleri_ve_Yazilim\Source_Codes\20220831\ITS_git\ITS\bin\Debug\es\DevExpress.XtraVerticalGrid.v19.2.resources.dll
+C:\Erhan_AKARLAR\SANOVEL\_Is_Cozumleri_ve_Yazilim\Source_Codes\20220831\ITS_git\ITS\bin\Debug\ja\DevExpress.XtraVerticalGrid.v19.2.resources.dll
+C:\Erhan_AKARLAR\SANOVEL\_Is_Cozumleri_ve_Yazilim\Source_Codes\20220831\ITS_git\ITS\bin\Debug\ru\DevExpress.XtraVerticalGrid.v19.2.resources.dll
+C:\Erhan_AKARLAR\SANOVEL\_Is_Cozumleri_ve_Yazilim\Source_Codes\20220831\ITS_git\ITS\bin\Debug\de\DevExpress.Sparkline.v19.2.Core.resources.dll
+C:\Erhan_AKARLAR\SANOVEL\_Is_Cozumleri_ve_Yazilim\Source_Codes\20220831\ITS_git\ITS\bin\Debug\es\DevExpress.Sparkline.v19.2.Core.resources.dll
+C:\Erhan_AKARLAR\SANOVEL\_Is_Cozumleri_ve_Yazilim\Source_Codes\20220831\ITS_git\ITS\bin\Debug\ja\DevExpress.Sparkline.v19.2.Core.resources.dll
+C:\Erhan_AKARLAR\SANOVEL\_Is_Cozumleri_ve_Yazilim\Source_Codes\20220831\ITS_git\ITS\bin\Debug\ru\DevExpress.Sparkline.v19.2.Core.resources.dll
+C:\Erhan_AKARLAR\SANOVEL\_Is_Cozumleri_ve_Yazilim\Source_Codes\20220831\ITS_git\ITS\bin\Debug\tr\Microsoft.Build.Utilities.v3.5.resources.dll
+C:\Erhan_AKARLAR\SANOVEL\_Is_Cozumleri_ve_Yazilim\Source_Codes\20220831\ITS_git\ITS\obj\Debug\ITS.csproj.AssemblyReference.cache
+C:\Erhan_AKARLAR\SANOVEL\_Is_Cozumleri_ve_Yazilim\Source_Codes\20220831\ITS_git\ITS\obj\Debug\ITS.AmbalajGecerlilikDurumuDegistir.resources
+C:\Erhan_AKARLAR\SANOVEL\_Is_Cozumleri_ve_Yazilim\Source_Codes\20220831\ITS_git\ITS\obj\Debug\ITS.BildirimDetayi.resources
+C:\Erhan_AKARLAR\SANOVEL\_Is_Cozumleri_ve_Yazilim\Source_Codes\20220831\ITS_git\ITS\obj\Debug\ITS.EczaneyeSatisKaydiOlusturma.resources
+C:\Erhan_AKARLAR\SANOVEL\_Is_Cozumleri_ve_Yazilim\Source_Codes\20220831\ITS_git\ITS\obj\Debug\ITS.FasonBildirim.resources
+C:\Erhan_AKARLAR\SANOVEL\_Is_Cozumleri_ve_Yazilim\Source_Codes\20220831\ITS_git\ITS\obj\Debug\ITS.GrupIciSatisAlisIslemleri.resources
+C:\Erhan_AKARLAR\SANOVEL\_Is_Cozumleri_ve_Yazilim\Source_Codes\20220831\ITS_git\ITS\obj\Debug\ITS.KolileriYerDegistirme.resources
+C:\Erhan_AKARLAR\SANOVEL\_Is_Cozumleri_ve_Yazilim\Source_Codes\20220831\ITS_git\ITS\obj\Debug\ITS.main.resources
+C:\Erhan_AKARLAR\SANOVEL\_Is_Cozumleri_ve_Yazilim\Source_Codes\20220831\ITS_git\ITS\obj\Debug\ITS.Properties.Resources.resources
+C:\Erhan_AKARLAR\SANOVEL\_Is_Cozumleri_ve_Yazilim\Source_Codes\20220831\ITS_git\ITS\obj\Debug\ITS.SatisAktarimSorunlari.resources
+C:\Erhan_AKARLAR\SANOVEL\_Is_Cozumleri_ve_Yazilim\Source_Codes\20220831\ITS_git\ITS\obj\Debug\ITS.SatisDetayinaAmbalajEkleme.resources
+C:\Erhan_AKARLAR\SANOVEL\_Is_Cozumleri_ve_Yazilim\Source_Codes\20220831\ITS_git\ITS\obj\Debug\ITS.SatisVerisiOlusturma.resources
+C:\Erhan_AKARLAR\SANOVEL\_Is_Cozumleri_ve_Yazilim\Source_Codes\20220831\ITS_git\ITS\obj\Debug\ITS.UretimBildirimRaporu.resources
+C:\Erhan_AKARLAR\SANOVEL\_Is_Cozumleri_ve_Yazilim\Source_Codes\20220831\ITS_git\ITS\obj\Debug\ITS.VeriTasima.resources
+C:\Erhan_AKARLAR\SANOVEL\_Is_Cozumleri_ve_Yazilim\Source_Codes\20220831\ITS_git\ITS\obj\Debug\ITS.WaitForm1.resources
+C:\Erhan_AKARLAR\SANOVEL\_Is_Cozumleri_ve_Yazilim\Source_Codes\20220831\ITS_git\ITS\obj\Debug\ITS.XMLDosyasiGoster.resources
+C:\Erhan_AKARLAR\SANOVEL\_Is_Cozumleri_ve_Yazilim\Source_Codes\20220831\ITS_git\ITS\obj\Debug\ITS.csproj.GenerateResource.cache
+C:\Erhan_AKARLAR\SANOVEL\_Is_Cozumleri_ve_Yazilim\Source_Codes\20220831\ITS_git\ITS\obj\Debug\ITS.exe.licenses
+C:\Erhan_AKARLAR\SANOVEL\_Is_Cozumleri_ve_Yazilim\Source_Codes\20220831\ITS_git\ITS\obj\Debug\ITS.csproj.CoreCompileInputs.cache
+C:\Erhan_AKARLAR\SANOVEL\_Is_Cozumleri_ve_Yazilim\Source_Codes\20220831\ITS_git\ITS\obj\Debug\ITS.exe.manifest
+C:\Erhan_AKARLAR\SANOVEL\_Is_Cozumleri_ve_Yazilim\Source_Codes\20220831\ITS_git\ITS\obj\Debug\ITS.application
+C:\Erhan_AKARLAR\SANOVEL\_Is_Cozumleri_ve_Yazilim\Source_Codes\20220831\ITS_git\ITS\obj\Debug\ITS.csproj.CopyComplete
+C:\Erhan_AKARLAR\SANOVEL\_Is_Cozumleri_ve_Yazilim\Source_Codes\20220831\ITS_git\ITS\obj\Debug\ITS.exe
+C:\Erhan_AKARLAR\SANOVEL\_Is_Cozumleri_ve_Yazilim\Source_Codes\20220831\ITS_git\ITS\obj\Debug\ITS.pdb
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\ITS.exe.config
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\ITS.exe.manifest
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\ITS.application
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\ITS.exe
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\ITS.pdb
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\DeclarationServices.dll
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\DevExpress.BonusSkins.v19.2.dll
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\DevExpress.Data.v19.2.dll
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\DevExpress.Office.v19.2.Core.dll
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\DevExpress.Pdf.v19.2.Core.dll
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\DevExpress.Printing.v19.2.Core.dll
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\DevExpress.RichEdit.v19.2.Core.dll
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\DevExpress.RichEdit.v19.2.Export.dll
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\DevExpress.Utils.v19.2.dll
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\DevExpress.XtraBars.v19.2.dll
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\DevExpress.XtraEditors.v19.2.dll
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\DevExpress.XtraGrid.v19.2.dll
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\DevExpress.XtraLayout.v19.2.dll
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\DevExpress.XtraPrinting.v19.2.dll
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\DevExpress.XtraTreeList.v19.2.dll
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\DevExpress.XtraVerticalGrid.v19.2.dll
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\Functions.dll
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\LINQ.dll
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\Microsoft.ReportViewer.Common.dll
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\Ionic.Zip.dll
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\Newtonsoft.Json.dll
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\DevExpress.Images.v19.2.dll
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\DevExpress.Sparkline.v19.2.Core.dll
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\Microsoft.Build.Utilities.v3.5.dll
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\ADODB.dll
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\Microsoft.Build.Framework.dll
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\DeclarationServices.pdb
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\DeclarationServices.dll.config
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\Functions.pdb
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\LINQ.pdb
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\LINQ.dll.config
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\DevExpress.Pdf.v19.2.Core.xml
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\DevExpress.Office.v19.2.Core.xml
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\DevExpress.RichEdit.v19.2.Core.xml
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\DevExpress.Printing.v19.2.Core.xml
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\DevExpress.Data.v19.2.xml
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\DevExpress.Utils.v19.2.xml
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\DevExpress.XtraBars.v19.2.xml
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\DevExpress.XtraEditors.v19.2.xml
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\DevExpress.XtraPrinting.v19.2.xml
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\DevExpress.XtraGrid.v19.2.xml
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\DevExpress.XtraLayout.v19.2.xml
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\DevExpress.XtraTreeList.v19.2.xml
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\DevExpress.XtraVerticalGrid.v19.2.xml
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\Microsoft.ReportViewer.WinForms.xml
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\Newtonsoft.Json.xml
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\DevExpress.Sparkline.v19.2.Core.xml
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\Microsoft.Build.Utilities.v3.5.xml
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\de\DevExpress.Pdf.v19.2.Core.resources.dll
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\es\DevExpress.Pdf.v19.2.Core.resources.dll
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\ja\DevExpress.Pdf.v19.2.Core.resources.dll
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\ru\DevExpress.Pdf.v19.2.Core.resources.dll
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\de\DevExpress.Office.v19.2.Core.resources.dll
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\es\DevExpress.Office.v19.2.Core.resources.dll
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\ja\DevExpress.Office.v19.2.Core.resources.dll
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\ru\DevExpress.Office.v19.2.Core.resources.dll
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\de\DevExpress.RichEdit.v19.2.Core.resources.dll
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\es\DevExpress.RichEdit.v19.2.Core.resources.dll
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\ja\DevExpress.RichEdit.v19.2.Core.resources.dll
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\ru\DevExpress.RichEdit.v19.2.Core.resources.dll
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\de\DevExpress.Printing.v19.2.Core.resources.dll
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\es\DevExpress.Printing.v19.2.Core.resources.dll
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\ja\DevExpress.Printing.v19.2.Core.resources.dll
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\ru\DevExpress.Printing.v19.2.Core.resources.dll
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\de\DevExpress.Data.v19.2.resources.dll
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\es\DevExpress.Data.v19.2.resources.dll
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\ja\DevExpress.Data.v19.2.resources.dll
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\ru\DevExpress.Data.v19.2.resources.dll
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\de\DevExpress.Utils.v19.2.resources.dll
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\es\DevExpress.Utils.v19.2.resources.dll
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\ja\DevExpress.Utils.v19.2.resources.dll
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\ru\DevExpress.Utils.v19.2.resources.dll
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\de\DevExpress.XtraBars.v19.2.resources.dll
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\es\DevExpress.XtraBars.v19.2.resources.dll
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\ja\DevExpress.XtraBars.v19.2.resources.dll
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\ru\DevExpress.XtraBars.v19.2.resources.dll
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\de\DevExpress.XtraEditors.v19.2.resources.dll
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\es\DevExpress.XtraEditors.v19.2.resources.dll
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\ja\DevExpress.XtraEditors.v19.2.resources.dll
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\ru\DevExpress.XtraEditors.v19.2.resources.dll
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\de\DevExpress.XtraPrinting.v19.2.resources.dll
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\es\DevExpress.XtraPrinting.v19.2.resources.dll
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\ja\DevExpress.XtraPrinting.v19.2.resources.dll
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\ru\DevExpress.XtraPrinting.v19.2.resources.dll
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\de\DevExpress.XtraGrid.v19.2.resources.dll
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\es\DevExpress.XtraGrid.v19.2.resources.dll
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\ja\DevExpress.XtraGrid.v19.2.resources.dll
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\ru\DevExpress.XtraGrid.v19.2.resources.dll
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\de\DevExpress.XtraLayout.v19.2.resources.dll
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\es\DevExpress.XtraLayout.v19.2.resources.dll
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\ja\DevExpress.XtraLayout.v19.2.resources.dll
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\ru\DevExpress.XtraLayout.v19.2.resources.dll
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\de\DevExpress.XtraTreeList.v19.2.resources.dll
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\es\DevExpress.XtraTreeList.v19.2.resources.dll
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\ja\DevExpress.XtraTreeList.v19.2.resources.dll
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\ru\DevExpress.XtraTreeList.v19.2.resources.dll
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\de\DevExpress.XtraVerticalGrid.v19.2.resources.dll
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\es\DevExpress.XtraVerticalGrid.v19.2.resources.dll
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\ja\DevExpress.XtraVerticalGrid.v19.2.resources.dll
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\ru\DevExpress.XtraVerticalGrid.v19.2.resources.dll
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\de\DevExpress.Sparkline.v19.2.Core.resources.dll
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\es\DevExpress.Sparkline.v19.2.Core.resources.dll
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\ja\DevExpress.Sparkline.v19.2.Core.resources.dll
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\ru\DevExpress.Sparkline.v19.2.Core.resources.dll
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\tr\Microsoft.Build.Utilities.v3.5.resources.dll
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\obj\Debug\ITS.csproj.AssemblyReference.cache
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\obj\Debug\ITS.AmbalajGecerlilikDurumuDegistir.resources
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\obj\Debug\ITS.BildirimDetayi.resources
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\obj\Debug\ITS.EczaneyeSatisKaydiOlusturma.resources
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\obj\Debug\ITS.FasonBildirim.resources
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\obj\Debug\ITS.GrupIciSatisAlisIslemleri.resources
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\obj\Debug\ITS.KolileriYerDegistirme.resources
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\obj\Debug\ITS.Properties.Resources.resources
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\obj\Debug\ITS.SatisAktarimSorunlari.resources
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\obj\Debug\ITS.SatisDetayinaAmbalajEkleme.resources
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\obj\Debug\ITS.SatisVerisiOlusturma.resources
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\obj\Debug\ITS.UretimBildirimRaporu.resources
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\obj\Debug\ITS.VeriTasima.resources
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\obj\Debug\ITS.WaitForm1.resources
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\obj\Debug\ITS.XMLDosyasiGoster.resources
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\obj\Debug\ITS.csproj.GenerateResource.cache
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\obj\Debug\ITS.exe.licenses
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\obj\Debug\ITS.csproj.CoreCompileInputs.cache
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\obj\Debug\ITS.exe.manifest
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\obj\Debug\ITS.application
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\obj\Debug\ITS.csproj.CopyComplete
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\obj\Debug\ITS.exe
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\obj\Debug\ITS.pdb
+C:\Users\seldaberker\Desktop\Desktop\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\ITS.exe.config
+C:\Users\seldaberker\Desktop\Desktop\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\ITS.exe.manifest
+C:\Users\seldaberker\Desktop\Desktop\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\ITS.application
+C:\Users\seldaberker\Desktop\Desktop\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\ITS.exe
+C:\Users\seldaberker\Desktop\Desktop\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\ITS.pdb
+C:\Users\seldaberker\Desktop\Desktop\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\DeclarationServices.dll
+C:\Users\seldaberker\Desktop\Desktop\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\Functions.dll
+C:\Users\seldaberker\Desktop\Desktop\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\LINQ.dll
+C:\Users\seldaberker\Desktop\Desktop\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\Ionic.Zip.dll
+C:\Users\seldaberker\Desktop\Desktop\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\Newtonsoft.Json.dll
+C:\Users\seldaberker\Desktop\Desktop\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\DevExpress.Images.v19.2.dll
+C:\Users\seldaberker\Desktop\Desktop\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\DevExpress.Sparkline.v19.2.Core.dll
+C:\Users\seldaberker\Desktop\Desktop\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\Microsoft.Build.Utilities.v3.5.dll
+C:\Users\seldaberker\Desktop\Desktop\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\ADODB.dll
+C:\Users\seldaberker\Desktop\Desktop\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\Microsoft.Build.Framework.dll
+C:\Users\seldaberker\Desktop\Desktop\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\DeclarationServices.pdb
+C:\Users\seldaberker\Desktop\Desktop\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\DeclarationServices.dll.config
+C:\Users\seldaberker\Desktop\Desktop\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\Functions.pdb
+C:\Users\seldaberker\Desktop\Desktop\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\LINQ.pdb
+C:\Users\seldaberker\Desktop\Desktop\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\LINQ.dll.config
+C:\Users\seldaberker\Desktop\Desktop\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\DevExpress.Pdf.v19.2.Core.xml
+C:\Users\seldaberker\Desktop\Desktop\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\DevExpress.Office.v19.2.Core.xml
+C:\Users\seldaberker\Desktop\Desktop\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\DevExpress.RichEdit.v19.2.Core.xml
+C:\Users\seldaberker\Desktop\Desktop\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\DevExpress.Printing.v19.2.Core.xml
+C:\Users\seldaberker\Desktop\Desktop\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\DevExpress.Data.v19.2.xml
+C:\Users\seldaberker\Desktop\Desktop\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\DevExpress.Utils.v19.2.xml
+C:\Users\seldaberker\Desktop\Desktop\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\DevExpress.XtraBars.v19.2.xml
+C:\Users\seldaberker\Desktop\Desktop\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\DevExpress.XtraEditors.v19.2.xml
+C:\Users\seldaberker\Desktop\Desktop\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\DevExpress.XtraPrinting.v19.2.xml
+C:\Users\seldaberker\Desktop\Desktop\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\DevExpress.XtraGrid.v19.2.xml
+C:\Users\seldaberker\Desktop\Desktop\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\DevExpress.XtraLayout.v19.2.xml
+C:\Users\seldaberker\Desktop\Desktop\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\DevExpress.XtraTreeList.v19.2.xml
+C:\Users\seldaberker\Desktop\Desktop\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\DevExpress.XtraVerticalGrid.v19.2.xml
+C:\Users\seldaberker\Desktop\Desktop\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\Microsoft.ReportViewer.WinForms.xml
+C:\Users\seldaberker\Desktop\Desktop\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\Newtonsoft.Json.xml
+C:\Users\seldaberker\Desktop\Desktop\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\DevExpress.Sparkline.v19.2.Core.xml
+C:\Users\seldaberker\Desktop\Desktop\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\Microsoft.Build.Utilities.v3.5.xml
+C:\Users\seldaberker\Desktop\Desktop\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\de\DevExpress.Pdf.v19.2.Core.resources.dll
+C:\Users\seldaberker\Desktop\Desktop\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\es\DevExpress.Pdf.v19.2.Core.resources.dll
+C:\Users\seldaberker\Desktop\Desktop\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\ja\DevExpress.Pdf.v19.2.Core.resources.dll
+C:\Users\seldaberker\Desktop\Desktop\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\ru\DevExpress.Pdf.v19.2.Core.resources.dll
+C:\Users\seldaberker\Desktop\Desktop\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\de\DevExpress.Office.v19.2.Core.resources.dll
+C:\Users\seldaberker\Desktop\Desktop\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\es\DevExpress.Office.v19.2.Core.resources.dll
+C:\Users\seldaberker\Desktop\Desktop\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\ja\DevExpress.Office.v19.2.Core.resources.dll
+C:\Users\seldaberker\Desktop\Desktop\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\ru\DevExpress.Office.v19.2.Core.resources.dll
+C:\Users\seldaberker\Desktop\Desktop\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\de\DevExpress.RichEdit.v19.2.Core.resources.dll
+C:\Users\seldaberker\Desktop\Desktop\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\es\DevExpress.RichEdit.v19.2.Core.resources.dll
+C:\Users\seldaberker\Desktop\Desktop\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\ja\DevExpress.RichEdit.v19.2.Core.resources.dll
+C:\Users\seldaberker\Desktop\Desktop\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\ru\DevExpress.RichEdit.v19.2.Core.resources.dll
+C:\Users\seldaberker\Desktop\Desktop\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\de\DevExpress.Printing.v19.2.Core.resources.dll
+C:\Users\seldaberker\Desktop\Desktop\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\es\DevExpress.Printing.v19.2.Core.resources.dll
+C:\Users\seldaberker\Desktop\Desktop\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\ja\DevExpress.Printing.v19.2.Core.resources.dll
+C:\Users\seldaberker\Desktop\Desktop\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\ru\DevExpress.Printing.v19.2.Core.resources.dll
+C:\Users\seldaberker\Desktop\Desktop\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\de\DevExpress.Data.v19.2.resources.dll
+C:\Users\seldaberker\Desktop\Desktop\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\es\DevExpress.Data.v19.2.resources.dll
+C:\Users\seldaberker\Desktop\Desktop\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\ja\DevExpress.Data.v19.2.resources.dll
+C:\Users\seldaberker\Desktop\Desktop\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\ru\DevExpress.Data.v19.2.resources.dll
+C:\Users\seldaberker\Desktop\Desktop\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\de\DevExpress.Utils.v19.2.resources.dll
+C:\Users\seldaberker\Desktop\Desktop\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\es\DevExpress.Utils.v19.2.resources.dll
+C:\Users\seldaberker\Desktop\Desktop\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\ja\DevExpress.Utils.v19.2.resources.dll
+C:\Users\seldaberker\Desktop\Desktop\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\ru\DevExpress.Utils.v19.2.resources.dll
+C:\Users\seldaberker\Desktop\Desktop\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\de\DevExpress.XtraBars.v19.2.resources.dll
+C:\Users\seldaberker\Desktop\Desktop\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\es\DevExpress.XtraBars.v19.2.resources.dll
+C:\Users\seldaberker\Desktop\Desktop\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\ja\DevExpress.XtraBars.v19.2.resources.dll
+C:\Users\seldaberker\Desktop\Desktop\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\ru\DevExpress.XtraBars.v19.2.resources.dll
+C:\Users\seldaberker\Desktop\Desktop\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\de\DevExpress.XtraEditors.v19.2.resources.dll
+C:\Users\seldaberker\Desktop\Desktop\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\es\DevExpress.XtraEditors.v19.2.resources.dll
+C:\Users\seldaberker\Desktop\Desktop\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\ja\DevExpress.XtraEditors.v19.2.resources.dll
+C:\Users\seldaberker\Desktop\Desktop\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\ru\DevExpress.XtraEditors.v19.2.resources.dll
+C:\Users\seldaberker\Desktop\Desktop\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\de\DevExpress.XtraPrinting.v19.2.resources.dll
+C:\Users\seldaberker\Desktop\Desktop\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\es\DevExpress.XtraPrinting.v19.2.resources.dll
+C:\Users\seldaberker\Desktop\Desktop\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\ja\DevExpress.XtraPrinting.v19.2.resources.dll
+C:\Users\seldaberker\Desktop\Desktop\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\ru\DevExpress.XtraPrinting.v19.2.resources.dll
+C:\Users\seldaberker\Desktop\Desktop\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\de\DevExpress.XtraGrid.v19.2.resources.dll
+C:\Users\seldaberker\Desktop\Desktop\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\es\DevExpress.XtraGrid.v19.2.resources.dll
+C:\Users\seldaberker\Desktop\Desktop\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\ja\DevExpress.XtraGrid.v19.2.resources.dll
+C:\Users\seldaberker\Desktop\Desktop\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\ru\DevExpress.XtraGrid.v19.2.resources.dll
+C:\Users\seldaberker\Desktop\Desktop\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\de\DevExpress.XtraLayout.v19.2.resources.dll
+C:\Users\seldaberker\Desktop\Desktop\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\es\DevExpress.XtraLayout.v19.2.resources.dll
+C:\Users\seldaberker\Desktop\Desktop\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\ja\DevExpress.XtraLayout.v19.2.resources.dll
+C:\Users\seldaberker\Desktop\Desktop\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\ru\DevExpress.XtraLayout.v19.2.resources.dll
+C:\Users\seldaberker\Desktop\Desktop\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\de\DevExpress.XtraTreeList.v19.2.resources.dll
+C:\Users\seldaberker\Desktop\Desktop\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\es\DevExpress.XtraTreeList.v19.2.resources.dll
+C:\Users\seldaberker\Desktop\Desktop\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\ja\DevExpress.XtraTreeList.v19.2.resources.dll
+C:\Users\seldaberker\Desktop\Desktop\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\ru\DevExpress.XtraTreeList.v19.2.resources.dll
+C:\Users\seldaberker\Desktop\Desktop\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\de\DevExpress.XtraVerticalGrid.v19.2.resources.dll
+C:\Users\seldaberker\Desktop\Desktop\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\es\DevExpress.XtraVerticalGrid.v19.2.resources.dll
+C:\Users\seldaberker\Desktop\Desktop\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\ja\DevExpress.XtraVerticalGrid.v19.2.resources.dll
+C:\Users\seldaberker\Desktop\Desktop\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\ru\DevExpress.XtraVerticalGrid.v19.2.resources.dll
+C:\Users\seldaberker\Desktop\Desktop\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\de\DevExpress.Sparkline.v19.2.Core.resources.dll
+C:\Users\seldaberker\Desktop\Desktop\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\es\DevExpress.Sparkline.v19.2.Core.resources.dll
+C:\Users\seldaberker\Desktop\Desktop\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\ja\DevExpress.Sparkline.v19.2.Core.resources.dll
+C:\Users\seldaberker\Desktop\Desktop\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\ru\DevExpress.Sparkline.v19.2.Core.resources.dll
+C:\Users\seldaberker\Desktop\Desktop\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\tr\Microsoft.Build.Utilities.v3.5.resources.dll
+C:\Users\seldaberker\Desktop\Desktop\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\obj\Debug\ITS.csproj.AssemblyReference.cache
+C:\Users\seldaberker\Desktop\Desktop\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\obj\Debug\ITS.AmbalajGecerlilikDurumuDegistir.resources
+C:\Users\seldaberker\Desktop\Desktop\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\obj\Debug\ITS.BildirimDetayi.resources
+C:\Users\seldaberker\Desktop\Desktop\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\obj\Debug\ITS.EczaneyeSatisKaydiOlusturma.resources
+C:\Users\seldaberker\Desktop\Desktop\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\obj\Debug\ITS.FasonBildirim.resources
+C:\Users\seldaberker\Desktop\Desktop\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\obj\Debug\ITS.GrupIciSatisAlisIslemleri.resources
+C:\Users\seldaberker\Desktop\Desktop\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\obj\Debug\ITS.KolileriYerDegistirme.resources
+C:\Users\seldaberker\Desktop\Desktop\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\obj\Debug\ITS.main.resources
+C:\Users\seldaberker\Desktop\Desktop\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\obj\Debug\ITS.Properties.Resources.resources
+C:\Users\seldaberker\Desktop\Desktop\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\obj\Debug\ITS.SatisAktarimSorunlari.resources
+C:\Users\seldaberker\Desktop\Desktop\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\obj\Debug\ITS.SatisDetayinaAmbalajEkleme.resources
+C:\Users\seldaberker\Desktop\Desktop\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\obj\Debug\ITS.SatisVerisiOlusturma.resources
+C:\Users\seldaberker\Desktop\Desktop\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\obj\Debug\ITS.UretimBildirimRaporu.resources
+C:\Users\seldaberker\Desktop\Desktop\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\obj\Debug\ITS.VeriTasima.resources
+C:\Users\seldaberker\Desktop\Desktop\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\obj\Debug\ITS.WaitForm1.resources
+C:\Users\seldaberker\Desktop\Desktop\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\obj\Debug\ITS.XMLDosyasiGoster.resources
+C:\Users\seldaberker\Desktop\Desktop\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\obj\Debug\ITS.csproj.GenerateResource.cache
+C:\Users\seldaberker\Desktop\Desktop\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\obj\Debug\ITS.exe.licenses
+C:\Users\seldaberker\Desktop\Desktop\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\obj\Debug\ITS.csproj.CoreCompileInputs.cache
+C:\Users\seldaberker\Desktop\Desktop\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\obj\Debug\ITS.exe.manifest
+C:\Users\seldaberker\Desktop\Desktop\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\obj\Debug\ITS.application
+C:\Users\seldaberker\Desktop\Desktop\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\obj\Debug\ITS.csproj.CopyComplete
+C:\Users\seldaberker\Desktop\Desktop\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\obj\Debug\ITS.exe
+C:\Users\seldaberker\Desktop\Desktop\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\obj\Debug\ITS.pdb
+D:\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\ITS.exe.config
+D:\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\ITS.exe.manifest
+D:\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\ITS.application
+D:\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\ITS.exe
+D:\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\ITS.pdb
+D:\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\DeclarationServices.dll
+D:\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\DevExpress.BonusSkins.v19.2.dll
+D:\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\DevExpress.Data.v19.2.dll
+D:\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\DevExpress.Office.v19.2.Core.dll
+D:\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\DevExpress.Pdf.v19.2.Core.dll
+D:\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\DevExpress.Printing.v19.2.Core.dll
+D:\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\DevExpress.RichEdit.v19.2.Core.dll
+D:\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\DevExpress.RichEdit.v19.2.Export.dll
+D:\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\DevExpress.Utils.v19.2.dll
+D:\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\DevExpress.XtraBars.v19.2.dll
+D:\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\DevExpress.XtraEditors.v19.2.dll
+D:\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\DevExpress.XtraGrid.v19.2.dll
+D:\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\DevExpress.XtraLayout.v19.2.dll
+D:\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\DevExpress.XtraPrinting.v19.2.dll
+D:\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\DevExpress.XtraTreeList.v19.2.dll
+D:\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\DevExpress.XtraVerticalGrid.v19.2.dll
+D:\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\Functions.dll
+D:\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\LINQ.dll
+D:\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\Microsoft.ReportViewer.Common.dll
+D:\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+D:\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\Ionic.Zip.dll
+D:\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\Newtonsoft.Json.dll
+D:\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\DevExpress.Images.v19.2.dll
+D:\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\DevExpress.Sparkline.v19.2.Core.dll
+D:\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\Microsoft.Build.Utilities.v3.5.dll
+D:\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\ADODB.dll
+D:\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\Microsoft.Build.Framework.dll
+D:\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\DeclarationServices.pdb
+D:\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\DeclarationServices.dll.config
+D:\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\Functions.pdb
+D:\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\LINQ.pdb
+D:\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\LINQ.dll.config
+D:\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\DevExpress.Pdf.v19.2.Core.xml
+D:\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\DevExpress.Office.v19.2.Core.xml
+D:\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\DevExpress.RichEdit.v19.2.Core.xml
+D:\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\DevExpress.Printing.v19.2.Core.xml
+D:\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\DevExpress.Data.v19.2.xml
+D:\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\DevExpress.Utils.v19.2.xml
+D:\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\DevExpress.XtraBars.v19.2.xml
+D:\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\DevExpress.XtraEditors.v19.2.xml
+D:\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\DevExpress.XtraPrinting.v19.2.xml
+D:\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\DevExpress.XtraGrid.v19.2.xml
+D:\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\DevExpress.XtraLayout.v19.2.xml
+D:\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\DevExpress.XtraTreeList.v19.2.xml
+D:\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\DevExpress.XtraVerticalGrid.v19.2.xml
+D:\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\Microsoft.ReportViewer.WinForms.xml
+D:\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\Newtonsoft.Json.xml
+D:\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\DevExpress.Sparkline.v19.2.Core.xml
+D:\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\Microsoft.Build.Utilities.v3.5.xml
+D:\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\de\DevExpress.Pdf.v19.2.Core.resources.dll
+D:\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\es\DevExpress.Pdf.v19.2.Core.resources.dll
+D:\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\ja\DevExpress.Pdf.v19.2.Core.resources.dll
+D:\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\ru\DevExpress.Pdf.v19.2.Core.resources.dll
+D:\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\de\DevExpress.Office.v19.2.Core.resources.dll
+D:\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\es\DevExpress.Office.v19.2.Core.resources.dll
+D:\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\ja\DevExpress.Office.v19.2.Core.resources.dll
+D:\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\ru\DevExpress.Office.v19.2.Core.resources.dll
+D:\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\de\DevExpress.RichEdit.v19.2.Core.resources.dll
+D:\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\es\DevExpress.RichEdit.v19.2.Core.resources.dll
+D:\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\ja\DevExpress.RichEdit.v19.2.Core.resources.dll
+D:\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\ru\DevExpress.RichEdit.v19.2.Core.resources.dll
+D:\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\de\DevExpress.Printing.v19.2.Core.resources.dll
+D:\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\es\DevExpress.Printing.v19.2.Core.resources.dll
+D:\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\ja\DevExpress.Printing.v19.2.Core.resources.dll
+D:\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\ru\DevExpress.Printing.v19.2.Core.resources.dll
+D:\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\de\DevExpress.Data.v19.2.resources.dll
+D:\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\es\DevExpress.Data.v19.2.resources.dll
+D:\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\ja\DevExpress.Data.v19.2.resources.dll
+D:\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\ru\DevExpress.Data.v19.2.resources.dll
+D:\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\de\DevExpress.Utils.v19.2.resources.dll
+D:\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\es\DevExpress.Utils.v19.2.resources.dll
+D:\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\ja\DevExpress.Utils.v19.2.resources.dll
+D:\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\ru\DevExpress.Utils.v19.2.resources.dll
+D:\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\de\DevExpress.XtraBars.v19.2.resources.dll
+D:\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\es\DevExpress.XtraBars.v19.2.resources.dll
+D:\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\ja\DevExpress.XtraBars.v19.2.resources.dll
+D:\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\ru\DevExpress.XtraBars.v19.2.resources.dll
+D:\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\de\DevExpress.XtraEditors.v19.2.resources.dll
+D:\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\es\DevExpress.XtraEditors.v19.2.resources.dll
+D:\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\ja\DevExpress.XtraEditors.v19.2.resources.dll
+D:\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\ru\DevExpress.XtraEditors.v19.2.resources.dll
+D:\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\de\DevExpress.XtraPrinting.v19.2.resources.dll
+D:\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\es\DevExpress.XtraPrinting.v19.2.resources.dll
+D:\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\ja\DevExpress.XtraPrinting.v19.2.resources.dll
+D:\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\ru\DevExpress.XtraPrinting.v19.2.resources.dll
+D:\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\de\DevExpress.XtraGrid.v19.2.resources.dll
+D:\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\es\DevExpress.XtraGrid.v19.2.resources.dll
+D:\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\ja\DevExpress.XtraGrid.v19.2.resources.dll
+D:\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\ru\DevExpress.XtraGrid.v19.2.resources.dll
+D:\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\de\DevExpress.XtraLayout.v19.2.resources.dll
+D:\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\es\DevExpress.XtraLayout.v19.2.resources.dll
+D:\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\ja\DevExpress.XtraLayout.v19.2.resources.dll
+D:\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\ru\DevExpress.XtraLayout.v19.2.resources.dll
+D:\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\de\DevExpress.XtraTreeList.v19.2.resources.dll
+D:\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\es\DevExpress.XtraTreeList.v19.2.resources.dll
+D:\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\ja\DevExpress.XtraTreeList.v19.2.resources.dll
+D:\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\ru\DevExpress.XtraTreeList.v19.2.resources.dll
+D:\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\de\DevExpress.XtraVerticalGrid.v19.2.resources.dll
+D:\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\es\DevExpress.XtraVerticalGrid.v19.2.resources.dll
+D:\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\ja\DevExpress.XtraVerticalGrid.v19.2.resources.dll
+D:\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\ru\DevExpress.XtraVerticalGrid.v19.2.resources.dll
+D:\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\de\DevExpress.Sparkline.v19.2.Core.resources.dll
+D:\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\es\DevExpress.Sparkline.v19.2.Core.resources.dll
+D:\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\ja\DevExpress.Sparkline.v19.2.Core.resources.dll
+D:\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\ru\DevExpress.Sparkline.v19.2.Core.resources.dll
+D:\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\bin\Debug\tr\Microsoft.Build.Utilities.v3.5.resources.dll
+D:\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\obj\Debug\ITS.csproj.AssemblyReference.cache
+D:\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\obj\Debug\ITS.AmbalajGecerlilikDurumuDegistir.resources
+D:\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\obj\Debug\ITS.BildirimDetayi.resources
+D:\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\obj\Debug\ITS.EczaneyeSatisKaydiOlusturma.resources
+D:\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\obj\Debug\ITS.FasonBildirim.resources
+D:\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\obj\Debug\ITS.GrupIciSatisAlisIslemleri.resources
+D:\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\obj\Debug\ITS.KolileriYerDegistirme.resources
+D:\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\obj\Debug\ITS.main.resources
+D:\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\obj\Debug\ITS.Properties.Resources.resources
+D:\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\obj\Debug\ITS.SatisAktarimSorunlari.resources
+D:\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\obj\Debug\ITS.SatisDetayinaAmbalajEkleme.resources
+D:\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\obj\Debug\ITS.SatisVerisiOlusturma.resources
+D:\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\obj\Debug\ITS.UretimBildirimRaporu.resources
+D:\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\obj\Debug\ITS.VeriTasima.resources
+D:\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\obj\Debug\ITS.WaitForm1.resources
+D:\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\obj\Debug\ITS.XMLDosyasiGoster.resources
+D:\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\obj\Debug\ITS.csproj.GenerateResource.cache
+D:\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\obj\Debug\ITS.exe.licenses
+D:\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\obj\Debug\ITS.csproj.CoreCompileInputs.cache
+D:\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\obj\Debug\ITS.exe.manifest
+D:\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\obj\Debug\ITS.application
+D:\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\obj\Debug\ITS.csproj.CopyComplete
+D:\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\obj\Debug\ITS.exe
+D:\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\obj\Debug\ITS.pdb
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\ITS Son Version 01.09.2022\20220831\ITS_git\ITS\obj\Debug\ITS.main.resources
+C:\Projects\ITS\ITS\bin\Debug\ITS.exe.config
+C:\Projects\ITS\ITS\bin\Debug\ITS.exe.manifest
+C:\Projects\ITS\ITS\bin\Debug\ITS.application
+C:\Projects\ITS\ITS\bin\Debug\ITS.exe
+C:\Projects\ITS\ITS\bin\Debug\ITS.pdb
+C:\Projects\ITS\ITS\bin\Debug\DeclarationServices.dll
+C:\Projects\ITS\ITS\bin\Debug\ExcelDataReader.dll
+C:\Projects\ITS\ITS\bin\Debug\Functions.dll
+C:\Projects\ITS\ITS\bin\Debug\LINQ.dll
+C:\Projects\ITS\ITS\bin\Debug\Newtonsoft.Json.dll
+C:\Projects\ITS\ITS\bin\Debug\Ionic.Zip.dll
+C:\Projects\ITS\ITS\bin\Debug\Microsoft.Build.Utilities.v3.5.dll
+C:\Projects\ITS\ITS\bin\Debug\ADODB.dll
+C:\Projects\ITS\ITS\bin\Debug\DeclarationServices.pdb
+C:\Projects\ITS\ITS\bin\Debug\DeclarationServices.dll.config
+C:\Projects\ITS\ITS\bin\Debug\Functions.pdb
+C:\Projects\ITS\ITS\bin\Debug\LINQ.pdb
+C:\Projects\ITS\ITS\bin\Debug\LINQ.dll.config
+C:\Projects\ITS\ITS\bin\Debug\ExcelDataReader.pdb
+C:\Projects\ITS\ITS\bin\Debug\ExcelDataReader.xml
+C:\Projects\ITS\ITS\bin\Debug\Newtonsoft.Json.xml
+C:\Projects\ITS\ITS\bin\Debug\tr\Microsoft.Build.Utilities.v3.5.resources.dll
+C:\Projects\ITS\ITS\obj\Debug\ITS.csproj.AssemblyReference.cache
+C:\Projects\ITS\ITS\obj\Debug\ITS.AmbalajGecerlilikDurumuDegistir.resources
+C:\Projects\ITS\ITS\obj\Debug\ITS.BildirimDetayi.resources
+C:\Projects\ITS\ITS\obj\Debug\ITS.EczaneyeSatisKaydiOlusturma.resources
+C:\Projects\ITS\ITS\obj\Debug\ITS.FasonBildirim.resources
+C:\Projects\ITS\ITS\obj\Debug\ITS.GrupIciSatisAlisIslemleri.resources
+C:\Projects\ITS\ITS\obj\Debug\ITS.KolileriYerDegistirme.resources
+C:\Projects\ITS\ITS\obj\Debug\ITS.main.resources
+C:\Projects\ITS\ITS\obj\Debug\ITS.Properties.Resources.resources
+C:\Projects\ITS\ITS\obj\Debug\ITS.SatisAktarimSorunlari.resources
+C:\Projects\ITS\ITS\obj\Debug\ITS.SatisDetayinaAmbalajEkleme.resources
+C:\Projects\ITS\ITS\obj\Debug\ITS.SatisVerisiOlusturma.resources
+C:\Projects\ITS\ITS\obj\Debug\ITS.UretimBildirimRaporu.resources
+C:\Projects\ITS\ITS\obj\Debug\ITS.VeriTasima.resources
+C:\Projects\ITS\ITS\obj\Debug\ITS.WaitForm1.resources
+C:\Projects\ITS\ITS\obj\Debug\ITS.XMLDosyasiGoster.resources
+C:\Projects\ITS\ITS\obj\Debug\ITS.csproj.GenerateResource.cache
+C:\Projects\ITS\ITS\obj\Debug\ITS.exe.licenses
+C:\Projects\ITS\ITS\obj\Debug\ITS.csproj.CoreCompileInputs.cache
+C:\Projects\ITS\ITS\obj\Debug\ITS.exe.manifest
+C:\Projects\ITS\ITS\obj\Debug\ITS.application
+C:\Projects\ITS\ITS\obj\Debug\ITS.csproj.CopyComplete
+C:\Projects\ITS\ITS\obj\Debug\ITS.exe
+C:\Projects\ITS\ITS\obj\Debug\ITS.pdb
+C:\ilactakipsistemi\ITS\obj\Debug\ITS.csproj.AssemblyReference.cache
+C:\ilactakipsistemi\ITS\obj\Debug\ITS.exe
+C:\ilactakipsistemi\ITS\obj\Debug\ITS.pdb

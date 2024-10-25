@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<definitions xmlns:tns="http://its.iegm.gov.tr/bildirim/BR/v1/Dogrulama/Depo" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="DepoDogrulamaReceiver" targetNamespace="http://its.iegm.gov.tr/bildirim/BR/v1/Dogrulama/Depo" xmlns="http://schemas.xmlsoap.org/wsdl/">
+  <types>
+    <xsd:schema targetNamespace="http://its.iegm.gov.tr/bildirim/BR/v1/Dogrulama/Depo">
+      <xsd:complexType name="DepoDogrulamaBildirimCevapType">
+        <xsd:sequence>
+          <xsd:element name="BILDIRIMID" type="xsd:string" />
+          <xsd:element name="URUNLER">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element minOccurs="1" maxOccurs="unbounded" name="URUNDURUM">
+                  <xsd:complexType>
+                    <xsd:sequence>
+                      <xsd:element name="GTIN">
+                        <xsd:simpleType>
+                          <xsd:restriction base="xsd:string">
+                            <xsd:length value="14" />
+                            <xsd:pattern value="[0-9]*" />
+                          </xsd:restriction>
+                        </xsd:simpleType>
+                      </xsd:element>
+                      <xsd:element name="SN">
+                        <xsd:simpleType>
+                          <xsd:restriction base="xsd:string">
+                            <xsd:pattern value="[A-Z0-9]*" />
+                            <xsd:minLength value="1" />
+                            <xsd:maxLength value="20" />
+                            <xsd:whiteSpace value="collapse" />
+                          </xsd:restriction>
+                        </xsd:simpleType>
+                      </xsd:element>
+                      <xsd:element name="UC">
+                        <xsd:simpleType>
+                          <xsd:restriction base="xsd:string">
+                            <xsd:length value="5" />
+                          </xsd:restriction>
+                        </xsd:simpleType>
+                      </xsd:element>
+                    </xsd:sequence>
+                  </xsd:complexType>
+                </xsd:element>
+              </xsd:sequence>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="BildirimHataType">
+        <xsd:sequence>
+          <xsd:element name="FC">
+            <xsd:simpleType>
+              <xsd:restriction base="xsd:string">
+                <xsd:length value="5" />
+              </xsd:restriction>
+            </xsd:simpleType>
+          </xsd:element>
+          <xsd:element name="FM" type="xsd:string" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="DepoDogrulamaBildirimType">
+        <xsd:sequence>
+          <xsd:element name="DT">
+            <xsd:simpleType>
+              <xsd:restriction base="xsd:string">
+                <xsd:pattern value="[V]" />
+                <xsd:length value="1" />
+              </xsd:restriction>
+            </xsd:simpleType>
+          </xsd:element>
+          <xsd:element name="FR">
+            <xsd:simpleType>
+              <xsd:restriction base="xsd:string">
+                <xsd:length value="13" />
+                <xsd:pattern value="[0-9]*" />
+              </xsd:restriction>
+            </xsd:simpleType>
+          </xsd:element>
+          <xsd:element name="URUNLER">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element minOccurs="1" maxOccurs="unbounded" name="URUN">
+                  <xsd:complexType>
+                    <xsd:sequence>
+                      <xsd:element name="GTIN">
+                        <xsd:simpleType>
+                          <xsd:restriction base="xsd:string">
+                            <xsd:length value="14" />
+                            <xsd:pattern value="[0-9]*" />
+                          </xsd:restriction>
+                        </xsd:simpleType>
+                      </xsd:element>
+                      <xsd:element name="BN">
+                        <xsd:simpleType>
+                          <xsd:restriction base="xsd:string">
+                            <xsd:pattern value="[A-Z0-9]*" />
+                            <xsd:maxLength value="20" />
+                          </xsd:restriction>
+                        </xsd:simpleType>
+                      </xsd:element>
+                      <xsd:element name="SN">
+                        <xsd:simpleType>
+                          <xsd:restriction base="xsd:string">
+                            <xsd:pattern value="[A-Z0-9]*" />
+                            <xsd:minLength value="1" />
+                            <xsd:maxLength value="20" />
+                            <xsd:whiteSpace value="collapse" />
+                          </xsd:restriction>
+                        </xsd:simpleType>
+                      </xsd:element>
+                      <xsd:element name="XD" type="xsd:date" />
+                    </xsd:sequence>
+                  </xsd:complexType>
+                </xsd:element>
+              </xsd:sequence>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:element name="BildirimHata" type="tns:BildirimHataType" />
+      <xsd:element name="DepoDogrulamaBildirimCevap" type="tns:DepoDogrulamaBildirimCevapType" />
+      <xsd:element name="DepoDogrulamaBildirim" type="tns:DepoDogrulamaBildirimType" />
+    </xsd:schema>
+  </types>
+  <message name="DepoDogrulamaBildirMsg">
+    <part name="body" element="tns:DepoDogrulamaBildirim" />
+  </message>
+  <message name="DepoSatisBildirimCevapMsg">
+    <part name="body" element="tns:DepoDogrulamaBildirimCevap" />
+  </message>
+  <message name="DepoDogrulamaHataFault">
+    <part name="fault" element="tns:BildirimHata" />
+  </message>
+  <portType name="DepoDogrulamaBildirimReceiver">
+    <operation name="DepoDogrulamaBildir">
+      <input name="input" message="tns:DepoDogrulamaBildirMsg" />
+      <output name="output" message="tns:DepoSatisBildirimCevapMsg" />
+      <fault name="fault" message="tns:DepoDogrulamaHataFault" />
+    </operation>
+  </portType>
+  <binding name="DepoDogrulamaReceiverBinding" type="tns:DepoDogrulamaBildirimReceiver">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <operation name="DepoDogrulamaBildir">
+      <soap:operation soapAction="http://its.iegm.gov.tr/bildirim/BR/v1/Dogrulama/DepoDogrulamaBildirimRequest" style="document" />
+      <input name="input">
+        <soap:body use="literal" />
+      </input>
+      <output name="output">
+        <soap:body use="literal" />
+      </output>
+      <fault name="fault">
+        <soap:fault use="literal" name="fault" namespace="" />
+      </fault>
+    </operation>
+  </binding>
+  <service name="DepoDogrulamaReceiverService">
+    <port name="DepoDogrulamaBildirimReceiverBindingPort" binding="tns:DepoDogrulamaReceiverBinding">
+      <soap:address location="http://its.saglik.gov.tr:80/DepoDogrulama/DepoDogrulamaReceiverService" />
+    </port>
+  </service>
+</definitions>

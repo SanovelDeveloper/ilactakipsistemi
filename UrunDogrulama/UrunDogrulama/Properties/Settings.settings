@@ -1,0 +1,15 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="UrunDogrulama.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="UrunDogrulama_EczaneUrunDogrulama_EczaneDogrulamaReceiverService" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://its.saglik.gov.tr:80/EczaneDogrulama/EczaneDogrulamaReceiverService</Value>
+    </Setting>
+    <Setting Name="UrunDogrulama_UreticiUrunDogrulama_UreticiDogrulamaReceiverService" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://its.saglik.gov.tr:80/UreticiDogrulama/UreticiDogrulamaReceiverService</Value>
+    </Setting>
+    <Setting Name="UrunDogrulama_DepoUrunDogrulama_DepoDogrulamaReceiverService" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://its.saglik.gov.tr:80/DepoDogrulama/DepoDogrulamaReceiverService</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

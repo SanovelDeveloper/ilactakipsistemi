@@ -1,0 +1,582 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{245E474C-5767-4F88-86E6-4E8ACE97D138}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ITS</RootNamespace>
+    <AssemblyName>ITS</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ApplicationIcon>ilac.ico</ApplicationIcon>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <StartupObject>
+    </StartupObject>
+    <ManifestCertificateThumbprint>8358968F1EC8EAC96DAD50ADAB63CD4A66DCAB6B</ManifestCertificateThumbprint>
+    <ManifestKeyFile>ITS_TemporaryKey.pfx</ManifestKeyFile>
+    <GenerateManifests>true</GenerateManifests>
+    <SignManifests>true</SignManifests>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <TargetFrameworkProfile />
+    <PublishUrl>D:\My Documents\Visual Studio 2008\Projects\ITS\Publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>1</ApplicationRevision>
+    <ApplicationVersion>1.1.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevExpress.BonusSkins.v11.2, Version=11.2.10.0, Culture=neutral, PublicKeyToken=95fc6c5621878f0a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Printing.v11.2.Core, Version=11.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Data.v11.2, Version=11.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Utils.v11.2, Version=11.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraBars.v11.2, Version=11.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraEditors.v11.2, Version=11.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraGrid.v11.2, Version=11.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraLayout.v11.2, Version=11.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraTreeList.v11.2, Version=11.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraVerticalGrid.v11.2, Version=11.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.ReportViewer.Common, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <Reference Include="Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Configuration.Install" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Design" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Runtime.Serialization">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Security" />
+    <Reference Include="System.ServiceModel">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AmbalajEkleme.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AmbalajEkleme.Designer.cs">
+      <DependentUpon>AmbalajEkleme.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AmbalajGecerlilikDurumuDegistir.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AmbalajGecerlilikDurumuDegistir.Designer.cs">
+      <DependentUpon>AmbalajGecerlilikDurumuDegistir.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BildirimDetayi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BildirimDetayi.Designer.cs">
+      <DependentUpon>BildirimDetayi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BildirimZamanlama.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BildirimZamanlama.Designer.cs">
+      <DependentUpon>BildirimZamanlama.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ConnectionStringProtector.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ConnectionStringProtector.Designer.cs">
+      <DependentUpon>ConnectionStringProtector.cs</DependentUpon>
+    </Compile>
+    <Compile Include="dstUretimBildirimRaporu.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dstUretimBildirimRaporu.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="EczaneyeSatisKaydiOlusturma.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EczaneyeSatisKaydiOlusturma.Designer.cs">
+      <DependentUpon>EczaneyeSatisKaydiOlusturma.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FasonBildirim.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FasonBildirim.Designer.cs">
+      <DependentUpon>FasonBildirim.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Giris.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Giris.Designer.cs">
+      <DependentUpon>Giris.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Global.cs" />
+    <Compile Include="GrupIciSatisAlisIslemleri.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GrupIciSatisAlisIslemleri.Designer.cs">
+      <DependentUpon>GrupIciSatisAlisIslemleri.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Guvenlik.cs" />
+    <Compile Include="INI.cs" />
+    <Compile Include="KareKod.cs" />
+    <Compile Include="KolileriYerDegistirme.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KolileriYerDegistirme.Designer.cs">
+      <DependentUpon>KolileriYerDegistirme.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Main.Designer.cs">
+      <DependentUpon>Main.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="AmbalajGecerlilikDurumuDegistir.resx">
+      <DependentUpon>AmbalajGecerlilikDurumuDegistir.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BildirimDetayi.resx">
+      <DependentUpon>BildirimDetayi.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EczaneyeSatisKaydiOlusturma.resx">
+      <DependentUpon>EczaneyeSatisKaydiOlusturma.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FasonBildirim.resx">
+      <DependentUpon>FasonBildirim.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GrupIciSatisAlisIslemleri.resx">
+      <DependentUpon>GrupIciSatisAlisIslemleri.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KolileriYerDegistirme.resx">
+      <DependentUpon>KolileriYerDegistirme.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main.resx">
+      <DependentUpon>Main.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SatisAktarimSorunlari.resx">
+      <DependentUpon>SatisAktarimSorunlari.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SatisDetayinaAmbalajEkleme.resx">
+      <DependentUpon>SatisDetayinaAmbalajEkleme.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SatisVerisiOlusturma.resx">
+      <DependentUpon>SatisVerisiOlusturma.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UretimBildirimRaporu.rdlc" />
+    <EmbeddedResource Include="UretimBildirimRaporu.resx">
+      <DependentUpon>UretimBildirimRaporu.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VeriTasima.resx">
+      <DependentUpon>VeriTasima.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WaitForm1.resx">
+      <DependentUpon>WaitForm1.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="XMLDosyasiGoster.resx">
+      <DependentUpon>XMLDosyasiGoster.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="app.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>PublicSettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="SatisAktarimSorunlari.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SatisAktarimSorunlari.Designer.cs">
+      <DependentUpon>SatisAktarimSorunlari.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SatisDetayinaAmbalajEkleme.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SatisDetayinaAmbalajEkleme.Designer.cs">
+      <DependentUpon>SatisDetayinaAmbalajEkleme.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SatisVerisiOlusturma.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SatisVerisiOlusturma.Designer.cs">
+      <DependentUpon>SatisVerisiOlusturma.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Settings.cs" />
+    <Compile Include="SplashScreen1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SplashScreen1.Designer.cs">
+      <DependentUpon>SplashScreen1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TTSdeEkstraUretimEmriOlustur.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TTSdeEkstraUretimEmriOlustur.Designer.cs">
+      <DependentUpon>TTSdeEkstraUretimEmriOlustur.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TumAmbalajlariEkleme.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TumAmbalajlariEkleme.Designer.cs">
+      <DependentUpon>TumAmbalajlariEkleme.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UretimBildirimRaporu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UretimBildirimRaporu.Designer.cs">
+      <DependentUpon>UretimBildirimRaporu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UretimDetayiArama.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UretimDetayiArama.Designer.cs">
+      <DependentUpon>UretimDetayiArama.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VeriTasima.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VeriTasima.Designer.cs">
+      <DependentUpon>VeriTasima.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WaitForm1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WaitForm1.Designer.cs">
+      <DependentUpon>WaitForm1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Web References\DepoUrunDogrulama\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+    <Compile Include="Web References\PTSAlma\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+    <Compile Include="Web References\TTS\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+    <Compile Include="Web References\UreticiUrunDogrulama\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+    <Compile Include="Web References\UrunDogrulama\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+    <Compile Include="XMLDosyasiGoster.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="XMLDosyasiGoster.Designer.cs">
+      <DependentUpon>XMLDosyasiGoster.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferences Include="Web References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferenceUrl Include="D:\SVN\Sources\ITS\ITS\WSDLFiles\DepoUrunDogrulama.wsdl">
+      <UrlBehavior>Dynamic</UrlBehavior>
+      <RelPath>Web References\DepoUrunDogrulama\</RelPath>
+      <UpdateFromURL>D:\SVN\Sources\ITS\ITS\WSDLFiles\DepoUrunDogrulama.wsdl</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>Settings</CachedAppSettingsObjectName>
+      <CachedSettingsPropName>ITS_DepoUrunDogrulama_DepoDogrulamaReceiverService</CachedSettingsPropName>
+    </WebReferenceUrl>
+    <WebReferenceUrl Include="D:\SVN\Sources\ITS\ITS\WSDLFiles\EczaneUrunDogrulama.wsdl">
+      <UrlBehavior>Dynamic</UrlBehavior>
+      <RelPath>Web References\UrunDogrulama\</RelPath>
+      <UpdateFromURL>D:\SVN\Sources\ITS\ITS\WSDLFiles\EczaneUrunDogrulama.wsdl</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>Settings</CachedAppSettingsObjectName>
+      <CachedSettingsPropName>ITS_UrunDogrulama_EczaneDogrulamaReceiverService</CachedSettingsPropName>
+    </WebReferenceUrl>
+    <WebReferenceUrl Include="D:\SVN\Sources\ITS\ITS\WSDLFiles\UreticiUrunDogrulama.wsdl">
+      <UrlBehavior>Dynamic</UrlBehavior>
+      <RelPath>Web References\UreticiUrunDogrulama\</RelPath>
+      <UpdateFromURL>D:\SVN\Sources\ITS\ITS\WSDLFiles\UreticiUrunDogrulama.wsdl</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>Settings</CachedAppSettingsObjectName>
+      <CachedSettingsPropName>ITS_UreticiUrunDogrulama_UreticiDogrulamaReceiverService</CachedSettingsPropName>
+    </WebReferenceUrl>
+    <WebReferenceUrl Include="http://172.16.117.200/TTBOWS2/TTSPlantWebService.asmx">
+      <UrlBehavior>Dynamic</UrlBehavior>
+      <RelPath>Web References\TTS\</RelPath>
+      <UpdateFromURL>http://172.16.117.200/TTBOWS2/TTSPlantWebService.asmx</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>Settings</CachedAppSettingsObjectName>
+      <CachedSettingsPropName>ITS_TTS_Main</CachedSettingsPropName>
+    </WebReferenceUrl>
+    <WebReferenceUrl Include="http://pts.saglik.gov.tr/PTS/PackageReceiverWebService.wsdl">
+      <UrlBehavior>Dynamic</UrlBehavior>
+      <RelPath>Web References\PTSAlma\</RelPath>
+      <UpdateFromURL>http://pts.saglik.gov.tr/PTS/PackageReceiverWebService.wsdl</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>Settings</CachedAppSettingsObjectName>
+      <CachedSettingsPropName>ITS_PTSAlma_PackageReceiverWebService</CachedSettingsPropName>
+    </WebReferenceUrl>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="accept_page.png" />
+    <None Include="accept.png" />
+    <Content Include="barcode.ico" />
+    <Content Include="ilac.ico" />
+    <None Include="dstUretimBildirimRaporu.xsc">
+      <DependentUpon>dstUretimBildirimRaporu.xsd</DependentUpon>
+    </None>
+    <None Include="dstUretimBildirimRaporu.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dstUretimBildirimRaporu.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dstUretimBildirimRaporu.xss">
+      <DependentUpon>dstUretimBildirimRaporu.xsd</DependentUpon>
+    </None>
+    <None Include="Images\Thumbs.db" />
+    <None Include="kaboodleloop.png" />
+    <None Include="Images\logo.jpg" />
+    <None Include="Images\sb2.jpg" />
+    <None Include="Images\image12.gif" />
+    <None Include="Images\edit_remove.png" />
+    <None Include="Images\edit_add.png" />
+    <None Include="Images\color_line.png" />
+    <None Include="Images\editdelete.png" />
+    <Content Include="Images\age.png" />
+    <Content Include="Images\button_accept.png" />
+    <Content Include="Images\button_cancel.png" />
+    <Content Include="Images\editcopy.png" />
+    <Content Include="Images\kaboodleloop.png" />
+    <Content Include="Images\kate.png" />
+    <Content Include="Images\kcontrol.png" />
+    <Content Include="Images\kgpg_key3.png" />
+    <Content Include="Images\ledblue.png" />
+    <Content Include="Images\ledgreen.png" />
+    <Content Include="Images\ledorange.png" />
+    <Content Include="Images\ledpurple.png" />
+    <Content Include="Images\ledred.png" />
+    <Content Include="Images\messagebox_info.png" />
+    <Content Include="Images\Sanovellogo_24.png" />
+    <Content Include="Images\sb.png" />
+    <Content Include="Images\source_moc.png" />
+    <Content Include="Images\viewmag.png" />
+    <Content Include="Resources\age.png" />
+    <Content Include="Resources\button_accept.png" />
+    <Content Include="Resources\button_cancel.png" />
+    <Content Include="Resources\color_line.png" />
+    <Content Include="Resources\editcopy.png" />
+    <Content Include="Resources\editdelete.png" />
+    <Content Include="Resources\edit_add.png" />
+    <Content Include="Resources\edit_remove.png" />
+    <Content Include="Resources\image12.gif" />
+    <Content Include="Resources\kaboodleloop.png" />
+    <Content Include="Resources\kate.png" />
+    <Content Include="Resources\kcontrol.png" />
+    <Content Include="Resources\kgpg_key3.png" />
+    <Content Include="Resources\ledblue.png" />
+    <Content Include="Resources\ledgreen.png" />
+    <Content Include="Resources\ledorange.png" />
+    <Content Include="Resources\ledpurple.png" />
+    <Content Include="Resources\ledred.png" />
+    <Content Include="Resources\logo.jpg" />
+    <Content Include="Resources\messagebox_info.png" />
+    <Content Include="Resources\Sanovellogo_24.png" />
+    <Content Include="Resources\sb.png" />
+    <Content Include="Resources\sb2.jpg" />
+    <Content Include="Resources\source_moc.png" />
+    <Content Include="Resources\viewmag.png" />
+    <Content Include="sb.ico" />
+    <Content Include="sb2.ico" />
+    <None Include="Resources\Thumbs.db" />
+    <None Include="Web References\PTSAlma\PackageReceiverService.wsdl" />
+    <None Include="Web References\PTSAlma\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Web References\TTS\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Web References\TTS\TTSPlantWebService.disco" />
+    <None Include="Resources\important.png" />
+    <None Include="important.png" />
+    <None Include="Web References\DepoUrunDogrulama\DepoDogrulamaBildirimCevapType.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\DepoUrunDogrulama\DepoDogrulamaReceiver.wsdl" />
+    <None Include="Web References\DepoUrunDogrulama\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Web References\TTS\TTSPlantWebService.wsdl" />
+    <None Include="Web References\UreticiUrunDogrulama\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Web References\UreticiUrunDogrulama\UreticiDogrulamaBildirimCevapType.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\UreticiUrunDogrulama\UreticiDogrulamaReceiver.wsdl" />
+    <None Include="Web References\UrunDogrulama\EczaneDogrulamaBildirimCevapType.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\UrunDogrulama\EczaneSatisReceiver.wsdl" />
+    <None Include="Web References\UrunDogrulama\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DeclarationServices\DeclarationServices.csproj">
+      <Project>{5F06A6EB-AE1F-4172-9908-9DB5FCC7E03A}</Project>
+      <Name>DeclarationServices</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Functions\Functions.csproj">
+      <Project>{D470A963-77E8-44C5-8DA7-4B1138933AC3}</Project>
+      <Name>Functions</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\LINQ\LINQ.csproj">
+      <Project>{0942F591-5441-46FA-984E-F10693453EFC}</Project>
+      <Name>LINQ</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

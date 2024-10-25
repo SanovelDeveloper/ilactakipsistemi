@@ -1,0 +1,59 @@
+D:\All_Projects\Visual_Studio\ITS_git - Copy\ITS\bin\Debug\ITSStartup.exe.config
+D:\All_Projects\Visual_Studio\ITS_git - Copy\ITS\bin\Debug\ITSStartup.exe
+D:\All_Projects\Visual_Studio\ITS_git - Copy\ITS\bin\Debug\ITSStartup.pdb
+D:\All_Projects\Visual_Studio\ITS_git - Copy\ITSStartup\obj\Debug\ITSStartup.csprojAssemblyReference.cache
+D:\All_Projects\Visual_Studio\ITS_git - Copy\ITSStartup\obj\Debug\ITSStartup.Properties.Resources.resources
+D:\All_Projects\Visual_Studio\ITS_git - Copy\ITSStartup\obj\Debug\ITSStartup.csproj.GenerateResource.cache
+D:\All_Projects\Visual_Studio\ITS_git - Copy\ITSStartup\obj\Debug\ITSStartup.exe
+D:\All_Projects\Visual_Studio\ITS_git - Copy\ITSStartup\obj\Debug\ITSStartup.pdb
+D:\All_Projects\Visual_Studio\ITS_git\ITS\bin\Debug\ITSStartup.exe.config
+D:\All_Projects\Visual_Studio\ITS_git\ITS\bin\Debug\ITSStartup.exe
+D:\All_Projects\Visual_Studio\ITS_git\ITS\bin\Debug\ITSStartup.pdb
+D:\All_Projects\Visual_Studio\ITS_git\ITSStartup\obj\Debug\ITSStartup.csprojAssemblyReference.cache
+D:\All_Projects\Visual_Studio\ITS_git\ITSStartup\obj\Debug\ITSStartup.Properties.Resources.resources
+D:\All_Projects\Visual_Studio\ITS_git\ITSStartup\obj\Debug\ITSStartup.csproj.GenerateResource.cache
+D:\All_Projects\Visual_Studio\ITS_git\ITSStartup\obj\Debug\ITSStartup.exe
+D:\All_Projects\Visual_Studio\ITS_git\ITSStartup\obj\Debug\ITSStartup.pdb
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\erhan abi son git\ITS_git\ITS\bin\Debug\ITSStartup.exe
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\erhan abi son git\ITS_git\ITS\bin\Debug\ITSStartup.pdb
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\erhan abi son git\ITS_git\ITSStartup\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\erhan abi son git\ITS_git\ITSStartup\obj\Debug\ITSStartup.Properties.Resources.resources
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\erhan abi son git\ITS_git\ITSStartup\obj\Debug\ITSStartup.csproj.GenerateResource.Cache
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\erhan abi son git\ITS_git\ITSStartup\obj\Debug\ITSStartup.exe
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\erhan abi son git\ITS_git\ITSStartup\obj\Debug\ITSStartup.pdb
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\New folder (10)\ITS_git\ITS\bin\Debug\ITSStartup.exe
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\New folder (10)\ITS_git\ITS\bin\Debug\ITSStartup.pdb
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\New folder (10)\ITS_git\ITSStartup\obj\Debug\ITSStartup.csproj.AssemblyReference.cache
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\New folder (10)\ITS_git\ITSStartup\obj\Debug\ITSStartup.Properties.Resources.resources
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\New folder (10)\ITS_git\ITSStartup\obj\Debug\ITSStartup.csproj.GenerateResource.cache
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\New folder (10)\ITS_git\ITSStartup\obj\Debug\ITSStartup.csproj.CoreCompileInputs.cache
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\New folder (10)\ITS_git\ITSStartup\obj\Debug\ITSStartup.exe
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\New folder (10)\ITS_git\ITSStartup\obj\Debug\ITSStartup.pdb
+C:\Users\sercanekinci\OneDrive - Sanovel Ilac\Masaüstü\New folder (10)\ITS_git\ITS\bin\Debug\ITSStartup.exe.config
+C:\Erhan_AKARLAR\SANOVEL\_Is_Cozumleri_ve_Yazilim\Source_Codes\20220831\ITS_git\ITS\bin\Debug\ITSStartup.exe.config
+C:\Erhan_AKARLAR\SANOVEL\_Is_Cozumleri_ve_Yazilim\Source_Codes\20220831\ITS_git\ITS\bin\Debug\ITSStartup.exe
+C:\Erhan_AKARLAR\SANOVEL\_Is_Cozumleri_ve_Yazilim\Source_Codes\20220831\ITS_git\ITS\bin\Debug\ITSStartup.pdb
+C:\Erhan_AKARLAR\SANOVEL\_Is_Cozumleri_ve_Yazilim\Source_Codes\20220831\ITS_git\ITSStartup\obj\Debug\ITSStartup.Properties.Resources.resources
+C:\Erhan_AKARLAR\SANOVEL\_Is_Cozumleri_ve_Yazilim\Source_Codes\20220831\ITS_git\ITSStartup\obj\Debug\ITSStartup.csproj.GenerateResource.cache
+C:\Erhan_AKARLAR\SANOVEL\_Is_Cozumleri_ve_Yazilim\Source_Codes\20220831\ITS_git\ITSStartup\obj\Debug\ITSStartup.csproj.CoreCompileInputs.cache
+C:\Erhan_AKARLAR\SANOVEL\_Is_Cozumleri_ve_Yazilim\Source_Codes\20220831\ITS_git\ITSStartup\obj\Debug\ITSStartup.exe
+C:\Erhan_AKARLAR\SANOVEL\_Is_Cozumleri_ve_Yazilim\Source_Codes\20220831\ITS_git\ITSStartup\obj\Debug\ITSStartup.pdb
+C:\Erhan_AKARLAR\SANOVEL\_Is_Cozumleri_ve_Yazilim\Source_Codes\20220831\ITS_git\ITSStartup\obj\Debug\ITSStartup.csproj.AssemblyReference.cache
+C:\Projects\ITS\ITS\bin\Debug\ITSStartup.exe.config
+C:\Projects\ITS\ITS\bin\Debug\ITSStartup.exe
+C:\Projects\ITS\ITS\bin\Debug\ITSStartup.pdb
+C:\Projects\ITS\ITSStartup\obj\Debug\ITSStartup.csproj.AssemblyReference.cache
+C:\Projects\ITS\ITSStartup\obj\Debug\ITSStartup.Properties.Resources.resources
+C:\Projects\ITS\ITSStartup\obj\Debug\ITSStartup.csproj.GenerateResource.cache
+C:\Projects\ITS\ITSStartup\obj\Debug\ITSStartup.csproj.CoreCompileInputs.cache
+C:\Projects\ITS\ITSStartup\obj\Debug\ITSStartup.exe
+C:\Projects\ITS\ITSStartup\obj\Debug\ITSStartup.pdb
+C:\ilactakipsistemi\ITS\bin\Debug\ITSStartup.exe.config
+C:\ilactakipsistemi\ITS\bin\Debug\ITSStartup.exe
+C:\ilactakipsistemi\ITS\bin\Debug\ITSStartup.pdb
+C:\ilactakipsistemi\ITSStartup\obj\Debug\ITSStartup.csproj.AssemblyReference.cache
+C:\ilactakipsistemi\ITSStartup\obj\Debug\ITSStartup.Properties.Resources.resources
+C:\ilactakipsistemi\ITSStartup\obj\Debug\ITSStartup.csproj.GenerateResource.cache
+C:\ilactakipsistemi\ITSStartup\obj\Debug\ITSStartup.csproj.CoreCompileInputs.cache
+C:\ilactakipsistemi\ITSStartup\obj\Debug\ITSStartup.exe
+C:\ilactakipsistemi\ITSStartup\obj\Debug\ITSStartup.pdb
