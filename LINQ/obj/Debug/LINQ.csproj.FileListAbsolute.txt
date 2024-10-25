@@ -56,3 +56,10 @@ C:\ilactakipsistemi\LINQ\obj\Debug\LINQ.csproj.AssemblyReference.cache
 C:\ilactakipsistemi\LINQ\obj\Debug\LINQ.csproj.CoreCompileInputs.cache
 C:\ilactakipsistemi\LINQ\obj\Debug\LINQ.dll
 C:\ilactakipsistemi\LINQ\obj\Debug\LINQ.pdb
+C:\Users\senadogan\Documents\GitHub\ilactakipsistemi\LINQ\bin\Debug\LINQ.dll.config
+C:\Users\senadogan\Documents\GitHub\ilactakipsistemi\LINQ\bin\Debug\LINQ.dll
+C:\Users\senadogan\Documents\GitHub\ilactakipsistemi\LINQ\bin\Debug\LINQ.pdb
+C:\Users\senadogan\Documents\GitHub\ilactakipsistemi\LINQ\obj\Debug\LINQ.csproj.AssemblyReference.cache
+C:\Users\senadogan\Documents\GitHub\ilactakipsistemi\LINQ\obj\Debug\LINQ.csproj.CoreCompileInputs.cache
+C:\Users\senadogan\Documents\GitHub\ilactakipsistemi\LINQ\obj\Debug\LINQ.dll
+C:\Users\senadogan\Documents\GitHub\ilactakipsistemi\LINQ\obj\Debug\LINQ.pdb

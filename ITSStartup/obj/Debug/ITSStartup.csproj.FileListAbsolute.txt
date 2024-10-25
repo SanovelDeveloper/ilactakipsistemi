@@ -57,3 +57,12 @@ C:\ilactakipsistemi\ITSStartup\obj\Debug\ITSStartup.csproj.GenerateResource.cach
 C:\ilactakipsistemi\ITSStartup\obj\Debug\ITSStartup.csproj.CoreCompileInputs.cache
 C:\ilactakipsistemi\ITSStartup\obj\Debug\ITSStartup.exe
 C:\ilactakipsistemi\ITSStartup\obj\Debug\ITSStartup.pdb
+C:\Users\senadogan\Documents\GitHub\ilactakipsistemi\ITS\bin\Debug\ITSStartup.exe.config
+C:\Users\senadogan\Documents\GitHub\ilactakipsistemi\ITS\bin\Debug\ITSStartup.exe
+C:\Users\senadogan\Documents\GitHub\ilactakipsistemi\ITS\bin\Debug\ITSStartup.pdb
+C:\Users\senadogan\Documents\GitHub\ilactakipsistemi\ITSStartup\obj\Debug\ITSStartup.csproj.AssemblyReference.cache
+C:\Users\senadogan\Documents\GitHub\ilactakipsistemi\ITSStartup\obj\Debug\ITSStartup.Properties.Resources.resources
+C:\Users\senadogan\Documents\GitHub\ilactakipsistemi\ITSStartup\obj\Debug\ITSStartup.csproj.GenerateResource.cache
+C:\Users\senadogan\Documents\GitHub\ilactakipsistemi\ITSStartup\obj\Debug\ITSStartup.csproj.CoreCompileInputs.cache
+C:\Users\senadogan\Documents\GitHub\ilactakipsistemi\ITSStartup\obj\Debug\ITSStartup.exe
+C:\Users\senadogan\Documents\GitHub\ilactakipsistemi\ITSStartup\obj\Debug\ITSStartup.pdb

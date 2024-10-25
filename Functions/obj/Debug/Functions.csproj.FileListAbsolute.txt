@@ -83,3 +83,13 @@ C:\ilactakipsistemi\Functions\obj\Debug\Functions.csproj.CoreCompileInputs.cache
 C:\ilactakipsistemi\Functions\obj\Debug\Functions.csproj.Up2Date
 C:\ilactakipsistemi\Functions\obj\Debug\Functions.dll
 C:\ilactakipsistemi\Functions\obj\Debug\Functions.pdb
+C:\Users\senadogan\Documents\GitHub\ilactakipsistemi\Functions\bin\Debug\Functions.dll
+C:\Users\senadogan\Documents\GitHub\ilactakipsistemi\Functions\bin\Debug\Functions.pdb
+C:\Users\senadogan\Documents\GitHub\ilactakipsistemi\Functions\bin\Debug\LINQ.dll
+C:\Users\senadogan\Documents\GitHub\ilactakipsistemi\Functions\bin\Debug\LINQ.pdb
+C:\Users\senadogan\Documents\GitHub\ilactakipsistemi\Functions\bin\Debug\LINQ.dll.config
+C:\Users\senadogan\Documents\GitHub\ilactakipsistemi\Functions\obj\Debug\Functions.csproj.AssemblyReference.cache
+C:\Users\senadogan\Documents\GitHub\ilactakipsistemi\Functions\obj\Debug\Functions.csproj.CoreCompileInputs.cache
+C:\Users\senadogan\Documents\GitHub\ilactakipsistemi\Functions\obj\Debug\Functions.csproj.Up2Date
+C:\Users\senadogan\Documents\GitHub\ilactakipsistemi\Functions\obj\Debug\Functions.dll
+C:\Users\senadogan\Documents\GitHub\ilactakipsistemi\Functions\obj\Debug\Functions.pdb
