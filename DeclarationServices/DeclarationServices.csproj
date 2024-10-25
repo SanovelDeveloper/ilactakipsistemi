@@ -41,7 +41,7 @@
   <ItemGroup>
     <Reference Include="Ionic.Zip, Version=1.9.1.8, Culture=neutral, PublicKeyToken=edbe51ad942a3f5c, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\Sources\Components\DotNetZip\zip-v1.9\Release\Ionic.Zip.dll</HintPath>
+      <HintPath>DLLs\Ionic.Zip.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.Build.Framework, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
       <HintPath>..\packages\Microsoft.Build.Framework.17.2.0\lib\net472\Microsoft.Build.Framework.dll</HintPath>
@@ -455,6 +455,9 @@
       <Project>{0942F591-5441-46FA-984E-F10693453EFC}</Project>
       <Name>LINQ</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="DLLs\Ionic.Zip.dll" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

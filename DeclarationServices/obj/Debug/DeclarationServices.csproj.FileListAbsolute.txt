@@ -430,3 +430,4 @@ C:\Users\senadogan\Documents\GitHub\ilactakipsistemi\DeclarationServices\obj\Deb
 C:\Users\senadogan\Documents\GitHub\ilactakipsistemi\DeclarationServices\obj\Debug\Declarat.E3146AE9.Up2Date
 C:\Users\senadogan\Documents\GitHub\ilactakipsistemi\DeclarationServices\obj\Debug\DeclarationServices.dll
 C:\Users\senadogan\Documents\GitHub\ilactakipsistemi\DeclarationServices\obj\Debug\DeclarationServices.pdb
+C:\Users\senadogan\Documents\GitHub\ilactakipsistemi\DeclarationServices\bin\Debug\Ionic.Zip.dll
