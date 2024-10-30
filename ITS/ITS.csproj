@@ -11,7 +11,7 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>ITS</RootNamespace>
     <AssemblyName>ITS</AssemblyName>
-    <TargetFrameworkVersion>net4.8</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ApplicationIcon>ilac.ico</ApplicationIcon>
     <IsWebBootstrapper>false</IsWebBootstrapper>
